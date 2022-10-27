@@ -5,6 +5,19 @@
     <link rel="stylesheet" href="./styles/site.css" />
   </head>
 
+  <script>
+    
+    const setBannerImg = (imgIdx) => {
+      const heroImgs = document.getElementsByClassName("hero-image");
+      for (let i = 0; i < heroImgs.length; i++)
+      {
+        const img = heroImgs[i];
+        img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
+      }
+    }
+
+  </script>
+  
   <body>
     <header>
       <nav>
@@ -34,14 +47,17 @@
       </nav>
     </header>
 
-    <section style="position: relative; height: 20rem;">
-      <img src="images/crcurcuit.png" alt="" class="hero-image" style="transform: rotate(180deg);">
+    <section style="position: relative; height: 28rem;">
+      <img src="images/crcurcuit.png" alt="" class="hero-image first">
+      <img src="images/team.bmp" alt="" class="hero-image">
+      <img src="images/buildincomp.jpeg" alt="" class="hero-image">
+      <img src="images/mannywired.jpg" alt="" class="hero-image">
       <!-- <h1 class="page-heading">Combat Robotics @ Cornell</h1> -->
     </section>
 
     <main>
       <section id="we-build-robots">
-        <div>
+        <div onpointerover="setBannerImg(1)" onpointerleave="setBannerImg(0)">
           <h2><img src="images/we.svg" alt=""><br> We.</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec
@@ -49,14 +65,14 @@
             aliquam nisi velit, id imperdiet odio dignissim vel.
           </p>
         </div>
-        <div>
+        <div onpointerover="setBannerImg(2)" onpointerleave="setBannerImg(0)">
           <h2><img src="images/build.svg" alt="">  Build.</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec
             scelerisque lectus. Phasellus dapibus nisi non euismod facilisis. Sed
             aliquam nisi velit, id imperdiet odio dignissim vel. 
         </div>
-        <div>
+        <div onpointerover="setBannerImg(3)" onpointerleave="setBannerImg(0)">
           <h2><img src="images/robots.svg" alt=""> Robots.</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec
@@ -75,6 +91,35 @@
         premier environments that embodies technical excellence, start-up spirit,
         and camaraderie.
       </p>
+
+      <h1>Our Journey</h1>
+      <section class='timeline'>
+        <div class="timeline-item"> 
+          <p><em>October 2019:</em> Team Founded</p>
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+        </div>
+        <div class="timeline-item"> 
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+          <p><em>August 2020:</em> Completed first robot designs</p>
+        </div>
+        <div class="timeline-item"> 
+          <p><em>May 2021:</em> Finished composite manufacturing of Donatello. Developed core code for autonomous robot movement</p>
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+        </div>
+        <div class="timeline-item"> 
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+          <p><em>November 2021:</em> Completed our first full robot, Manny</p>
+        </div>
+        <div class="timeline-item"> 
+          <p><em>January 2022:</em> Received project team status at Cornell</p>
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+        </div>
+        <div class="timeline-item"> 
+          <div class="timeline-image"><img src="images/donatello.bmp" alt=""></div>
+          <p><em>April 23, 2022</em> First competition: Norwalk Havoc Robot League</p>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>
