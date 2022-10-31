@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/site.css" />
+  </head>
+
+  <script>
+    
+    const setBannerImg = (imgIdx) => {
+      const heroImgs = document.getElementsByClassName("hero-image");
+      for (let i = 0; i < heroImgs.length; i++)
+      {
+        const img = heroImgs[i];
+        img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
+      }
+    }
+
+  </script>
+  
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="images/logoscaled.png" width="50" alt="CRC logo" />
+        </a>
+        <div class="nav-bar-right">
+          <a href="index.html">
+            <p>About</p>
+          </a>
+          <a href="team.html" class="active">
+            <p>Team</p>
+          </a>
+          <a href="robots.html">
+            <p>Robots</p>
+          </a>
+          <a href="sponsor.html">
+            <p>Sponsor</p>
+          </a>
+          <a href="recruitment.html">
+            <p>Recruitment</p>
+          </a>
+          <a href="gallery.html">
+            <p>Game</p>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <h1 class="photo-label">Meet Our Team</h1>
+    <div class="image-position">
+      <section style="position: relative; height: 28rem;">
+        <div class="hero-image first">
+          <img src="images/team.bmp" alt="">
+        </div>
+        <img src="images/biz-subteam.jpg" alt="" class="hero-image">
+        <img src="images/firmware-subteam.jpg" alt="" class="hero-image">
+        <img src="images/kinetic-subteam.jpg" alt="" class="hero-image">
+        <img src="images/sportsman-subteam.jpg" alt="" class="hero-image">
+        <img src="images/team/john.jpg" alt="" class="hero-image">
+      </section>
+    </div>
+    
+    <main>
+
+      <section id="subteam-buttons" class="team-page-buttons">
+        <div onclick="setBannerImg(4)">
+          <img src="images/electric.png" alt="">
+          <h2 id="kinetic">Kinetic</h2>
+        </div>
+        <div onclick="setBannerImg(3)">
+          <img src="images/tech.png" alt="">
+          <h2 id="sportsman">Sportsman</h2>
+        </div>
+        <div onclick="setBannerImg(2)">
+          <img src="images/circuit.png" alt="">
+          <h2 id="firmware">Firmware</h2>
+        </div>
+        <div onclick="setBannerImg(1)">
+          <img src="images/camera-setting.png" alt="">
+          <h2 id="marketing">Marketing</h2>
+        </div>
+      </section>
+      <section id='other-buttons' class="team-page-buttons">
+        <div onclick="setBannerImg(0)">
+          <img src="images/tech.png" alt="">
+          <h2 id="fullteam">Full Team</h2>
+        </div>
+        <div onclick="setBannerImg(5)">
+          <img src="images/tech.png" alt="">
+          <h2 id="alumni">Alumni</h2>
+        </div>
+      </section>
+      
+      <h2>Our _____ Team</h2>
+
+      <section id="team-cards">
+        <div class="card">
+          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
+          <div class="desc">
+            <p class="name">John Subteam</p>
+            <p>Outreach & Design</p>
+            <div class="member-links">
+              <button class="stats-button">Stats</button>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="member-stat">
+              <span class="stat-name">Spook</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">CAD</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">Cooking</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 21%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
+          <div class="desc">
+            <p class="name">John Subteam</p>
+            <p>Outreach & Design</p>
+            <div class="member-links">
+              <button class="stats-button">Stats</button>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="member-stat">
+              <span class="stat-name">Spook</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">CAD</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">Cooking</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 21%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
+          <div class="desc">
+            <p class="name">John Subteam</p>
+            <p>Outreach & Design</p>
+            <div class="member-links">
+              <button class="stats-button">Stats</button>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="member-stat">
+              <span class="stat-name">Spook</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">CAD</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="member-stat">
+              <span class="stat-name">Cooking</span>
+              <div class="stat-bg">
+                <div class="stat-value" style="width: 21%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href=" https://www.instagram.com/combatroboticscornell/?hl=en">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@combatroboticsatcornell">Tiktok</a></li>
+          <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/cucombatrobotics/">Facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg">Youtube</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="mailto:combatrobotics@cornell.edu">combatrobotics@cornell.edu</a></li>
+          <li><a href="./accessibility.html">Accessibility Assistance</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+  
+  
+  <script>
+    const cards = document.getElementsByClassName("card")
+    for (let i = 0; i < cards.length; i++) {
+      const card = cards[i];
+      const stats = card.getElementsByClassName("stats")[0];
+      const statsButton = card.getElementsByClassName("stats-button")[0];
+      statsButton.onpointerover = () => {
+        stats.setAttribute("style", "transform: translate(0%, 0%);")
+      }  
+      statsButton.onpointerout = () => {
+        stats.setAttribute("style", "transform: translate(-150%, 0%);")
+      }  
+    }
+  </script>
+</html>
