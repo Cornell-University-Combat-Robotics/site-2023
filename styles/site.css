@@ -137,15 +137,27 @@ header {
 .timeline-item {
   display: flex;
   flex-direction: row;
+  /*margin-bottom: 3em;*/
 }
 
 .timeline-item p {
   max-width: 50%;
   min-width: 50%;
+  margin: auto;
+  /*padding: 0.5em;*/
+  text-align: center;
+}
+
+.timeline-image {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  min-width: 50%;
 }
 
 .timeline-image img {
-  max-width: 100%;
+  max-width: 50%;
+  border-radius: 5px;
   /*CHANGE THIS TO CHANGE IMAGE SIZE ON TIMELINES*/
 }
 
