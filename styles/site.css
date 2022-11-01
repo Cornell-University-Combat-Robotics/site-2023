@@ -310,7 +310,7 @@ header {
 footer {
   display: flex;
   background-color: maroon;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   /*height: 255px;*/
 }
 
@@ -324,8 +324,8 @@ footer div ul {
 }
 
 footer div ul li a {
-  /*text-decoration: none;*/
   color: white;
+  white-space: nowrap;
 }
 
 .footer-icon {
@@ -334,11 +334,18 @@ footer div ul li a {
 	background: transparent;
 }
 
-.footer-logo-box {
+.footer-information {
+  display: flex;
+}
+
+.footer-logo-box-aside {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  padding-left: 4em;
   max-width: 15em;
+}
+
+.footer-logo-box-inside {
+  display: none;
 }
 
 .footer-logo {
@@ -346,15 +353,13 @@ footer div ul li a {
 }
 
 .footer-follow {
-  /*padding-left: 8em;*/
-  padding-left: 15em;
+  padding-left: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .footer-middle-line {
   border-left: 4px solid white;
-  /*border-right: 3px solid white;*/
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 3em;
@@ -364,4 +369,31 @@ footer div ul li a {
 .footer-contact {
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+@media (max-width:700px) {
+
+  .footer-logo-box-aside {
+    display: none;
+  }
+
+  .footer-logo-box-inside {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    max-width: 15em;
+  }
+
+  .footer-middle-line {
+    border-left: 4px solid white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 6em;
+  }
+
+  .footer-icon {
+    margin-right: 0.2em;
+  }
 }
