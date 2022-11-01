@@ -199,6 +199,7 @@ header {
   border-radius: 0.5em;
   background: white;
   z-index: 1;
+  flex-basis: 0;
 }
 
 /*.team-page-buttons div h2 {
@@ -208,6 +209,7 @@ header {
 
 .team-page-buttons div img {
   max-width: 20%;
+  padding-top: 1em;
 }
 
 .team-page-buttons div:hover,
@@ -303,9 +305,13 @@ header {
   position: relative;
 }
 
+/* Footer */
+
 footer {
   display: flex;
   background-color: maroon;
+  justify-content: flex-start;
+  /*height: 255px;*/
 }
 
 footer h3 {
@@ -314,8 +320,48 @@ footer h3 {
 
 footer div ul {
   list-style: none;
+  padding-left: 0;
 }
 
-footer div ul li {
-  text-decoration: none;
+footer div ul li a {
+  /*text-decoration: none;*/
+  color: white;
+}
+
+.footer-icon {
+	width: 1em;
+	margin-right: 10px;
+	background: transparent;
+}
+
+.footer-logo-box {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 4em;
+  max-width: 15em;
+}
+
+.footer-logo {
+  max-width: 100%;
+}
+
+.footer-follow {
+  /*padding-left: 8em;*/
+  padding-left: 15em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-middle-line {
+  border-left: 4px solid white;
+  /*border-right: 3px solid white;*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.footer-contact {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
