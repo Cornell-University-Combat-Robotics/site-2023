@@ -333,8 +333,15 @@ header {
 
 .robots {
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.robot-row {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 1.5em;
 }
 
 .robot {
