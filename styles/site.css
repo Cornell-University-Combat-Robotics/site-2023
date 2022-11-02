@@ -101,6 +101,11 @@ header {
   max-width: 100%;
 }
 
+.hero-image-box {
+  position: relative; 
+  height: 28rem;
+}
+
 /*.page-heading {
   position: absolute;
   text-align: center;
@@ -324,6 +329,23 @@ header {
 
 .image-position {
   position: relative;
+}
+
+.robots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.robot {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  max-width: 30%;
+}
+
+.robot img {
+  max-width: 50%;
 }
 
 /* Footer */
