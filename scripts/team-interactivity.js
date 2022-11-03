@@ -1,12 +1,24 @@
 const subteamData = {
   // keys for all kinetic members 
-  "kinetic": ["john-subteam"],
+  "kinetic": {
+    members: ["john-subteam"], 
+    description: "The most subteam of all time"
+  },
   // keys for all sportsman members
-  "sportsman": ["john-subteam", "mike-subteam"],
+  "sportsman": {
+    members: ["john-subteam", "mike-subteam"],
+    description: "Sportswomen as well!"
+  },
   // keys for all marketing members
-  "marketing": ["a"],
+  "marketing": {
+    members: ["a"],
+    description: "The best subteam. Just the best of all time."
+  },
   // keys for all firmware members
-  "firmware": ["a", "mike-subteam", "john-subteam"],
+  "firmware": {
+    members: ["a", "mike-subteam", "john-subteam"],
+    description: "The firmest wares."
+  }
 }
 
 // data for each team member
@@ -43,13 +55,16 @@ const teamData = {
   },
 }
 
+// change the team display based on the button clicked
 const setCategory = subteam => {
   const teamName = document.getElementById("team-name");
-  teamName.innerHTML = subteam;
+  teamName.innerHTML = `${subteam[0].toUpperCase()}${subteam.slice(1)}`;
+  const teamDescription = document.getElementById("team-description");
+  teamDescription.innerHTML = subteamData[subteam]['description'];
   const teamCards = document.getElementById("team-cards");
   // clear all existing member cards
   teamCards.childNodes.forEach((node) => node.remove())
-  const members = subteamData[subteam];
+  const members = subteamData[subteam]['members'];
   members.forEach(memberKey => {
     const memberData = teamData[memberKey];
     // construct an element for each team member

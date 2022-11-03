@@ -247,13 +247,16 @@ header {
 
 #team-cards {
   display: flex;
+  flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 3rem auto;
 }
 
 .card {
   position: relative;
   margin: 0.5rem;
-  width: 100%;
-  max-width: 15rem;
+  width: 15rem;
+    max-width: 23.25%;
   filter: drop-shadow(0.1rem 0.1rem 0.25rem grey);
   background-color: white;
   border-radius: 1rem;
@@ -282,7 +285,7 @@ header {
 
 .stats .stat-bg {
   width: 90%;
-    height: 1rem;
+  height: 1rem;
   background-color: black;
 }
 
