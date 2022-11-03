@@ -107,98 +107,7 @@
       <h2>Our <span id="team-name">_____</span> Team</h2>
 
       <section id="team-cards">
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        <!-- Team cards are placed in here by the script. -->
       </section>
 
     </main>
@@ -233,20 +142,4 @@
     </footer>
 
   </body>
-  
-  
-  <script>
-    const cards = document.getElementsByClassName("card")
-    for (let i = 0; i < cards.length; i++) {
-      const card = cards[i];
-      const stats = card.getElementsByClassName("stats")[0];
-      const statsButton = card.getElementsByClassName("stats-button")[0];
-      statsButton.onpointerover = () => {
-        stats.setAttribute("style", "transform: translate(0%, 0%);")
-      }  
-      statsButton.onpointerout = () => {
-        stats.setAttribute("style", "transform: translate(-150%, 0%);")
-      }  
-    }
-  </script>
 </html>

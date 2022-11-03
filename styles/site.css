@@ -274,16 +274,15 @@ header {
 
 .stats .member-stat {
   margin: 1rem 0rem;
-  display: flex;
-  justify-content: center;
 }
 
 .stats .stat-name {
-  width: 40%;
+  width: 90%;
 }
 
 .stats .stat-bg {
-  width: 70%;
+  width: 90%;
+    height: 1rem;
   background-color: black;
 }
 
