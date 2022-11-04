@@ -408,8 +408,12 @@ header {
   max-width: 10%
 }
 
-.robot-header {
+.robot-header-wide {
   display: flex;
+}
+
+.robot-header-narrow {
+  display: none;
 }
 
 .robot-side-stats-picture {
@@ -449,7 +453,7 @@ header {
 .featured-fight {
   border: 1px solid black;
   border-radius: 0.5em;
-  min-width: 30%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+  min-width: 35%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 }
 
 .featured-fight h2 {
@@ -475,10 +479,8 @@ header {
   height: 100%;
 }
 
-/*.featured-fight-video {
-  width: 450px;
-  height: 253px;
-  padding: 0.3em;
+/*.robot-fights {
+  max-width: 45%;
 }*/
 
 .robot-fights,
@@ -606,6 +608,50 @@ footer div ul li a {
 
   #we-build-robots div {
     max-width: 100%;
+  }
+
+  .robot-header-wide {
+    display: none;
+  }
+
+  .robot-side-stats-picture {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .robot-stats {
+    border: 1px solid black;
+    margin: 0.5em;
+  }
+  
+  .robot-stats thead th,
+  .robot-stats tbody,
+  .robot-stats tbody tr td {
+    border: 1px solid black;
+  }
+  
+  .robot-photo {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .robot-header-narrow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .robot-fights-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .robot-fights {
+    margin-bottom: 1em;;
   }
 
   .footer-logo-box-aside {
