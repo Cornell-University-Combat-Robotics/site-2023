@@ -430,6 +430,11 @@ header {
 
 /* Fights */
 
+.robot-fights-box {
+  display: flex;
+  justify-content: space-between;
+}
+
 .featured-fight-header {
   margin: 0;
 }
@@ -443,6 +448,27 @@ header {
 .robot-fights tbody tr td {
   padding: 0.1em;
   padding-right: 0.4em;
+}
+
+/* Robots Media */
+.robot-media-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.robot-media-row {
+  display: flex;
+  justify-content: space-between;
+  /*padding-bottom: 32.6px;*/
+  /*max-height: fit-content;*/
+  padding-bottom: 3.26%;
+}
+
+.robot-media-row img {
+  max-width: 31%;
+  border: 1px solid black;
+  border-radius: 0.5em;
 }
 
 /* Footer */
