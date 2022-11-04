@@ -213,7 +213,6 @@ header {
 .team-page-buttons {
   display: flex;
   justify-content: center;
-  color: maroon;
 }
 
 .team-page-buttons div {
@@ -221,11 +220,13 @@ header {
   margin: 0.5rem;
   text-align: center;
   flex-grow: 1;
-  border: 1px solid black;
   border-radius: 0.5em;
   background: white;
   z-index: 1;
   flex-basis: 0;
+  color: maroon;
+    padding: 0.25rem 0.75rem;
+    filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
 /*.team-page-buttons div h2 {
@@ -245,15 +246,39 @@ header {
   cursor: pointer;
 }
 
+#other-buttons {
+  padding-bottom: 2rem;
+}
+
+#other-buttons div {
+  max-height: 6rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#other-buttons div img {
+  height: 4rem;
+  padding-top: 0rem;
+  margin-right: 2rem;
+}
+
+#other-buttons div h2 {
+  line-height: 1rem;
+}
 #team-cards {
   display: flex;
+  flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 3rem auto;
 }
 
 .card {
   position: relative;
   margin: 0.5rem;
-  width: 100%;
-  max-width: 15rem;
+  width: 15rem;
+    max-width: 23.25%;
   filter: drop-shadow(0.1rem 0.1rem 0.25rem grey);
   background-color: white;
   border-radius: 1rem;
@@ -274,16 +299,15 @@ header {
 
 .stats .member-stat {
   margin: 1rem 0rem;
-  display: flex;
-  justify-content: center;
 }
 
 .stats .stat-name {
-  width: 40%;
+  width: 90%;
 }
 
 .stats .stat-bg {
-  width: 70%;
+  width: 90%;
+  height: 1rem;
   background-color: black;
 }
 

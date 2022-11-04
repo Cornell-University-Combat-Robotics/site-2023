@@ -52,7 +52,7 @@
           <a href="recruitment.html">
             <p>Recruitment</p>
           </a>
-          <a href="gallery.html">
+          <a href="/media/game.html">
             <p>Game</p>
           </a>
         </div>
@@ -94,111 +94,21 @@
         </div>
       </section>
       <section id='other-buttons' class="team-page-buttons">
-        <div onclick="changeSubteam('full-team')">
+        <div onclick="changeSubteam('full-team')" >
           <img src="images/icons/team-icon.png" alt="">
           <h2 id="fullteam">Full Team</h2>
         </div>
-        <div onclick="changeSubteam('alumni')">
+        <div onclick="changeSubteam('alumni')" >
           <img src="images/tech.png" alt="">
           <h2 id="alumni">Alumni</h2>
         </div>
       </section>
       
       <h2>Our <span id="team-name">_____</span> Team</h2>
+      <p id="team-description"></p>
 
       <section id="team-cards">
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
-          <div class="desc">
-            <p class="name">John Subteam</p>
-            <p>Outreach & Design</p>
-            <div class="member-links">
-              <button class="stats-button">Stats</button>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="member-stat">
-              <span class="stat-name">Spook</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 60%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">CAD</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="member-stat">
-              <span class="stat-name">Cooking</span>
-              <div class="stat-bg">
-                <div class="stat-value" style="width: 21%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        <!-- Team cards are placed in here by the script. -->
       </section>
 
     </main>
@@ -233,20 +143,4 @@
     </footer>
 
   </body>
-  
-  
-  <script>
-    const cards = document.getElementsByClassName("card")
-    for (let i = 0; i < cards.length; i++) {
-      const card = cards[i];
-      const stats = card.getElementsByClassName("stats")[0];
-      const statsButton = card.getElementsByClassName("stats-button")[0];
-      statsButton.onpointerover = () => {
-        stats.setAttribute("style", "transform: translate(0%, 0%);")
-      }  
-      statsButton.onpointerout = () => {
-        stats.setAttribute("style", "transform: translate(-150%, 0%);")
-      }  
-    }
-  </script>
 </html>
