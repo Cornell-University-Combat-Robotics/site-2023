@@ -453,7 +453,7 @@ header {
 .featured-fight {
   border: 1px solid black;
   border-radius: 0.5em;
-  min-width: 35%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+  min-width: 45%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 }
 
 .featured-fight h2 {
@@ -479,10 +479,6 @@ header {
   height: 100%;
 }
 
-/*.robot-fights {
-  max-width: 45%;
-}*/
-
 .robot-fights,
 .robot-fights thead th,
 .robot-fights tbody tr td {
@@ -504,8 +500,6 @@ header {
 .robot-media-row {
   display: flex;
   justify-content: space-between;
-  /*padding-bottom: 32.6px;*/
-  /*max-height: fit-content;*/
   padding-bottom: 3.26%;
 }
 
@@ -521,7 +515,6 @@ footer {
   display: flex;
   background-color: maroon;
   justify-content: space-evenly;
-  /*height: 255px;*/
 }
 
 footer h3 {
