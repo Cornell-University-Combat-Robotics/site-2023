@@ -410,11 +410,18 @@ header {
 }
 
 .robot-icon {
-  max-width: 10%
+  max-width: 10%;
+  min-width: 80px;
+  min-height: 80px;
 }
 
 .robot-header-wide {
   display: flex;
+}
+
+.robot-header-wide h1,
+.robot-header-narrow h1 {
+  margin-right: 1em;
 }
 
 .robot-header-narrow {
