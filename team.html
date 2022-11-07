@@ -14,7 +14,7 @@
       else if (subteam == "sportsman") setBannerImg(2);
       else if (subteam == "firmware") setBannerImg(3);
       else if (subteam == "marketing") setBannerImg(4);
-      else if (subteam == "full-team") setBannerImg(5);
+      else if (subteam == "full") setBannerImg(5);
       else if (subteam == "alumni") setBannerImg(0);
       setCategory(subteam);
     }
@@ -30,7 +30,7 @@
 
   </script>
   
-  <body>
+  <body onload="setCategory('full');">
     <header>
       <nav>
         <a href="index.html">
@@ -94,7 +94,7 @@
         </div>
       </section>
       <section id='other-buttons' class="team-page-buttons">
-        <div onclick="changeSubteam('full-team')" >
+        <div onclick="changeSubteam('full')" >
           <img src="images/icons/team-icon.png" alt="">
           <h2 id="fullteam">Full Team</h2>
         </div>
@@ -110,6 +110,27 @@
       <section id="team-cards">
         <!-- Team cards are placed in here by the script. -->
       </section>
+
+      <!-- TODO: Team info widget 
+      <section id="team-info">
+        <div id='team-topics-list' style="display: flex; flex-direction: column; width: 40%;">
+          <button onpointerdown="selectTopic('Design')">Design</button>
+          <button onpointerdown="selectTopic('Research')">Research</button>
+          <button onpointerdown="selectTopic('Build')">Build</button>
+          <button>Test</button>
+        </div>
+        <div id="team-info-description">
+          <h3>Design</h3>
+          <p>This is the team description. team team team. Team! Let's go. Team moment! Lol epic.
+            We do so many things on this team. Teeeam! Team team team. Cornell University Combat Robotics (CUCR)
+            is the name of this team, the team that this team is on. The team. 
+          </p>
+          <div class="images">
+            <img src="images/buildin.jpeg" alt="">
+            <img src="images/donatello.bmp" alt="">
+          </div>
+        </div>
+      </section> -->
 
     </main>
 

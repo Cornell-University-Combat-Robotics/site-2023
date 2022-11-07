@@ -1,25 +1,5 @@
-const subteamData = {
-  // keys for all kinetic members 
-  "kinetic": {
-    members: ["john-subteam"], 
-    description: "The most subteam of all time"
-  },
-  // keys for all sportsman members
-  "sportsman": {
-    members: ["john-subteam", "mike-subteam"],
-    description: "Sportswomen as well!"
-  },
-  // keys for all marketing members
-  "marketing": {
-    members: ["a"],
-    description: "The best subteam. Just the best of all time."
-  },
-  // keys for all firmware members
-  "firmware": {
-    members: ["a", "mike-subteam", "john-subteam"],
-    description: "The firmest wares."
-  }
-}
+// Keep track of the current category
+let currentSubteam = "full-team";
 
 // data for each team member
 const teamData = {
@@ -54,6 +34,47 @@ const teamData = {
     ]
   },
 }
+const subteamData = {
+  // keys for all kinetic members 
+  "kinetic": {
+    members: ["john-subteam"], 
+    description: "The most subteam of all time",
+    // topics: {
+    //   "Design": {
+    //     blurb: "Designing blurb.",
+    //     img_paths: ["images/team/john.jpg"],
+    //   },
+    //   "Research": {
+    //     blurb: "REEEEEEEEEEASSSSSSSSSSSEEEEEAAAAAARCCCCCCCCCCHHHHHHH!!!! YOOOOOOOOOOOOOO.",
+    //     img_paths: ["images/team/mike.bmp"],
+    //   },
+    //   "Build": {
+    //     blurb: "Building blurb. We buildin af",
+    //     img_paths: ["images/firmware-subteam.jpg"],
+    //   },
+    // }
+  },
+  // keys for all sportsman members
+  "sportsman": {
+    members: ["john-subteam", "mike-subteam"],
+    description: "Sportswomen as well!"
+  },
+  // keys for all marketing members
+  "marketing": {
+    members: ["a"],
+    description: "The best subteam. Just the best of all time."
+  },
+  // keys for all firmware members
+  "firmware": {
+    members: ["a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam"],
+    description: "The firmest wares."
+  },
+  "full": {
+    members: Object.keys(teamData),
+    description: "The whole burrito."
+  }
+}
+
 
 // change the team display based on the button clicked
 const setCategory = subteam => {
@@ -71,6 +92,7 @@ const setCategory = subteam => {
     const memberElement = createMemberCard(memberData);
     teamCards.appendChild(memberElement);
   });
+  currentSubteam = subteam;
 }
 
 // big chonker function
@@ -167,3 +189,23 @@ const createMemberCard = memberData => {
         </div>
 
 */
+
+/* TODO: Team description widget */
+
+const selectTopic = topicKey => {
+  const topicData = subteamData[currentSubteam]["topics"][topicKey];
+  const topicImgs = topicData['img_paths'];
+  const topicDesc = topicData['blurb'];
+  const descriptionElement = document.getElementById("team-info-description");
+  descriptionElement.getElementsByTagName('h3')[0].innerHTML = topicKey;
+  descriptionElement.getElementsByTagName('p')[0].innerHTML = topicDesc;
+  const gallery = descriptionElement.getElementsByClassName("images")[0];
+  // remove existing images
+  gallery.childNodes.forEach(node => node.remove());
+  // add new images
+  topicImgs.forEach(path => {
+    const newImg = document.createElement("img");
+    newImg.src = path;
+    gallery.appendChild(newImg)
+  })
+}
