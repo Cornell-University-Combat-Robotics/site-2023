@@ -350,6 +350,57 @@ header {
   cursor: pointer;
 }
 
+/* TODO: Team description widget */
+
+#team-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+#team-info-description {
+  width: 60%;
+  padding: 1rem;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#team-info-description .images {
+  flex-grow: 1;
+  max-height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#team-info-description .images img {
+  max-height: 100%;
+  max-width: 40%;
+  margin: 0.5rem;
+  object-fit: cover;
+}
+
+#team-topics-list button {
+  font-family: inherit;
+  display: block;
+  padding: 2rem;
+  font-size: 2rem;
+  margin: 0rem 0.5rem;
+  margin-right: 0rem;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 2rem 0rem 0rem 2rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+#team-topics-list button:hover {
+  background-color: gainsboro;
+  color: maroon;
+}
+
+/* Robots page */
 .photo-label {
   position: absolute;
   z-index: 2;
