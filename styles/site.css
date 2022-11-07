@@ -572,6 +572,24 @@ header {
   border-radius: 0.5em;
 }
 
+/* Recruitment */
+
+.application-status {
+  background-color: maroon;
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.recruitment-timeline li {
+  list-style: none;
+}
+
+.timeline-answer {
+  color: grey;
+  padding-bottom: 1em;
+}
+
 /* Footer */
 
 footer {
