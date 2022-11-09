@@ -498,9 +498,9 @@ header {
   border-bottom: 1px solid black;
 }
 
-/*.robot-photo {
-  max-width: 296.117px;
-  min-width: 296.117px;
+/*.robot-photo:hover {
+  border: 1px solid maroon;
+  background-color: maroon;
 }*/
 
 .main-robot-image {
