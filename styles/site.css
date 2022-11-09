@@ -498,10 +498,10 @@ header {
   border-bottom: 1px solid black;
 }
 
-/*.robot-photo:hover {
-  border: 1px solid maroon;
-  background-color: maroon;
-}*/
+.robot-photo:hover {
+  /*outline-offset: 2px;*/
+  outline: 3px solid maroon;
+}
 
 .main-robot-image {
   max-width: 296.117px;
