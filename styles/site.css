@@ -451,7 +451,13 @@ header {
 /* Robot specific page */
 
 .robot-side-stats-picture{
+  float: right;
+  border: 1px solid black;
   margin: 1em;
+  display: flex;
+  flex-direction: column-reverse;
+  /* Picked an arbitrary width based on table width but should find a way to change this*/
+  width: 296.117px;
 }
 
 .robot-icon {
@@ -473,11 +479,6 @@ header {
   display: none;
 }
 
-.robot-side-stats-picture {
-  float: right;
-  border: 1px solid black;
-}
-
 .robot-stats {
   border-top: 1px solid black;
 }
@@ -497,9 +498,16 @@ header {
   outline: 3px solid maroon;
 }
 
+.main-robot-image-box {
+  max-height: 400px; /* Set max height of images */
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .main-robot-image {
-  max-width: 296.117px;
-  min-width: 296.117px;
+  width: 100%;
+  object-fit: contain; /* This is incase the image is too tall then it sizes it to fit*/
 }
 
 /* Fights */
@@ -696,8 +704,9 @@ footer div ul li a {
   .robot-side-stats-picture {
     float: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
+    width: 90%;
   }
 
 
@@ -710,12 +719,6 @@ footer div ul li a {
   .robot-stats tbody,
   .robot-stats tbody tr td {
     border: 1px solid black;
-  }
-  
-  .robot-photo {
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .robot-header-narrow {
@@ -732,6 +735,8 @@ footer div ul li a {
   .robot-fights {
     margin-bottom: 1em;;
   }
+
+  /* Footer */
 
   .footer-logo-box-aside {
     display: none;
