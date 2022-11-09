@@ -434,20 +434,14 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 
 .robot:focus,
 .robot:hover,
 .robot:active {
   background-color: lightgray;
-}
-
-
-.robot-link {
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  position: absolute;
 }
 
 .robot img {
