@@ -1,6 +1,8 @@
 /**
  * Loading this script causes all .robot-image images to 
  * "enlarge" on click.
+ * It also displays their alt-text as a caption.
+ * Make sure to call setupRobotPhotos during the onload event of document.body!
  */
 
 
