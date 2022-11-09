@@ -498,8 +498,14 @@ header {
   border-bottom: 1px solid black;
 }
 
-.robot-photo {
+/*.robot-photo {
   max-width: 296.117px;
+  min-width: 296.117px;
+}*/
+
+.main-robot-image {
+  max-width: 296.117px;
+  min-width: 296.117px;
 }
 
 /* Fights */
