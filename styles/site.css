@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Trispace&display=swap');
+
+html {
+  --crc-red: #b21c1c;
+}
 
 body {
-  font-family: 'Trispace', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0rem auto;
 }
 
@@ -40,7 +44,7 @@ header {
 .nav-bar-right a {
   margin: 0em 1em;
   text-decoration: none;
-  color: maroon;
+  color: var(--crc-red);
 }
 
 .nav-bar-right a p {
@@ -56,7 +60,7 @@ header {
 .nav-bar-right a:focus,
 .nav-bar-right a:hover,
 .nav-bar-right a:active {
-  color: maroon;
+  color: var(--crc-red);
 }
 
 .active p {
@@ -99,6 +103,11 @@ header {
   transform: translate(-50%, -50%);
   margin: auto;
   max-width: 100%;
+  transition: 0.2s transform;
+  }
+  
+  .hero-image .logo:hover {
+    transform: translate(-50%, -50%) scale(1.025);
 }
 
 .hero-image-box {
@@ -143,15 +152,15 @@ header {
 }
 
 #we-build-robots div h2 {
-  color: maroon;
+  color: var(--crc-red);
   display: inline-block;
-  margin: 2rem;
-  font-size: 3rem;
+  margin: 1rem;
+    font-size: 2.5rem;
   text-align: center;
 }
 
 #we-build-robots div:hover {
-  background-color: maroon;
+  background-color: var(--crc-red);
   color: white;
 }
 
@@ -171,13 +180,15 @@ header {
   /*margin-bottom: 3em;*/
 }
 
-.timeline-item p {
+.timeline-item div {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+/* .timeline-item p {
   max-width: 50%;
   min-width: 50%;
-  margin: auto;
   /*padding: 0.5em;*/
-  text-align: center;
-}
 
 .timeline-image {
   display: flex;
@@ -200,17 +211,62 @@ header {
   position: relative;
 }
 
-.timeline:before {
+.timeline-dot {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 0.6rem);
+  margin-top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--crc-red);
+  border-radius: 50%;
+}
+
+.timeline::before {
   content: "";
   display: block;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 49.8%;
-  width: 3px;
+  width: 1rem;
   height: 100%;
+  background-color: var(--crc-red);
+    z-index: 10;
+    clip-path: polygon(0 95%, 50% 100%, 100% 95%, 100% 0, 0 0);
+  }
+  
+  .action-footer {
+    display: flex;
+  }
+  
+  .action-footer div {
+    width: 50%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    filter: drop-shadow(0rem 0rem 0.1rem grey);
+  }
+  
+  .action-footer div h4 {
+    text-align: center;
+  }
+  
+  
+  .link-button {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--crc-red);
+    color: white;
+    transition: 0.1s background-color;
+    margin: 0.5rem;
+  }
+  
+  .link-button:hover {
   background-color: maroon;
-  z-index: 10;
 }
 
 /* Team Page */
@@ -229,7 +285,7 @@ header {
   background: white;
   z-index: 1;
   flex-basis: 0;
-  color: maroon;
+  color: var(--crc-red);
     padding: 0.25rem 0.75rem;
     filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
@@ -397,14 +453,14 @@ header {
 
 #team-topics-list button:hover {
   background-color: gainsboro;
-  color: maroon;
+  color: var(--crc-red);
 }
 
 /* Robots page */
 .photo-label {
   position: absolute;
   z-index: 2;
-  color: maroon;
+  color: var(--crc-red);
 }
 
 .image-position {
@@ -595,7 +651,7 @@ header {
 /* Recruitment */
 
 .application-status {
-  background-color: maroon;
+  background-color: var(--crc-red);
   color: white;
   padding: 1em;
   border-radius: 0.5em;
@@ -613,6 +669,7 @@ header {
 /* Footer */
 
 footer {
+  margin-top: 1rem;
   display: flex;
   background-color: maroon;
   justify-content: space-evenly;
@@ -698,7 +755,7 @@ footer div ul li a {
   .nav-bar-right a {
     margin: 0em 0.5em;
     text-decoration: none;
-    color: maroon;
+    color: var(--crc-red);
   }
 
   #we-build-robots {
