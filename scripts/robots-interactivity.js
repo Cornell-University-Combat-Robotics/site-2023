@@ -11,7 +11,7 @@ const modal_bg = document.createElement("div");
 modal_bg.style = "position: fixed; top: 0rem; width: 100%; height: 100vh; background-color: rgba(184, 184, 184, 0.48); display: flex; flex-direction: column; justify-content: center;"
 modal_bg.style.transition = '0.5s'
 const modal = document.createElement("div");
-modal.style = "margin: 10rem auto; height: 25rem; width: 25rem; background-color: white; border-radius: 2rem"
+modal.style = "margin: 10rem auto; height: 32rem; width: 40rem; background-color: white; border-radius: 2rem"
 modal_bg.appendChild(modal);
 // x button
 const close_button = document.createElement("button")

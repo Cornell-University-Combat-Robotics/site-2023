@@ -19,7 +19,7 @@
           <a href="../team.html">
             <p>Team</p>
           </a>
-          <a href="../robots.html" class="active">
+          <a href="../robots.html">
             <p>Robots</p>
           </a>
           <a href="../sponsor.html">
@@ -36,24 +36,26 @@
     </header>
 
     <main>
-      <!--Narrow header (hidden unless page is narrow)-->
+      <!-- Narrow header (hidden unless page is narrow) -->
       <div class="robot-header-narrow">
+        <!-- NOTE: IF YOU CHANGE THIS THEN YOU MUST ALSO CHANGE THE WIDE VERSION BELOW -->
         <h1>Richard</h1>
-        <img src="../images/richardpixil.png" alt='' class="robot-icon"/>
+        <img src="../images/robot-img/richard-pixel.png" alt='A pixel art of Richard' class="robot-icon"/>
       </div>
-      <!--Side stats + picture-->
+
+      <!-- Side stats + picture -->
       <div class="robot-side-stats-picture">
-        <img src="../images/richard.png" alt="Image of Richard before the 2022 competition. He's cute" class="robot-photo"/>
+        <!-- Stats table -->
         <table class="robot-stats">
           <thead>
               <tr>
-                  <th colspan="2">Stats</th>
+                <th colspan="2">Stats</th>
               </tr>
           </thead>
           <tbody>
             <tr>
-                <td>Height:</td>
-                <td>6.75"</td>
+              <td>Height:</td>
+              <td>6.75"</td>
             </tr>
             <tr>
               <td>Weight:</td>
@@ -85,32 +87,37 @@
             </tr>
           </tbody>
         </table>
+        <!-- Main robot image -->
+        <div class="main-robot-image-box"></div>
+          <img src="../images/robot-img/richard.png" alt="Iconic image of Richard" class="main-robot-image robot-photo"/>
+       </div>
       </div>
 
-      <!--Robot name + description and design-->
+      <!-- Robot name + description and design -->
       <div class="robot-header-wide">
+        <!-- NOTE: IF YOU CHANGE THIS THEN YOU MUST ALSO CHANGE THE NARROW VERSION ABOVE -->
         <h1>Richard</h1>
-        <img src="../images/richardpixilsquare.png" alt='' class="robot-icon"/>
+        <img src="../images/robot-img/richard-pixel.png" alt='A pixel art of Richard' class="robot-icon"/>
       </div>
+
       <h2>Description</h2>
       <p>Richard is a vertical spinner robot whose weapon destroys the opponent with unmatched speed and power. The enemy that
         trembles before him gets smashed into the air, only to get crushed a second time upon impact with the ground. His
-        metal armor protects him from most attacks and is decorated with an intimidating flair. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Nam ullamcorper nulla quis pellentesque aliquam. Orci varius natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Vivamus eu pulvinar dui, placerat pharetra nulla. Suspendisse sed augue
-        risus. Suspendisse ultrices mollis ipsum in congue. Nunc ullamcorper ipsum ut est aliquet iaculis. Pellentesque non.</p>
+        aluminum armor protects him from most attacks and is decorated with intimidating orange and black. Richard has a very
+        dry and serious personality and is often found just watching paint dry. He has almost destroyed the test box several
+        times, nearly breaking the heart of the team's TikTok manager, Luke Murphy. Luke's heart turned to cold steel: he
+        added sheet metal cladding to the test box as retaliation. Luke plans revenge on Richard by making a second, stronger
+        test box — one that Richard will never be able to escape.</p>
+        
       <h2>Design</h2>
       <p>Richard was designed by a bunch of hooligans that don't know what angular bearings are or why they should not use
-        aluminum for a weapon smh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nulla quis
-        pellentesque aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus
-        eu pulvinar dui, placerat pharetra nulla. Suspendisse sed augue risus. Suspendisse ultrices mollis ipsum in congue.
-        Nunc ullamcorper ipsum ut est aliquet iaculis. Pellentesque non euismod mi. Pellentesque sollicitudin tempor eros eget
-        porttitor. Cras eget odio quis massa euismod iaculis non a nisl. Etiam tincidunt vitae justo sed consectetur. Vivamus
-        auctor quis lorem ac eleifend. Fusce feugiat mattis dui non malesuada. Mauris eu lectus ex. Duis non est placerat,
-        pellentesque ante at, pellentesque nunc. Nullam tortor augue, maximus ac metus in, congue ornare dolor. Duis at
-        elementum ipsum.</p>
+        aluminum for a weapon smh. He was designed around a vertical spinner. His vertical spinner can spin at up to 134 mph and
+        can do some serious damage. His chassis is made completely of aluminum which is a very weak and malleable metal. Also
+        since hes made entirely of aluminum, Richard is quite heavy. He weighs in at 11.99 lbs which is 0.01 lb away from being
+        overweight and not being able to compete in the 12 lb bracket. Richard also uses only two wheels and uses two skids to
+        glide above to floor. These skids do not work very well and get stuck all the time. Not a great design in my opinion.</p>
 
-      <!--Fights-->
+      <!-- Fights -->
       <h2>Fights:</h2>
       <div class="robot-fights-box">
         <table class="robot-fights">
@@ -125,11 +132,11 @@
           </thead>
           <tbody>
             <tr>
-                <td>Blue Cheese</td>
-                <td>Win</td>
-                <td>KO</td>
-                <td><a href="https://youtu.be/wf528BQr0eA?t=5239">Link</a></td>
-                <td>104</td>
+              <td>Blue Cheese</td>
+              <td>Win</td>
+              <td>KO</td>
+              <td><a href="https://youtu.be/wf528BQr0eA?t=5239">Link</a></td>
+              <td>104</td>
             </tr>
             <tr>
               <td>Hot Leaf Juice</td>
@@ -164,25 +171,45 @@
 
         <div class="featured-fight">
           <h2>Featured Fight:</h2>
-          <!--<img src="../images/richard.png" alt='' class="robot-photo"/>-->
           <div class="featured-fight-video-box">
-            <iframe class="featured-fight-video" src="https://www.youtube.com/embed/wf528BQr0eA" title="2022 NHRL Season, April Event. Knockouts & Semi Finals on Saturday April 23rd LIVESTREAM REPLAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Add ?start=seconds for start time of video -->
+            <iframe src="https://www.youtube.com/embed/wf528BQr0eA?start=17856" title="2022 NHRL Season, April Event. Knockouts & Semi Finals on Saturday April 23rd LIVESTREAM REPLAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
 
-      <!--Media-->
+      <!-- Media -->
       <h2>Media:</h2>
       <div class="robot-media-box">
         <div class="robot-media-row">
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-1.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-2.jpg" alt='' class="robot-photo"/>
+          <video controls src="../images/robot-img/richard-3.mp4" alt='' class="robot-photo"></video>
         </div>
         <div class="robot-media-row">
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
-          <img src="../images/richard.png" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-4.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-5.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-6.png" alt='' class="robot-photo"/>
+        </div>
+        <div class="robot-media-row">
+          <img src="../images/robot-img/richard-7.jpeg" alt='' class="robot-photo"/>
+          <video controls src="../images/robot-img/richard-8.mp4" alt='' class="robot-photo"></video>
+          <img src="../images/robot-img/richard-9.png" alt='' class="robot-photo"/>
+        </div>
+        <div class="robot-media-row">
+          <video controls src="../images/robot-img/richard-10.mp4" alt='' class="robot-photo"></video>
+          <img src="../images/robot-img/richard-11.jpeg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-12.jpeg" alt='' class="robot-photo"/>
+        </div>
+        <div class="robot-media-row">
+          <img src="../images/robot-img/richard-13.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-14.jpeg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-15.jpg" alt='' class="robot-photo"/>
+        </div>
+        <div class="robot-media-row">
+          <img src="../images/robot-img/richard-16.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-17.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/richard-18.jpeg" alt='' class="robot-photo"/>
         </div>
       </div>
     </main>
@@ -192,11 +219,11 @@
         <div class="footer-follow">
           <h3>Follow Us</h3>
           <ul>
-            <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="../images/icons/instagram.png" alt='' class="footer-icon"/>Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="../images/icons/tiktok.png" alt='' class="footer-icon"/>Tiktok</a></li>
-            <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img src="../images/icons/linkedin.png" alt='' class="footer-icon"/>LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="../images/icons/facebook.png" alt='' class="footer-icon"/>Facebook</a></li>
-            <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="../images/icons/youtube.png" alt='' class="footer-icon"/>Youtube</a></li>
+            <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="../images/robot-img/icons/instagram.png" alt='' class="footer-icon"/>Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="../images/robot-img/icons/tiktok.png" alt='' class="footer-icon"/>Tiktok</a></li>
+            <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img src="../images/robot-img/icons/linkedin.png" alt='' class="footer-icon"/>LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="../images/robot-img/icons/facebook.png" alt='' class="footer-icon"/>Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="../images/robot-img/icons/youtube.png" alt='' class="footer-icon"/>Youtube</a></li>
           </ul>
         </div>
         <div class="footer-middle-line"></div>
@@ -207,12 +234,12 @@
             <li><a href="./accessibility.html">Accessibility Assistance</a></li>
           </ul>
           <div class="footer-logo-box-inside">
-            <img src="../images/logo.png" alt='' class="footer-logo"/>
+            <img src="../images/robot-img/logo.png" alt='' class="footer-logo"/>
           </div>
         </div>
       </div>
       <div class="footer-logo-box-aside">
-        <img src="../images/logo.png" alt='' class="footer-logo"/>
+        <img src="../images/robot-img/logo.png" alt='' class="footer-logo"/>
       </div>
     </footer>
 
