@@ -583,10 +583,13 @@ header {
   padding-bottom: 3.26%;
 }
 
-.robot-media-row img {
+.robot-media-row img,
+.robot-media-row video {
   max-width: 31%;
   border: 1px solid black;
   border-radius: 0.5em;
+  object-fit: cover;
+  max-height: 30em;
 }
 
 /* Recruitment */
