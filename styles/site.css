@@ -493,6 +493,7 @@ header {
   position: relative;
   text-decoration: none;
   color: black;
+  flex-grow: 1;
 }
 
 .robot:focus,
@@ -502,7 +503,7 @@ header {
 }
 
 .robot img {
-  max-width: 50%;
+  max-width: 160px;
 }
 
 /* Robot specific page */
