@@ -11,17 +11,17 @@ const modal_bg = document.createElement("div");
 modal_bg.style = "position: fixed; top: 0rem; width: 100%; height: 100vh; background-color: rgba(184, 184, 184, 0.48); display: flex; flex-direction: column; justify-content: center;"
 modal_bg.style.transition = '0.5s'
 const modal = document.createElement("div");
-modal.style = "margin: 10rem auto; height: 32rem; width: 40rem; background-color: white; border-radius: 2rem"
+modal.style = "margin: 5rem auto; height: 32rem; max-width: 40rem; background-color: white; border-radius: 2rem"
 modal_bg.appendChild(modal);
 // x button
 const close_button = document.createElement("button")
 close_button.id = "close-button"
-close_button.style = "float: right; width: 2rem; height: 2rem; cursor: pointer";
+close_button.style = "float: right; width: 3rem; height: 3rem; font-size: 2rem; cursor: pointer; border: none; border-radius: 50%";
 close_button.innerHTML = "X"
 modal.appendChild(close_button)
 // img
 const modal_img = document.createElement("img");
-modal_img.style = "margin: 1rem; width: 90%;"
+modal_img.style = "width: 100%; height: 80%; object-fit: contain; margin: 1rem auto;"
 modal.appendChild(modal_img)
 // alt text paragraph
 const alt_text = document.createElement("p");
