@@ -38,7 +38,7 @@ const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
     members: ["john-subteam"], 
-    description: "The most subteam of all time",
+    description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
     //     blurb: "Designing blurb.",
@@ -57,21 +57,25 @@ const subteamData = {
   // keys for all sportsman members
   "sportsman": {
     members: ["john-subteam", "mike-subteam"],
-    description: "Sportswomen as well!"
+    description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
   "marketing": {
     members: ["a"],
-    description: "The best subteam. Just the best of all time."
+    description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
   "firmware": {
     members: ["a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam"],
-    description: "The firmest wares."
+    description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
   },
   "full": {
     members: Object.keys(teamData),
-    description: "The whole burrito."
+    description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
+  },
+  "alumni": {
+    members: [],
+    description: "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!"
   }
 }
 
@@ -84,7 +88,11 @@ const setCategory = subteam => {
   teamDescription.innerHTML = subteamData[subteam]['description'];
   const teamCards = document.getElementById("team-cards");
   // clear all existing member cards
-  teamCards.childNodes.forEach((node) => node.remove())
+  // note: do this backwards so the collection doesn't reorder!!!!
+  const nodes = teamCards.childNodes;
+  for (let i = nodes.length - 1; i > 0; i--) {
+    nodes[i].remove();
+  }
   const members = subteamData[subteam]['members'];
   members.forEach(memberKey => {
     const memberData = teamData[memberKey];
