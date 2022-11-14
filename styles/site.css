@@ -806,7 +806,10 @@ footer div ul li a {
   .robot-fights {
     margin-bottom: 1em;;
   }
-
+  
+        .team-page-buttons {
+          flex-wrap: wrap;
+        }
   /* Footer */
 
   .footer-logo-box-aside {
