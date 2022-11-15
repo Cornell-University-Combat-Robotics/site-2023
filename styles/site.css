@@ -7,6 +7,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0rem auto;
+  cursor: url("../images/robot-img/lance-cursor2.png"), pointer;
 }
 
 main {
@@ -484,7 +485,7 @@ header {
 .robot {
   background-color: white;
   border-radius: 5px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   max-width: 30%;
   display: flex;
   flex-direction: column;
@@ -494,6 +495,7 @@ header {
   text-decoration: none;
   color: black;
   flex-grow: 1;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
 .robot:focus,
@@ -580,14 +582,14 @@ header {
 }*/
 
 .featured-fight {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 0.5em;
   min-width: 45%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 }
 
 .featured-fight h2 {
   margin: 0.5em;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .featured-fight-video-box {
@@ -644,7 +646,7 @@ header {
 .robot-media-row img,
 .robot-media-row video {
   max-width: 31%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   border-radius: 0.5em;
   object-fit: cover;
   max-height: 30em;
