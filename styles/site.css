@@ -7,7 +7,10 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0rem auto;
-  cursor: url("../images/robot-img/lance-cursor2.png"), pointer;
+}
+
+.lance-body {
+  cursor: url("../images/robot-img/lance-cursor6.png"), pointer;
 }
 
 main {
