@@ -43,7 +43,7 @@ const setupRobotPhotos = () => {
   for (let i = 0; i < robotImages.length; i++) {
     const imgElem = robotImages[i];
     imgElem.onclick = () => enlargeImage(imgElem)
-    imgElem.style.cursor = "pointer";
+    //imgElem.style.cursor = "pointer";
   }
 }
 

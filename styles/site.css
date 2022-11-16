@@ -10,7 +10,12 @@ body {
 }
 
 .lance-body {
-  cursor: url("../images/robot-img/lance-cursor6.png"), pointer;
+  cursor: url("../images/robot-img/lance-cursor32.png"), pointer;
+}
+
+.lance-body a:hover,
+.lance-body .robot-photo:hover {
+  cursor: url("../images/robot-img/lance-cursor-flipped32.png"), pointer;
 }
 
 main {
@@ -527,6 +532,7 @@ header {
   max-width: 10%;
   min-width: 80px;
   min-height: 80px;
+  margin-top: 5px;
 }
 
 .robot-header-wide {
