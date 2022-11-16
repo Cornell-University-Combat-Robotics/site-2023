@@ -18,6 +18,28 @@ body {
   cursor: url("../images/robot-img/lance-cursor-flipped32.png"), pointer;
 }
 
+.richard-body {
+  cursor: url("../images/robot-img/richard-cursor.png"), pointer;
+}
+
+.richard-body a:hover,
+.richard-body .robot-photo:hover {
+  cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+  animation: cursor 0.25s linear infinite;
+}
+
+@keyframes cursor{
+  0% { 
+      cursor: url("../images/robot-img/richard-cursor-spinning-1.png"), auto;
+  }
+  50% { 
+      cursor: url("../images/robot-img/richard-cursor-spinning-2.png"), auto;
+  }
+  100% { 
+      cursor: url("../images/robot-img/richard-cursor-spinning-3.png"), auto;
+  }
+}
+
 main {
   max-width: 1000px;
   margin: 0rem auto;
