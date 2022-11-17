@@ -30,13 +30,16 @@ body {
 
 @keyframes cursor{
   0% { 
+      cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+  }
+  25% { 
       cursor: url("../images/robot-img/richard-cursor-spinning-1.png"), auto;
   }
   50% { 
       cursor: url("../images/robot-img/richard-cursor-spinning-2.png"), auto;
   }
-  100% { 
-      cursor: url("../images/robot-img/richard-cursor-spinning-3.png"), auto;
+  75% { 
+    cursor: url("../images/robot-img/richard-cursor-spinning-3.png"), auto;
   }
 }
 
@@ -681,6 +684,7 @@ header {
   border-radius: 0.5em;
   object-fit: cover;
   max-height: 30em;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
 /* Recruitment */
