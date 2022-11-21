@@ -1,7 +1,10 @@
-// Keep track of the current category
+// Keep track of the current category.
+// this will be set over time by the script
 let currentSubteam = "full-team";
 
-// data for each team member
+// data for each team member. 
+// The key is an identifier for the member (usually lowercase name, 
+// hyphens instead of spaces)
 const teamData = {
   "john-subteam": {
     "name": "John Subteam",
@@ -34,6 +37,8 @@ const teamData = {
     ]
   },
 }
+// This maps each subteam to a description, and an array of strings that
+// match the identifiers of its members in teamData.
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
@@ -80,7 +85,11 @@ const subteamData = {
 }
 
 
-// change the team display based on the button clicked
+/**
+ * This changes the page to show data on the current subteam. 
+ * It generates cards for each subteam member, and clears old ones.
+ * @param {string} subteam the subteam identifier in subteamData 
+ */
 const setCategory = subteam => {
   const teamName = document.getElementById("team-name");
   teamName.innerHTML = `${subteam[0].toUpperCase()}${subteam.slice(1)}`;
@@ -103,7 +112,12 @@ const setCategory = subteam => {
   currentSubteam = subteam;
 }
 
-// big chonker function
+/**
+ * This creates a card representing the passed in memberData, and appends it
+ * to the page. Called by setCategory.
+ * @param {Object} memberData entry of teamData for the card's member 
+ * @returns 
+ */
 const createMemberCard = memberData => {
   const memberCard = document.createElement("div");
   // create the card
@@ -164,7 +178,8 @@ const createMemberCard = memberData => {
   return memberCard;
 }
 
-/* 
+/*  NOTE: This is the html structure of what a card should look like. 
+    The function above should create this for a members. 
 <div class="card">
           <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
           <div class="desc">
@@ -198,8 +213,13 @@ const createMemberCard = memberData => {
 
 */
 
-/* TODO: Team description widget */
+/* #TODO: Team description widget. This is in-progress */
 
+/**
+ * selectTopic takes in a topicKey, and sets the topic description widget
+ * to display relevant data. Currently not implemented!
+ * @param {string} topicKey 
+ */
 const selectTopic = topicKey => {
   const topicData = subteamData[currentSubteam]["topics"][topicKey];
   const topicImgs = topicData['img_paths'];

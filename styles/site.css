@@ -322,11 +322,6 @@ header {
     filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
-/*.team-page-buttons div h2 {
-  border: 2px solid black;
-  border-radius: 0.5em;
-}*/
-
 .team-page-buttons div img {
   max-width: 20%;
   padding-top: 1em;
@@ -369,9 +364,8 @@ header {
 
 .card {
   position: relative;
-  margin: 0.5rem;
+  margin: 1rem 0.5rem;
   width: 15rem;
-    max-width: 23.25%;
   filter: drop-shadow(0.1rem 0.1rem 0.25rem grey);
   background-color: white;
   border-radius: 1rem;
@@ -412,6 +406,8 @@ header {
 .card img {
   width: 100%;
   height: 15rem;
+  object-fit: cover;
+    object-position: top;
 }
 
 .card .desc {
@@ -837,12 +833,45 @@ footer div ul li a {
   }
 
   .robot-fights {
-    margin-bottom: 1em;;
+    margin-bottom: 1em;
   }
   
         .team-page-buttons {
-          flex-wrap: wrap;
-        }
+          flex-direction: column;
+          }
+          
+          #other-buttons {
+            flex-direction: row;
+          }
+          
+          .team-page-buttons div,
+          #other-buttons div {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 0rem;
+            /* flex-grow: 1; */
+          }
+          
+          .team-page-buttons div img,
+          #other-buttons div img {
+            height: 1.25rem;
+            margin: 0rem 1rem;
+          }
+          
+          .team-page-buttons div h2 {
+            font-size: 1rem;
+          }
+          
+          .card {
+            width: 100%;
+            max-width: 100%;
+          }
+          
+          .card img {
+            min-height: 20rem;
+          }
+
   /* Footer */
 
   .footer-logo-box-aside {
