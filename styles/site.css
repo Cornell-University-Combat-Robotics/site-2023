@@ -51,6 +51,8 @@ body {
 main {
   max-width: 1000px;
   margin: 0rem auto;
+  padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Header */
@@ -773,11 +775,6 @@ footer div ul li a {
 }
 
 @media (max-width:700px) {
-
-  main {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
 
   header {
     padding-left: 0.3em;
