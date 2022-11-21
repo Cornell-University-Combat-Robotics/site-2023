@@ -28,6 +28,11 @@ body {
   animation: cursor 0.25s linear infinite;
 }
 
+#richard:hover {
+  cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+  animation: cursor 0.25s linear infinite;
+}
+
 @keyframes cursor{
   0% { 
       cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
