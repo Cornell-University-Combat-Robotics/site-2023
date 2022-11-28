@@ -357,7 +357,6 @@ header {
 }
 
 #other-buttons div img {
-  height: 4rem;
   padding-top: 0rem;
   margin-right: 2rem;
 }
@@ -497,8 +496,12 @@ header {
 /* Robots page */
 .photo-label {
   position: absolute;
+  left: 2rem;
   z-index: 2;
-  color: var(--crc-red);
+  padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--crc-red);
+    color: white;
 }
 
 .image-position {
