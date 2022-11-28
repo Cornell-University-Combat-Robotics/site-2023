@@ -531,12 +531,15 @@ header {
   text-decoration: none;
   color: black;
   flex-grow: 1;
+}
+
+.robot-interactive {
   filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
-.robot:focus,
-.robot:hover,
-.robot:active {
+.robot-interactive:focus,
+.robot-interactive:hover,
+.robot-interactive:active {
   background-color: lightgray;
 }
 
@@ -576,6 +579,11 @@ header {
   display: none;
 }
 
+.robot-title {
+  font-size: 1.25rem;
+  color: var(--crc-red);
+  font-style: italic;
+}
 .robot-stats {
   border-top: 1px solid black;
 }
@@ -807,6 +815,7 @@ footer div ul li a {
     display: none;
   }
 
+  
   .robot-side-stats-picture {
     float: none;
     display: flex;
@@ -814,7 +823,6 @@ footer div ul li a {
     justify-content: center;
     width: 90%;
   }
-
 
   .robot-stats {
     border: 1px solid black;
