@@ -38,22 +38,31 @@
 
   <main>
 
-    <h1>Support Our Mission</h1>
+    <h1 style="text-align: center">Support Our Mission</h1>
     <p>Our team depends on your generous donation. Help develop creative and
       cool combat robots!
     </p>
     <a href="sponsorship-packet" class="link-button"> Corporate Sponsors </a>
     <a href="https://cornellrocketryteam.com/sponsors" class="link-button"> Individual Donors </a>
 
-    <h2>Our Community</h2>
-    <p>We build small-scale combat robots, much like those
-      featured on the popular TV show Battlebots. Some of our robots are remote
-      controlled, while others have autonomous capabilities. After 2.5 years as
-      a student club, we earned our status as a Project Team through Cornell in
-      January 2022, letting us work towards establishing CRC as one of Cornell's
-      premier environments that embodies technical excellence, start-up spirit,
-      and camaraderie.</p>
-    <img src="images/buildin.jpeg" width="400" height="250">
+    <h2 style="text-align: center">Our Community</h2>
+    
+    <div style="display: flex">
+      <p class="community-par">We build small-scale combat robots, much like those
+        featured on the popular TV show Battlebots. Some of our robots are remote
+        controlled, while others have autonomous capabilities. After 2.5 years as
+        a student club, we earned our status as a Project Team through Cornell in
+        January 2022, letting us work towards establishing CRC as one of Cornell's
+        premier environments that embodies technical excellence, start-up spirit,
+        and camaraderie.</p>
+
+      <div id="slideshow" > 
+        <div> <img id="current"> </div>
+        <div> <img id="fading"> </div>
+    </div>
+    </div>
+    
+  
 
 
 
@@ -62,7 +71,10 @@
       Want to learn how you can get involved?</p>
     <h3>Platinum</h3>
     <ul class="recruitment-timeline">
-      <li>$3,000 !!!</li>
+      <img src="images/sponsor-logos/Boeing_Logo.png" alt="" class="sponsor-logos">
+      <img src="images/sponsor-logos/Woeden_Logo.png" alt="" class="sponsor-logos">
+      <img src="images/sponsor-logos/Raymond_Logo.png" alt="" class="sponsor-logos">
+      
     </ul>
     <h3>Gold</h3>
     <ul class="recruitment-timeline">
@@ -77,7 +89,7 @@
       <li>$500 .</li>
     </ul>
 
-    <h2>Donors</h2>
+    <h2 style="text-align: right">Donors</h2>
     <p>Spare us some money >:(</p>
     <h3>Thank you to our donors!</h3>
     <img src="fake-images/mannywired.jpg" alt="" width="50" height="50">
@@ -141,5 +153,6 @@
 
 </body>
 
+<script src="scripts/slideshow.js"></script>
 
 </html>
