@@ -751,6 +751,21 @@ header {
   filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
+/* Sponsorship */
+
+#sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#sponsor-logos img {
+  max-width: 15rem;
+  height: auto;
+  object-fit: scale-down;
+  margin: 1rem;
+}
+
 /* Recruitment */
 
 .application-status {
