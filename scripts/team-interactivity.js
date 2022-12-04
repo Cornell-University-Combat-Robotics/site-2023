@@ -6,43 +6,302 @@ let currentSubteam = "full-team";
 // The key is an identifier for the member (usually lowercase name, 
 // hyphens instead of spaces)
 const teamData = {
-  "john-subteam": {
-    "name": "John Subteam",
-    "img_path": "images/team/john.jpg",
-    "position": "Subteam Lead",
-    "stats": [
-      ["Speed", 10],
-      ["Strength", 80],
-      ["CAD", 50]
-    ]
+  // "john-subteam": {
+  //   "name": "John Subteam",
+  //   "img_path": "images/team/john.jpg",
+  //   "position": "Subteam Lead",
+  //   "stats": [
+  //     ["Speed", 10],
+  //     ["Strength", 80],
+  //     ["CAD", 50]
+  //   ]
+  // },
+  // "a": {
+  //   "name": "AAAAAAAA",
+  //   "img_path": "images/team/aaa.bmp",
+  //   "position": "Vice Subteam Lead",
+  //   "stats": [
+  //     ["Consume", 100],
+  //     ["Consume", 100],
+  //     ["Solidworks", 25]
+  //   ]
+  // },
+  // "mike-subteam": {
+  //   "name": "Mike Subteam",
+  //   "img_path": "images/team/mike.bmp",
+  //   "position": "Subteam Member",
+  //   "stats": [
+  //     ["Knitting", 10],
+  //     ["Crochet", 80],
+  //     ["Alcoholism", 50]
+  //   ]
+  // },
+  "colin-rodriguez": {
+    "name": "Colin Rodriguez",
+    "img_path": "images/team/placeholder.png",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
   },
-  "a": {
-    "name": "AAAAAAAA",
-    "img_path": "images/team/aaa.bmp",
-    "position": "Vice Subteam Lead",
-    "stats": [
-      ["Consume", 100],
-      ["Consume", 100],
-      ["Solidworks", 25]
-    ]
+  "kaitlyn-hoxha": {
+    "name": "Kaitlyn Hoxha",
+    "img_path": "images/team/Kaitlyn.jpg",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
   },
-  "mike-subteam": {
-    "name": "Mike Subteam",
-    "img_path": "images/team/mike.bmp",
-    "position": "Subteam Member",
-    "stats": [
-      ["Knitting", 10],
-      ["Crochet", 80],
-      ["Alcoholism", 50]
-    ]
+  "linda-hu": {
+    "name": "Linda Hu",
+    "img_path": "images/team/placeholder.png",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
   },
+  "lucien-eckert": {
+    "name": "Lucien Eckert",
+    "img_path": "images/team/Lucien.jpg",
+    "position": "Marketing VSL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/lucien-eckert/"
+  },
+  "luke-murphy": {
+    "name": "Luke Murphy",
+    "img_path": "images/team/Luke.jpg",
+    "position": "Vice Team Lead",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/luke-murphy-09659b22a/"
+  },
+  "matthew-bark": {
+    "name": "Matthew Bark",
+    "img_path": "images/team/placeholder.png",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "maya-zamor": {
+    "name": "Maya Zamor",
+    "img_path": "images/team/Maya.jpg",
+    "position": "Marketing SL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/maya-zamor-a9420b188"
+  },
+  "sardor-rahmatulloev": {
+    "name": "Sardor Rahmatulloev",
+    "img_path": "images/team/placeholder.png",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "sofie-halpern": {
+    "name": "Sofie Halpern",
+    "img_path": "images/team/Sofie.jpg",
+    "position": "Former Team Lead",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
+  },
+  "benjamin-lorence": {
+    "name": "Benjamin Lorence",
+    "img_path": "images/team/placeholder.png",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "blaze-ezlakowski": {
+    "name": "Blaze Ezlakowski",
+    "img_path": "images/team/Blaze.jpg",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7"
+  },
+  "ethan-zhang": {
+    "name": "Ethan Zhang",
+    "img_path": "images/team/placeholder.png",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "grace-lim": {
+    "name": "Grace Lim",
+    "img_path": "images/team/placeholder.png",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "katie-huntley": {
+    "name": "Katie Huntley",
+    "img_path": "images/team/Katie.jpg",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "richard-jin": {
+    "name": "Richard Jin",
+    "img_path": "images/team/Richard.jpg",
+    "position": "Firmware SL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/richard-jin/"
+  },
+  "shao-stassen": {
+    "name": "Shao Stassen",
+    "img_path": "images/team/placeholder.png",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "sebastian-rivera": {
+    "name": "Sebastian Rivera",
+    "img_path": "images/team/Sebastian.jpg",
+    "position": "Firmware VSL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/sebastian-rivera-048478222/"
+  },
+  "shawn-chen": {
+    "name": "Shawn Chen",
+    "img_path": "images/team/Shawn.jpg",
+    "position": "Firmware Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/shawn-siyuanchen"
+  },
+  "anna-boese": {
+    "name": "Anna Boese",
+    "img_path": "images/team/Anna.jpg",
+    "position": "Kinetic VSL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/anna-boese-4a304819b/"
+  },
+  "isaac-newcomb": {
+    "name": "Isaac Newcomb",
+    "img_path": "images/team/Isaac.jpg",
+    "position": "Kinetic SL",
+    "stats": [],
+    "linkedin": "https://linkedin.com/in/isaacdnew"
+  },
+  "james-courtenay": {
+    "name": "James Courtenay",
+    "img_path": "images/team/James.jpg",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "james-lasalle": {
+    "name": "James LaSalle",
+    "img_path": "images/team/placeholder.png",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "margaret-gates": {
+    "name": "Margaret Gates",
+    "img_path": "images/team/Margaret.jpg",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "mohammed-chowdhury": {
+    "name": "Mohammed Chowdhury",
+    "img_path": "images/team/placeholder.png",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "stella-taglich": {
+    "name": "Stella Taglich",
+    "img_path": "images/team/placeholder.png",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "spencer-hurst": {
+    "name": "Spencer Hurst",
+    "img_path": "images/team/Spencer.jpg",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/spencer-hurst-918627191/"
+  },
+  "zander-knight": {
+    "name": "Zander Knight",
+    "img_path": "images/team/placeholder.png",
+    "position": "Kinetic Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "alex-jenkins": {
+    "name": "Alex Jenkins",
+    "img_path": "images/team/placeholder.png",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "bruno-tassari": {
+    "name": "Bruno Tassari",
+    "img_path": "images/team/Bruno.jpg",
+    "position": "Team Lead",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/bruno-tassari-18928b19b/"
+  },
+  "caleb-schlissel": {
+    "name": "Caleb Schlissel",
+    "img_path": "images/team/placeholder.png",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "charles-liu": {
+    "name": "Charles Liu",
+    "img_path": "images/team/Charles.jpg",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/charles-liu-035190181/"
+  },
+  "marcus-esposito": {
+    "name": "Marcus Esposito",
+    "img_path": "images/team/Marcus.jpg",
+    "position": "Sportsman SL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
+  },
+  "molly-drumm": {
+    "name": "Molly Drumm",
+    "img_path": "images/team/Molly.jpg",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
+  },
+  "narayan-rueppel": {
+    "name": "Narayan Rueppel",
+    "img_path": "images/team/placeholder.png",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "sana-gaya": {
+    "name": "Sana Gaya",
+    "img_path": "images/team/placeholder.png",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "zarif-pathan": {
+    "name": "Zarif Pathan",
+    "img_path": "images/team/placeholder.png",
+    "position": "Sportsman Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "william": {
+    "name": "William Murphy",
+    "img_path": "images/team/William.jpg",
+    "position": "Sportsman VSL",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  }
 }
 // This maps each subteam to a description, and an array of strings that
 // match the identifiers of its members in teamData.
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
-    members: ["john-subteam"], 
+    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
     description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
@@ -61,17 +320,17 @@ const subteamData = {
   },
   // keys for all sportsman members
   "sportsman": {
-    members: ["john-subteam", "mike-subteam"],
+    members: ["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"],
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
   "marketing": {
-    members: ["a"],
+    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "kaitlyn-hoxha", "linda-hu", "luke-murphy", "matthew-bark", "sardor-rahmatulloev", "sofie-halpern"],
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
   "firmware": {
-    members: ["a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam", "a", "mike-subteam", "john-subteam"],
+    members: ["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
     description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
   },
   "full": {
@@ -172,7 +431,18 @@ const createMemberCard = memberData => {
   statsButton.onpointerout = () => {
     stats.setAttribute("style", "transform: translate(-150%, 0%);")
   }  
-  links.appendChild(statsButton);
+  //TODO: Add stats
+  // links.appendChild(statsButton);
+  // attach linkedin, if applicable
+  if (memberData['linkedin'].length > 0) {
+    const linkedInButton = document.createElement("a")
+    linkedInButton.className = "member-link-button"
+    linkedInButton.href = memberData['linkedin']
+    const linkedInIcon = document.createElement("img")
+    linkedInIcon.src = "images/icons/linkedin.png"
+    linkedInButton.appendChild(linkedInIcon)
+    links.appendChild(linkedInButton)
+  }
   memberCard.appendChild(links);
   // return the card
   return memberCard;
