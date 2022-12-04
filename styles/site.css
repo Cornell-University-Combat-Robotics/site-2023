@@ -9,6 +9,11 @@ body {
   margin: 0rem auto;
 }
 
+.manny-body {
+  cursor: url("../images/robot-img/manny-cursor.png"), pointer;
+}
+
+
 .lance-body {
   cursor: url("../images/robot-img/lance-cursor32.png"), pointer;
 }
