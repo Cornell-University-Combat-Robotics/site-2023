@@ -919,6 +919,9 @@ footer div ul li a {
 
 @media (max-width:700px) {
 
+  .hide-on-mobile {
+      display: none;
+    }
   header {
     padding-left: 0.3em;
     padding-right: 0.2em;
