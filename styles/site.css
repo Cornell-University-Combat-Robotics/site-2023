@@ -847,6 +847,7 @@ header {
   object-fit: cover;
   max-height: 30em;
   filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
+  flex-grow: 1;
 }
 
 .robot-video:hover {
