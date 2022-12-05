@@ -17,6 +17,41 @@ body {
   cursor: url("../images/robot-img/manny-cursor.png"), pointer;
 }
 
+.manny-body a:hover,
+.manny-body .robot-photo:hover,
+.manny-body .robot-video:hover {
+  cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+  animation: manny-cursor 0.3s linear infinite;
+}
+
+#manny:hover {
+  cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+  animation: manny-cursor 0.3s linear infinite;
+}
+
+@keyframes manny-cursor{
+  0% { 
+      cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+  }
+  16% { 
+      cursor: url("../images/robot-img/manny-cursor-1.png"), auto;
+  }
+  32% { 
+    cursor: url("../images/robot-img/manny-cursor-2.png"), auto;
+  }
+  48% { 
+      cursor: url("../images/robot-img/manny-cursor-3.png"), auto;
+  }
+  64% { 
+    cursor: url("../images/robot-img/manny-cursor-4.png"), auto;
+  }
+  80% { 
+    cursor: url("../images/robot-img/manny-cursor-5.png"), auto;
+  }
+  96% { 
+    cursor: url("../images/robot-img/manny-cursor-6.png"), auto;
+  }
+}
 
 .lance-body {
   cursor: url("../images/robot-img/lance-cursor32.png"), pointer;
@@ -36,15 +71,15 @@ body {
 .richard-body .robot-photo:hover,
 .richard-body .robot-video:hover {
   cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
-  animation: cursor 0.25s linear infinite;
+  animation: richard-cursor 0.25s linear infinite;
 }
 
 #richard:hover {
   cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
-  animation: cursor 0.25s linear infinite;
+  animation: richard-cursor 0.25s linear infinite;
 }
 
-@keyframes cursor{
+@keyframes richard-cursor{
   0% { 
       cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
   }
