@@ -21,12 +21,12 @@ body {
 .manny-body .robot-photo:hover,
 .manny-body .robot-video:hover {
   cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
-  animation: manny-cursor 0.3s linear infinite;
+  animation: manny-cursor 0.4s linear infinite;
 }
 
 #manny:hover {
   cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
-  animation: manny-cursor 0.3s linear infinite;
+  animation: manny-cursor 0.4s linear infinite;
 }
 
 @keyframes manny-cursor{
