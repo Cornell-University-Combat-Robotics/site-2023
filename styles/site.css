@@ -754,30 +754,30 @@ header {
 }*/
 
 .robot-fights {
-  border-radius: 0.5em;
-  background-color: maroon;
-  color: white;
+  /*border-radius: 0.5em;*/
+  border-collapse: collapse;
+  /*background-color: maroon;
+  color: white;*/
 }
 
-/*
+
 .robot-fights,
 .robot-fights thead th,
 .robot-fights tbody tr td {
   border: 1px solid black;
 }
-*/
 
-/* .robot-fights thead th,
+/*.robot-fights thead th,
 .robot-fights tbody tr td {
   border: 1px solid white;
 } */
 
-.robot-fights,
+/* .robot-fights,
 .robot-fights th,
 .robot-fights td {
   border: 1px solid white;
   border-collapse: collapse;
-}
+} */
 
 .robot-fights thead tr th,
 .robot-fights tbody tr td {
