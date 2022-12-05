@@ -9,6 +9,10 @@ body {
   margin: 0rem auto;
 }
 
+.crc-red {
+  color: var(--crc-red);
+}
+
 .manny-body {
   cursor: url("../images/robot-img/manny-cursor.png"), pointer;
 }
@@ -629,6 +633,7 @@ header {
 .robot-side-stats-picture{
   float: right;
   border: 1px solid black;
+  border-radius: 0.5em;
   margin: 1em;
   display: flex;
   flex-direction: column-reverse;
@@ -663,9 +668,14 @@ header {
 }
 .robot-stats {
   border-top: 1px solid black;
+  /* background-color: var(--crc-red); */
+  background-color: maroon;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: white;
 }
 
-.robot-stats thead th,
+/*.robot-stats thead th,
 .robot-stats tbody tr td {
   border: 1px solid black;
 }
@@ -673,7 +683,7 @@ header {
 .robot-stats tbody {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
+}*/
 
 .robot-photo:hover {
   /*outline-offset: 2px;*/
@@ -741,15 +751,42 @@ header {
   height: 100%;
 }*/
 
+.robot-fights {
+  border-radius: 0.5em;
+  background-color: maroon;
+  color: white;
+}
+
+/*
 .robot-fights,
 .robot-fights thead th,
 .robot-fights tbody tr td {
   border: 1px solid black;
 }
+*/
+
+/* .robot-fights thead th,
+.robot-fights tbody tr td {
+  border: 1px solid white;
+} */
+
+.robot-fights,
+.robot-fights th,
+.robot-fights td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.robot-fights thead tr th,
+.robot-fights tbody tr td {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
 
 .robot-fights tbody tr td {
   padding: 0.1em;
   padding-right: 0.4em;
+  text-align: center;
 }
 
 /* Robots Media */
