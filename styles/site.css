@@ -129,6 +129,10 @@ header {
   display: block;
 }
 
+.nav-logo img {
+  width: 50px;
+}
+
 .nav-bar-right {
   display: flex;
   flex-direction: row;
