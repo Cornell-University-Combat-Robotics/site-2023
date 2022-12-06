@@ -14,6 +14,9 @@ body {
 }
 
 .manny-body {
+  /* YOU CAN CHANGE THE HOTSPOT (WHERE IT CLICKS) OF THE CURSOR BY 
+  ADDING 4 5 AFTER WHERE THOSE ARE THE NUMBER OF PIXELS AWAY FROM 
+  THE LEFT AND TOP RESPECTIVELY */
   cursor: url("../images/robot-img/manny/manny-cursor-0.png"), pointer;
 }
 
