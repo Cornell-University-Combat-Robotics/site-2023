@@ -17,7 +17,7 @@ modal_bg.appendChild(modal);
 const close_button = document.createElement("img")
 close_button.id = "close-button"
 close_button.style = "float: right; width: 3rem; height: 3rem; font-size: 2rem; cursor: pointer; border: none; border-radius: 50%";
-close_button.src = '/images/icons/close.png'
+close_button.src = '../images/icons/close.png'
 modal.appendChild(close_button)
 // img: has its src replaced when images are enlarged
 const modal_img = document.createElement("img");
