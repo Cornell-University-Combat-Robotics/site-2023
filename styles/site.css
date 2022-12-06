@@ -14,83 +14,87 @@ body {
 }
 
 .manny-body {
-  cursor: url("../images/robot-img/manny-cursor-0.png"), pointer;
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), pointer;
 }
 
 .manny-body a:hover,
 .manny-body .robot-photo:hover,
 .manny-body .robot-video:hover {
-  cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
   animation: manny-cursor 0.6s linear infinite;
 }
 
 #manny:hover {
-  cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
   animation: manny-cursor 0.6s linear infinite;
 }
 
 @keyframes manny-cursor{
   0% { 
-      cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+      cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
   }
   16% { 
-      cursor: url("../images/robot-img/manny-cursor-1.png"), auto;
+      cursor: url("../images/robot-img/manny/manny-cursor-1.png"), auto;
   }
   32% { 
-    cursor: url("../images/robot-img/manny-cursor-2.png"), auto;
+    cursor: url("../images/robot-img/manny/manny-cursor-2.png"), auto;
   }
   48% { 
-      cursor: url("../images/robot-img/manny-cursor-3.png"), auto;
+      cursor: url("../images/robot-img/manny/manny-cursor-3.png"), auto;
   }
   64% { 
-    cursor: url("../images/robot-img/manny-cursor-4.png"), auto;
+    cursor: url("../images/robot-img/manny/manny-cursor-4.png"), auto;
   }
   80% { 
-    cursor: url("../images/robot-img/manny-cursor-5.png"), auto;
+    cursor: url("../images/robot-img/manny/manny-cursor-5.png"), auto;
   }
   96% { 
-    cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
+    cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
   }
 }
 
 .lance-body {
-  cursor: url("../images/robot-img/lance-cursor32.png"), pointer;
+  cursor: url("../images/robot-img/lance/lance-cursor-0.png"), pointer;
+}
+
+#lance:hover {
+  cursor: url("../images/robot-img/lance/lance-cursor-0.png"), auto;
 }
 
 .lance-body a:hover,
 .lance-body .robot-photo:hover,
 .lance-body .robot-video:hover {
-  cursor: url("../images/robot-img/lance-cursor-flipped32.png"), pointer;
+  cursor: url("../images/robot-img/lance/lance-cursor-1.png"), pointer;
 }
 
 .richard-body {
-  cursor: url("../images/robot-img/richard-cursor-0.png"), pointer;
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), pointer;
 }
 
 .richard-body a:hover,
 .richard-body .robot-photo:hover,
 .richard-body .robot-video:hover {
-  cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
   animation: richard-cursor 0.25s linear infinite;
 }
 
 #richard:hover {
-  cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
   animation: richard-cursor 0.25s linear infinite;
 }
 
 @keyframes richard-cursor{
   0% { 
-      cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
+      cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
   }
   25% { 
-      cursor: url("../images/robot-img/richard-cursor-1.png"), auto;
+      cursor: url("../images/robot-img/richard/richard-cursor-1.png"), auto;
   }
   50% { 
-      cursor: url("../images/robot-img/richard-cursor-2.png"), auto;
+      cursor: url("../images/robot-img/richard/richard-cursor-2.png"), auto;
   }
   75% { 
-    cursor: url("../images/robot-img/richard-cursor-3.png"), auto;
+    cursor: url("../images/robot-img/richard/richard-cursor-3.png"), auto;
   }
 }
 
