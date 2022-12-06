@@ -294,6 +294,97 @@ const teamData = {
     "position": "Sportsman VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "shubham-mathur": {
+    "name": "Shubham Mathur",
+    "img_path": "images/team/members/shubham-mathur.jpg",
+    "position": "Alum 2022 // Former Sportsman (2019-2022) // Co-Founder",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "rochelle-barsz": {
+    "name": "Rochelle Barsz",
+    "img_path": "images/team/members/rochelle-barsz.jpg",
+    "position": "Alum 2022 // Former Firmware SL (2021-2022)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "michelle-zhou": {
+    "name": "Michelle Zhou",
+    "img_path": "images/team/members/michelle-zhou.jpg",
+    "position": "Alum 2022 // Former Sportsman SL (2022)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "rob-measner": {
+    "name": "Rob Measner",
+    "img_path": "images/team/members/rob-measner.jpg",
+    "position": "Alum 2021 // Former Firmware (2019-2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "esquared": {
+    "name": "Erhunmwunse Eghafona",
+    "img_path": "images/team/members/esquared.jpg",
+    "position": "Alum 2022 // Former Kinetic (2021-2022)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "kevin-liu": {
+    "name": "Kevin Liu",
+    "img_path": "images/team/members/kevin-liu.jpg",
+    "position": "Alum 2022 // Former Sportsman SL (2020- 2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "ash-siddiqui": {
+    "name": "Ash Siddiqui",
+    "img_path": "images/team/members/ash-siddiqui.jpg",
+    "position": "Alum 2022 // Former Firmware VSL (2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "alex-salonga": {
+    "name": "Ash Siddiqui",
+    "img_path": "images/team/members/alex-salonga.jpg",
+    "position": "Alum 2022 // Former Marketing VSL (2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "mo-moghaddasi": {
+    "name": "Mohammad Ali Moghaddasi",
+    "img_path": "images/team/members/mo-moghaddasi.jpg",
+    "position": "Alum 2022 // Former Kinetic (2021-2022)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "ricky-wang": {
+    "name": "Ricky Wang",
+    "img_path": "images/team/members/ricky-wang.jpg",
+    "position": "Alum 2022 // Former Kinetic SL (2021-2022)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "sofie-halpern": {
+    "name": "Sofie Halpern",
+    "img_path": "images/team/members/Sofie.jpg",
+    "position": "Alum 2022 // Kinetic (2019-2022) // Marketing (2022) // First Team Lead (2019-2022) // Co-Founder",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "stefan-bell": {
+    "name": "Stefan Bell",
+    "img_path": "images/team/members/stefan-bell.jpg",
+    "position": "Alum 2021 // Former Kinetic SL (2020-2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+  },
+  "kaitlyn-hoxha": {
+    "name": "Kaitlyn Hoxha",
+    "img_path": "images/team/members/Kaitlyn.jpg",
+    "position": "Alum 2022 // Marketing // Former Marketing SL (2020-2021)",
+    "stats": [],
+    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
   }
 }
 // This maps each subteam to a description, and an array of strings that
@@ -338,7 +429,7 @@ const subteamData = {
     description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
   },
   "alumni": {
-    members: [],
+    members: ["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],
     description: "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!"
   }
 }
