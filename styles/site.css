@@ -14,19 +14,19 @@ body {
 }
 
 .manny-body {
-  cursor: url("../images/robot-img/manny-cursor.png"), pointer;
+  cursor: url("../images/robot-img/manny-cursor-0.png"), pointer;
 }
 
 .manny-body a:hover,
 .manny-body .robot-photo:hover,
 .manny-body .robot-video:hover {
   cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
-  animation: manny-cursor 0.4s linear infinite;
+  animation: manny-cursor 0.6s linear infinite;
 }
 
 #manny:hover {
   cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
-  animation: manny-cursor 0.4s linear infinite;
+  animation: manny-cursor 0.6s linear infinite;
 }
 
 @keyframes manny-cursor{
@@ -49,7 +49,7 @@ body {
     cursor: url("../images/robot-img/manny-cursor-5.png"), auto;
   }
   96% { 
-    cursor: url("../images/robot-img/manny-cursor-6.png"), auto;
+    cursor: url("../images/robot-img/manny-cursor-0.png"), auto;
   }
 }
 
@@ -64,33 +64,33 @@ body {
 }
 
 .richard-body {
-  cursor: url("../images/robot-img/richard-cursor.png"), pointer;
+  cursor: url("../images/robot-img/richard-cursor-0.png"), pointer;
 }
 
 .richard-body a:hover,
 .richard-body .robot-photo:hover,
 .richard-body .robot-video:hover {
-  cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+  cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
   animation: richard-cursor 0.25s linear infinite;
 }
 
 #richard:hover {
-  cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+  cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
   animation: richard-cursor 0.25s linear infinite;
 }
 
 @keyframes richard-cursor{
   0% { 
-      cursor: url("../images/robot-img/richard-cursor-spinning-0.png"), auto;
+      cursor: url("../images/robot-img/richard-cursor-0.png"), auto;
   }
   25% { 
-      cursor: url("../images/robot-img/richard-cursor-spinning-1.png"), auto;
+      cursor: url("../images/robot-img/richard-cursor-1.png"), auto;
   }
   50% { 
-      cursor: url("../images/robot-img/richard-cursor-spinning-2.png"), auto;
+      cursor: url("../images/robot-img/richard-cursor-2.png"), auto;
   }
   75% { 
-    cursor: url("../images/robot-img/richard-cursor-spinning-3.png"), auto;
+    cursor: url("../images/robot-img/richard-cursor-3.png"), auto;
   }
 }
 
