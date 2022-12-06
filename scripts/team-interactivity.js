@@ -8,7 +8,7 @@ let currentSubteam = "full-team";
 const teamData = {
   // "john-subteam": {
   //   "name": "John Subteam",
-  //   "img_path": "images/team/john.jpg",
+  //   "img_path": "images/team/members/john.jpg",
   //   "position": "Subteam Lead",
   //   "stats": [
   //     ["Speed", 10],
@@ -18,7 +18,7 @@ const teamData = {
   // },
   // "a": {
   //   "name": "AAAAAAAA",
-  //   "img_path": "images/team/aaa.bmp",
+  //   "img_path": "images/team/members/aaa.bmp",
   //   "position": "Vice Subteam Lead",
   //   "stats": [
   //     ["Consume", 100],
@@ -28,7 +28,7 @@ const teamData = {
   // },
   // "mike-subteam": {
   //   "name": "Mike Subteam",
-  //   "img_path": "images/team/mike.bmp",
+  //   "img_path": "images/team/members/mike.bmp",
   //   "position": "Subteam Member",
   //   "stats": [
   //     ["Knitting", 10],
@@ -38,259 +38,259 @@ const teamData = {
   // },
   "colin-rodriguez": {
     "name": "Colin Rodriguez",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": ""
   },
   "kaitlyn-hoxha": {
     "name": "Kaitlyn Hoxha",
-    "img_path": "images/team/Kaitlyn.jpg",
+    "img_path": "images/team/members/Kaitlyn.jpg",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
   },
   "linda-hu": {
     "name": "Linda Hu",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": ""
   },
   "lucien-eckert": {
     "name": "Lucien Eckert",
-    "img_path": "images/team/Lucien.jpg",
+    "img_path": "images/team/members/Lucien.jpg",
     "position": "Marketing VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/lucien-eckert/"
   },
   "luke-murphy": {
     "name": "Luke Murphy",
-    "img_path": "images/team/Luke.jpg",
+    "img_path": "images/team/members/Luke.jpg",
     "position": "Vice Team Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/luke-murphy-09659b22a/"
   },
   "matthew-bark": {
     "name": "Matthew Bark",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": ""
   },
   "maya-zamor": {
     "name": "Maya Zamor",
-    "img_path": "images/team/Maya.jpg",
+    "img_path": "images/team/members/Maya.jpg",
     "position": "Marketing SL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/maya-zamor-a9420b188"
   },
   "sardor-rahmatulloev": {
     "name": "Sardor Rahmatulloev",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": ""
   },
   "sofie-halpern": {
     "name": "Sofie Halpern",
-    "img_path": "images/team/Sofie.jpg",
+    "img_path": "images/team/members/Sofie.jpg",
     "position": "Former Team Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
   },
   "benjamin-lorence": {
     "name": "Benjamin Lorence",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "blaze-ezlakowski": {
     "name": "Blaze Ezlakowski",
-    "img_path": "images/team/Blaze.jpg",
+    "img_path": "images/team/members/Blaze.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7"
   },
   "ethan-zhang": {
     "name": "Ethan Zhang",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "grace-lim": {
     "name": "Grace Lim",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "katie-huntley": {
     "name": "Katie Huntley",
-    "img_path": "images/team/Katie.jpg",
+    "img_path": "images/team/members/Katie.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "richard-jin": {
     "name": "Richard Jin",
-    "img_path": "images/team/Richard.jpg",
+    "img_path": "images/team/members/Richard.jpg",
     "position": "Firmware SL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/richard-jin/"
   },
   "shao-stassen": {
     "name": "Shao Stassen",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "sebastian-rivera": {
     "name": "Sebastian Rivera",
-    "img_path": "images/team/Sebastian.jpg",
+    "img_path": "images/team/members/Sebastian.jpg",
     "position": "Firmware VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/sebastian-rivera-048478222/"
   },
   "shawn-chen": {
     "name": "Shawn Chen",
-    "img_path": "images/team/Shawn.jpg",
+    "img_path": "images/team/members/Shawn.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/shawn-siyuanchen"
   },
   "anna-boese": {
     "name": "Anna Boese",
-    "img_path": "images/team/Anna.jpg",
+    "img_path": "images/team/members/Anna.jpg",
     "position": "Kinetic VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/anna-boese-4a304819b/"
   },
   "isaac-newcomb": {
     "name": "Isaac Newcomb",
-    "img_path": "images/team/Isaac.jpg",
+    "img_path": "images/team/members/Isaac.jpg",
     "position": "Kinetic SL",
     "stats": [],
     "linkedin": "https://linkedin.com/in/isaacdnew"
   },
   "james-courtenay": {
     "name": "James Courtenay",
-    "img_path": "images/team/James.jpg",
+    "img_path": "images/team/members/James.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "james-lasalle": {
     "name": "James LaSalle",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "margaret-gates": {
     "name": "Margaret Gates",
-    "img_path": "images/team/Margaret.jpg",
+    "img_path": "images/team/members/Margaret.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "mohammed-chowdhury": {
     "name": "Mohammed Chowdhury",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "stella-taglich": {
     "name": "Stella Taglich",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "spencer-hurst": {
     "name": "Spencer Hurst",
-    "img_path": "images/team/Spencer.jpg",
+    "img_path": "images/team/members/Spencer.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/spencer-hurst-918627191/"
   },
   "zander-knight": {
     "name": "Zander Knight",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "alex-jenkins": {
     "name": "Alex Jenkins",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "bruno-tassari": {
     "name": "Bruno Tassari",
-    "img_path": "images/team/Bruno.jpg",
+    "img_path": "images/team/members/Bruno.jpg",
     "position": "Team Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/bruno-tassari-18928b19b/"
   },
   "caleb-schlissel": {
     "name": "Caleb Schlissel",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "charles-liu": {
     "name": "Charles Liu",
-    "img_path": "images/team/Charles.jpg",
+    "img_path": "images/team/members/Charles.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/charles-liu-035190181/"
   },
   "marcus-esposito": {
     "name": "Marcus Esposito",
-    "img_path": "images/team/Marcus.jpg",
+    "img_path": "images/team/members/Marcus.jpg",
     "position": "Sportsman SL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
   },
   "molly-drumm": {
     "name": "Molly Drumm",
-    "img_path": "images/team/Molly.jpg",
+    "img_path": "images/team/members/Molly.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
   "narayan-rueppel": {
     "name": "Narayan Rueppel",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "sana-gaya": {
     "name": "Sana Gaya",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "zarif-pathan": {
     "name": "Zarif Pathan",
-    "img_path": "images/team/placeholder.png",
+    "img_path": "images/team/members/placeholder.png",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "william": {
     "name": "William Murphy",
-    "img_path": "images/team/William.jpg",
+    "img_path": "images/team/members/William.jpg",
     "position": "Sportsman VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
@@ -306,11 +306,11 @@ const subteamData = {
     // topics: {
     //   "Design": {
     //     blurb: "Designing blurb.",
-    //     img_paths: ["images/team/john.jpg"],
+    //     img_paths: ["images/team/members/john.jpg"],
     //   },
     //   "Research": {
     //     blurb: "REEEEEEEEEEASSSSSSSSSSSEEEEEAAAAAARCCCCCCCCCCHHHHHHH!!!! YOOOOOOOOOOOOOO.",
-    //     img_paths: ["images/team/mike.bmp"],
+    //     img_paths: ["images/team/members/mike.bmp"],
     //   },
     //   "Build": {
     //     blurb: "Building blurb. We buildin af",
@@ -451,7 +451,7 @@ const createMemberCard = memberData => {
 /*  NOTE: This is the html structure of what a card should look like. 
     The function above should create this for a members. 
 <div class="card">
-          <img src="images/team/john.jpg" alt="images/team/john.jpg" class="headshot">
+          <img src="images/team/members/john.jpg" alt="images/team/members/john.jpg" class="headshot">
           <div class="desc">
             <p class="name">John Subteam</p>
             <p>Outreach & Design</p>
