@@ -370,7 +370,7 @@ const teamData = {
     "img_path": "images/team/members/Sofie.jpg",
     "position": "Alum 2022 // Kinetic (2019-2022) // Marketing (2022) // First Team Lead (2019-2022) // Co-Founder",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
   },
   "stefan-bell": {
     "name": "Stefan Bell",
