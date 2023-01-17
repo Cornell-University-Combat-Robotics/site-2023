@@ -101,7 +101,7 @@ const teamData = {
   },
   "benjamin-lorence": {
     "name": "Benjamin Lorence",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Benjamin.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
@@ -115,14 +115,14 @@ const teamData = {
   },
   "ethan-zhang": {
     "name": "Ethan Zhang",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Ethan.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
   },
   "grace-lim": {
     "name": "Grace Lim",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Grace.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
@@ -143,7 +143,7 @@ const teamData = {
   },
   "shao-stassen": {
     "name": "Shao Stassen",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Shao.jpg",
     "position": "Firmware Member",
     "stats": [],
     "linkedin": ""
