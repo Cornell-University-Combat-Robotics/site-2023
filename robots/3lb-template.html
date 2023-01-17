@@ -3,14 +3,16 @@
 <html>
   <head>
     <link rel="stylesheet" href=".././styles/site.css" />
+    <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico"/>
+    <title>CRC | Locust</title>
   </head>
 
-  <body onload="setupRobotPhotos()">
+  <body class="locust-body" onload="setupRobotPhotos()">
 
     <header>
       <nav>
         <a href="../index.html" class="nav-logo">
-          <img src="../images/logoscaled.png" width="50" alt="CRC logo" />
+          <img src="../images/logoscaled.png" alt="CRC logo" />
         </a>
         <div class="nav-bar-right">
           <a href="../index.html">
@@ -28,7 +30,7 @@
           <a href="../recruitment.html">
             <p>Recruitment</p>
           </a>
-          <a href="../gallery.html">
+          <a href="../media/game.html" class="hide-on-mobile">
             <p>Game</p>
           </a>
         </div>
@@ -39,8 +41,8 @@
       <!-- Narrow header (hidden unless page is narrow) -->
       <div class="robot-header-narrow">
         <!-- NOTE: IF YOU CHANGE THIS THEN YOU MUST ALSO CHANGE THE WIDE VERSION BELOW -->
-        <h1>Locust</h1>
-        <img src="../images/robot-img/locust-pixel.png" alt='A pixel art of Locust' class="robot-icon"/>
+        <h1>Locust <span class="robot-title">"The Lithe"</span></h1>
+        <img src="../images/robot-img/locust/locust-pixel.png" alt='A pixel art of locust' class="robot-icon robot-photo"/>
       </div>
 
       <!-- Side stats + picture -->
@@ -54,16 +56,28 @@
           </thead>
           <tbody>
             <tr>
+              <td>Vintage:</td>
+              <td>2022</td>
+            </tr>
+            <tr>
               <td>Height:</td>
-              <td>16 meters</td>
+              <td>8 meters</td>
             </tr>
             <tr>
               <td>Weight:</td>
               <td>3 lbs</td>
             </tr>
             <tr>
+              <td>Fights:</td>
+              <td>A lot</td>
+            </tr>
+            <tr>
+              <td>Wins:</td>
+              <td>A lot</td>
+            </tr>
+            <tr>
               <td>Top Speed:</td>
-              <td>154 kph</td>
+              <td>124.8 kph</td>
             </tr>
             <tr>
               <td>Weapon Speed:</td>
@@ -75,69 +89,141 @@
             </tr>
             <tr>
               <td>Favorite Movie:</td>
-              <td>Running documentaries</td>
+              <td>Real Steel</td>
             </tr>
           </tbody>
         </table>
-        <!-- Main Robot Image -->
-        <div class="main-robot-image-box">
-          <img src="../images/robot-img/locust.png" alt="Iconic image of Locust" class="main-robot-image robot-photo"/>
-        </div>
+        <!-- Main robot image -->
+        <div class="main-robot-image-box"></div>
+          <img src="../images/robot-img/locust/locust.png" alt="Iconic image of locust" class="main-robot-image robot-photo"/>
+       </div>
       </div>
 
       <!-- Robot name + description and design -->
       <div class="robot-header-wide">
         <!-- NOTE: IF YOU CHANGE THIS THEN YOU MUST ALSO CHANGE THE NARROW VERSION ABOVE -->
-        <h1>Locust</h1>
-        <img src="../images/robot-img/locust-pixel.png" alt='A pixel art of Locust' class="robot-icon"/>
+        <h1>Locust <span class="robot-title">"The Lithe"</span></h1>
+        <img src="../images/robot-img/locust/locust-pixel.png" alt='A pixel art of locust' class="robot-icon robot-photo"/>
       </div>
 
       <h2>Description</h2>
-      <p>The Locust was one of the most common BattleMechs in existence, having been in continuous production since the design
-        was first introduced by Bergan Industries in 2499. One of the smallest 'Mechs ever built, the Locust was designed
-        exclusively for reconnaissance and quick strike missions, using its then-phenomenal speed to outrun most enemies. In a
-        situation where it was unable to outrun its enemies, the 'Mech did have a light array of weapons with which to defend
-        itself, but the Locust lacked the firepower or staying power to be a true front-line combatant and as a result few
-        MechWarriors enjoyed piloting Locusts. Within its weight-class though, the Locust was considered an excellent 'Mech,
-        overshadowed as a scout only by designs which mounted jump jets. Often when a Locust engaged in combat it was as a
-        holding action until reinforcements could arrive, although when operating in groups of three they could swarm lone
-        enemy 'Mechs that were separated from friendly support.[5][6]</p>
+      <p>The Locust is probably the best-known BattleMech to ever set foot on the modern battlefield. Designed with
+        specifications from Aleksandr Kerensky himself in 2755[2] in the midst of the Cameron Edicts, the Locust was originally
+        intended to ensure SLDF superiority over the Star League member states. Though the inexorable arming of the Great
+        Houses continued, the Locust proved itself to be everything General Kerensky requested. With the largest amount of
+        armor of nearly any 'Mech, crippling firepower, and the foreboding skull-shaped "Death's Head" cockpit/head assembly,
+        the Locust lived up to its reputation. The mere sight of an Locust had been known to make even a veteran MechWarrior
+        break out in a cold sweat, and theoretically a single Locust can take on and wipe out an entire battalion of Stingers
+        in exchange for minor armor loss.</p>
         
       <h2>Design</h2>
-      <p>The main weapon of the Locust was a single Martell medium laser mounted in the center torso. Backing this up were two
-        Sperry Browning machine guns, which effectively deterred infantry attacks against the Locust's vulnerable legs. These
-        were located in either arm and fed by a one-ton ammo bin located in the center torso. Lacking hand actuators the
-        Locust was vulnerable to other 'Mechs when engaging in close combat. The primary asset of the Locust was its speed, using a 160-rated fusion engine to attain a cruising speed of 86.4 km/h
-        and top speed of 129.6 km/h. This speed is necessary for the 'Mech's survival, since four tons of armor means the
-        Locust can be quickly crippled or destroyed by direct hits. The standard engine-mounted 10 heat sinks are sufficient
-        in most cases, although those variants which mount more energy weapons can suffer.
-      </p>
+      <p>The Locust is armed with a multitude of weapons for both long and short range combat, all designed specifically to be
+        as visible as possible so as to strike fear in the hearts of its enemies. For long ranges, the 'Mech carries a FarFire
+        Maxi-Rack LRM-20 in the left torso that allows it to both fire directly at an enemy target at long range, and to give
+        indirect fire support when needed. Unable to fit a full twenty-tube system on the 'Mech, the FarFire instead launches
+        the missiles in waves of five over the course of ten seconds and carries two tons of reloads for twelve such salvos.
+        For close range combat the 'Mech is armed with a Defiance 'Mech Hunter Autocannon/20 in the right torso with two tons
+        of ammo. Although lacking a cooling jacket and liable to overheat, the massive autocannon gives the Locust the
+        firepower to take on an entire 'Mech company. To back up the AC/20 the Locust carries four Defiance B3M medium lasers,
+        one in each arm and two mounted in the rear center torso, and a TharHes Maxi SRM-6 launcher with one ton of missiles in
+        the left torso (the aperture between the SRM and LRM launchers is not another weapon but an omnicoupling for power and
+        coolant cable connection). Furthermore the Locust is equipped with hand actuators which, combined with its sheer weight
+        and power, makes it a potent hand-to-hand fighter. Accounts of Locustes actually picking up medium-weight 'Mechs and
+        throwing them around like toys makes for suitable horror stories and further enhances the aura of the 'Mech.</p>
+
+      <h2>Trivia</h2>
+      <ul>
+        <li>Locust hates tea.</li>
+        <li>Locust can self right himself if he flips over by running into a wall with his weapon activated.</li>
+        <li>Locusts original weapon was made of aluminum which was very malleable and soft.</li>
+        <li>Locust loves milk</li>
+      </ul>
+
+      <!-- Fights -->
+      <h2>Fights:</h2>
+      <div class="robot-fights-box">
+        <table class="robot-fights">
+          <table class="robot-fights">
+            <thead>
+              <tr>
+                  <th>Opponent</th>
+                  <th>Result</th>
+                  <th>By</th>
+                  <th>Video</th>
+                  <th>Length (s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>King Crab</td>
+                <td>Win</td>
+                <td>KO</td>
+                <td><a href="https://youtu.be/wf528BQr0eA?t=5239">Link</a></td>
+                <td>104</td>
+              </tr>
+              <tr>
+                <td>Kodiak</td>
+                <td>Loss</td>
+                <td>KO</td>
+                <td><a href="https://youtu.be/wf528BQr0eA?t=8804">Link</a></td>
+                <td>126</td>
+              </tr>
+              <tr>
+                <td>Hatamoto Chi</td>
+                <td>Win</td>
+                <td>KO</td>
+                <td><a href="https://youtu.be/wf528BQr0eA?t=17852">Link</a></td>
+                <td>154</td>
+              </tr>  
+              <tr>
+                <td>Highlander</td>
+                <td>Win</td>
+                <td>Judges</td>
+                <td><a href="https://youtu.be/wf528BQr0eA?t=29989">Link</a></td>
+                <td>180</td>
+              </tr>  
+              <tr>
+                <td>Marauder</td>
+                <td>Loss</td>
+                <td>KO</td>
+                <td><a href="https://youtu.be/wf528BQr0eA?t=33573">Link</a></td>
+                <td>22</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <div class="featured-fight">
+          <h2>Featured Fight:</h2>
+          <div class="featured-fight-video-box">
+            <!-- Add ?start=seconds for start time of video -->
+            <iframe src="https://www.youtube.com/embed/GNNfIA1xNQs?start=165" title="Mighty Locust stomps through Mechs - Mechwarrior Online The Daily Dose #1156" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
       <!-- Media -->
       <h2>Media:</h2>
       <div class="robot-media-box">
         <div class="robot-media-row">
-          <img src="../images/robot-img/locust-1.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-2.png" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-3.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-1.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-2.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-3.jpg" alt='' class="robot-photo"/>
+          <!-- <video controls src="../images/robot-img/locust/locust-3.mp4" alt='' class="robot-video"></video> -->
         </div>
         <div class="robot-media-row">
-          <img src="../images/robot-img/locust-4.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-5.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-6.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-4.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-5.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-6.jpg" alt='' class="robot-photo"/>
         </div>
         <div class="robot-media-row">
-          <img src="../images/robot-img/locust-7.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-8.gif" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-9.png" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-7.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-8.gif" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-9.jpg" alt='' class="robot-photo"/>
         </div>
         <div class="robot-media-row">
-          <img src="../images/robot-img/locust-10.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-11.jpg" alt='' class="robot-photo"/>
-          <img src="../images/robot-img/locust-12.png" alt='' class="robot-photo"/>
-        </div>
-        <div class="robot-media-row">
-          <img src="../images//tempalte/locust-13.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-10.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-11.jpg" alt='' class="robot-photo"/>
+          <img src="../images/robot-img/locust/locust-12.jpg" alt='' class="robot-photo"/>
         </div>
       </div>
     </main>

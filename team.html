@@ -3,6 +3,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="./styles/site.css" />
+    <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico"/>
+    <title>CRC | Team</title>
   </head>
 
   <script src="scripts/team-interactivity.js"></script>
@@ -33,8 +35,8 @@
   <body onload="setCategory('full');">
     <header>
       <nav>
-        <a href="index.html">
-          <img src="images/logoscaled.png" width="50" alt="CRC logo" />
+        <a href="index.html" class="nav-logo">
+          <img src="images/logoscaled.png" alt="CRC logo" />
         </a>
         <div class="nav-bar-right">
           <a href="index.html">
@@ -52,7 +54,7 @@
           <a href="recruitment.html">
             <p>Recruitment</p>
           </a>
-          <a href="/media/game.html">
+          <a href="media/game.html" class="hide-on-mobile">
             <p>Game</p>
           </a>
         </div>
@@ -63,13 +65,13 @@
     <div class="image-position">
       <section style="position: relative; height: 28rem;">
         <div class="hero-image first">
-          <img src="images/team.bmp" alt="">
+          <img src="images/team/team.jpg" alt="">
         </div>
-        <img src="images/kinetic-subteam.jpg" alt="" class="hero-image">
-        <img src="images/sportsman-subteam.jpg" alt="" class="hero-image">
-        <img src="images/firmware-subteam.jpg" alt="" class="hero-image">
-        <img src="images/biz-subteam.jpg" alt="" class="hero-image">
-        <img src="images/senior-sendoff.jpg" alt="" class="hero-image">
+        <img src="images/team/kinetic-subteam.jpg" alt="" class="hero-image">
+        <img src="images/team/sportsman-subteam.jpg" alt="" class="hero-image">
+        <img src="images/team/firmware-subteam.jpg" alt="" class="hero-image">
+        <img src="images/team/biz-subteam.jpg" alt="" class="hero-image">
+        <img src="images/team/senior-sendoff.jpg" alt="" class="hero-image">
       </section>
     </div>
     
@@ -77,19 +79,19 @@
 
       <section id="subteam-buttons" class="team-page-buttons">
         <div onclick="changeSubteam('kinetic')">
-          <img src="images/electric.png" alt="">
+          <img src="images/icons/electric.png" alt="">
           <h2 id="kinetic">Kinetic</h2>
         </div>
         <div onclick="changeSubteam('sportsman')">
-          <img src="images/tech.png" alt="">
+          <img src="images/icons/tech.png" alt="">
           <h2 id="sportsman">Sportsman</h2>
         </div>
         <div onclick="changeSubteam('firmware')">
-          <img src="images/circuit.png" alt="">
+          <img src="images/icons/circuit.png" alt="">
           <h2 id="firmware">Firmware</h2>
         </div>
         <div onclick="changeSubteam('marketing')">
-          <img src="images/camera-setting.png" alt="">
+          <img src="images/icons/camera-setting.png" alt="">
           <h2 id="marketing">Marketing</h2>
         </div>
       </section>

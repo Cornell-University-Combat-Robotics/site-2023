@@ -11,21 +11,22 @@ const modal_bg = document.createElement("div");
 modal_bg.style = "position: fixed; top: 0rem; width: 100%; height: 100vh; background-color: rgba(184, 184, 184, 0.48); display: flex; flex-direction: column; justify-content: center;"
 modal_bg.style.transition = '0.5s'
 const modal = document.createElement("div");
-modal.style = "margin: 5rem auto; height: 32rem; max-width: 40rem; background-color: white; border-radius: 2rem"
+modal.style = "margin: 5rem auto; min-height: 32rem; max-width: 40rem; background-color: white; border-radius: 2rem"
 modal_bg.appendChild(modal);
 // x button: closes the popup
-const close_button = document.createElement("button")
+const close_button = document.createElement("img")
 close_button.id = "close-button"
 close_button.style = "float: right; width: 3rem; height: 3rem; font-size: 2rem; cursor: pointer; border: none; border-radius: 50%";
-close_button.innerHTML = "X"
+close_button.src = '../images/icons/close.png'
 modal.appendChild(close_button)
 // img: has its src replaced when images are enlarged
 const modal_img = document.createElement("img");
-modal_img.style = "width: 100%; height: 80%; object-fit: contain; margin: 1rem auto;"
+modal_img.style = "width: 100%; height: 80%; max-height: 32rem; object-fit: contain; margin: 1rem auto;"
 modal.appendChild(modal_img)
 // alt text paragraph: describes the image, taking an enlarged image's alt text
 const alt_text = document.createElement("p");
 alt_text.style.margin = '0.5rem 1rem'
+alt_text.style.paddingBottom = '1rem'
 modal.append(alt_text);
 // append the modal to the page for later use
 document.body.appendChild(modal_bg);
