@@ -291,7 +291,7 @@ const teamData = {
   "william": {
     "name": "William Murphy",
     "img_path": "images/team/members/William.jpg",
-    "position": "Sportsman VSL",
+    "position": "Cat",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
   },
