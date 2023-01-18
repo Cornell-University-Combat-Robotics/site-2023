@@ -1,6 +1,6 @@
 // Keep track of the current category.
 // this will be set over time by the script
-let currentSubteam = "full-team";
+let currentSubteam = "leads";
 
 // data for each team member. 
 // The key is an identifier for the member (usually lowercase name, 
@@ -424,9 +424,9 @@ const subteamData = {
     members: ["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
     description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
   },
-  "full": {
-    members: Object.keys(teamData),
-    description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
+  "leads": {
+    members: ["bruno-tassari", "luke-murphy", "isaac-newcomb", "anna-boese", "marcus-esposito", "molly-drumm", "richard-jin", "sebastian-rivera", "maya-zamor", "lucien-eckert", "william"],
+    description: "The leads coordinate our full team and subteams."
   },
   "alumni": {
     members: ["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],

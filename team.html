@@ -16,7 +16,7 @@
       else if (subteam == "sportsman") setBannerImg(2);
       else if (subteam == "firmware") setBannerImg(3);
       else if (subteam == "marketing") setBannerImg(4);
-      else if (subteam == "full") setBannerImg(0);
+      else if (subteam == "leads") setBannerImg(6);
       else if (subteam == "alumni") setBannerImg(5);
       setCategory(subteam);
     }
@@ -72,6 +72,7 @@
         <img src="images/team/firmware-subteam.jpg" alt="" class="hero-image">
         <img src="images/team/biz-subteam.jpg" alt="" class="hero-image">
         <img src="images/team/senior-sendoff.jpg" alt="" class="hero-image">
+        <img src="images/team/leads.jpg" alt="" class="hero-image">
       </section>
     </div>
     
@@ -96,9 +97,9 @@
         </div>
       </section>
       <section id='other-buttons' class="team-page-buttons">
-        <div onclick="changeSubteam('full')" >
+        <div onclick="changeSubteam('leads')" >
           <img src="images/icons/full-team.png" alt="">
-          <h2 id="fullteam">Full Team</h2>
+          <h2 id="fullteam">Team Leads</h2>
         </div>
         <div onclick="changeSubteam('alumni')" >
           <img src="images/icons/graduation-cap-icon.png" alt="">
@@ -107,7 +108,9 @@
       </section>
       
       <h2>Our <span id="team-name">Full</span> Team</h2>
-      <p id="team-description"></p>
+      <p id="team-description">
+        Our entire team consists of four subteams: Kinetic, Sportsman, Firmware, and Marketing. Click the buttons above to learn more about each of them!
+      </p>
 
       <section id="team-cards">
         <!-- Team cards are placed in here by the script. -->
