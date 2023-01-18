@@ -178,14 +178,14 @@ const teamData = {
   },
   "james-courtenay": {
     "name": "James Courtenay",
-    "img_path": "images/team/members/James.jpg",
+    "img_path": "images/team/members/James C.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "james-lasalle": {
     "name": "James LaSalle",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/James L.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
@@ -199,14 +199,14 @@ const teamData = {
   },
   "mohammed-chowdhury": {
     "name": "Mohammed Chowdhury",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Mohammed.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "stella-taglich": {
     "name": "Stella Taglich",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Stella.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
@@ -220,14 +220,14 @@ const teamData = {
   },
   "zander-knight": {
     "name": "Zander Knight",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Zander.jpg",
     "position": "Kinetic Member",
     "stats": [],
     "linkedin": ""
   },
   "alex-jenkins": {
     "name": "Alex Jenkins",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Alex.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
@@ -241,7 +241,7 @@ const teamData = {
   },
   "caleb-schlissel": {
     "name": "Caleb Schlissel",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Caleb.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
@@ -269,21 +269,21 @@ const teamData = {
   },
   "narayan-rueppel": {
     "name": "Narayan Rueppel",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Narayan.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "sana-gaya": {
     "name": "Sana Gaya",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Sana.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
   },
   "zarif-pathan": {
     "name": "Zarif Pathan",
-    "img_path": "images/team/members/placeholder.png",
+    "img_path": "images/team/members/Zarif.jpg",
     "position": "Sportsman Member",
     "stats": [],
     "linkedin": ""
