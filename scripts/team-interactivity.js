@@ -416,7 +416,7 @@ const subteamData = {
   },
   // keys for all marketing members
   "marketing": {
-    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "kaitlyn-hoxha", "linda-hu", "luke-murphy", "matthew-bark", "sardor-rahmatulloev", "sofie-halpern"],
+    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"],
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
