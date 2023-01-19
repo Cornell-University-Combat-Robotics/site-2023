@@ -36,9 +36,18 @@ const teamData = {
   //     ["Alcoholism", 50]
   //   ]
   // },
+
+  //marketing subteam
   "colin-rodriguez": {
     "name": "Colin Rodriguez",
     "img_path": "images/team/members/Colin.jpg",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
+  },
+  "edith-chen": {
+    "name": "Edith Chen",
+    "img_path": "images/team/members/placeholder.jpg",
     "position": "Marketing Member",
     "stats": [],
     "linkedin": ""
@@ -85,6 +94,13 @@ const teamData = {
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/maya-zamor-a9420b188"
   },
+  "ruby-wang": {
+    "name": "Ruby Wang",
+    "img_path": "images/team/members/placeholder.jpg",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
+  },
   "sardor-rahmatulloev": {
     "name": "Sardor Rahmatulloev",
     "img_path": "images/team/members/Sardor.jpg",
@@ -99,6 +115,8 @@ const teamData = {
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
   },
+
+  //Firmware subteam
   "benjamin-lorence": {
     "name": "Benjamin Lorence",
     "img_path": "images/team/members/Benjamin.jpg",
@@ -162,6 +180,8 @@ const teamData = {
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/shawn-siyuanchen"
   },
+
+  //kinetic subteam
   "anna-boese": {
     "name": "Anna Boese",
     "img_path": "images/team/members/Anna.jpg",
@@ -225,6 +245,8 @@ const teamData = {
     "stats": [],
     "linkedin": ""
   },
+
+  //sportsman subteam
   "alex-jenkins": {
     "name": "Alex Jenkins",
     "img_path": "images/team/members/Alex.jpg",
@@ -387,14 +409,11 @@ const teamData = {
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
   }
 }
+
 // This maps each subteam to a description, and an array of strings that
 // match the identifiers of its members in teamData.
 const subteamData = {
-  // keys for all kinetic members 
-  "kinetic": {
-    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
-    description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
-    // topics: {
+      // topics: {
     //   "Design": {
     //     blurb: "Designing blurb.",
     //     img_paths: ["images/team/members/john.jpg"],
@@ -408,15 +427,20 @@ const subteamData = {
     //     img_paths: ["images/firmware-subteam.jpg"],
     //   },
     // }
+
+  // keys for all kinetic members 
+  "kinetic": {
+    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
+    description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
   },
   // keys for all sportsman members
   "sportsman": {
-    members: ["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"],
+    members: ["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"],
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
   "marketing": {
-    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"],
+    members: ["maya-zamor", "lucien-eckert", "edith-chen", "ruby-wang", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"],
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
@@ -425,7 +449,10 @@ const subteamData = {
     description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
   },
   "full": {
-    members: Object.keys(teamData),
+    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight",
+    "marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan",
+    "maya-zamor", "lucien-eckert", "edith-chen", "ruby-wang", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev",
+    "richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
     description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
   },
   "alumni": {
