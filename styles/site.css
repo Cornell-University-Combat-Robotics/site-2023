@@ -424,6 +424,27 @@ header {
   height: 100%;
 }
 
+.break-line {
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+
+.sponsor-levels {
+  text-align: left;
+  color: #585858;
+}
+
+.sponsor-team {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  width: 900px;
+  height: auto;
+}
+
 /* Team Page */
 
 .team-page-buttons {
@@ -431,7 +452,7 @@ header {
   justify-content: center;
 }
 
-.team-page-buttons div {
+.team-page-buttons div, .team-page-buttons a {
   border-radius: 1rem;
   margin: 0.5rem;
   text-align: center;
@@ -443,16 +464,20 @@ header {
   color: var(--crc-red);
     padding: 0.25rem 0.75rem;
     filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
+  text-decoration: none;
 }
 
-.team-page-buttons div img {
+.team-page-buttons div img, .team-page-buttons a img  {
   max-width: 20%;
   padding-top: 1em;
 }
 
 .team-page-buttons div:hover,
 .team-page-buttons div:focus,
-.team-page-buttons div:active {
+.team-page-buttons div:active, 
+.team-page-buttons a:hover,
+.team-page-buttons a:focus,
+.team-page-buttons a:active {
   background-color: lightgray;
   cursor: pointer;
 }
