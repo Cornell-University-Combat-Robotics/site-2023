@@ -68,7 +68,11 @@ const teamData = {
     "name": "Luke Murphy",
     "img_path": "images/team/members/Luke.jpg",
     "position": "Vice Team Lead",
-    "stats": [],
+    "stats": [
+      ["Website Skills", "100"],
+      ["CAD", "10"],
+      ["Pixel Art", "60"]
+    ],
     "linkedin": "https://www.linkedin.com/in/luke-murphy-09659b22a/"
   },
   "matthew-bark": {
@@ -89,7 +93,11 @@ const teamData = {
     "name": "Sardor Rahmatulloev",
     "img_path": "images/team/members/Sardor.jpg",
     "position": "Marketing Member",
-    "stats": [],
+    "stats": [
+      ["Air Bending", "70"],
+      ["GitHub", "10"],
+      ["Pixel Art", "40"]
+    ],
     "linkedin": ""
   },
   "sofie-halpern": {
@@ -124,7 +132,11 @@ const teamData = {
     "name": "Grace Lim",
     "img_path": "images/team/members/Grace.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [
+      ["Handwriting", 100],
+      ["Being at Upson", 70],
+      ["Playing Genshin Consistently", 10]
+    ],
     "linkedin": ""
   },
   "katie-huntley": {
@@ -250,7 +262,11 @@ const teamData = {
     "name": "Charles Liu",
     "img_path": "images/team/members/Charles.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [
+      ["Being Tall", 50],
+      ["Big Brain", 10],
+      ["Sportsman Sunshine", 70]
+    ],
     "linkedin": "https://www.linkedin.com/in/charles-liu-035190181/"
   },
   "marcus-esposito": {
@@ -285,14 +301,22 @@ const teamData = {
     "name": "Zarif Pathan",
     "img_path": "images/team/members/Zarif.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [
+      ["Earth Bending", 40],
+      ["Circuitry", 80],
+      ["Drip", 60]
+    ],
     "linkedin": ""
   },
   "william": {
     "name": "William Murphy",
     "img_path": "images/team/members/William.jpg",
     "position": "Sportsman VSL",
-    "stats": [],
+    "stats": [
+           ["Meow", 50],
+           ["Cuteness", 100],
+           ["Attendance", 10]
+         ],
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
   },
   "shubham-mathur": {
