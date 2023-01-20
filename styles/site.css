@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Montserrat:wght@500&family=Trispace&display=swap');
 
 html {
   --crc-red: #b21c1c;
@@ -108,6 +108,9 @@ main {
     padding-right: 1rem;
 }
 
+h1 {
+  font-family: 'Nunito', sans-serif;
+}
 /* Header */
 
 nav {
@@ -117,7 +120,8 @@ nav {
 }
 
 header {
-  padding: 0.5em;
+    padding: 0em 0.5em;
+      padding-top: 0.5em;
   position: sticky;
   top: 0em;
   background-color: white;
@@ -147,6 +151,8 @@ header {
 
 .nav-bar-right a p {
   font-size: 1rem;
+  /* font-weight: bold; */
+    font-family: 'Trispace', sans-serif;
 }
 
 .nav-bar-right a:link,
@@ -602,6 +608,19 @@ header {
   margin-bottom: 4rem;
 }
 
+#full-team-info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.row-icon {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  margin: 0rem auto;
+}
 #team-info-description {
   width: 60%;
   padding: 1rem;
@@ -1006,7 +1025,7 @@ footer div ul li a {
   .nav-bar-right a p {
     font-size: 0.85rem;
   }
-
+  
   .nav-bar-right a {
     margin: 0em 0.5em;
     text-decoration: none;
@@ -1096,7 +1115,7 @@ footer div ul li a {
             min-height: 20rem;
           }
 
-  /* Footer */
+/* Footer */
 
   .footer-logo-box-aside {
     display: none;
