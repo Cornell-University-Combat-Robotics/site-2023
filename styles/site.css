@@ -583,6 +583,19 @@ header {
   margin-bottom: 4rem;
 }
 
+#full-team-info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.row-icon {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  margin: 0rem auto;
+}
 #team-info-description {
   width: 60%;
   padding: 1rem;
@@ -1077,7 +1090,7 @@ footer div ul li a {
             min-height: 20rem;
           }
 
-  /* Footer */
+/* Footer */
 
   .footer-logo-box-aside {
     display: none;

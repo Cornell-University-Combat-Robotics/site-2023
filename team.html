@@ -18,6 +18,8 @@
       else if (subteam == "marketing") setBannerImg(4);
       else if (subteam == "leads") setBannerImg(6);
       else if (subteam == "alumni") setBannerImg(5);
+      // chop off the full team info
+      if (subteam != 'full') document.getElementById("full-team-info").remove()
       setCategory(subteam);
     }
     
@@ -111,6 +113,21 @@
       <p id="team-description">
         Our entire team consists of four subteams: Kinetic, Sportsman, Firmware, and Marketing. Click the buttons above to learn more about each of them!
       </p>
+
+      <section id="full-team-info">
+        <div>
+          <img src="images/icons/full-team.png" alt="" class="row-icon">
+          <h3>35 Members</h3>
+        </div>
+        <div>
+          <img src="images/icons/graduation-cap-icon.png" alt="" class="row-icon">
+          <h3>10 Majors</h3>
+        </div>
+        <div>
+          <img src="images/icons/university.png" alt="" class="row-icon">
+          <h3>5 Colleges</h3>
+        </div>
+      </section>
 
       <section id="team-cards">
         <!-- Team cards are placed in here by the script. -->
