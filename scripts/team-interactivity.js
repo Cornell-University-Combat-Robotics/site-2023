@@ -279,7 +279,7 @@ const teamData = {
   "molly-drumm": {
     "name": "Molly Drumm",
     "img_path": "images/team/members/Molly.jpg",
-    "position": "Sportsman Member",
+    "position": "Sportsman VSL",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
@@ -435,7 +435,7 @@ const subteamData = {
   },
   // keys for all sportsman members
   "sportsman": {
-    members: ["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"],
+    members: ["marcus-esposito", "molly-drumm", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan", "william"],
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members

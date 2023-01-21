@@ -19,7 +19,10 @@
       else if (subteam == "leads") setBannerImg(6);
       else if (subteam == "alumni") setBannerImg(5);
       // chop off the full team info
-      if (subteam != 'full') document.getElementById("full-team-info").remove()
+      if (subteam != 'full') {
+        fullTeamInfo = document.getElementById("full-team-info")
+        if (fullTeamInfo != null) fullTeamInfo.remove()
+      }
       setCategory(subteam);
     }
     
