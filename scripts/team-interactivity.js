@@ -54,7 +54,9 @@ const teamData = {
     "name": "Linda Hu",
     "img_path": "images/team/members/Linda.jpg",
     "position": "Marketing Member",
-    "stats": [],
+    "stats": [["Drawing", "70"],
+              ["Punctuality", "90"],
+              ["Playing Genshin", "30"]],
     "linkedin": ""
   },
   "lucien-eckert": {
@@ -145,7 +147,9 @@ const teamData = {
     "name": "Shao Stassen",
     "img_path": "images/team/members/Shao.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [["Github", "90"],
+              ["Debugging", "20"],
+              ["Public Speaking", "40"]],
     "linkedin": ""
   },
   "sebastian-rivera": {
@@ -260,7 +264,9 @@ const teamData = {
     "name": "Marcus Esposito",
     "img_path": "images/team/members/Marcus.jpg",
     "position": "Sportsman SL",
-    "stats": [],
+    "stats": [["Punctuality", "90"],
+              ["Explaining Things", "60"],
+              ["Intimidation", "0"]],
     "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
   },
   "molly-drumm": {
@@ -276,7 +282,9 @@ const teamData = {
     "name": "Narayan Rueppel",
     "img_path": "images/team/members/Narayan.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [["Cargo Pants", "100"],
+              ["Getting Sniped", "100"],
+              ["Punctuality", "50"]],
     "linkedin": ""
   },
   "sana-gaya": {
