@@ -407,8 +407,8 @@ const marketing = []
 const firmware = []
 const alum = []
 const fullteam = []
+const leads = []
 for (key in teamData) {
-  //console.log(teamData[key])
   let member = teamData[key]
   console.log(member["position"])
   let pos = member["position"]
@@ -424,6 +424,9 @@ for (key in teamData) {
       marketing.push(key)
     } else if (pos.includes("Firmware")) {
       firmware.push(key)
+    }
+    if (pos.includes("Lead") || pos.includes("SL")) {
+      leads.push(key)
     }
   }
 }
