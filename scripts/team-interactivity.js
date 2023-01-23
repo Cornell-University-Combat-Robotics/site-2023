@@ -457,7 +457,7 @@ const subteamData = {
   // keys for all sportsman members
   "sportsman": {
     members: sportsman,
-    //["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
+    //["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
