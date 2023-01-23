@@ -229,7 +229,10 @@ const teamData = {
     "name": "Alex Jenkins",
     "img_path": "images/team/members/Alex.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [["Punctuality" , "80"],
+              ["Dragon Training" , "100"],
+              ["Spelling" , "20"]
+                ],
     "linkedin": ""
   },
   "bruno-tassari": {
@@ -264,7 +267,9 @@ const teamData = {
     "name": "Molly Drumm",
     "img_path": "images/team/members/Molly.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [["Quirkiness", "90"],
+              ["Diet", "10"],
+              ["Vegemite Eating", "100"]],
     "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
   "narayan-rueppel": {
@@ -387,12 +392,28 @@ const teamData = {
     "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
   }
 }
+
+const kinetic = []
+const sportsman = []
+const marketing = []
+const firmware = []
+const alum = []
+const fullteam = []
+for (key in teamData) {
+  console.log(teamData[key])
+  let pos = teamData[key].get("position")
+  if (pos.includes("kinetic")) {
+    kinetic.push(key)
+  }
+}
+
 // This maps each subteam to a description, and an array of strings that
 // match the identifiers of its members in teamData.
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
-    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
+    members: kinetic,
+    //["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
     description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
@@ -422,7 +443,7 @@ const subteamData = {
   // keys for all firmware members
   "firmware": {
     members: ["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
-    description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
+    description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to combat robots from past years to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project, whether it's adding facial recognition or path following."
   },
   "full": {
     members: Object.keys(teamData),
@@ -523,7 +544,7 @@ const createMemberCard = memberData => {
     stats.setAttribute("style", "transform: translate(-150%, 0%);")
   }  
   //TODO: Add stats
-  // links.appendChild(statsButton);
+    links.appendChild(statsButton);
   // attach linkedin, if applicable
   if (memberData['linkedin'].length > 0) {
     const linkedInButton = document.createElement("a")
