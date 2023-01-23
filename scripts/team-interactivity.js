@@ -408,10 +408,23 @@ const firmware = []
 const alum = []
 const fullteam = []
 for (key in teamData) {
-  console.log(teamData[key])
-  let pos = teamData[key].get("position")
-  if (pos.includes("kinetic")) {
-    kinetic.push(key)
+  //console.log(teamData[key])
+  let member = teamData[key]
+  console.log(member["position"])
+  let pos = member["position"]
+  if (pos.includes("Alum")) {
+    alum.push(key)
+  } else {
+    fullteam.push(key)
+    if (pos.includes("Kinetic")){
+      kinetic.push(key)
+    } else if (pos.includes("Sportsman")) {
+      sportsman.push(key)
+    } else if (pos.includes("Marketing")) {
+      marketing.push(key)
+    } else if (pos.includes("Firmware")) {
+      firmware.push(key)
+    }
   }
 }
 
@@ -440,25 +453,29 @@ const subteamData = {
   },
   // keys for all sportsman members
   "sportsman": {
-    members: ["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"],
+    members: sportsman,
+    //["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
   "marketing": {
-    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"],
+    members: marketing,
+    //["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"]
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
   "firmware": {
-    members: ["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
+    members: firmware,
+    //["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"]
     description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to combat robots from past years to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project, whether it's adding facial recognition or path following."
   },
   "full": {
-    members: Object.keys(teamData),
+    members: fullteam,
     description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
   },
   "alumni": {
-    members: ["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],
+    members: alum,
+    //["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"]
     description: "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!"
   }
 }
