@@ -324,70 +324,70 @@ const teamData = {
     "img_path": "images/team/members/shubham-mathur.jpg",
     "position": "Alum 2022 // Former Sportsman (2019-2022) // Co-Founder",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/shubham-m-3a41a9133/"
   },
   "rochelle-barsz": {
     "name": "Rochelle Barsz",
     "img_path": "images/team/members/rochelle-barsz.jpg",
     "position": "Alum 2022 // Former Firmware SL (2021-2022)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/rochelle-barsz/"
   },
   "michelle-zhou": {
     "name": "Michelle Zhou",
     "img_path": "images/team/members/michelle-zhou.jpg",
     "position": "Alum 2022 // Former Sportsman SL (2022)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/michelle-z-20b22b139/"
   },
   "rob-measner": {
     "name": "Rob Measner",
     "img_path": "images/team/members/rob-measner.jpg",
     "position": "Alum 2021 // Former Firmware (2019-2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/robert-measner-1a4108196/"
   },
   "esquared": {
     "name": "Erhunmwunse Eghafona",
     "img_path": "images/team/members/esquared.jpg",
     "position": "Alum 2022 // Former Kinetic (2021-2022)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/eeghafona/"
   },
   "kevin-liu": {
     "name": "Kevin Liu",
     "img_path": "images/team/members/kevin-liu.jpg",
     "position": "Alum 2022 // Former Sportsman SL (2020- 2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/kevin-liu-308546230/"
   },
   "ash-siddiqui": {
     "name": "Ash Siddiqui",
     "img_path": "images/team/members/ash-siddiqui.jpg",
     "position": "Alum 2022 // Former Firmware VSL (2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": ""
   },
   "alex-salonga": {
-    "name": "Ash Siddiqui",
+    "name": "Alex Salonga",
     "img_path": "images/team/members/alex-salonga.jpg",
     "position": "Alum 2022 // Former Marketing VSL (2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/alexander-salonga-4a0583177/"
   },
   "mo-moghaddasi": {
     "name": "Mohammad Ali Moghaddasi",
     "img_path": "images/team/members/mo-moghaddasi.jpg",
     "position": "Alum 2022 // Former Kinetic (2021-2022)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/mohammad-ali-moghaddasi-7797a5143/"
   },
   "ricky-wang": {
     "name": "Ricky Wang",
     "img_path": "images/team/members/ricky-wang.jpg",
     "position": "Alum 2022 // Former Kinetic SL (2021-2022)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/rickywang0/"
   },
   "sofie-halpern": {
     "name": "Sofie Halpern",
@@ -401,14 +401,14 @@ const teamData = {
     "img_path": "images/team/members/stefan-bell.jpg",
     "position": "Alum 2021 // Former Kinetic SL (2020-2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/stefan-bell-sb855/"
   },
   "kaitlyn-hoxha": {
     "name": "Kaitlyn Hoxha",
     "img_path": "images/team/members/Kaitlyn.jpg",
     "position": "Alum 2022 // Marketing // Former Marketing SL (2020-2021)",
     "stats": [],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
   }
 }
 // This maps each subteam to a description, and an array of strings that
