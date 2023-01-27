@@ -202,13 +202,6 @@ const teamData = {
     "stats": [],
     "linkedin": ""
   },
-  "margaret-gates": {
-    "name": "Margaret Gates",
-    "img_path": "images/team/members/Margaret.jpg",
-    "position": "Kinetic Member",
-    "stats": [],
-    "linkedin": ""
-  },
   "mohammed-chowdhury": {
     "name": "Mohammed Chowdhury",
     "img_path": "images/team/members/Mohammed.jpg",
@@ -416,7 +409,7 @@ const teamData = {
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
-    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
+    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
     description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
