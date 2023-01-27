@@ -399,9 +399,30 @@ const teamData = {
   "kaitlyn-hoxha": {
     "name": "Kaitlyn Hoxha",
     "img_path": "images/team/members/Kaitlyn.jpg",
-    "position": "Alum 2022 // Marketing // Former Marketing Subteam Lead (2020-2021)",
+    "position": "Alum 2022 // Former Marketing Subteam Lead (2020-2021)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
+  },
+  "edith-chen": {
+    "name": "Edith Chen",
+    "img_path": "images/team/members/Edith-Chen.jpg",
+    "position": "Marketing Member // Former Marketing Subteam Lead (2021-2022)",
+    "stats": [],
+    "linkedin": ""
+  },
+  "richard-kang": {
+    "name": "Richard Kang",
+    "img_path": "images/team/members/Richard-Kang.jpg",
+    "position": "Alum 2022 // Former Firmware (2021-2022)",
+    "stats": [],
+    "linkedin": ""
+  },
+  "ruby-wang": {
+    "name": "Ruby Wang",
+    "img_path": "images/team/members/Ruby-Wang.jpg",
+    "position": "Marketing Member",
+    "stats": [],
+    "linkedin": ""
   }
 }
 // This maps each subteam to a description, and an array of strings that
@@ -433,7 +454,7 @@ const subteamData = {
   },
   // keys for all marketing members
   "marketing": {
-    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"],
+    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "edith-chen", "linda-hu", "matthew-bark", "ruby-wang", "sardor-rahmatulloev"],
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
@@ -446,7 +467,7 @@ const subteamData = {
     description: "The leads coordinate our full team and subteams."
   },
   "alumni": {
-    members: ["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],
+    members: ["sofie-halpern", "kaitlyn-hoxha", "richard-kang", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],
     description: "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!"
   }
 }
