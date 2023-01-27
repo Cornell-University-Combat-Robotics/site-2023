@@ -463,7 +463,7 @@ const subteamData = {
     description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
   },
   "leads": {
-    members: ["bruno-tassari", "luke-murphy", "isaac-newcomb", "anna-boese", "marcus-esposito", "molly-drumm", "richard-jin", "sebastian-rivera", "maya-zamor", "lucien-eckert", "william"],
+    members: ["bruno-tassari", "luke-murphy", "isaac-newcomb", "james-courtenay", "marcus-esposito", "molly-drumm", "richard-jin", "sebastian-rivera", "maya-zamor", "lucien-eckert", "william"],
     description: "The leads coordinate our full team and subteams."
   },
   "alumni": {
