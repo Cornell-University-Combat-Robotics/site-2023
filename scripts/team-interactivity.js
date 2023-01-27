@@ -60,7 +60,7 @@ const teamData = {
   "lucien-eckert": {
     "name": "Lucien Eckert",
     "img_path": "images/team/members/Lucien.jpg",
-    "position": "Marketing VSL",
+    "position": "Marketing Vice Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/lucien-eckert/"
   },
@@ -85,7 +85,7 @@ const teamData = {
   "maya-zamor": {
     "name": "Maya Zamor",
     "img_path": "images/team/members/Maya.jpg",
-    "position": "Marketing SL",
+    "position": "Marketing Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/maya-zamor-a9420b188"
   },
@@ -117,7 +117,7 @@ const teamData = {
   "blaze-ezlakowski": {
     "name": "Blaze Ezlakowski",
     "img_path": "images/team/members/Blaze.jpg",
-    "position": "Firmware Member",
+    "position": "Firmware Member // Former Firmware Vice Subteam Lead (2022)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7"
   },
@@ -149,7 +149,7 @@ const teamData = {
   "richard-jin": {
     "name": "Richard Jin",
     "img_path": "images/team/members/Richard.jpg",
-    "position": "Firmware SL",
+    "position": "Firmware Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/richard-jin/"
   },
@@ -163,7 +163,7 @@ const teamData = {
   "sebastian-rivera": {
     "name": "Sebastian Rivera",
     "img_path": "images/team/members/Sebastian.jpg",
-    "position": "Firmware VSL",
+    "position": "Firmware Vice Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/sebastian-rivera-048478222/"
   },
@@ -177,21 +177,21 @@ const teamData = {
   "anna-boese": {
     "name": "Anna Boese",
     "img_path": "images/team/members/Anna.jpg",
-    "position": "Kinetic VSL",
+    "position": "Kinetic Member // Former Kinetic Vice Subteam Lead (2022)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/anna-boese-4a304819b/"
   },
   "isaac-newcomb": {
     "name": "Isaac Newcomb",
     "img_path": "images/team/members/Isaac.jpg",
-    "position": "Kinetic SL",
+    "position": "Kinetic Subteam Lead",
     "stats": [],
     "linkedin": "https://linkedin.com/in/isaacdnew"
   },
   "james-courtenay": {
     "name": "James Courtenay",
     "img_path": "images/team/members/James C.jpg",
-    "position": "Kinetic Member",
+    "position": "Kinetic Vice Subteam Lead",
     "stats": [],
     "linkedin": ""
   },
@@ -265,14 +265,14 @@ const teamData = {
   "marcus-esposito": {
     "name": "Marcus Esposito",
     "img_path": "images/team/members/Marcus.jpg",
-    "position": "Sportsman SL",
+    "position": "Sportsman Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
   },
   "molly-drumm": {
     "name": "Molly Drumm",
     "img_path": "images/team/members/Molly.jpg",
-    "position": "Sportsman VSL",
+    "position": "Sportsman Vice Subteam Lead",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
@@ -322,14 +322,14 @@ const teamData = {
   "rochelle-barsz": {
     "name": "Rochelle Barsz",
     "img_path": "images/team/members/rochelle-barsz.jpg",
-    "position": "Alum 2022 // Former Firmware SL (2021-2022)",
+    "position": "Alum 2022 // Former Firmware Subteam Lead (2021-2022)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/rochelle-barsz/"
   },
   "michelle-zhou": {
     "name": "Michelle Zhou",
     "img_path": "images/team/members/michelle-zhou.jpg",
-    "position": "Alum 2022 // Former Sportsman SL (2022)",
+    "position": "Alum 2022 // Former Sportsman Subteam Lead (2022)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/michelle-z-20b22b139/"
   },
@@ -350,21 +350,21 @@ const teamData = {
   "kevin-liu": {
     "name": "Kevin Liu",
     "img_path": "images/team/members/kevin-liu.jpg",
-    "position": "Alum 2022 // Former Sportsman SL (2020- 2021)",
+    "position": "Alum 2022 // Former Sportsman Subteam Lead (2020- 2021)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/kevin-liu-308546230/"
   },
   "ash-siddiqui": {
     "name": "Ash Siddiqui",
     "img_path": "images/team/members/ash-siddiqui.jpg",
-    "position": "Alum 2022 // Former Firmware VSL (2021)",
+    "position": "Alum 2022 // Former Firmware Vice Subteam Lead (2021)",
     "stats": [],
     "linkedin": ""
   },
   "alex-salonga": {
     "name": "Alex Salonga",
     "img_path": "images/team/members/alex-salonga.jpg",
-    "position": "Alum 2022 // Former Marketing VSL (2021)",
+    "position": "Alum 2022 // Former Marketing Vice Subteam Lead (2021)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/alexander-salonga-4a0583177/"
   },
@@ -378,7 +378,7 @@ const teamData = {
   "ricky-wang": {
     "name": "Ricky Wang",
     "img_path": "images/team/members/ricky-wang.jpg",
-    "position": "Alum 2022 // Former Kinetic SL (2021-2022)",
+    "position": "Alum 2022 // Former Kinetic Subteam Lead (2021-2022)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/rickywang0/"
   },
@@ -392,14 +392,14 @@ const teamData = {
   "stefan-bell": {
     "name": "Stefan Bell",
     "img_path": "images/team/members/stefan-bell.jpg",
-    "position": "Alum 2021 // Former Kinetic SL (2020-2021)",
+    "position": "Alum 2021 // Former Kinetic Subteam Lead (2020-2021)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/stefan-bell-sb855/"
   },
   "kaitlyn-hoxha": {
     "name": "Kaitlyn Hoxha",
     "img_path": "images/team/members/Kaitlyn.jpg",
-    "position": "Alum 2022 // Marketing // Former Marketing SL (2020-2021)",
+    "position": "Alum 2022 // Marketing // Former Marketing Subteam Lead (2020-2021)",
     "stats": [],
     "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
   }
@@ -409,7 +409,7 @@ const teamData = {
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
-    members: ["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
+    members: ["isaac-newcomb", "james-courtenay", "anna-boese", "james-lasalle", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
     description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
