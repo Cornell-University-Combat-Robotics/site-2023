@@ -825,7 +825,8 @@ header {
   /*overflow: hidden;*/
 }
 
-.featured-fight-video-box iframe {
+.featured-fight-video-box iframe,
+.featured-fight-video-box video {
   border: 0;
   position: absolute;
   top: 0;
