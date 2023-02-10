@@ -132,7 +132,11 @@ const teamData = {
     "name": "Ethan Zhang",
     "img_path": "images/team/members/Ethan.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [
+      ["Fire Bending", 70],
+      ["Cursed Knowledge", 20],
+      ["GitHub", 50]
+    ],
     "linkedin": ""
   },
   "grace-lim": {
