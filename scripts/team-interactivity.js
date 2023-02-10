@@ -54,7 +54,9 @@ const teamData = {
     "name": "Linda Hu",
     "img_path": "images/team/members/Linda.jpg",
     "position": "Marketing Member",
-    "stats": [],
+    "stats": [["Drawing", "70"],
+              ["Punctuality", "90"],
+              ["Playing Genshin", "30"]],
     "linkedin": ""
   },
   "lucien-eckert": {
@@ -157,7 +159,9 @@ const teamData = {
     "name": "Shao Stassen",
     "img_path": "images/team/members/Shao.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [["Github", "90"],
+              ["Debugging", "20"],
+              ["Public Speaking", "40"]],
     "linkedin": ""
   },
   "sebastian-rivera": {
@@ -234,7 +238,10 @@ const teamData = {
     "name": "Alex Jenkins",
     "img_path": "images/team/members/Alex.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [["Punctuality" , "80"],
+              ["Dragon Training" , "100"],
+              ["Spelling" , "20"]
+                ],
     "linkedin": ""
   },
   "bruno-tassari": {
@@ -266,21 +273,27 @@ const teamData = {
     "name": "Marcus Esposito",
     "img_path": "images/team/members/Marcus.jpg",
     "position": "Sportsman Subteam Lead",
-    "stats": [],
+    "stats": [["Punctuality", "90"],
+              ["Explaining Things", "60"],
+              ["Intimidation", "0"]],
     "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
   },
   "molly-drumm": {
     "name": "Molly Drumm",
     "img_path": "images/team/members/Molly.jpg",
     "position": "Sportsman Vice Subteam Lead",
-    "stats": [],
+    "stats": [["Quirkiness", "90"],
+              ["Diet", "10"],
+              ["Vegemite Eating", "100"]],
     "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
   "narayan-rueppel": {
     "name": "Narayan Rueppel",
     "img_path": "images/team/members/Narayan.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [["Cargo Pants", "100"],
+              ["Getting Sniped", "100"],
+              ["Punctuality", "50"]],
     "linkedin": ""
   },
   "sana-gaya": {
@@ -425,12 +438,44 @@ const teamData = {
     "linkedin": ""
   }
 }
+
+const kinetic = []
+const sportsman = []
+const marketing = []
+const firmware = []
+const alum = []
+const fullteam = []
+const leads = []
+for (key in teamData) {
+  let member = teamData[key]
+  console.log(member["position"])
+  let pos = member["position"]
+  if (pos.includes("Alum")) {
+    alum.push(key)
+  } else {
+    fullteam.push(key)
+    if (pos.includes("Kinetic")){
+      kinetic.push(key)
+    } else if (pos.includes("Sportsman")) {
+      sportsman.push(key)
+    } else if (pos.includes("Marketing")) {
+      marketing.push(key)
+    } else if (pos.includes("Firmware")) {
+      firmware.push(key)
+    }
+    if (pos.includes("Lead") || pos.includes("SL")) {
+      leads.push(key)
+    }
+  }
+}
+
 // This maps each subteam to a description, and an array of strings that
 // match the identifiers of its members in teamData.
 const subteamData = {
   // keys for all kinetic members 
   "kinetic": {
-    members: ["isaac-newcomb", "james-courtenay", "anna-boese", "james-lasalle", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
+    members: kinetic,
+    //["isaac-newcomb", "anna-boese", "james-courtenay", "james-lasalle", "margaret-gates", "mohammed-chowdhury", "stella-taglich", "spencer-hurst", "zander-knight"], 
     description: "The Kinetic subteam designs and manufactures a combat robot in a high-kinetic-energy class, emphasizing damage, durability, and a competitive edge. Kinetic integrates all sections of robot design, including: the chassis, which involves the shell, armor and internal structure of the robot; the weapon, which involves the damage-dealing components and selects electronics to power them; and the powertrain, which involves the locomotion system.  The final robot is a combination of these assets into a reliable, compact system.",
     // topics: {
     //   "Design": {
@@ -449,25 +494,29 @@ const subteamData = {
   },
   // keys for all sportsman members
   "sportsman": {
-    members: ["marcus-esposito", "molly-drumm", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan", "william"],
+    members: sportsman,
+    //["marcus-esposito", "william", "alex-jenkins", "bruno-tassari", "caleb-schlissel", "charles-liu", "molly-drumm", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description: "The Sportsman subteam designs and manufactures a combat robot in the Sportsman class, a low-kinetic-energy combat robot class that emphasizes creativity, design ingenuity, and interdisciplinary collaboration. Without the crutch of raw power, Sportsman has to find unique ways to dominate the competition. They also spend a really, really long time thinking of each robot's name."
   },
   // keys for all marketing members
   "marketing": {
-    members: ["maya-zamor", "lucien-eckert", "colin-rodriguez", "edith-chen", "linda-hu", "matthew-bark", "ruby-wang", "sardor-rahmatulloev"],
+    members: marketing,
+    //["maya-zamor", "lucien-eckert", "colin-rodriguez", "linda-hu", "matthew-bark", "sardor-rahmatulloev"]
     description: "Our Marketing subteam organizes team events, manages the budget, codes the website, maintains alumni and corporate relationships, and secures funding for the team. Members manage the team's image by implementing new website features, and developing creative designs for merchandise and promotional material (including our video game!). Finally, marketing collectively displays CRC's progress and personality through social media. Most of the subteam's work is structured around our main projects, as well as sporadic events that occur throughout the school year."
   },
   // keys for all firmware members
   "firmware": {
-    members: ["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"],
-    description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to old combat robots to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project."
+    members: firmware,
+    //["richard-jin", "sebastian-rivera", "benjamin-lorence", "blaze-ezlakowski", "ethan-zhang", "grace-lim", "katie-huntley", "shao-stassen", "shawn-chen"]
+    description: "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to combat robots from past years to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project, whether it's adding facial recognition or path following."
   },
-  "leads": {
-    members: ["bruno-tassari", "luke-murphy", "isaac-newcomb", "james-courtenay", "marcus-esposito", "molly-drumm", "richard-jin", "sebastian-rivera", "maya-zamor", "lucien-eckert", "william"],
-    description: "The leads coordinate our full team and subteams."
+  "full": {
+    members: fullteam,
+    description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
   },
   "alumni": {
-    members: ["sofie-halpern", "kaitlyn-hoxha", "richard-kang", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"],
+    members: alum,
+    //["sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"]
     description: "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!"
   }
 }
