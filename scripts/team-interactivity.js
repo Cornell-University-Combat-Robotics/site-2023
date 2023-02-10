@@ -551,17 +551,18 @@ const createMemberCard = memberData => {
   // and set up interactivity
   const links = document.createElement("div");
   links.className = "member-links";
-  const statsButton = document.createElement("button");
-  statsButton.className = "stats-button";
-  statsButton.innerHTML = "Stats";
-  statsButton.onpointerover = () => {
-    stats.setAttribute("style", "transform: translate(0%, 0%);")
-  }  
-  statsButton.onpointerout = () => {
-    stats.setAttribute("style", "transform: translate(-150%, 0%);")
-  }  
-  //TODO: Add stats
-  // links.appendChild(statsButton);
+  if (memberData['stats'].length > 0) {
+    const statsButton = document.createElement("button");
+    statsButton.className = "stats-button";
+    statsButton.innerHTML = "Stats";
+    statsButton.onpointerover = () => {
+      stats.setAttribute("style", "transform: translate(0%, 0%);")
+    }  
+    statsButton.onpointerout = () => {
+      stats.setAttribute("style", "transform: translate(-150%, 0%);")
+    }  
+    links.appendChild(statsButton);
+  }
   // attach linkedin, if applicable
   if (memberData['linkedin'].length > 0) {
     const linkedInButton = document.createElement("a")
