@@ -63,7 +63,12 @@ const teamData = {
     "name": "Lucien Eckert",
     "img_path": "images/team/members/Lucien.jpg",
     "position": "Marketing Vice Subteam Lead",
-    "stats": [],
+    "stats": [
+      ["Game Development", 70],
+      ["Escaping from Captivity", 40],
+      ["Writing Inline CSS", 100]
+
+    ],
     "linkedin": "https://www.linkedin.com/in/lucien-eckert/"
   },
   "luke-murphy": {
@@ -152,7 +157,11 @@ const teamData = {
     "name": "Richard Jin",
     "img_path": "images/team/members/Richard.jpg",
     "position": "Firmware Subteam Lead",
-    "stats": [],
+    "stats": [
+      ["Time Complexity Analysis", 70],
+      ["Fanny Pack Wearing", 10],
+      ["GitHub", 40]
+    ],
     "linkedin": "https://www.linkedin.com/in/richard-jin/"
   },
   "shao-stassen": {
@@ -175,21 +184,34 @@ const teamData = {
     "name": "Shawn Chen",
     "img_path": "images/team/members/Shawn.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [
+      ["Hoodie and Jean Combo", 80],
+      ["Attending Socials", 5],
+      ["Impersonating Polish People", 100]
+    ],
     "linkedin": "https://www.linkedin.com/in/shawn-siyuanchen"
   },
   "anna-boese": {
     "name": "Anna Boese",
     "img_path": "images/team/members/Anna.jpg",
     "position": "Kinetic Member // Former Kinetic Vice Subteam Lead (2022)",
-    "stats": [],
+    "stats": [
+      ["Hair Color Consistency", 10],
+      ["Short Term Memory", 40],
+      ["Adaptability", 90]
+    ],
+
     "linkedin": "https://www.linkedin.com/in/anna-boese-4a304819b/"
   },
   "isaac-newcomb": {
     "name": "Isaac Newcomb",
     "img_path": "images/team/members/Isaac.jpg",
     "position": "Kinetic Subteam Lead",
-    "stats": [],
+    "stats": [
+      ["Robot Piloting", 90],
+      ["Scooter Skills", 80],
+      ["Having Time to Compose the CRCCU Theme Song", 20]
+    ],
     "linkedin": "https://linkedin.com/in/isaacdnew"
   },
   "james-courtenay": {
@@ -210,7 +232,11 @@ const teamData = {
     "name": "Mohammed Chowdhury",
     "img_path": "images/team/members/Mohammed.jpg",
     "position": "Kinetic Member",
-    "stats": [],
+    "stats": [
+      ["CAD", 85],
+      ["Finding ESCs", 60],
+      ["Vision", 30]
+    ],
     "linkedin": ""
   },
   "stella-taglich": {
@@ -255,7 +281,11 @@ const teamData = {
     "name": "Caleb Schlissel",
     "img_path": "images/team/members/Caleb.jpg",
     "position": "Sportsman Member",
-    "stats": [],
+    "stats": [
+      ["Big Brain", 100],
+      ["Social Life", 40],
+      ["Pancreas", 10]
+    ],
     "linkedin": ""
   },
   "charles-liu": {
@@ -445,7 +475,14 @@ const marketing = []
 const firmware = []
 const alum = []
 const fullteam = []
-const leads = []
+const leads = [
+  'bruno-tassari', 'luke-murphy', 
+  'isaac-newcomb', 'james-courtenay',
+  'marcus-esposito', 'molly-drumm',
+  'richard-jin', 'sebastian-rivera',
+  'maya-zamor', 'lucien-eckert',
+  'william'
+] // set manually
 for (key in teamData) {
   let member = teamData[key]
   console.log(member["position"])
@@ -462,9 +499,6 @@ for (key in teamData) {
       marketing.push(key)
     } else if (pos.includes("Firmware")) {
       firmware.push(key)
-    }
-    if (pos.includes("Lead") || pos.includes("SL")) {
-      leads.push(key)
     }
   }
 }
@@ -513,6 +547,10 @@ const subteamData = {
   "full": {
     members: fullteam,
     description: "The whole burrito. Click any of the buttons above to learn about each of our four subteams!"
+  },
+  "leads":{
+    members: leads,
+    description: "Our full team and subteam leads keep CRC running smoothly. Through weekly sync meetings and our tight-knit culture, they help ensure our team functions efficiently as a unified whole."
   },
   "alumni": {
     members: alum,

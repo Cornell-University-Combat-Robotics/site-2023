@@ -513,9 +513,10 @@ header {
   position: relative;
   margin: 1rem 0.5rem;
   width: 17rem;
+  height: 26rem;
   filter: drop-shadow(0.1rem 0.1rem 0.25rem grey);
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -566,6 +567,9 @@ header {
 }
 
 .card .member-links {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   display: flex;
   justify-content: flex-end;
 }
