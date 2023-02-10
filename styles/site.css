@@ -546,7 +546,7 @@ header {
 }
 
 .stats .stat-value {
-  background-color: orange;
+  background-color: var(--crc-red);
   height: 100%;
 }
 
