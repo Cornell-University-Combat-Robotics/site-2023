@@ -212,7 +212,11 @@ const teamData = {
     name: "Stella Taglich",
     img_path: "images/team/members/Stella.jpg",
     position: "Kinetic Member",
-    stats: [],
+    stats: [
+      ["Bending electronics", 8],
+      ["Finding keys to her car", 1],
+      ["Sniping", 7],
+    ],
     linkedin: "",
   },
   "spencer-hurst": {
