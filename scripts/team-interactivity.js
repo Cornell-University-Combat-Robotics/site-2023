@@ -37,70 +37,69 @@ const teamData = {
   //   ]
   // },
   "colin-rodriguez": {
-    "name": "Colin Rodriguez",
-    "img_path": "images/team/members/Colin.jpg",
-    "position": "Marketing Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Colin Rodriguez",
+    img_path: "images/team/members/Colin.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: ""
   },
   "kaitlyn-hoxha": {
-    "name": "Kaitlyn Hoxha",
-    "img_path": "images/team/members/Kaitlyn.jpg",
-    "position": "Marketing Member",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
+    name: "Kaitlyn Hoxha",
+    img_path: "images/team/members/Kaitlyn.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/kaitlyn-hoxha/"
   },
   "linda-hu": {
-    "name": "Linda Hu",
-    "img_path": "images/team/members/Linda.jpg",
-    "position": "Marketing Member",
-    "stats": [["Drawing", "70"],
-              ["Punctuality", "90"],
-              ["Playing Genshin", "30"]],
-    "linkedin": ""
+    name: "Linda Hu",
+    img_path: "images/team/members/Linda.jpg",
+    position: "Marketing Member",
+    stats: [["Drawing", "70"],
+            ["Punctuality", "90"],
+            ["Playing Genshin", "30"]],
+    linkedin: ""
   },
   "lucien-eckert": {
-    "name": "Lucien Eckert",
-    "img_path": "images/team/members/Lucien.jpg",
-    "position": "Marketing Vice Subteam Lead",
-    "stats": [
+    name: "Lucien Eckert",
+    img_path: "images/team/members/Lucien.jpg",
+    position: "Marketing Vice Subteam Lead",
+    stats: [
       ["Game Development", 70],
       ["Escaping from Captivity", 40],
       ["Writing Inline CSS", 100]
-
     ],
-    "linkedin": "https://www.linkedin.com/in/lucien-eckert/"
+    linkedin: "https://www.linkedin.com/in/lucien-eckert/"
   },
   "luke-murphy": {
-    "name": "Luke Murphy",
-    "img_path": "images/team/members/Luke.jpg",
-    "position": "Vice Team Lead",
-    "stats": [
+    name: "Luke Murphy",
+    img_path: "images/team/members/Luke.jpg",
+    position: "Vice Team Lead",
+    stats: [
       ["Website Skills", "100"],
       ["CAD", "10"],
       ["Pixel Art", "60"]
     ],
-    "linkedin": "https://www.linkedin.com/in/luke-murphy-09659b22a/"
+    linkedin: "https://www.linkedin.com/in/luke-murphy-09659b22a/"
   },
   "matthew-bark": {
-    "name": "Matthew Bark",
-    "img_path": "images/team/members/Matthew.jpg",
-    "position": "Marketing Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Matthew Bark",
+    img_path: "images/team/members/Matthew.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: ""
   },
   "maya-zamor": {
-    "name": "Maya Zamor",
-    "img_path": "images/team/members/Maya.jpg",
-    "position": "Marketing Subteam Lead",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/maya-zamor-a9420b188"
+    name: "Maya Zamor",
+    img_path: "images/team/members/Maya.jpg",
+    position: "Marketing Subteam Lead",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/maya-zamor-a9420b188"
   },
   "sardor-rahmatulloev": {
-    "name": "Sardor Rahmatulloev",
-    "img_path": "images/team/members/Sardor.jpg",
-    "position": "Marketing Member",
-    "stats": [
+    name: "Sardor Rahmatulloev",
+    img_path: "images/team/members/Sardor.jpg",
+    position: "Marketing Member",
+    stats: [
       ["Air Bending", "70"],
       ["GitHub", "10"],
       ["Pixel Art", "40"]
@@ -108,368 +107,376 @@ const teamData = {
     "linkedin": ""
   },
   "sofie-halpern": {
-    "name": "Sofie Halpern",
-    "img_path": "images/team/members/Sofie.jpg",
-    "position": "Former Team Lead",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
+    name: "Sofie Halpern",
+    img_path: "images/team/members/Sofie.jpg",
+    position: "Former Team Lead",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/sofie-halpern/"
   },
   "benjamin-lorence": {
-    "name": "Benjamin Lorence",
-    "img_path": "images/team/members/Benjamin.jpg",
-    "position": "Firmware Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Benjamin Lorence",
+    img_path: "images/team/members/Benjamin.jpg",
+    position: "Firmware Member",
+    stats: [],
+    linkedin: ""
   },
   "blaze-ezlakowski": {
-    "name": "Blaze Ezlakowski",
-    "img_path": "images/team/members/Blaze.jpg",
-    "position": "Firmware Member // Former Firmware Vice Subteam Lead (2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7"
+    name: "Blaze Ezlakowski",
+    img_path: "images/team/members/Blaze.jpg",
+    position: "Firmware Member // Former Firmware Vice Subteam Lead (2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7"
   },
   "ethan-zhang": {
-    "name": "Ethan Zhang",
-    "img_path": "images/team/members/Ethan.jpg",
-    "position": "Firmware Member",
-    "stats": [
+    name: "Ethan Zhang",
+    img_path: "images/team/members/Ethan.jpg",
+    position: "Firmware Member",
+    stats: [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
       ["GitHub", 50]
     ],
-    "linkedin": ""
+    linkedin: ""
   },
   "grace-lim": {
-    "name": "Grace Lim",
-    "img_path": "images/team/members/Grace.jpg",
-    "position": "Firmware Member",
-    "stats": [
+    name: "Grace Lim",
+    img_path: "images/team/members/Grace.jpg",
+    position: "Firmware Member",
+    stats: [
       ["Handwriting", 100],
       ["Being at Upson", 70],
       ["Playing Genshin Consistently", 10]
     ],
-    "linkedin": ""
+    linkedin: ""
   },
   "katie-huntley": {
-    "name": "Katie Huntley",
-    "img_path": "images/team/members/Katie.jpg",
-    "position": "Firmware Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Katie Huntley",
+    img_path: "images/team/members/Katie.jpg",
+    position: "Firmware Member",
+    stats: [],
+    linkedin: ""
   },
   "richard-jin": {
-    "name": "Richard Jin",
-    "img_path": "images/team/members/Richard.jpg",
-    "position": "Firmware Subteam Lead",
-    "stats": [
+    name: "Richard Jin",
+    img_path: "images/team/members/Richard.jpg",
+    position: "Firmware Subteam Lead",
+    stats: [
       ["Time Complexity Analysis", 70],
       ["Fanny Pack Wearing", 10],
       ["GitHub", 40]
     ],
-    "linkedin": "https://www.linkedin.com/in/richard-jin/"
+    linkedin: "https://www.linkedin.com/in/richard-jin/"
   },
   "shao-stassen": {
-    "name": "Shao Stassen",
-    "img_path": "images/team/members/Shao.jpg",
-    "position": "Firmware Member",
-    "stats": [["Github", "90"],
-              ["Debugging", "20"],
-              ["Public Speaking", "40"]],
-    "linkedin": ""
+    name: "Shao Stassen",
+    img_path: "images/team/members/Shao.jpg",
+    position: "Firmware Member",
+    stats: [
+      ["Github", "90"],
+      ["Debugging", "20"],
+      ["Public Speaking", "40"]
+    ],
+    linkedin: ""
   },
   "sebastian-rivera": {
-    "name": "Sebastian Rivera",
-    "img_path": "images/team/members/Sebastian.jpg",
-    "position": "Firmware Vice Subteam Lead",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/sebastian-rivera-048478222/"
+    name: "Sebastian Rivera",
+    img_path: "images/team/members/Sebastian.jpg",
+    position: "Firmware Vice Subteam Lead",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/sebastian-rivera-048478222/"
   },
   "shawn-chen": {
-    "name": "Shawn Chen",
-    "img_path": "images/team/members/Shawn.jpg",
-    "position": "Firmware Member",
-    "stats": [
+    name: "Shawn Chen",
+    img_path: "images/team/members/Shawn.jpg",
+    position: "Firmware Member",
+    stats: [
       ["Hoodie and Jean Combo", 80],
       ["Attending Socials", 5],
       ["Impersonating Polish People", 100]
     ],
-    "linkedin": "https://www.linkedin.com/in/shawn-siyuanchen"
+    linkedin: "https://www.linkedin.com/in/shawn-siyuanchen"
   },
   "anna-boese": {
-    "name": "Anna Boese",
-    "img_path": "images/team/members/Anna.jpg",
-    "position": "Kinetic Member // Former Kinetic Vice Subteam Lead (2022)",
-    "stats": [
+    name: "Anna Boese",
+    img_path: "images/team/members/Anna.jpg",
+    position: "Kinetic Member // Former Kinetic Vice Subteam Lead (2022)",
+    stats: [
       ["Hair Color Consistency", 10],
       ["Short Term Memory", 40],
       ["Adaptability", 90]
     ],
-
-    "linkedin": "https://www.linkedin.com/in/anna-boese-4a304819b/"
+    linkedin: "https://www.linkedin.com/in/anna-boese-4a304819b/"
   },
   "isaac-newcomb": {
-    "name": "Isaac Newcomb",
-    "img_path": "images/team/members/Isaac.jpg",
-    "position": "Kinetic Subteam Lead",
-    "stats": [
+    name: "Isaac Newcomb",
+    img_path: "images/team/members/Isaac.jpg",
+    position: "Kinetic Subteam Lead",
+    stats: [
       ["Robot Piloting", 90],
       ["Scooter Skills", 80],
       ["Having Time to Compose the CRCCU Theme Song", 20]
     ],
-    "linkedin": "https://linkedin.com/in/isaacdnew"
+    linkedin: "https://linkedin.com/in/isaacdnew"
   },
   "james-courtenay": {
-    "name": "James Courtenay",
-    "img_path": "images/team/members/James C.jpg",
-    "position": "Kinetic Vice Subteam Lead",
-    "stats": [],
-    "linkedin": ""
+    name: "James Courtenay",
+    img_path: "images/team/members/James C.jpg",
+    position: "Kinetic Vice Subteam Lead",
+    stats: [],
+    linkedin: ""
   },
   "james-lasalle": {
-    "name": "James LaSalle",
-    "img_path": "images/team/members/James L.jpg",
-    "position": "Kinetic Member",
-    "stats": [],
-    "linkedin": ""
+    name: "James LaSalle",
+    img_path: "images/team/members/James L.jpg",
+    position: "Kinetic Member",
+    stats: [],
+    linkedin: ""
   },
   "mohammed-chowdhury": {
-    "name": "Mohammed Chowdhury",
-    "img_path": "images/team/members/Mohammed.jpg",
-    "position": "Kinetic Member",
-    "stats": [
+    name: "Mohammed Chowdhury",
+    img_path: "images/team/members/Mohammed.jpg",
+    position: "Kinetic Member",
+    stats: [
       ["CAD", 85],
       ["Finding ESCs", 60],
       ["Vision", 30]
     ],
-    "linkedin": ""
+    linkedin: ""
   },
   "stella-taglich": {
-    "name": "Stella Taglich",
-    "img_path": "images/team/members/Stella.jpg",
-    "position": "Kinetic Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Stella Taglich",
+    img_path: "images/team/members/Stella.jpg",
+    position: "Kinetic Member",
+    stats: [],
+    linkedin: ""
   },
   "spencer-hurst": {
-    "name": "Spencer Hurst",
-    "img_path": "images/team/members/Spencer.jpg",
-    "position": "Kinetic Member",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/spencer-hurst-918627191/"
+    name: "Spencer Hurst",
+    img_path: "images/team/members/Spencer.jpg",
+    position: "Kinetic Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/spencer-hurst-918627191/"
   },
   "zander-knight": {
-    "name": "Zander Knight",
-    "img_path": "images/team/members/Zander.jpg",
-    "position": "Kinetic Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Zander Knight",
+    img_path: "images/team/members/Zander.jpg",
+    position: "Kinetic Member",
+    stats: [],
+    linkedin: ""
   },
   "alex-jenkins": {
-    "name": "Alex Jenkins",
-    "img_path": "images/team/members/Alex.jpg",
-    "position": "Sportsman Member",
-    "stats": [["Punctuality" , "80"],
-              ["Dragon Training" , "100"],
-              ["Spelling" , "20"]
-                ],
-    "linkedin": ""
+    name: "Alex Jenkins",
+    img_path: "images/team/members/Alex.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Punctuality" , "80"],
+      ["Dragon Training" , "100"],
+      ["Spelling" , "20"]
+    ],
+    linkedin: ""
   },
   "bruno-tassari": {
-    "name": "Bruno Tassari",
-    "img_path": "images/team/members/Bruno.jpg",
-    "position": "Team Lead",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/bruno-tassari-18928b19b/"
+    name: "Bruno Tassari",
+    img_path: "images/team/members/Bruno.jpg",
+    position: "Team Lead",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/bruno-tassari-18928b19b/"
   },
   "caleb-schlissel": {
-    "name": "Caleb Schlissel",
-    "img_path": "images/team/members/Caleb.jpg",
-    "position": "Sportsman Member",
-    "stats": [
+    name: "Caleb Schlissel",
+    img_path: "images/team/members/Caleb.jpg",
+    position: "Sportsman Member",
+    stats: [
       ["Big Brain", 100],
       ["Social Life", 40],
       ["Pancreas", 10]
     ],
-    "linkedin": ""
+    linkedin: ""
   },
   "charles-liu": {
-    "name": "Charles Liu",
-    "img_path": "images/team/members/Charles.jpg",
-    "position": "Sportsman Member",
-    "stats": [
+    name: "Charles Liu",
+    img_path: "images/team/members/Charles.jpg",
+    position: "Sportsman Member",
+    stats: [
       ["Being Tall", 50],
       ["Big Brain", 10],
       ["Sportsman Sunshine", 70]
     ],
-    "linkedin": "https://www.linkedin.com/in/charles-liu-035190181/"
+    linkedin: "https://www.linkedin.com/in/charles-liu-035190181/"
   },
   "marcus-esposito": {
-    "name": "Marcus Esposito",
-    "img_path": "images/team/members/Marcus.jpg",
-    "position": "Sportsman Subteam Lead",
-    "stats": [["Punctuality", "90"],
-              ["Explaining Things", "60"],
-              ["Intimidation", "0"]],
-    "linkedin": "https://www.linkedin.com/in/marcus-esposito/"
+    name: "Marcus Esposito",
+    img_path: "images/team/members/Marcus.jpg",
+    position: "Sportsman Subteam Lead",
+    stats: [
+      ["Punctuality", "90"],
+      ["Explaining Things", "60"],
+      ["Intimidation", "0"]
+    ],
+    linkedin: "https://www.linkedin.com/in/marcus-esposito/"
   },
   "molly-drumm": {
-    "name": "Molly Drumm",
-    "img_path": "images/team/members/Molly.jpg",
-    "position": "Sportsman Vice Subteam Lead",
-    "stats": [["Quirkiness", "90"],
-              ["Diet", "10"],
-              ["Vegemite Eating", "100"]],
-    "linkedin": "https://www.linkedin.com/in/molly-drumm-a4430a208/"
+    name: "Molly Drumm",
+    img_path: "images/team/members/Molly.jpg",
+    position: "Sportsman Vice Subteam Lead",
+    stats: [
+      ["Quirkiness", "90"],
+      ["Diet", "10"],
+      ["Vegemite Eating", "100"]
+    ],
+    linkedin: "https://www.linkedin.com/in/molly-drumm-a4430a208/"
   },
   "narayan-rueppel": {
-    "name": "Narayan Rueppel",
-    "img_path": "images/team/members/Narayan.jpg",
-    "position": "Sportsman Member",
-    "stats": [["Cargo Pants", "100"],
-              ["Getting Sniped", "100"],
-              ["Punctuality", "50"]],
-    "linkedin": ""
+    name: "Narayan Rueppel",
+    img_path: "images/team/members/Narayan.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Cargo Pants", "100"],
+      ["Getting Sniped", "100"],
+      ["Punctuality", "50"]
+    ],
+    linkedin: ""
   },
   "sana-gaya": {
-    "name": "Sana Gaya",
-    "img_path": "images/team/members/Sana.jpg",
-    "position": "Sportsman Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Sana Gaya",
+    img_path: "images/team/members/Sana.jpg",
+    position: "Sportsman Member",
+    stats: [],
+    linkedin: ""
   },
   "zarif-pathan": {
-    "name": "Zarif Pathan",
-    "img_path": "images/team/members/Zarif.jpg",
-    "position": "Sportsman Member",
-    "stats": [
+    name: "Zarif Pathan",
+    img_path: "images/team/members/Zarif.jpg",
+    position: "Sportsman Member",
+    stats: [
       ["Earth Bending", 40],
       ["Circuitry", 80],
       ["Drip", 60]
     ],
-    "linkedin": ""
+    linkedin: ""
   },
   "william": {
-    "name": "William Murphy",
-    "img_path": "images/team/members/William.jpg",
-    "position": "Cat",
-    "stats": [
+    name: "William Murphy",
+    img_path: "images/team/members/William.jpg",
+    position: "Cat",
+    stats: [
            ["Meow", 50],
            ["Cuteness", 100],
            ["Attendance", 10]
          ],
-    "linkedin": "https://www.linkedin.com/in/william-murphy-5bab00251/"
+    linkedin: "https://www.linkedin.com/in/william-murphy-5bab00251/"
   },
   "shubham-mathur": {
-    "name": "Shubham Mathur",
-    "img_path": "images/team/members/shubham-mathur.jpg",
-    "position": "Alum 2022 // Former Sportsman (2019-2022) // Co-Founder",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/shubham-m-3a41a9133/"
+    name: "Shubham Mathur",
+    img_path: "images/team/members/shubham-mathur.jpg",
+    position: "Alum 2022 // Former Sportsman (2019-2022) // Co-Founder",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/shubham-m-3a41a9133/"
   },
   "rochelle-barsz": {
-    "name": "Rochelle Barsz",
-    "img_path": "images/team/members/rochelle-barsz.jpg",
-    "position": "Alum 2022 // Former Firmware Subteam Lead (2021-2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/rochelle-barsz/"
+    name: "Rochelle Barsz",
+    img_path: "images/team/members/rochelle-barsz.jpg",
+    position: "Alum 2022 // Former Firmware Subteam Lead (2021-2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/rochelle-barsz/"
   },
   "michelle-zhou": {
-    "name": "Michelle Zhou",
-    "img_path": "images/team/members/michelle-zhou.jpg",
-    "position": "Alum 2022 // Former Sportsman Subteam Lead (2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/michelle-z-20b22b139/"
+    name: "Michelle Zhou",
+    img_path: "images/team/members/michelle-zhou.jpg",
+    position: "Alum 2022 // Former Sportsman Subteam Lead (2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/michelle-z-20b22b139/"
   },
   "rob-measner": {
-    "name": "Rob Measner",
-    "img_path": "images/team/members/rob-measner.jpg",
-    "position": "Alum 2021 // Former Firmware (2019-2021)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/robert-measner-1a4108196/"
+    name: "Rob Measner",
+    img_path: "images/team/members/rob-measner.jpg",
+    position: "Alum 2021 // Former Firmware (2019-2021)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/robert-measner-1a4108196/"
   },
   "esquared": {
-    "name": "Erhunmwunse Eghafona",
-    "img_path": "images/team/members/esquared.jpg",
-    "position": "Alum 2022 // Former Kinetic (2021-2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/eeghafona/"
+    name: "Erhunmwunse Eghafona",
+    img_path: "images/team/members/esquared.jpg",
+    position: "Alum 2022 // Former Kinetic (2021-2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/eeghafona/"
   },
   "kevin-liu": {
-    "name": "Kevin Liu",
-    "img_path": "images/team/members/kevin-liu.jpg",
-    "position": "Alum 2022 // Former Sportsman Subteam Lead (2020- 2021)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/kevin-liu-308546230/"
+    name: "Kevin Liu",
+    img_path: "images/team/members/kevin-liu.jpg",
+    position: "Alum 2022 // Former Sportsman Subteam Lead (2020- 2021)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/kevin-liu-308546230/"
   },
   "ash-siddiqui": {
-    "name": "Ash Siddiqui",
-    "img_path": "images/team/members/ash-siddiqui.jpg",
-    "position": "Alum 2022 // Former Firmware Vice Subteam Lead (2021)",
-    "stats": [],
-    "linkedin": ""
+    name: "Ash Siddiqui",
+    img_path: "images/team/members/ash-siddiqui.jpg",
+    position: "Alum 2022 // Former Firmware Vice Subteam Lead (2021)",
+    stats: [],
+    linkedin: ""
   },
   "alex-salonga": {
-    "name": "Alex Salonga",
-    "img_path": "images/team/members/alex-salonga.jpg",
-    "position": "Alum 2022 // Former Marketing Vice Subteam Lead (2021)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/alexander-salonga-4a0583177/"
+    name: "Alex Salonga",
+    img_path: "images/team/members/alex-salonga.jpg",
+    position: "Alum 2022 // Former Marketing Vice Subteam Lead (2021)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/alexander-salonga-4a0583177/"
   },
   "mo-moghaddasi": {
-    "name": "Mohammad Ali Moghaddasi",
-    "img_path": "images/team/members/mo-moghaddasi.jpg",
-    "position": "Alum 2022 // Former Kinetic (2021-2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/mohammad-ali-moghaddasi-7797a5143/"
+    name: "Mohammad Ali Moghaddasi",
+    img_path: "images/team/members/mo-moghaddasi.jpg",
+    position: "Alum 2022 // Former Kinetic (2021-2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/mohammad-ali-moghaddasi-7797a5143/"
   },
   "ricky-wang": {
-    "name": "Ricky Wang",
-    "img_path": "images/team/members/ricky-wang.jpg",
-    "position": "Alum 2022 // Former Kinetic Subteam Lead (2021-2022)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/rickywang0/"
+    name: "Ricky Wang",
+    img_path: "images/team/members/ricky-wang.jpg",
+    position: "Alum 2022 // Former Kinetic Subteam Lead (2021-2022)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/rickywang0/"
   },
   "sofie-halpern": {
-    "name": "Sofie Halpern",
-    "img_path": "images/team/members/Sofie.jpg",
-    "position": "Alum 2022 // Kinetic (2019-2022) // Marketing (2022) // First Team Lead (2019-2022) // Co-Founder",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/sofie-halpern/"
+    name: "Sofie Halpern",
+    img_path: "images/team/members/Sofie.jpg",
+    position: "Alum 2022 // Kinetic (2019-2022) // Marketing (2022) // First Team Lead (2019-2022) // Co-Founder",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/sofie-halpern/"
   },
   "stefan-bell": {
-    "name": "Stefan Bell",
-    "img_path": "images/team/members/stefan-bell.jpg",
-    "position": "Alum 2021 // Former Kinetic Subteam Lead (2020-2021)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/stefan-bell-sb855/"
+    name: "Stefan Bell",
+    img_path: "images/team/members/stefan-bell.jpg",
+    position: "Alum 2021 // Former Kinetic Subteam Lead (2020-2021)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/stefan-bell-sb855/"
   },
   "kaitlyn-hoxha": {
-    "name": "Kaitlyn Hoxha",
-    "img_path": "images/team/members/Kaitlyn.jpg",
-    "position": "Alum 2022 // Former Marketing Subteam Lead (2020-2021)",
-    "stats": [],
-    "linkedin": "https://www.linkedin.com/in/kaitlyn-hoxha/"
+    name: "Kaitlyn Hoxha",
+    img_path: "images/team/members/Kaitlyn.jpg",
+    position: "Alum 2022 // Former Marketing Subteam Lead (2020-2021)",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/kaitlyn-hoxha/"
   },
   "edith-chen": {
-    "name": "Edith Chen",
-    "img_path": "images/team/members/Edith-Chen.jpg",
-    "position": "Marketing Member // Former Marketing Subteam Lead (2021-2022)",
-    "stats": [],
-    "linkedin": ""
+    name: "Edith Chen",
+    img_path: "images/team/members/Edith-Chen.jpg",
+    position: "Marketing Member // Former Marketing Subteam Lead (2021-2022)",
+    stats: [],
+    linkedin: ""
   },
   "richard-kang": {
-    "name": "Richard Kang",
-    "img_path": "images/team/members/Richard-Kang.jpg",
-    "position": "Alum 2022 // Former Firmware (2021-2022)",
-    "stats": [],
-    "linkedin": ""
+    name: "Richard Kang",
+    img_path: "images/team/members/Richard-Kang.jpg",
+    position: "Alum 2022 // Former Firmware (2021-2022)",
+    stats: [],
+    linkedin: ""
   },
   "ruby-wang": {
-    "name": "Ruby Wang",
-    "img_path": "images/team/members/Ruby-Wang.jpg",
-    "position": "Marketing Member",
-    "stats": [],
-    "linkedin": ""
+    name: "Ruby Wang",
+    img_path: "images/team/members/Ruby-Wang.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: ""
   }
 }
 
