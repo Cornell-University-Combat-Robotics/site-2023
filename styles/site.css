@@ -196,7 +196,7 @@ header {
 }
 
 .hero-image .logo {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 1rem;
   object-fit: contain;
   position: absolute;
