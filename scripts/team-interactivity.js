@@ -2,8 +2,8 @@
 // this will be set over time by the script
 let currentSubteam = "leads";
 
-// data for each team member. 
-// The key is an identifier for the member (usually lowercase name, 
+// data for each team member.
+// The key is an identifier for the member (usually lowercase name,
 // hyphens instead of spaces)
 const teamData = {
   // "john-subteam": {
@@ -247,7 +247,11 @@ const teamData = {
     name: "Stella Taglich",
     img_path: "images/team/members/Stella.jpg",
     position: "Kinetic Member",
-    stats: [],
+    stats: [
+      ["Bending Electronics", 80],
+      ["Finding Car Keys", 10],
+      ["Sniping", 70],
+    ],
     linkedin: ""
   },
   "spencer-hurst": {
@@ -571,15 +575,15 @@ const subteamData = {
 
 
 /**
- * This changes the page to show data on the current subteam. 
+ * This changes the page to show data on the current subteam.
  * It generates cards for each subteam member, and clears old ones.
- * @param {string} subteam the subteam identifier in subteamData 
+ * @param {string} subteam the subteam identifier in subteamData
  */
-const setCategory = subteam => {
+const setCategory = (subteam) => {
   const teamName = document.getElementById("team-name");
   teamName.innerHTML = `${subteam[0].toUpperCase()}${subteam.slice(1)}`;
   const teamDescription = document.getElementById("team-description");
-  teamDescription.innerHTML = subteamData[subteam]['description'];
+  teamDescription.innerHTML = subteamData[subteam]["description"];
   const teamCards = document.getElementById("team-cards");
   // clear all existing member cards
   // note: do this backwards so the collection doesn't reorder!!!!
@@ -587,29 +591,29 @@ const setCategory = subteam => {
   for (let i = nodes.length - 1; i > 0; i--) {
     nodes[i].remove();
   }
-  const members = subteamData[subteam]['members'];
-  members.forEach(memberKey => {
+  const members = subteamData[subteam]["members"];
+  members.forEach((memberKey) => {
     const memberData = teamData[memberKey];
     // construct an element for each team member
     const memberElement = createMemberCard(memberData);
     teamCards.appendChild(memberElement);
   });
   currentSubteam = subteam;
-}
+};
 
 /**
  * This creates a card representing the passed in memberData, and appends it
  * to the page. Called by setCategory.
- * @param {Object} memberData entry of teamData for the card's member 
- * @returns 
+ * @param {Object} memberData entry of teamData for the card's member
+ * @returns
  */
-const createMemberCard = memberData => {
+const createMemberCard = (memberData) => {
   const memberCard = document.createElement("div");
   // create the card
   memberCard.className = "card";
   // create and attach the image
-  const profileImg = document.createElement("img")
-  profileImg.src = memberData['img_path'];
+  const profileImg = document.createElement("img");
+  profileImg.src = memberData["img_path"];
   memberCard.appendChild(profileImg);
   // create and attach the description
   const description = document.createElement("div");
@@ -621,11 +625,11 @@ const createMemberCard = memberData => {
   const position = document.createElement("p");
   position.innerHTML = memberData["position"];
   description.appendChild(position);
-  memberCard.appendChild(description);  
+  memberCard.appendChild(description);
   // create and attach the stats
   const stats = document.createElement("div");
-  stats.className = 'stats';
-  memberData['stats'].forEach(([name, value]) => {
+  stats.className = "stats";
+  memberData["stats"].forEach(([name, value]) => {
     const stat = document.createElement("div");
     stat.className = "member-stat";
     dispatchEvent.className = "member-stat";
@@ -642,8 +646,8 @@ const createMemberCard = memberData => {
     stat.appendChild(statBG);
     // add the stat
     stats.appendChild(stat);
-  })
-  memberCard.appendChild(stats)
+  });
+  memberCard.appendChild(stats);
   // create and attach stat button, socials eventually
   // and set up interactivity
   const links = document.createElement("div");
@@ -661,19 +665,19 @@ const createMemberCard = memberData => {
     links.appendChild(statsButton);
   }
   // attach linkedin, if applicable
-  if (memberData['linkedin'].length > 0) {
-    const linkedInButton = document.createElement("a")
-    linkedInButton.className = "member-link-button"
-    linkedInButton.href = memberData['linkedin']
-    const linkedInIcon = document.createElement("img")
-    linkedInIcon.src = "images/icons/linkedin.png"
-    linkedInButton.appendChild(linkedInIcon)
-    links.appendChild(linkedInButton)
+  if (memberData["linkedin"].length > 0) {
+    const linkedInButton = document.createElement("a");
+    linkedInButton.className = "member-link-button";
+    linkedInButton.href = memberData["linkedin"];
+    const linkedInIcon = document.createElement("img");
+    linkedInIcon.src = "images/icons/linkedin.png";
+    linkedInButton.appendChild(linkedInIcon);
+    links.appendChild(linkedInButton);
   }
   memberCard.appendChild(links);
   // return the card
   return memberCard;
-}
+};
 
 /*  NOTE: This is the html structure of what a card should look like. 
     The function above should create this for a members. 
@@ -715,22 +719,22 @@ const createMemberCard = memberData => {
 /**
  * selectTopic takes in a topicKey, and sets the topic description widget
  * to display relevant data. Currently not implemented!
- * @param {string} topicKey 
+ * @param {string} topicKey
  */
-const selectTopic = topicKey => {
+const selectTopic = (topicKey) => {
   const topicData = subteamData[currentSubteam]["topics"][topicKey];
-  const topicImgs = topicData['img_paths'];
-  const topicDesc = topicData['blurb'];
+  const topicImgs = topicData["img_paths"];
+  const topicDesc = topicData["blurb"];
   const descriptionElement = document.getElementById("team-info-description");
-  descriptionElement.getElementsByTagName('h3')[0].innerHTML = topicKey;
-  descriptionElement.getElementsByTagName('p')[0].innerHTML = topicDesc;
+  descriptionElement.getElementsByTagName("h3")[0].innerHTML = topicKey;
+  descriptionElement.getElementsByTagName("p")[0].innerHTML = topicDesc;
   const gallery = descriptionElement.getElementsByClassName("images")[0];
   // remove existing images
-  gallery.childNodes.forEach(node => node.remove());
+  gallery.childNodes.forEach((node) => node.remove());
   // add new images
-  topicImgs.forEach(path => {
+  topicImgs.forEach((path) => {
     const newImg = document.createElement("img");
     newImg.src = path;
-    gallery.appendChild(newImg)
-  })
-}
+    gallery.appendChild(newImg);
+  });
+};
