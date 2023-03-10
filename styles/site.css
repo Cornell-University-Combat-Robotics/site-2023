@@ -129,6 +129,19 @@ header {
   z-index: 1000;
 }
 
+/* Should exist inside of <header> */
+.banner {
+  background-color: var(--crc-red);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 -0.5em;
+}
+
+.banner a {
+  font-weight: bold;
+  color: white;
+}
 .nav-logo {
   display: block;
 }
