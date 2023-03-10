@@ -496,7 +496,6 @@ const leads = [
 ] // set manually
 for (key in teamData) {
   let member = teamData[key]
-  console.log(member["position"])
   let pos = member["position"]
   if (pos.includes("Alum")) {
     alum.push(key)
