@@ -221,6 +221,7 @@ header {
   margin: auto;
   max-width: 100%;
   transition: 0.2s transform;
+  animation: fade-in 1s;
   }
   
   .hero-image .logo:hover {
@@ -560,6 +561,7 @@ header {
   background-color: white;
   border-radius: 0.5rem;
   overflow: hidden;
+  animation: fade-in 0.5s;
 }
 
 .card .stats {
