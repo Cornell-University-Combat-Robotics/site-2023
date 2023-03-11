@@ -135,7 +135,7 @@ const teamData = {
     "stats": [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
-      ["GitHub", 50]
+      ["Sniping", 100]
     ],
     "linkedin": ""
   },
