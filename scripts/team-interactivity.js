@@ -127,9 +127,9 @@ const teamData = {
     img_path: "images/team/members/Blaze.jpg",
     position: "Firmware Member // Former Firmware Vice Subteam Lead (2022)",
     stats: [
-      [" unicycle riding", 5],
-      ["having siblings", 9],
-      ["vending machine interest", 8],
+      ["Unicycle Riding", 5],
+      ["Having Siblings", 9],
+      ["Vending Machine Interest", 8],
     ],
     linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
   },
