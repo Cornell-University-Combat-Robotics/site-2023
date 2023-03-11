@@ -154,7 +154,11 @@ const teamData = {
     "name": "Katie Huntley",
     "img_path": "images/team/members/Katie.jpg",
     "position": "Firmware Member",
-    "stats": [],
+    "stats": [
+      ["sleep schedule", 90],
+      ["craftiness", 70],
+      ["español", 60]
+    ],
     "linkedin": ""
   },
   "richard-jin": {
