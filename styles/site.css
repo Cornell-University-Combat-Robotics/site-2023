@@ -249,12 +249,24 @@ header {
   background-color: white
 }*/
 
+@keyframes fade-up {
+  0% {
+    opacity: 0.1;
+    transform: translate(0rem, 2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0rem, 0rem);
+  }
+}
 /* We Build Robots */
 
 #we-build-robots {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  animation: fade-up 0.5s;
 }
 
 #we-build-robots div {
