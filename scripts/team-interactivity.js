@@ -140,7 +140,7 @@ const teamData = {
     stats: [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
-      ["GitHub", 50],
+      ["Sniping", 100]
     ],
     linkedin: "",
   },
@@ -156,11 +156,15 @@ const teamData = {
     linkedin: "",
   },
   "katie-huntley": {
-    name: "Katie Huntley",
-    img_path: "images/team/members/Katie.jpg",
-    position: "Firmware Member",
-    stats: [],
-    linkedin: "",
+    "name": "Katie Huntley",
+    "img_path": "images/team/members/Katie.jpg",
+    "position": "Firmware Member",
+    "stats": [
+      ["sleep schedule", 90],
+      ["craftiness", 70],
+      ["español", 60]
+    ],
+    "linkedin": ""
   },
   "richard-jin": {
     name: "Richard Jin",
