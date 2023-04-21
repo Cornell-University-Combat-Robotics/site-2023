@@ -789,8 +789,15 @@ header {
   flex-grow: 1;
 }
 
+.design-project {
+  max-width: 18%;
+}
+
+.design-project h2 {
+  font-size: 1rem;
+}
+
 .robot-interactive {
-  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
 }
 
 .robot-interactive:focus,
