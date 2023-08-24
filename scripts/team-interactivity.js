@@ -43,17 +43,10 @@ const teamData = {
     stats: [],
     linkedin: "",
   },
-  "kaitlyn-hoxha": {
-    name: "Kaitlyn Hoxha",
-    img_path: "images/team/members/Kaitlyn.jpg",
-    position: "Marketing Member",
-    stats: [],
-    linkedin: "https://www.linkedin.com/in/kaitlyn-hoxha/",
-  },
   "linda-hu": {
     name: "Linda Hu",
     img_path: "images/team/members/Linda.jpg",
-    position: "Marketing Member",
+    position: "Marketing Subteam Lead",
     stats: [
       ["Drawing", "70"],
       ["Punctuality", "90"],
@@ -83,19 +76,19 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/luke-murphy-09659b22a/",
   },
-  "matthew-bark": {
-    name: "Matthew Bark",
-    img_path: "images/team/members/Matthew.jpg",
-    position: "Marketing Member",
-    stats: [],
-    linkedin: "",
-  },
   "maya-zamor": {
     name: "Maya Zamor",
     img_path: "images/team/members/Maya.jpg",
     position: "Marketing Subteam Lead",
     stats: [],
     linkedin: "https://www.linkedin.com/in/maya-zamor-a9420b188",
+  },
+  "ruby-wang": {
+    name: "Ruby Wang",
+    img_path: "images/team/members/Ruby-Wang.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
   },
   "sardor-rahmatulloev": {
     name: "Sardor Rahmatulloev",
@@ -106,20 +99,6 @@ const teamData = {
       ["GitHub", "10"],
       ["Pixel Art", "40"],
     ],
-    linkedin: "",
-  },
-  "sofie-halpern": {
-    name: "Sofie Halpern",
-    img_path: "images/team/members/Sofie.jpg",
-    position: "Former Team Lead",
-    stats: [],
-    linkedin: "https://www.linkedin.com/in/sofie-halpern/",
-  },
-  "benjamin-lorence": {
-    name: "Benjamin Lorence",
-    img_path: "images/team/members/Benjamin.jpg",
-    position: "Firmware Member",
-    stats: [],
     linkedin: "",
   },
   "blaze-ezlakowski": {
@@ -494,12 +473,12 @@ const teamData = {
     stats: [],
     linkedin: "",
   },
-  "ruby-wang": {
-    name: "Ruby Wang",
-    img_path: "images/team/members/Ruby-Wang.jpg",
-    position: "Marketing Member",
+  "sofie-halpern": {
+    name: "Sofie Halpern",
+    img_path: "images/team/members/Sofie.jpg",
+    position: "Former Team Lead",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sofie-halpern/",
   },
 };
 
