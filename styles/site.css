@@ -1023,6 +1023,12 @@ header {
   border-radius: 0.5em;
 }
 
+.application-status a{
+  color:#FFFFFF;
+  text-align: center;
+  
+}
+
 .recruitment-timeline li {
   list-style: none;
 }
