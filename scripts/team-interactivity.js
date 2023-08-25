@@ -434,13 +434,6 @@ const teamData = {
     stats: [],
     linkedin: "https://www.linkedin.com/in/kaitlyn-hoxha/",
   },
-  "edith-chen": {
-    name: "Edith Chen",
-    img_path: "images/team/members/Edith-Chen.jpg",
-    position: "Alum 2022 // Former Marketing Subteam Lead (2021-2022)",
-    stats: [],
-    linkedin: "",
-  },
   "richard-kang": {
     name: "Richard Kang",
     img_path: "images/team/members/Richard-Kang.jpg",
@@ -451,7 +444,7 @@ const teamData = {
   "lucien-eckert": {
     name: "Lucien Eckert",
     img_path: "images/team/members/Lucien.jpg",
-    position: "Alum 2022 // Former Marketing Vice Subteam Lead (2022-2023)",
+    position: "Alum 2023 // Former Marketing Vice Subteam Lead (2022-2023)",
     stats: [
       ["Game Development", 70],
       ["Escaping from Captivity", 40],
@@ -462,14 +455,21 @@ const teamData = {
   "maya-zamor": {
     name: "Maya Zamor",
     img_path: "images/team/members/Maya.jpg",
-    position: "Alum 2022 // Former Marketing Subteam Lead (2022-2023)",
+    position: "Alum 2023 // Former Marketing Subteam Lead (2022-2023)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/maya-zamor-a9420b188",
+  },
+  "edith-chen": {
+    name: "Edith Chen",
+    img_path: "images/team/members/Edith-Chen.jpg",
+    position: "Alum 2023 // Former Marketing Subteam Lead (2021-2022)",
+    stats: [],
+    linkedin: "",
   },
   "spencer-hurst": {
     name: "Spencer Hurst",
     img_path: "images/team/members/Spencer.jpg",
-    position: "Alum 2022 // Former Kinetic (2021-2023)",
+    position: "Alum 2023 // Former Kinetic (2021-2023)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/spencer-hurst-918627191/",
   },
