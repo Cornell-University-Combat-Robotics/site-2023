@@ -52,7 +52,7 @@ const teamData = {
     img_path: "images/team/members/Colin.jpg",
     position: "Marketing Member",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/colin-rodriguez-andrew/",
   },
   "linda-hu": {
     name: "Linda Hu",
@@ -63,7 +63,7 @@ const teamData = {
       ["Punctuality", "90"],
       ["Playing Genshin", "30"],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/linda-ly-hu/",
   },
   "luke-murphy": {
     name: "Luke Murphy",
@@ -92,7 +92,7 @@ const teamData = {
     img_path: "images/team/members/Ruby-Wang.jpg",
     position: "Marketing Member",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rubywang1222/",
   },
   "sardor-rahmatulloev": {
     name: "Sardor Rahmatulloev",
@@ -103,7 +103,7 @@ const teamData = {
       ["GitHub", "10"],
       ["Pixel Art", "40"],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sardor-rahmatulloev/",
   },
   "blaze-ezlakowski": {
     name: "Blaze Ezlakowski",
@@ -125,7 +125,7 @@ const teamData = {
       ["Cursed Knowledge", 20],
       ["Sniping", 100]
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/empzhang/",
   },
   "grace-lim": {
     name: "Grace Lim",
@@ -136,7 +136,7 @@ const teamData = {
       ["Being at Upson", 70],
       ["Playing Genshin Consistently", 10],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/graceelimm/",
   },
   "katie-huntley": {
     "name": "Katie Huntley",
@@ -147,7 +147,7 @@ const teamData = {
       ["craftiness", 70],
       ["español", 60]
     ],
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/katieahuntley/"
   },
   "richard-jin": {
     name: "Richard Jin",
@@ -223,7 +223,7 @@ const teamData = {
     img_path: "images/team/members/James L.jpg",
     position: "Kinetic Member",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/james-lasalle-589860256/",
   },
   "mohammed-chowdhury": {
     name: "Mohammed Chowdhury",
@@ -234,7 +234,7 @@ const teamData = {
       ["Finding ESCs", 60],
       ["Vision", 30],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mac528/",
   },
   "stella-taglich": {
     name: "Stella Taglich",
@@ -245,7 +245,7 @@ const teamData = {
       ["Finding Car Keys", 10],
       ["Sniping", 70],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/stellataglich/",
   },
   "zander-knight": {
     name: "Zander Knight",
@@ -256,7 +256,7 @@ const teamData = {
       ["Basement Hospitality", 20],
       ["Computer Science Awareness", 20],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/zander-knight-3aab8724a/",
   },
   "alex-jenkins": {
     name: "Alex Jenkins",
@@ -267,7 +267,7 @@ const teamData = {
       ["Dragon Training", "100"],
       ["Spelling", "20"],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/alex-jenkins-201214223/",
   },
   "caleb-schlissel": {
     name: "Caleb Schlissel",
@@ -278,7 +278,7 @@ const teamData = {
       ["Social Life", 40],
       ["Pancreas", 10],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/caleb-schlissel-0129/",
   },
   "charles-liu": {
     name: "Charles Liu",
@@ -311,7 +311,7 @@ const teamData = {
       ["Getting Sniped", "100"],
       ["Punctuality", "50"],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/narayan-rueppel-668861256/",
   },
   "sana-gaya": {
     name: "Sana Gaya",
@@ -329,7 +329,7 @@ const teamData = {
       ["Circuitry", 80],
       ["Drip", 60],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/zarif-pathan/",
   },
   william: {
     name: "William Murphy",
@@ -439,7 +439,7 @@ const teamData = {
     img_path: "images/team/members/Richard-Kang.jpg",
     position: "Alum 2022 // Former Firmware (2021-2022)",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/richard-kang-bb923824a/",
   },
   "lucien-eckert": {
     name: "Lucien Eckert",
@@ -464,7 +464,7 @@ const teamData = {
     img_path: "images/team/members/Edith-Chen.jpg",
     position: "Alum 2023 // Former Marketing Subteam Lead (2021-2022)",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/chen-edith/",
   },
   "spencer-hurst": {
     name: "Spencer Hurst",
