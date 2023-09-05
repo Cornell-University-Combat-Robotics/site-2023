@@ -169,7 +169,7 @@ const teamData = {
       ["Debugging", "20"],
       ["Public Speaking", "40"],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/shaostassen/",
   },
   "sebastian-rivera": {
     name: "Sebastian Rivera",
@@ -216,7 +216,7 @@ const teamData = {
     img_path: "images/team/members/James C.jpg",
     position: "Kinetic Member // Kinetic Vice Subteam Lead (2023)",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
   "james-lasalle": {
     name: "James LaSalle",
@@ -318,7 +318,7 @@ const teamData = {
     img_path: "images/team/members/Sana.jpg",
     position: "Sportsman Member",
     stats: [],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sana-gaya/",
   },
   "zarif-pathan": {
     name: "Zarif Pathan",
@@ -495,6 +495,7 @@ const sportsman = [
 ];
 const marketing = [
   "linda-hu", 
+  "william",
   "bruno-tassari", 
   "colin-rodriguez", 
   "luke-murphy", 
