@@ -51,7 +51,11 @@ const teamData = {
     name: "Colin Rodriguez",
     img_path: "images/team/members/Colin.jpg",
     position: "Marketing Member",
-    stats: [],
+    stats: [
+      ["Sleep schedule", 20],
+      ["BizRizz", 100],
+      ["Computer Viruses", 100]
+    ],
     linkedin: "https://www.linkedin.com/in/colin-rodriguez-andrew/",
   },
   "linda-hu": {
@@ -61,7 +65,7 @@ const teamData = {
     stats: [
       ["Drawing", "70"],
       ["Punctuality", "90"],
-      ["Playing Genshin", "30"],
+      ["Not Playing Genshin", "100"],
     ],
     linkedin: "https://www.linkedin.com/in/linda-ly-hu/",
   },
@@ -91,7 +95,11 @@ const teamData = {
     name: "Ruby Wang",
     img_path: "images/team/members/Ruby-Wang.jpg",
     position: "Marketing Member",
-    stats: [],
+    stats: [
+      ["Zoning Out", 70],
+      ["Drawing", 100],
+      ["AEM", 10]
+    ],
     linkedin: "https://www.linkedin.com/in/rubywang1222/",
   },
   "sardor-rahmatulloev": {
@@ -175,7 +183,11 @@ const teamData = {
     name: "Sebastian Rivera",
     img_path: "images/team/members/Sebastian.jpg",
     position: "Team Lead // Former Firmware Vice Subteam Lead (2022-2023)",
-    stats: [],
+    stats: [
+      ["Wiffleball", 80],
+      ["Updating GCal", 20],
+      ["Thinking about Ryan Gosling", 100]
+    ],
     linkedin: "https://www.linkedin.com/in/sebastian-rivera-048478222/",
   },
   "shawn-chen": {
@@ -215,7 +227,7 @@ const teamData = {
     name: "James Courtenay",
     img_path: "images/team/members/James C.jpg",
     position: "Kinetic Member // Kinetic Vice Subteam Lead (2023)",
-    stats: [],
+    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
     linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
   "james-lasalle": {
@@ -476,60 +488,60 @@ const teamData = {
 };
 
 const kinetic = [
-  "anna-boese", 
-  "stella-taglich", 
-  "isaac-newcomb", 
-  "james-courtenay", 
-  "james-lasalle", 
-  "mohammed-chowdhury", 
+  "anna-boese",
+  "stella-taglich",
+  "isaac-newcomb",
+  "james-courtenay",
+  "james-lasalle",
+  "mohammed-chowdhury",
   "zander-knight"
 ];
 const sportsman = [
-  "caleb-schlissel", 
-  "alex-jenkins", 
+  "caleb-schlissel",
+  "alex-jenkins",
   "charles-liu",
-  "marcus-esposito", 
-  "narayan-rueppel", 
-  "sana-gaya", 
+  "marcus-esposito",
+  "narayan-rueppel",
+  "sana-gaya",
   "zarif-pathan"
 ];
 const marketing = [
-  "linda-hu", 
+  "linda-hu",
   "william",
-  "bruno-tassari", 
-  "colin-rodriguez", 
-  "luke-murphy", 
-  "molly-drumm", 
+  "bruno-tassari",
+  "colin-rodriguez",
+  "luke-murphy",
+  "molly-drumm",
   "ruby-wang",
   "sardor-rahmatulloev"
 ];
 const firmware = [
-  "ethan-zhang", 
-  "grace-lim", 
-  "blaze-ezlakowski", 
-  "katie-huntley", 
-  "richard-jin", 
+  "ethan-zhang",
+  "grace-lim",
+  "blaze-ezlakowski",
+  "katie-huntley",
+  "richard-jin",
   "sebastian-rivera",
-  "shao-stassen", 
+  "shao-stassen",
   "shawn-chen"
 ];
 const alum = [
-  "lucien-eckert", 
-  "spencer-hurst", 
-  "edith-chen", 
-  "maya-zamor", 
-  "sofie-halpern", 
-  "kaitlyn-hoxha", 
-  "michelle-zhou", 
-  "rochelle-barsz", 
-  "esquared", 
-  "shubham-mathur", 
-  "ricky-wang", 
-  "ash-siddiqui", 
-  "mo-moghaddasi", 
-  "alex-salonga", 
-  "kevin-liu", 
-  "rob-measner", 
+  "lucien-eckert",
+  "spencer-hurst",
+  "edith-chen",
+  "maya-zamor",
+  "sofie-halpern",
+  "kaitlyn-hoxha",
+  "michelle-zhou",
+  "rochelle-barsz",
+  "esquared",
+  "shubham-mathur",
+  "ricky-wang",
+  "ash-siddiqui",
+  "mo-moghaddasi",
+  "alex-salonga",
+  "kevin-liu",
+  "rob-measner",
   "stefan-bell"
 ];
 const fullteam = [];
