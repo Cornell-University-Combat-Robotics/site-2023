@@ -1047,6 +1047,10 @@ footer {
   justify-content: space-evenly;
 }
 
+.footer-text {
+  color:white;
+}
+
 footer h3 {
   color: white;
 }
