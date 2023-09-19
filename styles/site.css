@@ -1038,6 +1038,45 @@ header {
   padding-bottom: 1em;
 }
 
+.merch-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.merch-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.26%;
+}
+
+.merch-item {
+  max-width: 31%;
+  max-height: 30em;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid black;*/
+  /*border-radius: 0.5em;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);*/
+  flex-grow: 1;
+  color: black;
+  text-decoration: none;
+}
+
+.merch-item:hover {
+  outline: 3px solid maroon;
+}
+
+.merch-item img {
+  object-fit: contain;
+}
+
+.merch-item p {
+  font-size: 24px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
 /* Footer */
 
 footer {
