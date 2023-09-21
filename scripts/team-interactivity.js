@@ -619,7 +619,7 @@ const subteamData = {
     members: firmware,
     //["ethan-zhang", "grace-lim", "blaze-ezlakowski", "katie-huntley", "richard-jin", "shao-stassen", "shawn-chen"]
     description:
-      "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to combat robots from past years to give them extra functionality. Every single year, Firmware takes a previous year's robot and revamps it through a new coding project, whether it's adding facial recognition or path following.",
+      "The Firmware subteam works on applying artificial intelligence techniques and autonomous capabilities to combat robots to give them extra functionality. In the past, Firmware took a previous year's robot and revamped it through a new coding project. This involved designing the electrical circuit and convolutional neural network for facial recognition and path following. This year, Firmware is planning on designing and building their own autonomous robot from scratch. And in the future, Firmware hopes to design their own PCBs for their robots.",
   },
   full: {
     members: fullteam,
