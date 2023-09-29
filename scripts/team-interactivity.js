@@ -695,7 +695,7 @@ const subteamData = {
     description:
     "Within the Marketing Subteam, we specialize in various aspects of <b>promoting and enhancing CRC's brand</b>.<br><br>" +
     "Our <b>mission</b> is to strengthen CRC's presence and reputation, elevating it beyond just a robotics team.<br><br>" +
-    "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in:" +
+    "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
     "<ul>" +
     "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
     "<li><b>Computer Science (CS)</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
