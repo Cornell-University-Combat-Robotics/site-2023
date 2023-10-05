@@ -113,17 +113,6 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/sardor-rahmatulloev/",
   },
-  "blaze-ezlakowski": {
-    name: "Blaze Ezlakowski",
-    img_path: "images/team/members/Blaze.jpg",
-    position: "Firmware Member // Former Firmware Vice Subteam Lead (2022)",
-    stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
-    ],
-    linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
-  },
   "ethan-zhang": {
     name: "Ethan Zhang",
     img_path: "images/team/members/Ethan.jpg",
@@ -485,6 +474,17 @@ const teamData = {
     stats: [],
     linkedin: "https://www.linkedin.com/in/spencer-hurst-918627191/",
   },
+  "blaze-ezlakowski": {
+    name: "Blaze Ezlakowski",
+    img_path: "images/team/members/Blaze.jpg",
+    position: "Alum 2022 // Former Firmware Vice Subteam Lead (2022)",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
+  },
 };
 
 const kinetic = [
@@ -518,7 +518,6 @@ const marketing = [
 const firmware = [
   "ethan-zhang",
   "grace-lim",
-  "blaze-ezlakowski",
   "katie-huntley",
   "richard-jin",
   "sebastian-rivera",
@@ -530,6 +529,7 @@ const alum = [
   "spencer-hurst",
   "edith-chen",
   "maya-zamor",
+  "blaze-ezlakowski",
   "sofie-halpern",
   "kaitlyn-hoxha",
   "michelle-zhou",
