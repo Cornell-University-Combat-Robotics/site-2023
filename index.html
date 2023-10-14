@@ -1,221 +1,238 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/site.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico"/>
-    <title>CRC | Home</title>
-  </head>
 
-  <script>
-    const setBannerImg = (imgIdx) => {
-      const heroImgs = document.getElementsByClassName("hero-image");
-      for (let i = 0; i < heroImgs.length; i++)
-      {
-        const img = heroImgs[i];
-        img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
-      }
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/site.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico" />
+  <title>CRC | Home</title>
+</head>
+
+<script>
+  const setBannerImg = (imgIdx) => {
+    const heroImgs = document.getElementsByClassName("hero-image");
+    for (let i = 0; i < heroImgs.length; i++) {
+      const img = heroImgs[i];
+      img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
     }
+  }
 
-  </script>
-  
-  <body>
-    <header>
-      <nav>
-        <a href="index.html" class="nav-logo">
-          <img src="images/logoscaled.png" alt="CRC logo" />
-        </a>
-        <div class="nav-bar-right">
-          <a href="index.html" class="active">
-            <p>About</p>
-          </a>
-          <a href="team.html">
-            <p>Team</p>
-          </a>
-          <a href="robots.html">
-            <p>Robots</p>
-          </a>
-          <a href="sponsor.html">
-            <p>Sponsor</p>
-          </a>
-          <a href="recruitment.html">
-            <p>Recruitment</p>
-          </a>
-          <a href="game.html" class="hide-on-mobile">
-            <p>Game</p>
-          </a>
-          <a href="https://www.redbubble.com/people/combatrobots/shop">
-            <p>Merch</p>
-          </a>
-        </div>
-      </nav>
-    </header>
+</script>
 
-    <section style="position: relative; height: 28rem;">
-      <a href="recruitment.html">
-        <div class="hero-image first">
-          <!-- Competition banner 2023 -->
-          <!-- <img src="images/comp-2023.png" alt="">
-          <img src="images/crc-logo-comp.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
-          <!-- Showcase banner 2023 -->
-          <!-- <img src="images/showcase-banner.png" alt="">
-          <img src="images/crc-logo-showcase.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
-          <img src="images/application-open.png" alt="">
-          <img src="images/applications-open-text.png" alt="Combat Robotics @ Cornell Project Team" class="logo">
-          <!-- Default banner -->
-          <!-- <img src="images/crcurcuit.png" alt="">
-          <img src="images/crc-logo.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
-        </div>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <img src="images/logoscaled.png" alt="CRC logo" />
       </a>
-      <img src="images/team/Full-Team_22-23.jpg" alt="" class="hero-image">
-      <img src="images/buildincomp23.jpg" alt="" class="hero-image">
-      <img src="images/robot-img/manny/mannywired.jpg" alt="" class="hero-image">
-      <!-- <h1 class="page-heading">Combat Robotics @ Cornell</h1> -->
+      <div class="nav-bar-right">
+        <a href="index.html" class="active">
+          <p>About</p>
+        </a>
+        <a href="team.html">
+          <p>Team</p>
+        </a>
+        <a href="robots.html">
+          <p>Robots</p>
+        </a>
+        <a href="sponsor.html">
+          <p>Sponsor</p>
+        </a>
+        <a href="recruitment.html">
+          <p>Recruitment</p>
+        </a>
+        <a href="game.html" class="hide-on-mobile">
+          <p>Game</p>
+        </a>
+        <a href="https://www.redbubble.com/people/combatrobots/shop">
+          <p>Merch</p>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <section style="position: relative; height: 28rem;">
+    <a href="recruitment.html">
+      <div class="hero-image first">
+        <!-- COMPETITION BANNER 2023 -->
+        <!-- <img src="images/comp-2023.png" alt="">
+          <img src="images/crc-logo-comp.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
+        <!-- SHOWCASE BANNER 2023 -->
+        <!-- <img src="images/showcase-banner.png" alt="">
+          <img src="images/crc-logo-showcase.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
+        <!-- FALL 23 APPLICATIONS OPEN BANNER -->
+        <!-- <img src="images/application-open.png" alt="">
+          <img src="images/applications-open-text.png" alt="Combat Robotics @ Cornell Project Team" class="logo"> -->
+        <!-- Default banner -->
+        <img src="images/crcurcuit.png" alt="">
+        <img src="images/crc-logo.png" alt="Combat Robotics @ Cornell Project Team" class="logo">
+      </div>
+    </a>
+    <img src="images/team/Full-Team_22-23.jpg" alt="" class="hero-image">
+    <img src="images/buildincomp23.jpg" alt="" class="hero-image">
+    <img src="images/robot-img/manny/mannywired.jpg" alt="" class="hero-image">
+    <!-- <h1 class="page-heading">Combat Robotics @ Cornell</h1> -->
+  </section>
+
+  <main>
+    <section id="we-build-robots">
+      <div onpointerover="setBannerImg(1)" onpointerleave="setBannerImg(0)">
+        <h2><img src="images/we.svg" alt=""> We.</h2>
+        <p>
+          We're Combat Robotics @ Cornell, a fourth year combat robotics project team at
+          Cornell University. With 30+ members spanning 10 majors and 5 colleges, we
+          blend our unique interdisciplinary skills to decimate the competition.
+        </p>
+      </div>
+      <div onpointerover="setBannerImg(2)" onpointerleave="setBannerImg(0)">
+        <h2><img src="images/build.svg" alt=""> Build.</h2>
+        <p>
+          Each year, our two mechanical subteams produce one robot each. Our Firmware subteam revamps
+          last year's Sportsman robot with autonomous capabilities. Our Marketing subteam keeps
+          the team funded, maintains our website and socials, and designs sick merch and trading cards.
+      </div>
+      <div onpointerover="setBannerImg(3)" onpointerleave="setBannerImg(0)">
+        <h2><img src="images/robots.svg" alt=""> Robots.</h2>
+        <p>
+          We love our robots. Whether we're patching up last year's bot for winter championships,
+          carefully designing their trading card and video game counterparts, or doing damage control
+          after one leads a social media takeover, our robots are the stars of the show.
+      </div>
     </section>
 
-    <main>
-      <section id="we-build-robots">
-        <div onpointerover="setBannerImg(1)" onpointerleave="setBannerImg(0)">
-          <h2><img src="images/we.svg" alt=""> We.</h2>
-          <p>
-            We're Combat Robotics @ Cornell, a fourth year combat robotics project team at 
-            Cornell University. With 30+ members spanning 10 majors and 5 colleges, we 
-            blend our unique interdisciplinary skills to decimate the competition. 
+    <h1>Welcome to <em style="font-weight: bolder; font-style: normal;">Combat Robotics @ Cornell</em>!</h1>
+
+    <p>
+      We build small-scale combat robots, much like those
+      featured on the popular TV show Battlebots. Some of our robots are remote
+      controlled, while others have autonomous capabilities. After 2.5 years as
+      a student club, we earned our status as a Project Team through Cornell in
+      January 2022, letting us work towards establishing CRC as one of Cornell's
+      premier environments that embodies technical excellence, start-up spirit,
+      and camaraderie.
+    </p>
+
+    <h1>Our Journey</h1>
+    <div class="timeline-dot"></div>
+    <section class='timeline'>
+      <div class='timeline-bot'>
+        <img src="./images/robot-img/richard/richard-pixel.png" alt="">
+      </div>
+      <div class="timeline-item">
+        <div style="text-align: right;">
+          <h2>October 2019</h2>
+          <p>Team Founded -- the journey begins! Our founding members began researching battlebots and
+            determining the organizational structure of our team.
           </p>
         </div>
-        <div onpointerover="setBannerImg(2)" onpointerleave="setBannerImg(0)">
-          <h2><img src="images/build.svg" alt="">  Build.</h2>
-          <p>
-            Each year, our two mechanical subteams produce one robot each. Our Firmware subteam revamps
-            last year's Sportsman robot with autonomous capabilities. Our Marketing subteam keeps
-            the team funded, maintains our website and socials, and designs sick merch and trading cards.
-        </div>
-        <div onpointerover="setBannerImg(3)" onpointerleave="setBannerImg(0)">
-          <h2><img src="images/robots.svg" alt=""> Robots.</h2>
-          <p>
-            We love our robots. Whether we're patching up last year's bot for winter championships, 
-            carefully designing their trading card and video game counterparts, or doing damage control 
-            after one leads a social media takeover, our robots are the stars of the show.
-        </div>
-      </section>
-
-      <h1>Welcome to <em style="font-weight: bolder; font-style: normal;">Combat Robotics @ Cornell</em>!</h1>
-
-      <p>
-        We build small-scale combat robots, much like those
-        featured on the popular TV show Battlebots. Some of our robots are remote
-        controlled, while others have autonomous capabilities. After 2.5 years as
-        a student club, we earned our status as a Project Team through Cornell in
-        January 2022, letting us work towards establishing CRC as one of Cornell's
-        premier environments that embodies technical excellence, start-up spirit,
-        and camaraderie.
-      </p>
-
-      <h1>Our Journey</h1>
-      <div class="timeline-dot"></div>
-      <section class='timeline'>
-        <div class='timeline-bot'>
-          <img src="./images/robot-img/richard/richard-pixel.png" alt="">
-        </div>
-        <div class="timeline-item"> 
-          <div style="text-align: right;">
-            <h2>October 2019</h2> <p>Team Founded -- the journey begins! Our founding members began researching battlebots and 
-              determining the organizational structure of our team. 
-            </p>
-          </div>
-          <div class="timeline-image" data-aos="fade-left"><img src="images/team/first-team.jpeg" alt=""></div>
-        </div>
-        <div class="timeline-item"> 
-          <div class="timeline-image" data-aos="fade-right"><img src="images/robot-img/wabbit/wabbit.png" alt=""></div>
-          <div>
-            <h2>August 2020</h2>
-            <p>Despite setbacks from COVID-19, we completed our first ever robot design projects in a remote work environment!</p>
-          </div>
-        </div>
-        <div class="timeline-item"> 
-          <div style="text-align: right;">
-            <h2>May 2021:</h2><p> Finished composite manufacturing of Donatello, our first physical robot, by our mechanical teams. Developed core code for autonomous robot movement within our Firmware subteam.</p>
-          </div>
-          <div class="timeline-image" data-aos="fade-left"><img src="images/robot-img/donatello/donatello-shell.jpg" alt=""></div>
-        </div>
-        <div class="timeline-item"> 
-          <div class="timeline-image" data-aos="fade-right"><img src="images/robot-img/manny/manny-built.jpg" alt=""></div>
-          <div>
-            <h2>November 2021</h2>
-            <p>Completed our first full robot, Manny: a sportsman-class bot that uses a hammer and "tusks" to crush his foes!</p>
-          </div>
-        </div>
-        <div class="timeline-item"> 
-          <div style="text-align: right;">
-            <h2>January 2022:</h2><p>Received project team status from Cornell, allowing us to set up shop in the Experiential Learning Lab (ELL) and provide higher standards of member education.</p>
-          </div>
-          <div class="timeline-image" data-aos="fade-left"><img src="images/team/proj-team-status.jpg" alt=""></div>
-        </div>
-        <div class="timeline-item"> 
-          <div class="timeline-image" data-aos="fade-right"><img src="images/team/team-at-competition.jpg" alt=""></div>
-          <div>
-            <h2>April 23, 2022</h2> <p>Attended our first competition: Norwalk Havoc Robot League 2022. Our Kinetic 
-              robot, Richard, progressed to the winter championships!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <h3>You can shape the future of our team!</h3>
-      <div class="action-footer">
+        <div class="timeline-image" data-aos="fade-left"><img src="images/team/first-team.jpeg" alt=""></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-image" data-aos="fade-right"><img src="images/robot-img/wabbit/wabbit.png" alt=""></div>
         <div>
-          <h4>Support Us</h4>
-          <p>We're always looking to form valuable partnerships with companies and sponsors, and 
-            rely heavily on individual donations to keep our team running. Want to learn how you can 
-            get involved? 
-          </p>
-          <a href="/sponsor.html" class="link-button">Sponsor</a>
+          <h2>August 2020</h2>
+          <p>Despite setbacks from COVID-19, we completed our first ever robot design projects in a remote work
+            environment!</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div style="text-align: right;">
+          <h2>May 2021:</h2>
+          <p> Finished composite manufacturing of Donatello, our first physical robot, by our mechanical teams.
+            Developed core code for autonomous robot movement within our Firmware subteam.</p>
+        </div>
+        <div class="timeline-image" data-aos="fade-left"><img src="images/robot-img/donatello/donatello-shell.jpg"
+            alt=""></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-image" data-aos="fade-right"><img src="images/robot-img/manny/manny-built.jpg" alt="">
         </div>
         <div>
-          <h4>Join Us</h4>
-          <p>Interested in joining our unique team? Head on over to our recruitment page. We'd love
-            to meet you during our application season, regardless of major or prior experience!
+          <h2>November 2021</h2>
+          <p>Completed our first full robot, Manny: a sportsman-class bot that uses a hammer and "tusks" to crush his
+            foes!</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div style="text-align: right;">
+          <h2>January 2022:</h2>
+          <p>Received project team status from Cornell, allowing us to set up shop in the Experiential Learning Lab
+            (ELL) and provide higher standards of member education.</p>
+        </div>
+        <div class="timeline-image" data-aos="fade-left"><img src="images/team/proj-team-status.jpg" alt=""></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-image" data-aos="fade-right"><img src="images/team/team-at-competition.jpg" alt=""></div>
+        <div>
+          <h2>April 23, 2022</h2>
+          <p>Attended our first competition: Norwalk Havoc Robot League 2022. Our Kinetic
+            robot, Richard, progressed to the winter championships!
           </p>
-          <a href="/recruitment.html" class="link-button">Recruitment</a>
         </div>
       </div>
-    </main>
+    </section>
 
-    <footer>
-      <div class="footer-information">
-        <div class="footer-follow">
-          <h3>Follow Us</h3>
-          <ul>
-            <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="images/icons/instagram.png" alt='' class="footer-icon"/>Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="images/icons/tiktok.png" alt='' class="footer-icon"/>Tiktok</a></li>
-            <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img src="images/icons/linkedin.png" alt='' class="footer-icon"/>LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="images/icons/facebook.png" alt='' class="footer-icon"/>Facebook</a></li>
-            <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="images/icons/youtube.png" alt='' class="footer-icon"/>Youtube</a></li>
-          </ul>
-        </div>
-        <div class="footer-middle-line"></div>
-        <div class="footer-contact">
-          <h3>Contact Us</h3>
-          <ul>
-            <li><a href="mailto:combatrobotics@cornell.edu">combatrobotics@cornell.edu</a></li>
-            <li><a href="./accessibility.html">Accessibility Assistance</a></li>
-            <br>
-            <li class="footer-text">This organization is a registered student organization of Cornell University.</li>
-          </ul>
-          <div class="footer-logo-box-inside">
-            <img src="images/logo.png" alt='' class="footer-logo"/>
-          </div>
+    <h3>You can shape the future of our team!</h3>
+    <div class="action-footer">
+      <div>
+        <h4>Support Us</h4>
+        <p>We're always looking to form valuable partnerships with companies and sponsors, and
+          rely heavily on individual donations to keep our team running. Want to learn how you can
+          get involved?
+        </p>
+        <a href="/sponsor.html" class="link-button">Sponsor</a>
+      </div>
+      <div>
+        <h4>Join Us</h4>
+        <p>Interested in joining our unique team? Head on over to our recruitment page. We'd love
+          to meet you during our application season, regardless of major or prior experience!
+        </p>
+        <a href="/recruitment.html" class="link-button">Recruitment</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-information">
+      <div class="footer-follow">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="images/icons/instagram.png"
+                alt='' class="footer-icon" />Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="images/icons/tiktok.png" alt=''
+                class="footer-icon" />Tiktok</a></li>
+          <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img
+                src="images/icons/linkedin.png" alt='' class="footer-icon" />LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="images/icons/facebook.png" alt=''
+                class="footer-icon" />Facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="images/icons/youtube.png"
+                alt='' class="footer-icon" />Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footer-middle-line"></div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="mailto:combatrobotics@cornell.edu">combatrobotics@cornell.edu</a></li>
+          <li><a href="./accessibility.html">Accessibility Assistance</a></li>
+          <br>
+          <li class="footer-text">This organization is a registered student organization of Cornell University.</li>
+        </ul>
+        <div class="footer-logo-box-inside">
+          <img src="images/logo.png" alt='' class="footer-logo" />
         </div>
       </div>
-      <div class="footer-logo-box-aside">
-        <img src="images/logo.png" alt='' class="footer-logo"/>
-      </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    </div>
+    <div class="footer-logo-box-aside">
+      <img src="images/logo.png" alt='' class="footer-logo" />
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
