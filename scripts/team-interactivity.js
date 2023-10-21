@@ -116,7 +116,7 @@ const teamData = {
   "ethan-zhang": {
     name: "Ethan Zhang",
     img_path: "images/team/members/Ethan.jpg",
-    position: "Firmware Subteam Lead",
+    position: "Autonomous Subteam Lead",
     stats: [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
@@ -127,7 +127,7 @@ const teamData = {
   "grace-lim": {
     name: "Grace Lim",
     img_path: "images/team/members/Grace.jpg",
-    position: "Firmware Vice Subteam Lead",
+    position: "Autonomous Vice Subteam Lead",
     stats: [
       ["Handwriting", 100],
       ["Being at Upson", 70],
@@ -138,7 +138,7 @@ const teamData = {
   "katie-huntley": {
     "name": "Katie Huntley",
     "img_path": "images/team/members/Katie.jpg",
-    "position": "Firmware Member",
+    "position": "Autonomous Member",
     "stats": [
       ["sleep schedule", 90],
       ["craftiness", 70],
@@ -149,7 +149,7 @@ const teamData = {
   "richard-jin": {
     name: "Richard Jin",
     img_path: "images/team/members/Richard.jpg",
-    position: "Former Firmware Subteam Lead (2022-2023)",
+    position: "Former Autonomous Subteam Lead (2022-2023)",
     stats: [
       ["Time Complexity Analysis", 70],
       ["Fanny Pack Wearing", 10],
@@ -160,7 +160,7 @@ const teamData = {
   "shao-stassen": {
     name: "Shao Stassen",
     img_path: "images/team/members/Shao.jpg",
-    position: "Firmware Member",
+    position: "Autonomous Member",
     stats: [
       ["Github", "90"],
       ["Debugging", "20"],
@@ -171,7 +171,7 @@ const teamData = {
   "sebastian-rivera": {
     name: "Sebastian Rivera",
     img_path: "images/team/members/Sebastian.jpg",
-    position: "Team Lead // Former Firmware Vice Subteam Lead (2022-2023)",
+    position: "Team Lead // Former Autonomous Vice Subteam Lead (2022-2023)",
     stats: [
       ["Wiffleball", 80],
       ["Updating GCal", 20],
@@ -182,7 +182,7 @@ const teamData = {
   "shawn-chen": {
     name: "Shawn Chen",
     img_path: "images/team/members/Shawn.jpg",
-    position: "Firmware Member",
+    position: "Autonomous Member",
     stats: [
       ["Hoodie and Jean Combo", 80],
       ["Attending Socials", 5],
@@ -353,7 +353,7 @@ const teamData = {
   "rochelle-barsz": {
     name: "Rochelle Barsz",
     img_path: "images/team/members/rochelle-barsz.jpg",
-    position: "Alum 2022 // Former Firmware Subteam Lead (2021-2022)",
+    position: "Alum 2022 // Former Autonomous Subteam Lead (2021-2022)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/rochelle-barsz/",
   },
@@ -367,7 +367,7 @@ const teamData = {
   "rob-measner": {
     name: "Rob Measner",
     img_path: "images/team/members/rob-measner.jpg",
-    position: "Alum 2021 // Former Firmware (2019-2021)",
+    position: "Alum 2021 // Former Autonomous (2019-2021)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/robert-measner-1a4108196/",
   },
@@ -388,7 +388,7 @@ const teamData = {
   "ash-siddiqui": {
     name: "Ash Siddiqui",
     img_path: "images/team/members/ash-siddiqui.jpg",
-    position: "Alum 2022 // Former Firmware Vice Subteam Lead (2021)",
+    position: "Alum 2022 // Former Autonomous Vice Subteam Lead (2021)",
     stats: [],
     linkedin: "",
   },
@@ -438,7 +438,7 @@ const teamData = {
   "richard-kang": {
     name: "Richard Kang",
     img_path: "images/team/members/Richard-Kang.jpg",
-    position: "Alum 2022 // Former Firmware (2021-2022)",
+    position: "Alum 2022 // Former Autonomous (2021-2022)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/richard-kang-bb923824a/",
   },
@@ -477,7 +477,7 @@ const teamData = {
   "blaze-ezlakowski": {
     name: "Blaze Ezlakowski",
     img_path: "images/team/members/Blaze.jpg",
-    position: "Alum 2022 // Former Firmware Vice Subteam Lead (2022)",
+    position: "Alum 2022 // Former Autonomous Vice Subteam Lead (2022)",
     stats: [
       ["Unicycle Riding", 50],
       ["Having Siblings", 90],
@@ -515,7 +515,7 @@ const marketing = [
   "ruby-wang",
   "sardor-rahmatulloev"
 ];
-const firmware = [
+const autonomous = [
   "ethan-zhang",
   "grace-lim",
   "katie-huntley",
@@ -570,8 +570,8 @@ const leads = [
 //       sportsman.push(key);
 //     } else if (pos.includes("Marketing")) {
 //       marketing.push(key);
-//     } else if (pos.includes("Firmware")) {
-//       firmware.push(key);
+//     } else if (pos.includes("Autonomous")) {
+//       autonomous.push(key);
 //     }
 //   }
 // }
@@ -618,8 +618,8 @@ const subteamData = {
     "If you are more interested in..." +
     "<ul>" +
     "<li>Creative and unique robots, check out the Sportsman Subteam</li>" +
-    "<li>More complex circuitry, check out the Firmware Subteam</li>" +
-    "<li>Coding autonomous robots, check out the Firmware Subteam</li>" +
+    "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
+    "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
     "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
     "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
     "<li>Art and design, check out the Marketing Subteam</li>" +
@@ -637,7 +637,7 @@ const subteamData = {
     //   },
     //   "Build": {
     //     blurb: "Building blurb. We buildin af",
-    //     img_paths: ["images/firmware-subteam.jpg"],
+    //     img_paths: ["images/autonomous-subteam.jpg"],
     //   },
     // }
   },
@@ -680,8 +680,8 @@ const subteamData = {
     "If you are more interested in..." +
     "<ul>" +
     "<li>Efficient and destructive robots, check out the Kinetic Subteam</li>" +
-    "<li>More complex circuitry, check out the Firmware Subteam</li>" +
-    "<li>Coding autonomous robots, check out the Firmware Subteam</li>" +
+    "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
+    "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
     "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
     "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
     "<li>Art and design, check out the Marketing Subteam</li>" +
@@ -733,25 +733,24 @@ const subteamData = {
     "If you are more interested in..." +
     "<ul>" +
     "<li>Physical robot building, check out the Kinetic Subteam or the Sportsman subteam</li>" +
-    "<li>Coding and wiring for autonomous robots, check out the Firmware Subteam</li>" +
+    "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
     "</ul>" +
     "Meet our current Marketing Subteam!"  
   },
-  // keys for all firmware members
-  firmware: {
-    members: firmware,
+  // keys for all autonomous members
+  autonomous: {
+    members: autonomous,
     //["ethan-zhang", "grace-lim", "blaze-ezlakowski", "katie-huntley", "richard-jin", "shao-stassen", "shawn-chen"]
     description:
-    "Within the Firmware Subteam, we specialize in the construction of <b>3lb autonomous combat robots</b>.<br><br>" +
-    "Our <b>mission</b> is to build, wire, and code robots that can autonomously compete with conventional RC robots. While winning isn't our primary goal, Firmware aims to push boundaries, challenging ourselves to see how well our algorithms can perform and continuously enhance them over time.<br><br>" +
+    "Within the Autonomous Subteam, we specialize in the construction of <b>3lb autonomous combat robots</b>.<br><br>" +
+    "Our <b>mission</b> is to build, wire, and code robots that can autonomously compete with conventional RC robots. While winning isn't our primary goal, Autonomous aims to push boundaries, challenging ourselves to see how well our algorithms can perform and continuously enhance them over time.<br><br>" +
     "Our approach to robot design revolves around three critical <b>subsystems</b> that all members are in together:" +
     "<ul>" +
-    "<li><b>Computer Science (CS)</b>: This encompasses using Raspberry Pi to code machine learning algorithms for tasks such as wall detection and enemy tracking. Firmware strives to create models that collect data, contributing to ongoing improvement.</li>" +
-    "<li><b>Electrical</b>: This encompasses making circuit diagrams, designing printed circuit boards (PCBs), and troubleshooting hardware components electrically. Firmware meticulously selects hardware components that align with and support our algorithmic goals.</li>" +
-    "<li><b>Mechanical</b>: This encompasses utilizing robot kits to design a robot capable of housing all electrical components. Firmware opts for straightforward mechanical components to minimize errors and variables in our algorithms.</li>" +
+    "<li><b>Computer Science (CS)</b>: This encompasses using Raspberry Pi to code machine learning algorithms for tasks such as wall detection and enemy tracking. Autonomous strives to create models that collect data, contributing to ongoing improvement.</li>" +
+    "<li><b>Mechanical</b>: This encompasses utilizing robot kits to design a robot capable of housing all electrical components. Autonomous opts for straightforward mechanical components to minimize errors and variables in our algorithms.</li>" +
     "</ul>" +
     "The culmination of these efforts results in consistent and autonomous robots that break the mold of standard RC competitions.<br><br>" +
-    "The Firmware subteam provides an unparalleled opportunity to immerse yourself in the world of electrical engineering and computer science. Here's what we do:<br><br>" +
+    "The Autonomous subteam provides an unparalleled opportunity to immerse yourself in the world of electrical engineering and computer science. Here's what we do:<br><br>" +
     "<b>Fall Semester</b>:" +
     "<ul>" +
     "<li>Conducting research on models, frameworks, libraries, and optimization techniques</li>" +
@@ -762,7 +761,7 @@ const subteamData = {
     "<b>Spring Semester</b>:" +
     "<ul>" +
     "<li>Developing wall detection and enemy tracking capabilities using computer vision and AI</li>" +
-    "<li>Troubleshooting PCBs and electrical wiring</li>" +
+    "<li>Troubleshooting electrical wiring</li>" +
     "<li>Debugging and fine-tuning computer science algorithms</li>" +
     "<li>Training machine learning models with convolutional neural networks</li>" +
     "<li>Rigorous testing to ensure consistent performance</li>" +
@@ -772,7 +771,7 @@ const subteamData = {
     "<li>Enemy detection and wall detection on Arduino (C++) for Manny (2019-2022)</li>" +
     "<li>Road tracking and facial recognition on Raspberry Pi (Python) for Lance (2022-2023)</li>" +
     "</ul>" +
-    "Come be a part of Firmware, where we challenge conventions through autonomy, one bug at a time.<br><br>" +
+    "Come be a part of Autonomous, where we challenge conventions through autonomy, one bug at a time.<br><br>" +
     "If you are more interested in..." +
     "<ul>" +
     "<li>More intensive robot building and simpler circuits (with no coding), check out the Kinetic Subteam or the Sportsman subteam</li>" +
@@ -780,7 +779,7 @@ const subteamData = {
     "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
     "<li>Art and design, check out the Marketing Subteam</li>" +
     "</ul>" +
-    "Meet our current Firmware Subteam!"  },
+    "Meet our current Autonomous Subteam!"  },
   full: {
     members: fullteam,
     description:
