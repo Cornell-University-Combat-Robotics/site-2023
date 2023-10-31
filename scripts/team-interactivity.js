@@ -530,6 +530,7 @@ const alum = [
   "edith-chen",
   "maya-zamor",
   "blaze-ezlakowski",
+  "richard-kang",
   "sofie-halpern",
   "kaitlyn-hoxha",
   "michelle-zhou",
