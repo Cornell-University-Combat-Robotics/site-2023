@@ -38,18 +38,18 @@ const teamData = {
   // },
   "bruno-tassari": {
     name: "Bruno Tassari",
-    img_path: "images/team/members/Bruno.jpg",
+    img_path: "images/team/members/bruno-tassari.jpg",
     position: "Marketing Member // Former Team Lead (2022-2023) // Former Vice Team Lead (2021-2022)",
     stats: [
       ["Anime Trivia", 90],
       ["A Freak in the Google Sheets", 70],
       ["Epic Jokes", 40],
     ],
-    linkedin: "https://www.linkedin.com/in/bruno-tassari-18928b19b/",
+    linkedin: "https://www.linkedin.com/in/bruno-tassari/",
   },
   "colin-rodriguez": {
     name: "Colin Rodriguez",
-    img_path: "images/team/members/Colin.jpg",
+    img_path: "images/team/members/colin-rodriguez.jpg",
     position: "Marketing Member",
     stats: [
       ["Sleep schedule", 20],
@@ -60,7 +60,7 @@ const teamData = {
   },
   "linda-hu": {
     name: "Linda Hu",
-    img_path: "images/team/members/Linda.jpg",
+    img_path: "images/team/members/linda-hu.jpg",
     position: "Marketing Subteam Lead",
     stats: [
       ["Drawing", "70"],
@@ -71,7 +71,7 @@ const teamData = {
   },
   "luke-murphy": {
     name: "Luke Murphy",
-    img_path: "images/team/members/Luke.jpg",
+    img_path: "images/team/members/luke-murphy.jpg",
     position: "Marketing Member // Former Vice Team Lead (2022-2023)",
     stats: [
       ["Website Skills", "100"],
@@ -82,7 +82,7 @@ const teamData = {
   },
   "molly-drumm": {
     name: "Molly Drumm",
-    img_path: "images/team/members/Molly.jpg",
+    img_path: "images/team/members/molly-drumm.jpg",
     position: "Marketing Member // Former Sportsman Vice Subteam Lead (2023)",
     stats: [
       ["Quirkiness", "90"],
@@ -93,7 +93,7 @@ const teamData = {
   },
   "ruby-wang": {
     name: "Ruby Wang",
-    img_path: "images/team/members/Ruby-Wang.jpg",
+    img_path: "images/team/members/ruby-wang.jpg",
     position: "Marketing Member",
     stats: [
       ["Zoning Out", 70],
@@ -104,7 +104,7 @@ const teamData = {
   },
   "sardor-rahmatulloev": {
     name: "Sardor Rahmatulloev",
-    img_path: "images/team/members/Sardor.jpg",
+    img_path: "images/team/members/sardor-rahmatulloev.jpg",
     position: "Vice Team Lead",
     stats: [
       ["Air Bending", "70"],
@@ -115,7 +115,7 @@ const teamData = {
   },
   "ethan-zhang": {
     name: "Ethan Zhang",
-    img_path: "images/team/members/Ethan.jpg",
+    img_path: "images/team/members/ethan-zhang.jpg",
     position: "Autonomous Subteam Lead",
     stats: [
       ["Fire Bending", 70],
@@ -126,7 +126,7 @@ const teamData = {
   },
   "grace-lim": {
     name: "Grace Lim",
-    img_path: "images/team/members/Grace.jpg",
+    img_path: "images/team/members/grace-lim.jpg",
     position: "Autonomous Vice Subteam Lead",
     stats: [
       ["Handwriting", 100],
@@ -137,7 +137,7 @@ const teamData = {
   },
   "katie-huntley": {
     "name": "Katie Huntley",
-    "img_path": "images/team/members/Katie.jpg",
+    "img_path": "images/team/members/katie-huntley.jpg",
     "position": "Autonomous Member",
     "stats": [
       ["sleep schedule", 90],
@@ -148,7 +148,7 @@ const teamData = {
   },
   "richard-jin": {
     name: "Richard Jin",
-    img_path: "images/team/members/Richard.jpg",
+    img_path: "images/team/members/richard-jin.jpg",
     position: "Former Autonomous Subteam Lead (2022-2023)",
     stats: [
       ["Time Complexity Analysis", 70],
@@ -159,7 +159,7 @@ const teamData = {
   },
   "shao-stassen": {
     name: "Shao Stassen",
-    img_path: "images/team/members/Shao.jpg",
+    img_path: "images/team/members/shao-stassen.jpg",
     position: "Autonomous Member",
     stats: [
       ["Github", "90"],
@@ -170,7 +170,7 @@ const teamData = {
   },
   "sebastian-rivera": {
     name: "Sebastian Rivera",
-    img_path: "images/team/members/Sebastian.jpg",
+    img_path: "images/team/members/sebastian-rivera.jpg",
     position: "Team Lead // Former Autonomous Vice Subteam Lead (2022-2023)",
     stats: [
       ["Wiffleball", 80],
@@ -181,7 +181,7 @@ const teamData = {
   },
   "shawn-chen": {
     name: "Shawn Chen",
-    img_path: "images/team/members/Shawn.jpg",
+    img_path: "images/team/members/shawn-chen.jpg",
     position: "Autonomous Member",
     stats: [
       ["Hoodie and Jean Combo", 80],
@@ -192,7 +192,7 @@ const teamData = {
   },
   "anna-boese": {
     name: "Anna Boese",
-    img_path: "images/team/members/Anna.jpg",
+    img_path: "images/team/members/anna-boese.jpg",
     position: "Kinetic Subteam Lead // Former Kinetic Vice Subteam Lead (2022)",
     stats: [
       ["Hair Color Consistency", 10],
@@ -203,7 +203,7 @@ const teamData = {
   },
   "isaac-newcomb": {
     name: "Isaac Newcomb",
-    img_path: "images/team/members/Isaac.jpg",
+    img_path: "images/team/members/isaac-newcomb.jpg",
     position: "Kinetic Member // Former Kinetic Subteam Lead (2022-2023)",
     stats: [
       ["Robot Piloting", 90],
@@ -214,21 +214,21 @@ const teamData = {
   },
   "james-courtenay": {
     name: "James Courtenay",
-    img_path: "images/team/members/James C.jpg",
+    img_path: "images/team/members/james-courtenay.jpg",
     position: "Kinetic Member // Kinetic Vice Subteam Lead (2023)",
     stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
     linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
   "james-lasalle": {
     name: "James LaSalle",
-    img_path: "images/team/members/James L.jpg",
+    img_path: "images/team/members/james-lasalle.jpg",
     position: "Kinetic Member",
     stats: [["In Your Walls", 100], ["Making the Arcade CAD", 100], ['👍', 100]],
     linkedin: "https://www.linkedin.com/in/james-lasalle-589860256/",
   },
   "mohammed-chowdhury": {
     name: "Mohammed Chowdhury",
-    img_path: "images/team/members/Mohammed.jpg",
+    img_path: "images/team/members/mohammed-chowdhury.jpg",
     position: "Kinetic Member",
     stats: [
       ["Loving Sebastian", 100],
@@ -239,7 +239,7 @@ const teamData = {
   },
   "stella-taglich": {
     name: "Stella Taglich",
-    img_path: "images/team/members/Stella.jpg",
+    img_path: "images/team/members/stella-taglich.jpg",
     position: "Kinetic Vice Subteam Lead",
     stats: [
       ["Finding Car Keys", 20],
@@ -250,7 +250,7 @@ const teamData = {
   },
   "zander-knight": {
     name: "Zander Knight",
-    img_path: "images/team/members/Zander.jpg",
+    img_path: "images/team/members/zander-knight.jpg",
     position: "Kinetic Member",
     stats: [
       ["Battlebots Knowledge", 90],
@@ -261,7 +261,7 @@ const teamData = {
   },
   "alex-jenkins": {
     name: "Alex Jenkins",
-    img_path: "images/team/members/Alex.jpg",
+    img_path: "images/team/members/alex-jenkins.jpg",
     position: "Sportsman Vice Subteam Lead",
     stats: [
       ["Punctuality", "80"],
@@ -272,7 +272,7 @@ const teamData = {
   },
   "caleb-schlissel": {
     name: "Caleb Schlissel",
-    img_path: "images/team/members/Caleb.jpg",
+    img_path: "images/team/members/caleb-schlissel.jpg",
     position: "Sportsman Subteam Lead",
     stats: [
       ["Big Brain", 100],
@@ -283,7 +283,7 @@ const teamData = {
   },
   "charles-liu": {
     name: "Charles Liu",
-    img_path: "images/team/members/Charles.jpg",
+    img_path: "images/team/members/charles-liu.jpg",
     position: "Sportsman Member",
     stats: [
       ["Being Tall", 50],
@@ -294,7 +294,7 @@ const teamData = {
   },
   "marcus-esposito": {
     name: "Marcus Esposito",
-    img_path: "images/team/members/Marcus.jpg",
+    img_path: "images/team/members/marcus-esposito.jpg",
     position: "Sportsman Member // Former Sportsman Subteam Lead (2022-2023)",
     stats: [
       ["Punctuality", "90"],
@@ -305,7 +305,7 @@ const teamData = {
   },
   "narayan-rueppel": {
     name: "Narayan Rueppel",
-    img_path: "images/team/members/Narayan.jpg",
+    img_path: "images/team/members/narayan-rueppel.jpg",
     position: "Sportsman Member",
     stats: [
       ["Punctuality", 90],
@@ -316,14 +316,14 @@ const teamData = {
   },
   "sana-gaya": {
     name: "Sana Gaya",
-    img_path: "images/team/members/Sana.jpg",
+    img_path: "images/team/members/sana-gaya.jpg",
     position: "Sportsman Member",
     stats: [],
     linkedin: "https://www.linkedin.com/in/sana-gaya/",
   },
   "zarif-pathan": {
     name: "Zarif Pathan",
-    img_path: "images/team/members/Zarif.jpg",
+    img_path: "images/team/members/zarif-pathan.jpg",
     position: "Sportsman Member",
     stats: [
       ["Water Bending", 40],
@@ -332,9 +332,9 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/zarif-pathan/",
   },
-  william: {
+  "william-murphy": {
     name: "William Murphy",
-    img_path: "images/team/members/William.jpg",
+    img_path: "images/team/members/william-murphy.jpg",
     position: "Marketing Vice Subteam Lead // Former Sportsman VSL (2022)",
     stats: [
       ["Meow", 50],
@@ -371,9 +371,9 @@ const teamData = {
     stats: [],
     linkedin: "https://www.linkedin.com/in/robert-measner-1a4108196/",
   },
-  esquared: {
+  "erhunmwunse-eghafona": {
     name: "Erhunmwunse Eghafona",
-    img_path: "images/team/members/esquared.jpg",
+    img_path: "images/team/members/erhunmwunse-eghafona.jpg",
     position: "Alum 2022 // Former Kinetic (2021-2022)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/eeghafona/",
@@ -415,7 +415,7 @@ const teamData = {
   },
   "sofie-halpern": {
     name: "Sofie Halpern",
-    img_path: "images/team/members/Sofie.jpg",
+    img_path: "images/team/members/sofie-halpern.jpg",
     position:
       "Alum 2022 // Kinetic (2019-2022) // Marketing (2022) // First Team Lead (2019-2022) // Co-Founder",
     stats: [],
@@ -430,21 +430,21 @@ const teamData = {
   },
   "kaitlyn-hoxha": {
     name: "Kaitlyn Hoxha",
-    img_path: "images/team/members/Kaitlyn.jpg",
+    img_path: "images/team/members/kaitlyn-hoxha.jpg",
     position: "Alum 2022 // Former Marketing Subteam Lead (2020-2021)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/kaitlyn-hoxha/",
   },
   "richard-kang": {
     name: "Richard Kang",
-    img_path: "images/team/members/Richard-Kang.jpg",
+    img_path: "images/team/members/richard-kang.jpg",
     position: "Alum 2022 // Former Autonomous (2021-2022)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/richard-kang-bb923824a/",
   },
   "lucien-eckert": {
     name: "Lucien Eckert",
-    img_path: "images/team/members/Lucien.jpg",
+    img_path: "images/team/members/lucien-eckert.jpg",
     position: "Alum 2023 // Former Marketing Vice Subteam Lead (2022-2023)",
     stats: [
       ["Game Development", 70],
@@ -455,28 +455,28 @@ const teamData = {
   },
   "maya-zamor": {
     name: "Maya Zamor",
-    img_path: "images/team/members/Maya.jpg",
+    img_path: "images/team/members/maya-zamor.jpg",
     position: "Alum 2023 // Former Marketing Subteam Lead (2022-2023)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/maya-zamor-a9420b188",
   },
   "edith-chen": {
     name: "Edith Chen",
-    img_path: "images/team/members/Edith-Chen.jpg",
+    img_path: "images/team/members/edith-chen.jpg",
     position: "Alum 2023 // Former Marketing Subteam Lead (2021-2022)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/chen-edith/",
   },
   "spencer-hurst": {
     name: "Spencer Hurst",
-    img_path: "images/team/members/Spencer.jpg",
+    img_path: "images/team/members/spencer-hurst.jpg",
     position: "Alum 2023 // Former Kinetic (2021-2023)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/spencer-hurst-918627191/",
   },
   "blaze-ezlakowski": {
     name: "Blaze Ezlakowski",
-    img_path: "images/team/members/Blaze.jpg",
+    img_path: "images/team/members/blaze-ezlakowski.jpg",
     position: "Alum 2022 // Former Autonomous Vice Subteam Lead (2022)",
     stats: [
       ["Unicycle Riding", 50],
@@ -507,7 +507,7 @@ const sportsman = [
 ];
 const marketing = [
   "linda-hu",
-  "william",
+  "william-murphy",
   "bruno-tassari",
   "colin-rodriguez",
   "luke-murphy",
@@ -525,23 +525,23 @@ const autonomous = [
   "shawn-chen"
 ];
 const alum = [
-  "lucien-eckert",
-  "spencer-hurst",
   "edith-chen",
+  "lucien-eckert",
   "maya-zamor",
-  "blaze-ezlakowski",
-  "richard-kang",
-  "sofie-halpern",
-  "kaitlyn-hoxha",
-  "michelle-zhou",
-  "rochelle-barsz",
-  "esquared",
-  "shubham-mathur",
-  "ricky-wang",
-  "ash-siddiqui",
-  "mo-moghaddasi",
+  "spencer-hurst",
   "alex-salonga",
+  "ash-siddiqui",
+  "blaze-ezlakowski",
+  "erhunmwunse-eghafona",
+  "kaitlyn-hoxha",
   "kevin-liu",
+  "michelle-zhou",
+  "mo-moghaddasi",
+  "richard-kang",
+  "ricky-wang",
+  "rochelle-barsz",
+  "shubham-mathur",
+  "sofie-halpern",
   "rob-measner",
   "stefan-bell"
 ];
@@ -550,7 +550,7 @@ const leads = [
   "sebastian-rivera",
   "sardor-rahmatulloev",
   "linda-hu",
-  "william",
+  "william-murphy",
   "ethan-zhang",
   "grace-lim",
   "anna-boese",
@@ -793,7 +793,7 @@ const subteamData = {
   },
   alumni: {
     members: alum,
-    //["lucien-eckert", "spencer-hurst", "edith-chen", "maya-zamor", "sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "esquared", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"]
+    //["lucien-eckert", "spencer-hurst", "edith-chen", "maya-zamor", "sofie-halpern", "kaitlyn-hoxha", "michelle-zhou", "rochelle-barsz", "erhunmwunse-eghafona", "shubham-mathur", "ricky-wang", "ash-siddiqui", "mo-moghaddasi", "alex-salonga", "kevin-liu", "rob-measner", "stefan-bell"]
     description:
       "Once you're on CRC, you're a CRC member for life. Our team has a vibrant alumni community, and we love staying connected post-graduation!",
   },
