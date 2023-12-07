@@ -36,17 +36,6 @@ const teamData = {
   //     ["Alcoholism", 50]
   //   ]
   // },
-  "bruno-tassari": {
-    name: "Bruno Tassari",
-    img_path: "images/team/members/bruno-tassari.jpg",
-    position: "Marketing Member // Former Team Lead (2022-2023) // Former Vice Team Lead (2021-2022)",
-    stats: [
-      ["Anime Trivia", 90],
-      ["A Freak in the Google Sheets", 70],
-      ["Epic Jokes", 40],
-    ],
-    linkedin: "https://www.linkedin.com/in/bruno-tassari/",
-  },
   "colin-rodriguez": {
     name: "Colin Rodriguez",
     img_path: "images/team/members/colin-rodriguez.jpg",
@@ -211,13 +200,6 @@ const teamData = {
       ["Having Time to Compose the CRCCU Theme Song", 20],
     ],
     linkedin: "https://linkedin.com/in/isaacdnew",
-  },
-  "james-courtenay": {
-    name: "James Courtenay",
-    img_path: "images/team/members/james-courtenay.jpg",
-    position: "Kinetic Member // Kinetic Vice Subteam Lead (2023)",
-    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
-    linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
   "james-lasalle": {
     name: "James LaSalle",
@@ -485,13 +467,30 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
   },
+  "bruno-tassari": {
+    name: "Bruno Tassari",
+    img_path: "images/team/members/bruno-tassari.jpg",
+    position: "Alum 2023 // Team Lead (2022-2023) // VTL (2021-2022) // Sportsman (2021-2023) // Marketing (2023)",
+    stats: [
+      ["Anime Trivia", 90],
+      ["A Freak in the Google Sheets", 70],
+      ["Epic Jokes", 40],
+    ],
+    linkedin: "https://www.linkedin.com/in/bruno-tassari/",
+  },
+  "james-courtenay": {
+    name: "James Courtenay",
+    img_path: "images/team/members/james-courtenay.jpg",
+    position: "Alum 2023 // Former Kinetic Vice Subteam Lead (2023)",
+    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    linkedin: "https://www.linkedin.com/in/jcourtenay/",
+  },
 };
 
 const kinetic = [
   "anna-boese",
   "stella-taglich",
   "isaac-newcomb",
-  "james-courtenay",
   "james-lasalle",
   "mohammed-chowdhury",
   "zander-knight"
@@ -508,7 +507,6 @@ const sportsman = [
 const marketing = [
   "linda-hu",
   "william-murphy",
-  "bruno-tassari",
   "colin-rodriguez",
   "luke-murphy",
   "molly-drumm",
@@ -525,7 +523,9 @@ const autonomous = [
   "shawn-chen"
 ];
 const alum = [
+  "bruno-tassari",
   "edith-chen",
+  "james-courtenay",
   "lucien-eckert",
   "maya-zamor",
   "spencer-hurst",
