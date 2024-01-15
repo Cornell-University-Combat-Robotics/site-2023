@@ -564,6 +564,27 @@ const teamData = {
     stats: [],
     linkedin: "https://www.linkedin.com/in/vishnu-nair-401528200/",
   },
+  "ethan-hernandez": {
+    name: "Ethan Hernandez",
+    img_path: "images/team/members/ethan-hernandez.jpg",
+    position: "Kinetic Member",
+    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
+  },
+  "kevin-sturm": {
+    name: "Kevin Sturm",
+    img_path: "images/team/members/kevin-sturm.jpg",
+    position: "Kinetic Member",
+    stats: [["Thinking About Skills", 0], ["Time Spent Thinking About Skills", 100], ["Machining", 60]],
+    linkedin: "https://www.linkedin.com/in/kevin-sturm-97a046277/",
+  },
+  "mattew-anazco": {
+    name: "Mattew Anazco",
+    img_path: "images/team/members/mattew-anazco.jpg",
+    position: "Kinetic Member",
+    stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
+    linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
+  },
 };
 
 const kinetic = [
@@ -572,7 +593,10 @@ const kinetic = [
   "isaac-newcomb",
   "james-lasalle",
   "mohammed-chowdhury",
-  "zander-knight"
+  "zander-knight",
+  "ethan-hernandez",
+  "kevin-sturm",
+  "mattew-anazco"
 ];
 const sportsman = [
   "caleb-schlissel",
