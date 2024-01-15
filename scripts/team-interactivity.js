@@ -485,6 +485,85 @@ const teamData = {
     stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
     linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
+  "angela-zhu": {
+    name: "Angela Zhu",
+    img_path: "images/team/members/angela-zhu.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Gacha addiction", 90],
+      ["Pyramid scheme recruitment", 80],
+      ["Studying during social", 100],
+    ],
+    linkedin: "https://www.linkedin.com/in/angela-zhu-26b22229a/",
+  },
+  "crystal-li": {
+    name: "Crystal Li",
+    img_path: "images/team/members/crystal-li.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/crystal-li-698431255/",
+  },
+  "evan-zhu": {
+    name: "Evan Zhu",
+    img_path: "images/team/members/evan-zhu.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Microplastics", 100],
+      ["Giant Graveyard", 80],
+      ["Problem Sets", 10],
+    ],
+    linkedin: "https://www.linkedin.com/in/evan-j-zhu/",
+  },
+  "javohir-abdurazzakov": {
+    name: "Javohir Abdurazzakov",
+    img_path: "images/team/members/javohir-abdurazzakov.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Soccer", 20],
+      ["Germaphobe", 75],
+      ["Weight Fluctuation", 95],
+    ],
+    linkedin: "https://www.linkedin.com/in/javohir1/",
+  },
+  "julia-sun": {
+    name: "Julia Sun",
+    img_path: "images/team/members/julia-sun.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/juliasun2021/",
+  },
+  "meiling-wood": {
+    name: "Mei Ling Wood",
+    img_path: "images/team/members/meiling-wood.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/mei-ling-wood-bb669523b/",
+  },
+  "nicholas-underwood": {
+    name: "Nicholas Underwood",
+    img_path: "images/team/members/nicholas-underwood.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/nicholas-underwood-0b7733290/",
+  },
+  "rachel-pineda": {
+    name: "Rachel Pineda",
+    img_path: "images/team/members/rachel-pineda.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Crossword Enthusiasm", 90],
+      ["LinkedIn", 50],
+      ["Fortnite Festival player", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/rrachelpineda/",
+  },
+  "vishnu-nair": {
+    name: "Vishnu Nair",
+    img_path: "images/team/members/vishnu-nair.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/vishnu-nair-401528200/",
+  },
   "ethan-hernandez": {
     name: "Ethan Hernandez",
     img_path: "images/team/members/ethan-hernandez.jpg",
@@ -535,7 +614,16 @@ const marketing = [
   "luke-murphy",
   "molly-drumm",
   "ruby-wang",
-  "sardor-rahmatulloev"
+  "sardor-rahmatulloev",
+  "angela-zhu",
+  "crystal-li",
+  "evan-zhu",
+  "javohir-abdurazzakov",
+  "julia-sun",
+  "meiling-wood",
+  "nicholas-underwood",
+  "rachel-pineda",
+  "vishnu-nair"
 ];
 const autonomous = [
   "ethan-zhang",
