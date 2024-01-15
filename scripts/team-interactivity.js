@@ -485,6 +485,73 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
   },
+  "aaron-harnish": {
+    name: "Aaron Harnish",
+    img_path: "images/team/members/aaron-harnish.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
+  },
+  "alyssa-hsu": {
+    name: "Alyssa Hsu",
+    img_path: "images/team/members/alyssa-hsu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/haalyssa/",
+  },
+  "ananya-jajodia": {
+    name: "Ananya Jajodia",
+    img_path: "images/team/members/ananya-jajodia.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
+  },
+  "camille-yap": {
+    name: "Camille Yap",
+    img_path: "images/team/members/camille-yap.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
+  },
+  "christopher-adonizio": {
+    name: "Christopher Adonizio",
+    img_path: "images/team/members/christopher-adonizio.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/christopher-adonizio-0b7683219/",
+  },
+  "jenny-wu": {
+    name: "Jenny Wu",
+    img_path: "images/team/members/jenny-wu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "",
+  },
+
 };
 
 const kinetic = [
@@ -516,13 +583,19 @@ const marketing = [
   "sardor-rahmatulloev"
 ];
 const autonomous = [
+  "aaron-harnish",
+  "alyssa-hsu",
+  "ananya-jajodia",
+  "camille-yap",
+  "christopher-adonizio",
   "ethan-zhang",
   "grace-lim",
+  "jenny-wu",
   "katie-huntley",
   "richard-jin",
   "sebastian-rivera",
   "shao-stassen",
-  "shawn-chen"
+  "shawn-chen",
 ];
 const alum = [
   "edith-chen",
