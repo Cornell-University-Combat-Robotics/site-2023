@@ -485,6 +485,62 @@ const teamData = {
     stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
     linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
+  "angela-zhu": {
+    name: "Angela Zhu",
+    img_path: "images/team/members/angela-zhu.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "crystal-li": {
+    name: "Crystal Li",
+    img_path: "images/team/members/crystal-li.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "javohir-abdurazzakov": {
+    name: "Javohir Abdurazzakov",
+    img_path: "images/team/members/javohir-abdurazzakov.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "julia-sun": {
+    name: "Julia Sun",
+    img_path: "images/team/members/julia-sun.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "meiling-wood": {
+    name: "Mei Ling Wood",
+    img_path: "images/team/members/meiling-wood.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "nicholas-underwood": {
+    name: "Nicholas Underwood",
+    img_path: "images/team/members/nicholas-underwood.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "rachel-pineda": {
+    name: "Rachel Pineda",
+    img_path: "images/team/members/rachel-pineda.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
+  "vishnu-nair": {
+    name: "Vishnu Nair",
+    img_path: "images/team/members/vishnu-nair.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "",
+  },
 };
 
 const kinetic = [
