@@ -490,9 +490,9 @@ const teamData = {
     img_path: "images/team/members/aaron-harnish.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Caleb Impersonation", 30],
+      ["Milk Enthusiasm", 80],
+      ["Raising Average Height", 90],
     ],
     linkedin: "https://www.linkedin.com/in/aaron-harnish/",
   },
@@ -501,9 +501,9 @@ const teamData = {
     img_path: "images/team/members/alyssa-hsu.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Tummy Sleeper", 100],
+      ["Pentakills", 0],
+      ["Airsipping", 30],
     ],
     linkedin: "https://www.linkedin.com/in/haalyssa/",
   },
@@ -512,9 +512,9 @@ const teamData = {
     img_path: "images/team/members/ananya-jajodia.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Tetris", 70],
+      ["Hydration", 0],
+      ["Lowering Average Height", 90],
     ],
     linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
   },
@@ -523,9 +523,9 @@ const teamData = {
     img_path: "images/team/members/camille-yap.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Avocado Enthusiasm", 100],
+      ["Back Sleeper", 100],
+      ["Thoughts", 0],
     ],
     linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
   },
@@ -534,9 +534,9 @@ const teamData = {
     img_path: "images/team/members/christopher-adonizio.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Chess", 60],
+      ["Frisbee", 80],
+      ["Fruitmaxxing", 100],
     ],
     linkedin: "https://www.linkedin.com/in/christopher-adonizio-0b7683219/",
   },
@@ -545,11 +545,11 @@ const teamData = {
     img_path: "images/team/members/jenny-wu.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Unicycle Riding", 50],
-      ["Having Siblings", 90],
-      ["Vending Machine Interest", 80],
+      ["Red", 0],
+      ["Green", 0],
+      ["Blue", 100],
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
   },
 
 };
@@ -772,26 +772,26 @@ const subteamData = {
     "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
     "<ul>" +
     "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
-    "<li><b>Computer Science (CS)</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
+    "<li><b>Software</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
     "<li><b>Media</b>: This encompasses photography, videography, editing, writing, and content management for CRC's social media presence on platforms like Instagram, TikTok, YouTube, Facebook, and LinkedIn. Marketing aims to create engaging posts that reflect the team's personality and encourage member creativity.</li>" +
     "<li><b>Design</b>: This encompasses art, graphic design, and crafting for CRC's merchandise, including trading cards, stickers, clothing, stuffed animals, posters, and suits. Marketing creates an environment where members can express their passions, transforming CRC's robots into beloved characters.</li>" +
     "</ul>" +
     "The culmination of these efforts results in the transformation of CRC's brand into something tangible and relatable, extending beyond the realm of robotics.<br><br>" +
-    "The Marketing subteam provides an unparalleled opportunity to immerse yourself in your area of choice, whether it's business, computer science, media, and/or design. Here's what we do:<br><br>" +
+    "The Marketing subteam provides an unparalleled opportunity to immerse yourself in your area of choice, whether it's business, software, media, and/or design. Here's what we do:<br><br>" +
     "<b>Fall/Spring Semesters</b>:" +
     "<ul>" +
     "<li>Each subsystem continually generates content for the team, driven by member interests and goals</li>" +
     "<li>Business reaches out to potential sponsors, applies for grants, engages with companies on campus, pitches the team to prospective partners, maintains existing relationships, and explores job opportunities for members. Business is also responsible for our two fundraising events: crowdfunding in the Fall and giving day in the Spring</li>" +
-    "<li>CS maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
+    "<li>Software maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
     "<li>Media creates an ever-expanding array of posts and videos, expanding the CRC Cinematic Universe. They also handle team recruitment, fundraising, and Cornell publicity. Additionally, they assist in creating videos for fundraising events and grant applications.</li>" +
     "<li>Design is at the heart of giving our robots personality through an array of merchandise. We create distinctive trading cards, doubling as business cards and quarter cards featuring our robots; our vision extends to producing cards for all our robots, culminating in the development of a captivating CRC trading card game. Alongside trading cards, our repertoire includes robot stickers, quirky team wearables, and providing graphic design support to other subsystems.</li>" +
     "</ul>" +
     "Take a look at our past/current projects:<br>" +
     "<ul>" +
     "<li>Business: Sponsors page</li>" +
-    "<li>CS: Current CRC Website</li>" +
-    "<li>CS: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
-    "<li>CS: CRC RIZZ, the dating sim (TBD)</li>" +
+    "<li>Software: Current CRC Website</li>" +
+    "<li>Software: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
+    "<li>Software: CRC RIZZ, the dating sim (TBD)</li>" +
     "<li>Media: Instagram</li>" +
     "<li>Media: TikTok</li>" +
     "<li>Media: YouTube</li>" +
@@ -801,7 +801,7 @@ const subteamData = {
     "<li>Design: CRSuit</li>" +
     "<li>Design: Stuffed Manny</li>" +
     "<li>Design: Robot Hats</li>" +
-    "<li>Design: Posters on campus, certain media posts, and certain designs on CS projects</li>" +
+    "<li>Design: Posters on campus, certain media posts, and certain designs on software projects</li>" +
     "</ul>" +
     "Come be a part of Marketing, where we keep the spirit of CRC alive, one idea at a time.<br><br>" +
     "If you are more interested in..." +
