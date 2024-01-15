@@ -496,14 +496,14 @@ const teamData = {
     name: "Kevin Sturm",
     img_path: "images/team/members/kevin-sturm.jpg",
     position: "Kinetic Member",
-    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    stats: [["Thinking About Skills", 0], ["Time Spent Thinking About Skills", 100], ["Machining", 60]],
     linkedin: "https://www.linkedin.com/in/kevin-sturm-97a046277/",
   },
   "mattew-anazco": {
     name: "Mattew Anazco",
     img_path: "images/team/members/mattew-anazco.jpg",
     position: "Kinetic Member",
-    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
     linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
   },
 };
