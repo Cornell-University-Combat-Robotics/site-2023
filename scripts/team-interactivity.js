@@ -485,6 +485,39 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
   },
+  "tyler-sprague": {
+    name: "Tyler Sprague",
+    img_path: "images/team/members/tyler-sprague.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+  },
+  "manuely-feliz-portes": {
+    name: "Manuely Feliz Portes",
+    img_path: "images/team/members/manuely-feliz-portes.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+  },
+  "kai-rodger": {
+    name: "Kai Rodger",
+    img_path: "images/team/members/kai-rodger.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Unicycle Riding", 50],
+      ["Having Siblings", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
+  },
 };
 
 const kinetic = [
@@ -503,7 +536,10 @@ const sportsman = [
   "marcus-esposito",
   "narayan-rueppel",
   "sana-gaya",
-  "zarif-pathan"
+  "zarif-pathan",
+  "tyler-sprague",
+  "manuely-feliz-portes",
+  "kai-rodger"
 ];
 const marketing = [
   "linda-hu",
