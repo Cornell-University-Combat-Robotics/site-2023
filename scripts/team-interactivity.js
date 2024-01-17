@@ -82,7 +82,7 @@ const teamData = {
   },
   "ruby-wang": {
     name: "Ruby Wang",
-    img_path: "images/team/members/ruby-wang.jpg",
+    img_path: "images/team/members/Ruby-Wang.jpg",
     position: "Marketing Member",
     stats: [
       ["Zoning Out", 70],
