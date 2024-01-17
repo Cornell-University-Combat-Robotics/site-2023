@@ -500,7 +500,11 @@ const teamData = {
     name: "Crystal Li",
     img_path: "images/team/members/crystal-li.jpg",
     position: "Marketing Member",
-    stats: [],
+    stats: [
+      ["Decisiveness", 0],
+      ["Crocheting", 60],
+      ["Injurability", 90]
+    ],
     linkedin: "https://www.linkedin.com/in/crystal-li-698431255/",
   },
   "evan-zhu": {
@@ -536,7 +540,11 @@ const teamData = {
     name: "Mei Ling Wood",
     img_path: "images/team/members/meiling-wood.jpg",
     position: "Marketing Member",
-    stats: [],
+    stats: [
+      ["Food begging skills", 100],
+      ["Decisiveness", 0],
+      ["Water Drinking", 100]
+    ],
     linkedin: "https://www.linkedin.com/in/mei-ling-wood-bb669523b/",
   },
   "nicholas-underwood": {
@@ -568,14 +576,18 @@ const teamData = {
     name: "Ethan Hernandez",
     img_path: "images/team/members/ethan-hernandez.jpg",
     position: "Kinetic Member",
-    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    stats: [],
     linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
   },
   "kevin-sturm": {
     name: "Kevin Sturm",
     img_path: "images/team/members/kevin-sturm.jpg",
     position: "Kinetic Member",
-    stats: [["Thinking About Skills", 0], ["Time Spent Thinking About Skills", 100], ["Machining", 60]],
+    stats: [
+      ["Being 6 foot", 98],
+      ["Ability to eat nuts", 0],
+      ["Ability to see colors", 60]
+    ],
     linkedin: "https://www.linkedin.com/in/kevin-sturm-97a046277/",
   },
   "mattew-anazco": {
@@ -584,6 +596,101 @@ const teamData = {
     position: "Kinetic Member",
     stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
     linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
+  },
+  "jenny-wu": {
+    name: "Jenny Wu",
+    img_path: "images/team/members/jenny-wu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Red", 0],
+      ["Green", 0],
+      ["Blue", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
+  },
+  "alyssa-hsu": {
+    name: "Alyssa Hsu",
+    img_path: "images/team/members/alyssa-hsu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Tummy sleeper", 100],
+      ["Pentakills", 0],
+      ["Airsipping", 30] //its waterfall btw
+    ],
+    linkedin: "https://www.linkedin.com/in/haalyssa/",
+  },
+  "camille-yap": {
+    name: "Camille Yap",
+    img_path: "images/team/members/camille-yap.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Avocado enthusiasm", 100],
+      ["Back sleeper", 100],
+      ["Thoughts", 0]
+    ],
+    linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
+  },
+  "ananya-jajodia": {
+    name: "Ananya Jajodia",
+    img_path: "images/team/members/ananya-jajodia.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Tetris", 70],
+      ["Water drinking", 0],
+      ["Lowering average height", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
+  },
+  "aaron-harnish": {
+    name: "Aaron Harnish",
+    img_path: "images/team/members/aaron-harnish.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Caleb impersonation skills", 30],
+      ["Milk enthusiasm", 80],
+      ["Raising average height", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
+  },
+  "chris-adonizio": {
+    name: "Chris Adonizio",
+    img_path: "images/team/members/chris-adonizio.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Chess", 60],
+      ["Frisbee", 95], //update to 2 lower than tyler
+      ["Fruitmaxxing", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/christopher-adonizio-0b7683219/",
+  },
+  "kai-rodger": {
+    name: "Kai Rodger",
+    img_path: "images/team/members/kai-rodger.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Snowboarding", 90],
+      ["Cooking", 0],
+      ["Focus", 50]
+    ],
+    linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
+  },
+  "manuely-feliz-portes": {
+    name: "Manuely Feliz Portes",
+    img_path: "images/team/members/manuely-feliz-portes.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Decisive", 10],
+      ["Driving", 50],
+      ["Credibility", 100]
+    ],
+    linkedin: "",
+  },
+  "tyler-sprague": {
+    name: "Tyler Sprague",
+    img_path: "images/team/members/tyler-sprague.jpg",
+    position: "Sportsman Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
   },
 };
 
@@ -605,7 +712,10 @@ const sportsman = [
   "marcus-esposito",
   "narayan-rueppel",
   "sana-gaya",
-  "zarif-pathan"
+  "zarif-pathan",
+  "kai-rodger",
+  "manuely-feliz-portes",
+  "tyler-sprague"
 ];
 const marketing = [
   "linda-hu",
@@ -632,7 +742,13 @@ const autonomous = [
   "richard-jin",
   "sebastian-rivera",
   "shao-stassen",
-  "shawn-chen"
+  "shawn-chen",
+  "aaron-harnish",
+  "alyssa-hsu",
+  "ananya-jajodia",
+  "camille-yap",
+  "chris-adonizio",
+  "jenny-wu"
 ];
 const alum = [
   "bruno-tassari",
