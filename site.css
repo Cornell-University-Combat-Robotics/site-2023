@@ -1,0 +1,1282 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Montserrat:wght@500&family=Trispace&display=swap");
+
+html {
+  --crc-red: #b21c1c;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0rem auto;
+}
+
+.crc-red {
+  color: var(--crc-red);
+}
+
+.manny-body {
+  /* YOU CAN CHANGE THE HOTSPOT (WHERE IT CLICKS) OF THE CURSOR BY 
+  ADDING 4 5 AFTER WHERE THOSE ARE THE NUMBER OF PIXELS AWAY FROM 
+  THE LEFT AND TOP RESPECTIVELY */
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), pointer;
+}
+
+.manny-body a:hover,
+.manny-body .robot-photo:hover,
+.manny-body .robot-video:hover {
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
+  animation: manny-cursor 0.6s linear infinite;
+}
+
+#manny:hover {
+  cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
+  animation: manny-cursor 0.6s linear infinite;
+}
+
+@keyframes manny-cursor {
+  0% {
+    cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
+  }
+  16% {
+    cursor: url("../images/robot-img/manny/manny-cursor-1.png"), auto;
+  }
+  32% {
+    cursor: url("../images/robot-img/manny/manny-cursor-2.png"), auto;
+  }
+  48% {
+    cursor: url("../images/robot-img/manny/manny-cursor-3.png"), auto;
+  }
+  64% {
+    cursor: url("../images/robot-img/manny/manny-cursor-4.png"), auto;
+  }
+  80% {
+    cursor: url("../images/robot-img/manny/manny-cursor-5.png"), auto;
+  }
+  96% {
+    cursor: url("../images/robot-img/manny/manny-cursor-0.png"), auto;
+  }
+}
+
+.lance-body {
+  cursor: url("../images/robot-img/lance/lance-cursor-0.png"), pointer;
+}
+
+#lance:hover {
+  cursor: url("../images/robot-img/lance/lance-cursor-0.png"), auto;
+}
+
+.lance-body a:hover,
+.lance-body .robot-photo:hover,
+.lance-body .robot-video:hover {
+  cursor: url("../images/robot-img/lance/lance-cursor-1.png"), pointer;
+}
+
+.richard-body {
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), pointer;
+}
+
+.richard-body a:hover,
+.richard-body .robot-photo:hover,
+.richard-body .robot-video:hover {
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
+  animation: richard-cursor 0.25s linear infinite;
+}
+
+#richard:hover {
+  cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
+  animation: richard-cursor 0.25s linear infinite;
+}
+
+@keyframes richard-cursor {
+  0% {
+    cursor: url("../images/robot-img/richard/richard-cursor-0.png"), auto;
+  }
+  25% {
+    cursor: url("../images/robot-img/richard/richard-cursor-1.png"), auto;
+  }
+  50% {
+    cursor: url("../images/robot-img/richard/richard-cursor-2.png"), auto;
+  }
+  75% {
+    cursor: url("../images/robot-img/richard/richard-cursor-3.png"), auto;
+  }
+}
+
+main {
+  max-width: 1000px;
+  margin: 0rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+/* Header */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+header {
+  padding: 0em 0.5em;
+  padding-top: 0.5em;
+  position: sticky;
+  top: 0em;
+  background-color: white;
+  /* filter: drop-shadow(0.15rem 0.15rem 0.25rem lightgrey); */
+  z-index: 1000;
+}
+
+/* Should exist inside of <header> */
+.banner {
+  background-color: var(--crc-red);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 -0.5em;
+}
+
+.banner a {
+  font-weight: bold;
+  color: white;
+}
+.nav-logo {
+  display: block;
+}
+
+.nav-logo img {
+  width: 50px;
+}
+
+.nav-bar-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar-right a {
+  margin: 0em 1em;
+  text-decoration: none;
+  color: var(--crc-red);
+}
+
+.nav-bar-right a p {
+  font-size: 1rem;
+  /* font-weight: bold; */
+  font-family: "Trispace", sans-serif;
+}
+
+.nav-bar-right a:link,
+.nav-bar-right a:visited {
+  color: black;
+}
+
+.nav-bar-right a:focus,
+.nav-bar-right a:hover,
+.nav-bar-right a:active {
+  color: var(--crc-red);
+}
+
+.active p {
+  text-decoration: underline;
+}
+
+/* Hero Image */
+
+.hero-image {
+  position: absolute;
+  top: 0rem;
+  background-color: white;
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 50% 100%;
+  transition: 0.25s;
+  z-index: -1;
+}
+
+.hero-image.first {
+  z-index: 0;
+}
+
+.hero-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image .logo {
+  /* background-color: white; */
+  border-radius: 1rem;
+  object-fit: contain;
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  max-width: 100%;
+  transition: 0.2s transform;
+  animation: fade-in 1s;
+}
+
+.hero-image .logo:hover {
+  transform: translate(-50%, -50%) scale(1.025);
+}
+
+.hero-image-box {
+  position: relative;
+  height: 28rem;
+}
+
+.hero-image-box.robot-hero-image {
+  max-width: 1000px;
+  margin: 0rem auto;
+}
+
+/*.page-heading {
+  position: absolute;
+  text-align: center;
+  top: 0.5rem;
+  left: 5rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: white
+}*/
+
+@keyframes fade-up {
+  0% {
+    opacity: 0.1;
+    transform: translate(0rem, 2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0rem, 0rem);
+  }
+}
+/* We Build Robots */
+
+#we-build-robots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation: fade-up 0.5s;
+}
+
+#we-build-robots div {
+  padding: 0.25rem 0.75rem;
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  transition: 0.25s background-color;
+}
+
+#we-build-robots div h2 {
+  color: var(--crc-red);
+  display: inline-block;
+  margin: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#we-build-robots div:hover {
+  background-color: var(--crc-red);
+  color: white;
+}
+
+#we-build-robots div:hover h2 {
+  color: white;
+}
+
+#we-build-robots div h2 img {
+  height: 3rem;
+}
+
+/* Timeline */
+
+.timeline-bot {
+  position: sticky;
+  top: 40%;
+  width: 100%;
+  z-index: 10;
+  padding-left: 0.5%;
+}
+
+.timeline-bot img {
+  display: block; 
+  margin: 0rem auto; 
+  width: 4rem; 
+  transform: rotate(180deg);
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: row;
+  /*margin-bottom: 3em;*/
+}
+
+.timeline-item div {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+/* .timeline-item p {
+  max-width: 50%;
+  min-width: 50%;
+  /*padding: 0.5em;*/
+
+.timeline-image {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.timeline-image img {
+  object-fit: cover;
+  max-width: 50%;
+  border-radius: 5px;
+  /*CHANGE THIS TO CHANGE IMAGE SIZE ON TIMELINES*/
+}
+
+.journey h1 {
+  justify-content: center;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-dot {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 0.6rem);
+  margin-top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--crc-red);
+  border-radius: 50%;
+}
+
+.timeline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 49.8%;
+  width: 1rem;
+  height: 100%;
+  background-color: var(--crc-red);
+  z-index: 10;
+  clip-path: polygon(0 95%, 50% 100%, 100% 95%, 100% 0, 0 0);
+}
+
+.action-footer {
+  display: flex;
+}
+
+.action-footer div {
+  width: 50%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  filter: drop-shadow(0rem 0rem 0.1rem grey);
+}
+
+.action-footer div h4 {
+  text-align: center;
+}
+
+.link-button {
+  text-align: center;
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--crc-red);
+  color: white;
+  transition: 0.1s background-color;
+  margin: 0.5rem;
+}
+
+.link-button:hover {
+  background-color: maroon;
+}
+
+/* sponsorship page */
+.community-par {
+  width: 500px;
+  position: relative;
+}
+
+.platinum {
+  border-color: aliceblue;
+}
+
+.gold {
+  border-color: rgb(255, 244, 179);
+}
+
+.silver {
+  border-color: rgb(209, 209, 209);
+}
+
+.bronze {
+  border-color: rgb(255, 170, 139);
+}
+#slideshow {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+#slideshow div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.fading {
+  animation: fade-out 0.5s;
+}
+
+#fading {
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sponsor-logos {
+  border-left-width: 1rem;
+  border-bottom-width: 0rem;
+  border-top-width: 0rem;
+  border-right-width: 0rem;
+  border-style: solid;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+}
+
+.sponsor-icon {
+  width: 4rem;
+  filter: drop-shadow(0rem 0rem 0.1rem black);
+}
+
+.break-line {
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+
+.sponsor-levels {
+  text-align: left;
+  font-size: 2rem;
+  display: inline;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  padding-right: 1rem;
+}
+
+.sponsor-team {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  width: 900px;
+  height: auto;
+}
+
+/* Team Page */
+
+.team-page-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.team-page-buttons div,
+.team-page-buttons a {
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 0.5em;
+  background: white;
+  z-index: 1;
+  flex-basis: 0;
+  color: var(--crc-red);
+  padding: 0.25rem 0.75rem;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
+  text-decoration: none;
+}
+
+.team-page-buttons div img,
+.team-page-buttons a img {
+  max-width: 20%;
+  padding-top: 1em;
+}
+
+.team-page-buttons div:hover,
+.team-page-buttons div:focus,
+.team-page-buttons div:active,
+.team-page-buttons a:hover,
+.team-page-buttons a:focus,
+.team-page-buttons a:active {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#other-buttons {
+  padding-bottom: 2rem;
+}
+
+#other-buttons div {
+  max-height: 6rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#other-buttons div img {
+  padding-top: 0rem;
+  margin-right: 2rem;
+}
+
+#other-buttons div h2 {
+  line-height: 1rem;
+}
+#team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 3rem auto;
+}
+
+.card {
+  position: relative;
+  margin: 1rem 0.5rem;
+  width: 17rem;
+  height: 26rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.25rem grey);
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  animation: fade-in 0.5s;
+}
+
+.card .stats {
+  background-color: rgba(218, 218, 218, 0.593);
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 90%;
+  height: 13rem;
+  padding: 1rem;
+  transition: 0.2s transform;
+  transform: translate(-150%, 0%);
+}
+
+.stats .member-stat {
+  margin: 1rem 0rem;
+}
+
+.stats .stat-name {
+  width: 90%;
+}
+
+.stats .stat-bg {
+  width: 90%;
+  height: 1rem;
+  background-color: black;
+}
+
+.stats .stat-value {
+  background-color: var(--crc-red);
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card .desc {
+  padding: 1rem;
+}
+
+.card .desc .name {
+  font-weight: bold;
+}
+
+.card .member-links {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card .member-links button {
+  margin: 0.5rem;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.member-link-button {
+  margin: 0.5rem;
+  border-radius: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: grey;
+}
+
+.member-link-button:hover {
+  background-color: slategray;
+}
+
+.member-link-button img {
+  width: 100% !important;
+  min-width: auto !important;
+  height: 100% !important;
+  min-height: auto !important;
+}
+
+/* TODO: Team description widget */
+
+#team-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+#full-team-info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.row-icon {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  margin: 0rem auto;
+}
+#team-info-description {
+  width: 60%;
+  padding: 1rem;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#team-info-description .images {
+  flex-grow: 1;
+  max-height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#team-info-description .images img {
+  max-height: 100%;
+  max-width: 40%;
+  margin: 0.5rem;
+  object-fit: cover;
+}
+
+#team-topics-list button {
+  font-family: inherit;
+  display: block;
+  padding: 2rem;
+  font-size: 2rem;
+  margin: 0rem 0.5rem;
+  margin-right: 0rem;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 2rem 0rem 0rem 2rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+#team-topics-list button:hover {
+  background-color: gainsboro;
+  color: var(--crc-red);
+}
+
+/* Robots page */
+.photo-label {
+  position: absolute;
+  left: 2rem;
+  z-index: 2;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--crc-red);
+  color: white;
+}
+
+.image-position {
+  position: relative;
+}
+
+.robots {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.robot-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 1.5em;
+}
+
+.robot {
+  background-color: white;
+  border-radius: 5px;
+  /*border: 1px solid black;*/
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  flex-grow: 1;
+}
+
+.design-project {
+  max-width: 18%;
+}
+
+.design-project h2 {
+  font-size: 1rem;
+}
+
+.robot-interactive {
+}
+
+.robot-interactive:focus,
+.robot-interactive:hover,
+.robot-interactive:active {
+  background-color: lightgray;
+}
+
+.robot img {
+  max-width: 160px;
+}
+
+/* Robot specific page */
+
+.robot-side-stats-picture {
+  float: right;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column-reverse;
+  /* Picked an arbitrary width based on table width but should find a way to change this*/
+  width: 296.117px;
+}
+
+.robot-icon {
+  max-width: 10%;
+  min-width: 80px;
+  min-height: 80px;
+  margin-top: 5px;
+}
+
+.robot-header-wide {
+  display: flex;
+}
+
+.robot-header-wide h1,
+.robot-header-narrow h1 {
+  margin-right: 1em;
+}
+
+.robot-header-narrow {
+  display: none;
+}
+
+.robot-title {
+  font-size: 1.25rem;
+  color: var(--crc-red);
+  font-style: italic;
+}
+.robot-stats {
+  border-top: 1px solid black;
+  /* background-color: var(--crc-red); */
+  background-color: maroon;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: white;
+}
+
+/*.robot-stats thead th,
+.robot-stats tbody tr td {
+  border: 1px solid black;
+}
+
+.robot-stats tbody {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}*/
+
+.robot-photo:hover {
+  /*outline-offset: 2px;*/
+  outline: 3px solid maroon;
+}
+
+.main-robot-image-box {
+  max-height: 400px; /* Set max height of images */
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-robot-image {
+  width: 100%;
+  object-fit: contain; /* This is incase the image is too tall then it sizes it to fit*/
+}
+
+/* Fights */
+
+.robot-fights-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.featured-fight-header {
+  margin: 0;
+}*/
+
+.featured-fight {
+  /* border: 1px solid black; */
+  border-radius: 0.5em;
+  min-width: 45%; /*set higher to make video wider but then overspills when page is narrow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+}
+
+.featured-fight h2 {
+  margin: 0.5em;
+  /*text-decoration: underline;*/
+}
+
+.featured-fight-video-box {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 1em;
+  height: 0;
+  margin: 1em;
+  /*overflow: hidden;*/
+}
+
+.featured-fight-video-box iframe,
+.featured-fight-video-box video {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*.featured-fight-video {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+.robot-fights {
+  /*border-radius: 0.5em;*/
+  border-collapse: collapse;
+  /*background-color: maroon;
+  color: white;*/
+}
+
+.robot-fights,
+.robot-fights thead th,
+.robot-fights tbody tr td {
+  border: 1px solid black;
+}
+
+/*.robot-fights thead th,
+.robot-fights tbody tr td {
+  border: 1px solid white;
+} */
+
+/* .robot-fights,
+.robot-fights th,
+.robot-fights td {
+  border: 1px solid white;
+  border-collapse: collapse;
+} */
+
+.robot-fights thead tr th,
+.robot-fights tbody tr td {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+
+.robot-fights tbody tr td {
+  padding: 0.1em;
+  padding-right: 0.4em;
+  text-align: center;
+}
+
+/* Robots Media */
+.robot-media-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.robot-media-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.26%;
+}
+
+.robot-media-row img,
+.robot-media-row video {
+  max-width: 31%;
+  /*border: 1px solid black;*/
+  border-radius: 0.5em;
+  object-fit: cover;
+  max-height: 30em;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem grey);
+  flex-grow: 1;
+}
+
+.robot-video:hover {
+  outline: 3px solid maroon;
+}
+
+/* Sponsorship */
+
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor-logos img {
+  max-width: 15rem;
+  height: auto;
+  object-fit: scale-down;
+  margin: 1rem;
+}
+
+/* Recruitment */
+
+.application-status {
+  background-color: var(--crc-red);
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.application-status a{
+  color:#FFFFFF;
+  text-align: center;
+  
+}
+
+.recruitment-timeline li {
+  list-style: none;
+}
+
+.timeline-answer {
+  color: grey;
+  padding-bottom: 1em;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 1rem;
+  display: flex;
+  background-color: maroon;
+  justify-content: space-evenly;
+}
+
+.footer-text {
+  color:white;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer div ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer div ul li a {
+  color: white;
+  white-space: nowrap;
+}
+
+.footer-icon {
+  width: 1em;
+  margin-right: 10px;
+  background: transparent;
+}
+
+.footer-information {
+  display: flex;
+}
+
+.footer-logo-box-aside {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  max-width: 15em;
+}
+
+.footer-logo-box-inside {
+  display: none;
+}
+
+.footer-logo {
+  max-width: 100%;
+}
+
+.footer-follow {
+  padding-left: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-middle-line {
+  border-left: 4px solid white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.footer-contact {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.game-iframe {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  header {
+    padding-left: 0.3em;
+    padding-right: 0.2em;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-bar-right a p {
+    font-size: 0.85rem;
+  }
+
+  .nav-bar-right a {
+    margin: 0em 0.5em;
+    text-decoration: none;
+    color: var(--crc-red);
+  }
+
+  #we-build-robots {
+    flex-direction: column;
+  }
+  
+
+  #we-build-robots div {
+    max-width: 100%;
+  }
+
+  /* Responsive Timeline */
+
+  .timeline::before {
+    left: 0rem;
+    width: 0.5rem;
+  }
+
+  .timeline-bot {
+    width: 1rem;
+    left: 0rem;
+    top: 10%;
+  }
+
+  .timeline-bot img {
+    width: 3rem;
+  }
+
+  .timeline-image {
+    max-width: none;
+  }
+
+  .timeline-image img {
+    max-width: 100%;
+  }
+
+  .timeline-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 0.5rem;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+  }
+
+  .robot-header-wide {
+    display: none;
+  }
+
+  .robot-side-stats-picture {
+    float: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .robot-stats {
+    border: 1px solid black;
+    margin: 0.5em;
+  }
+
+  .robot-stats thead th,
+  .robot-stats tbody,
+  .robot-stats tbody tr td {
+    border: 1px solid black;
+  }
+
+  .robot-header-narrow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .robot-fights-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .robot-fights {
+    margin-bottom: 1em;
+  }
+
+  .team-page-buttons {
+    flex-direction: column;
+  }
+
+  #other-buttons {
+    flex-direction: row;
+  }
+
+  .team-page-buttons div,
+  #other-buttons div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0rem;
+    /* flex-grow: 1; */
+  }
+
+  .team-page-buttons div img,
+  #other-buttons div img {
+    height: 1.25rem;
+    margin: 0rem 1rem;
+  }
+
+  .team-page-buttons div h2 {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .card img {
+    min-height: 20rem;
+  }
+
+  /* Footer */
+
+  .footer-logo-box-aside {
+    display: none;
+  }
+
+  .footer-logo-box-inside {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    max-width: 15em;
+  }
+
+  .footer-middle-line {
+    border-left: 4px solid white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 6em;
+  }
+
+  .footer-icon {
+    margin-right: 0.2em;
+  }
+}

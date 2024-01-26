@@ -171,7 +171,7 @@ const teamData = {
   "shawn-chen": {
     name: "Shawn Chen",
     img_path: "images/team/members/shawn-chen.jpg",
-    position: "Autonomous Member",
+    position: "Alum 2023 // Autonomous (2023)",
     stats: [
       ["Hoodie and Jean Combo", 80],
       ["Attending Socials", 5],
@@ -772,9 +772,7 @@ const autonomous = [
   "grace-lim",
   "katie-huntley",
   "richard-jin",
-  "sebastian-rivera",
   "shao-stassen",
-  "shawn-chen",
   "aaron-harnish",
   "alyssa-hsu",
   "ananya-jajodia",
@@ -785,6 +783,7 @@ const autonomous = [
 const alum = [
   "bruno-tassari",
   "william-murphy",
+  "shawn-chen",
   "edith-chen",
   "james-courtenay",
   "lucien-eckert",
