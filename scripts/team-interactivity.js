@@ -477,6 +477,7 @@ const teamData = {
       ["Raising Average Height", 90],
     ],
     linkedin: "https://www.linkedin.com/in/aaron-harnish/",
+  },
   "tyler-sprague": {
     name: "Tyler Sprague",
     img_path: "images/team/members/tyler-sprague.jpg",
@@ -640,44 +641,16 @@ const teamData = {
     stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
     linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
   },
-  "jenny-wu": {
-    name: "Jenny Wu",
-    img_path: "images/team/members/jenny-wu.jpg",
+  "aaron-harnish": {
+    name: "Aaron Harnish",
+    img_path: "images/team/members/aaron-harnish.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Red", 0],
-      ["Green", 0],
-      ["Blue", 100]
+      ["Caleb impersonation skills", 30],
+      ["Milk enthusiasm", 80],
+      ["Raising average height", 90]
     ],
-    linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
-  },
-  "alyssa-hsu": {
-    name: "Alyssa Hsu",
-    img_path: "images/team/members/alyssa-hsu.jpg",
-    position: "Autonomous Member",
-    stats: [
-      ["Tummy Sleeper", 100],
-      ["Pentakills", 0],
-      ["Airsipping", 30],
-    ],
-    linkedin: "https://www.linkedin.com/in/haalyssa/",
-  },
-      ["Tummy sleeper", 100],
-      ["Pentakills", 0],
-      ["Airsipping", 30] //its waterfall btw
-    ],
-    linkedin: "https://www.linkedin.com/in/haalyssa/",
-  },
-  "camille-yap": {
-    name: "Camille Yap",
-    img_path: "images/team/members/camille-yap.jpg",
-    position: "Autonomous Member",
-    stats: [
-      ["Avocado enthusiasm", 100],
-      ["Back sleeper", 100],
-      ["Thoughts", 0]
-    ],
-    linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
+    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
   },
   "ananya-jajodia": {
     name: "Ananya Jajodia",
@@ -690,14 +663,25 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
   },
+  "alyssa-hsu": {
+    name: "Alyssa Hsu",
+    img_path: "images/team/members/alyssa-hsu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Tummy Sleeper", 100],
+      ["Pentakills", 0],
+      ["Airsipping", 30],
+    ],
+    linkedin: "https://www.linkedin.com/in/haalyssa/",
+  },
   "camille-yap": {
     name: "Camille Yap",
     img_path: "images/team/members/camille-yap.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Avocado Enthusiasm", 100],
-      ["Back Sleeper", 100],
-      ["Thoughts", 0],
+      ["Avocado enthusiasm", 100],
+      ["Back sleeper", 100],
+      ["Thoughts", 0]
     ],
     linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
   },
@@ -719,36 +703,9 @@ const teamData = {
     stats: [
       ["Red", 0],
       ["Green", 0],
-      ["Blue", 100],
+      ["Blue", 100]
     ],
     linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
-  },
-      ["Water drinking", 0],
-      ["Lowering average height", 90]
-    ],
-    linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
-  },
-  "aaron-harnish": {
-    name: "Aaron Harnish",
-    img_path: "images/team/members/aaron-harnish.jpg",
-    position: "Autonomous Member",
-    stats: [
-      ["Caleb impersonation skills", 30],
-      ["Milk enthusiasm", 80],
-      ["Raising average height", 90]
-    ],
-    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
-  },
-  "chris-adonizio": {
-    name: "Chris Adonizio",
-    img_path: "images/team/members/chris-adonizio.jpg",
-    position: "Autonomous Member",
-    stats: [
-      ["Chess", 60],
-      ["Frisbee", 95], //update to 2 lower than tyler
-      ["Fruitmaxxing", 100]
-    ],
-    linkedin: "https://www.linkedin.com/in/christopher-adonizio-0b7683219/",
   },
   "kai-rodger": {
     name: "Kai Rodger",
@@ -806,18 +763,14 @@ const sportsman = [
 ];
 const marketing = [
   "linda-hu",
-  "colin-rodriguez",
   "luke-murphy",
   "molly-drumm",
   "ruby-wang",
-  "sardor-rahmatulloev",
   "angela-zhu",
   "crystal-li",
   "evan-zhu",
   "javohir-abdurazzakov",
-  "julia-sun",
   "meiling-wood",
-  "nicholas-underwood",
   "rachel-pineda",
   "vishnu-nair"
 ];
@@ -835,12 +788,6 @@ const autonomous = [
   "sebastian-rivera",
   "shao-stassen",
   "shawn-chen",
-  "aaron-harnish",
-  "alyssa-hsu",
-  "ananya-jajodia",
-  "camille-yap",
-  "chris-adonizio",
-  "jenny-wu"
 ];
 const alum = [
   "bruno-tassari",
@@ -1057,14 +1004,13 @@ const subteamData = {
     "<li>Physical robot building, check out the Kinetic Subteam or the Sportsman subteam</li>" +
     "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
     "</ul>" +
-    "Meet our current Marketing Subteam!"  
-=======
+    "Meet our current Marketing Subteam!"  +
       "Within the Marketing Subteam, we specialize in various aspects of <b>promoting and enhancing CRC's brand</b>.<br><br>" +
       "Our <b>mission</b> is to strengthen CRC's presence and reputation, elevating it beyond just a robotics team.<br><br>" +
       "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
       "<ul>" +
       "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
-      "<li><b>Computer Science (CS)</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
+      "<li><b>Computer Science (Software)</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
       "<li><b>Media</b>: This encompasses photography, videography, editing, writing, and content management for CRC's social media presence on platforms like Instagram, TikTok, YouTube, Facebook, and LinkedIn. Marketing aims to create engaging posts that reflect the team's personality and encourage member creativity.</li>" +
       "<li><b>Design</b>: This encompasses art, graphic design, and crafting for CRC's merchandise, including trading cards, stickers, clothing, stuffed animals, posters, and suits. Marketing creates an environment where members can express their passions, transforming CRC's robots into beloved characters.</li>" +
       "</ul>" +
@@ -1081,9 +1027,9 @@ const subteamData = {
       "Take a look at our past/current projects:<br>" +
       "<ul>" +
       "<li>Business: Sponsors page</li>" +
-      "<li>CS: Current CRC Website</li>" +
-      "<li>CS: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
-      "<li>CS: CRC RIZZ, the dating sim (TBD)</li>" +
+      "<li>Software: Current CRC Website</li>" +
+      "<li>Software: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
+      "<li>Software: CRC RIZZ, the dating sim (TBD)</li>" +
       "<li>Media: Instagram</li>" +
       "<li>Media: TikTok</li>" +
       "<li>Media: YouTube</li>" +
@@ -1093,7 +1039,7 @@ const subteamData = {
       "<li>Design: CRSuit</li>" +
       "<li>Design: Stuffed Manny</li>" +
       "<li>Design: Robot Hats</li>" +
-      "<li>Design: Posters on campus, certain media posts, and certain designs on CS projects</li>" +
+      "<li>Design: Posters on campus, certain media posts, and certain designs on software projects</li>" +
       "</ul>" +
       "Come be a part of Marketing, where we keep the spirit of CRC alive, one idea at a time.<br><br>" +
       "If you are more interested in..." +
