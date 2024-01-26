@@ -1020,7 +1020,7 @@ const subteamData = {
       "<ul>" +
       "<li>Each subsystem continually generates content for the team, driven by member interests and goals</li>" +
       "<li>Business reaches out to potential sponsors, applies for grants, engages with companies on campus, pitches the team to prospective partners, maintains existing relationships, and explores job opportunities for members. Business is also responsible for our two fundraising events: crowdfunding in the Fall and giving day in the Spring</li>" +
-      "<li>CS maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
+      "<li>Software maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
       "<li>Media creates an ever-expanding array of posts and videos, expanding the CRC Cinematic Universe. They also handle team recruitment, fundraising, and Cornell publicity. Additionally, they assist in creating videos for fundraising events and grant applications.</li>" +
       "<li>Design is at the heart of giving our robots personality through an array of merchandise. We create distinctive trading cards, doubling as business cards and quarter cards featuring our robots; our vision extends to producing cards for all our robots, culminating in the development of a captivating CRC trading card game. Alongside trading cards, our repertoire includes robot stickers, quirky team wearables, and providing graphic design support to other subsystems.</li>" +
       "</ul>" +
