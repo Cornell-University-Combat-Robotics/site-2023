@@ -36,17 +36,6 @@ const teamData = {
   //     ["Alcoholism", 50]
   //   ]
   // },
-  "bruno-tassari": {
-    name: "Bruno Tassari",
-    img_path: "images/team/members/bruno-tassari.jpg",
-    position: "Marketing Member // Former Team Lead (2022-2023) // Former Vice Team Lead (2021-2022)",
-    stats: [
-      ["Anime Trivia", 90],
-      ["A Freak in the Google Sheets", 70],
-      ["Epic Jokes", 40],
-    ],
-    linkedin: "https://www.linkedin.com/in/bruno-tassari/",
-  },
   "colin-rodriguez": {
     name: "Colin Rodriguez",
     img_path: "images/team/members/colin-rodriguez.jpg",
@@ -93,7 +82,7 @@ const teamData = {
   },
   "ruby-wang": {
     name: "Ruby Wang",
-    img_path: "images/team/members/ruby-wang.jpg",
+    img_path: "images/team/members/Ruby-Wang.jpg",
     position: "Marketing Member",
     stats: [
       ["Zoning Out", 70],
@@ -105,7 +94,7 @@ const teamData = {
   "sardor-rahmatulloev": {
     name: "Sardor Rahmatulloev",
     img_path: "images/team/members/sardor-rahmatulloev.jpg",
-    position: "Vice Team Lead",
+    position: "Team Co-Lead",
     stats: [
       ["Air Bending", "70"],
       ["GitHub", "10"],
@@ -116,7 +105,7 @@ const teamData = {
   "ethan-zhang": {
     name: "Ethan Zhang",
     img_path: "images/team/members/ethan-zhang.jpg",
-    position: "Autonomous Subteam Lead",
+    position: "Autonomous Subteam Co-Lead",
     stats: [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
@@ -127,7 +116,7 @@ const teamData = {
   "grace-lim": {
     name: "Grace Lim",
     img_path: "images/team/members/grace-lim.jpg",
-    position: "Autonomous Vice Subteam Lead",
+    position: "Autonomous Subteam Co-Lead",
     stats: [
       ["Handwriting", 100],
       ["Being at Upson", 70],
@@ -171,7 +160,7 @@ const teamData = {
   "sebastian-rivera": {
     name: "Sebastian Rivera",
     img_path: "images/team/members/sebastian-rivera.jpg",
-    position: "Team Lead // Former Autonomous Vice Subteam Lead (2022-2023)",
+    position: "Team Co-Lead // Former Autonomous Vice Subteam Lead (2022-2023)",
     stats: [
       ["Wiffleball", 80],
       ["Updating GCal", 20],
@@ -193,7 +182,7 @@ const teamData = {
   "anna-boese": {
     name: "Anna Boese",
     img_path: "images/team/members/anna-boese.jpg",
-    position: "Kinetic Subteam Lead // Former Kinetic Vice Subteam Lead (2022)",
+    position: "Kinetic Subteam Co-Lead // Former Kinetic Vice Subteam Lead (2022)",
     stats: [
       ["Hair Color Consistency", 10],
       ["Short Term Memory", 40],
@@ -211,13 +200,6 @@ const teamData = {
       ["Having Time to Compose the CRCCU Theme Song", 20],
     ],
     linkedin: "https://linkedin.com/in/isaacdnew",
-  },
-  "james-courtenay": {
-    name: "James Courtenay",
-    img_path: "images/team/members/james-courtenay.jpg",
-    position: "Kinetic Member // Kinetic Vice Subteam Lead (2023)",
-    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
-    linkedin: "https://www.linkedin.com/in/jcourtenay/",
   },
   "james-lasalle": {
     name: "James LaSalle",
@@ -240,7 +222,7 @@ const teamData = {
   "stella-taglich": {
     name: "Stella Taglich",
     img_path: "images/team/members/stella-taglich.jpg",
-    position: "Kinetic Vice Subteam Lead",
+    position: "Kinetic Subteam Co-Lead",
     stats: [
       ["Finding Car Keys", 20],
       ["Quality of AUX", 100],
@@ -262,7 +244,7 @@ const teamData = {
   "alex-jenkins": {
     name: "Alex Jenkins",
     img_path: "images/team/members/alex-jenkins.jpg",
-    position: "Sportsman Vice Subteam Lead",
+    position: "Sportsman Subteam Co-Lead",
     stats: [
       ["Punctuality", "80"],
       ["Dragon Training", "100"],
@@ -273,7 +255,7 @@ const teamData = {
   "caleb-schlissel": {
     name: "Caleb Schlissel",
     img_path: "images/team/members/caleb-schlissel.jpg",
-    position: "Sportsman Subteam Lead",
+    position: "Sportsman Subteam Co-Lead",
     stats: [
       ["Big Brain", 100],
       ["Social Life", 40],
@@ -335,7 +317,7 @@ const teamData = {
   "william-murphy": {
     name: "William Murphy",
     img_path: "images/team/members/william-murphy.jpg",
-    position: "Marketing Vice Subteam Lead // Former Sportsman VSL (2022)",
+    position: "Alum 2023 // Former Marketing Vice Subteam Lead (2023) // Former Sportsman VSL (2022)",
     stats: [
       ["Meow", 50],
       ["Cuteness", 100],
@@ -495,6 +477,179 @@ const teamData = {
       ["Raising Average Height", 90],
     ],
     linkedin: "https://www.linkedin.com/in/aaron-harnish/",
+  "tyler-sprague": {
+    name: "Tyler Sprague",
+    img_path: "images/team/members/tyler-sprague.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Frisbee", 95],
+      ["Replying in Group Chat", 90],
+      ["Vending Machine Interest", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+  },
+  "manuely-feliz-portes": {
+    name: "Manuely Feliz Portes",
+    img_path: "images/team/members/manuely-feliz-portes.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Decisive", 10],
+      ["Driving", 50],
+      ["Credibility", 100],
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+  },
+  "kai-rodger": {
+    name: "Kai Rodger",
+    img_path: "images/team/members/kai-rodger.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Snowboarding", 90],
+      ["Cooking", 0],
+      ["Focus", 50],
+    ],
+    linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
+  },
+  "bruno-tassari": {
+    name: "Bruno Tassari",
+    img_path: "images/team/members/bruno-tassari.jpg",
+    position: "Alum 2023 // Team Lead (2022-2023) // VTL (2021-2022) // Sportsman (2021-2023) // Marketing (2023)",
+    stats: [
+      ["Anime Trivia", 90],
+      ["A Freak in the Google Sheets", 70],
+      ["Epic Jokes", 40],
+    ],
+    linkedin: "https://www.linkedin.com/in/bruno-tassari/",
+  },
+  "james-courtenay": {
+    name: "James Courtenay",
+    img_path: "images/team/members/james-courtenay.jpg",
+    position: "Alum 2023 // Former Kinetic Vice Subteam Lead (2023)",
+    stats: [["Music Taste", 90], ["MechE-ness", 10], ["Machining", 60]],
+    linkedin: "https://www.linkedin.com/in/jcourtenay/",
+  },
+  "angela-zhu": {
+    name: "Angela Zhu",
+    img_path: "images/team/members/angela-zhu.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Gacha addiction", 90],
+      ["Pyramid scheme recruitment", 80],
+      ["Studying during social", 100],
+    ],
+    linkedin: "https://www.linkedin.com/in/angela-zhu-26b22229a/",
+  },
+  "crystal-li": {
+    name: "Crystal Li",
+    img_path: "images/team/members/crystal-li.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Decisiveness", 0],
+      ["Crocheting", 60],
+      ["Injurability", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/crystal-li-698431255/",
+  },
+  "evan-zhu": {
+    name: "Evan Zhu",
+    img_path: "images/team/members/evan-zhu.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Microplastics", 100],
+      ["Giant Graveyard", 80],
+      ["Problem Sets", 10],
+    ],
+    linkedin: "https://www.linkedin.com/in/evan-j-zhu/",
+  },
+  "javohir-abdurazzakov": {
+    name: "Javohir Abdurazzakov",
+    img_path: "images/team/members/javohir-abdurazzakov.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Soccer", 20],
+      ["Germaphobe", 75],
+      ["Weight Fluctuation", 95],
+    ],
+    linkedin: "https://www.linkedin.com/in/javohir1/",
+  },
+  "julia-sun": {
+    name: "Julia Sun",
+    img_path: "images/team/members/julia-sun.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/juliasun2021/",
+  },
+  "meiling-wood": {
+    name: "Mei Ling Wood",
+    img_path: "images/team/members/meiling-wood.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Food begging skills", 100],
+      ["Decisiveness", 0],
+      ["Water Drinking", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/mei-ling-wood-bb669523b/",
+  },
+  "nicholas-underwood": {
+    name: "Nicholas Underwood",
+    img_path: "images/team/members/nicholas-underwood.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/nicholas-underwood-0b7733290/",
+  },
+  "rachel-pineda": {
+    name: "Rachel Pineda",
+    img_path: "images/team/members/rachel-pineda.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Crossword Enthusiasm", 90],
+      ["LinkedIn", 50],
+      ["Fortnite Festival player", 80],
+    ],
+    linkedin: "https://www.linkedin.com/in/rrachelpineda/",
+  },
+  "vishnu-nair": {
+    name: "Vishnu Nair",
+    img_path: "images/team/members/vishnu-nair.jpg",
+    position: "Marketing Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/vishnu-nair-401528200/",
+  },
+  "ethan-hernandez": {
+    name: "Ethan Hernandez",
+    img_path: "images/team/members/ethan-hernandez.jpg",
+    position: "Kinetic Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
+  },
+  "kevin-sturm": {
+    name: "Kevin Sturm",
+    img_path: "images/team/members/kevin-sturm.jpg",
+    position: "Kinetic Member",
+    stats: [
+      ["Being 6 foot", 98],
+      ["Ability to eat nuts", 0],
+      ["Ability to see colors", 60]
+    ],
+    linkedin: "https://www.linkedin.com/in/kevin-sturm-97a046277/",
+  },
+  "mattew-anazco": {
+    name: "Mattew Anazco",
+    img_path: "images/team/members/mattew-anazco.jpg",
+    position: "Kinetic Member",
+    stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
+    linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
+  },
+  "jenny-wu": {
+    name: "Jenny Wu",
+    img_path: "images/team/members/jenny-wu.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Red", 0],
+      ["Green", 0],
+      ["Blue", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
   },
   "alyssa-hsu": {
     name: "Alyssa Hsu",
@@ -506,6 +661,23 @@ const teamData = {
       ["Airsipping", 30],
     ],
     linkedin: "https://www.linkedin.com/in/haalyssa/",
+  },
+      ["Tummy sleeper", 100],
+      ["Pentakills", 0],
+      ["Airsipping", 30] //its waterfall btw
+    ],
+    linkedin: "https://www.linkedin.com/in/haalyssa/",
+  },
+  "camille-yap": {
+    name: "Camille Yap",
+    img_path: "images/team/members/camille-yap.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Avocado enthusiasm", 100],
+      ["Back sleeper", 100],
+      ["Thoughts", 0]
+    ],
+    linkedin: "https://www.linkedin.com/in/camille-yap-150a65281/",
   },
   "ananya-jajodia": {
     name: "Ananya Jajodia",
@@ -551,17 +723,74 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
   },
-
+      ["Water drinking", 0],
+      ["Lowering average height", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/ananya-jajodia-11b4a2249/",
+  },
+  "aaron-harnish": {
+    name: "Aaron Harnish",
+    img_path: "images/team/members/aaron-harnish.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Caleb impersonation skills", 30],
+      ["Milk enthusiasm", 80],
+      ["Raising average height", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
+  },
+  "chris-adonizio": {
+    name: "Chris Adonizio",
+    img_path: "images/team/members/chris-adonizio.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Chess", 60],
+      ["Frisbee", 95], //update to 2 lower than tyler
+      ["Fruitmaxxing", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/christopher-adonizio-0b7683219/",
+  },
+  "kai-rodger": {
+    name: "Kai Rodger",
+    img_path: "images/team/members/kai-rodger.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Snowboarding", 90],
+      ["Cooking", 0],
+      ["Focus", 50]
+    ],
+    linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
+  },
+  "manuely-feliz-portes": {
+    name: "Manuely Feliz Portes",
+    img_path: "images/team/members/manuely-feliz-portes.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Decisive", 10],
+      ["Driving", 50],
+      ["Credibility", 100]
+    ],
+    linkedin: "",
+  },
+  "tyler-sprague": {
+    name: "Tyler Sprague",
+    img_path: "images/team/members/tyler-sprague.jpg",
+    position: "Sportsman Member",
+    stats: [],
+    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+  },
 };
 
 const kinetic = [
   "anna-boese",
   "stella-taglich",
   "isaac-newcomb",
-  "james-courtenay",
   "james-lasalle",
   "mohammed-chowdhury",
-  "zander-knight"
+  "zander-knight",
+  "ethan-hernandez",
+  "kevin-sturm",
+  "mattew-anazco"
 ];
 const sportsman = [
   "caleb-schlissel",
@@ -570,17 +799,27 @@ const sportsman = [
   "marcus-esposito",
   "narayan-rueppel",
   "sana-gaya",
-  "zarif-pathan"
+  "zarif-pathan",
+  "kai-rodger",
+  "manuely-feliz-portes",
+  "tyler-sprague"
 ];
 const marketing = [
   "linda-hu",
-  "william-murphy",
-  "bruno-tassari",
   "colin-rodriguez",
   "luke-murphy",
   "molly-drumm",
   "ruby-wang",
-  "sardor-rahmatulloev"
+  "sardor-rahmatulloev",
+  "angela-zhu",
+  "crystal-li",
+  "evan-zhu",
+  "javohir-abdurazzakov",
+  "julia-sun",
+  "meiling-wood",
+  "nicholas-underwood",
+  "rachel-pineda",
+  "vishnu-nair"
 ];
 const autonomous = [
   "aaron-harnish",
@@ -596,9 +835,18 @@ const autonomous = [
   "sebastian-rivera",
   "shao-stassen",
   "shawn-chen",
+  "aaron-harnish",
+  "alyssa-hsu",
+  "ananya-jajodia",
+  "camille-yap",
+  "chris-adonizio",
+  "jenny-wu"
 ];
 const alum = [
+  "bruno-tassari",
+  "william-murphy",
   "edith-chen",
+  "james-courtenay",
   "lucien-eckert",
   "maya-zamor",
   "spencer-hurst",
@@ -658,47 +906,47 @@ const subteamData = {
     members: kinetic,
     //["anna-boese", "stella-taglich", "isaac-newcomb", "james-courtenay", "james-lasalle", "mohammed-chowdhury", "zander-knight"],
     description:
-    "Within the Kinetic Subteam, we specialize in the construction of <b>12lb high kinetic energy combat robots</b>, including vertical spinners, horizontal spinners, full-body spinners, and drums.<br><br>" +
-    "Our <b>mission</b> is to design and build highly efficient robots that excel in competitions. We prioritize three key elements: damage-dealing capabilities, durability, and the ability to adapt to the ever-evolving meta of robotic combat. Kinetic is dedicated to maintaining a competitive edge in the world of robotic warfare.<br><br>" +
-    "Our approach to robot design revolves around four critical <b>subsystems</b> that all members are in together:" +
-    "<ul>" +
-    "<li><b>Drivetrain</b>: This encompasses the locomotion system of the robot. Kinetic meticulously selects the drive systems to ensure our robots are agile, responsive, and formidable on the battlefield.</li>" +
-    "<li><b>Weapon</b>: This encompasses the attacking method of the robot. Kinetic's arsenal is optimized for maximum impact and high energy spinning to destroy our opponents.</li>" +
-    "<li><b>Chassis</b>: This encompasses the shell, armor, and internal structure of the robot. Kinetic engineers these elements to withstand the rigors of intense battles and outlast the competition.</li>" +
-    "<li><b>Electronics</b>: This encompasses the motors, ESCs, batteries, power switches, and wires of the robot for RC control. Kinetic ensures that all electronics are built to last through 3-minute matches.</li>" +
-    "</ul>" +
-    "The culmination of these efforts results in a finely tuned, compact robot system that is both reliable and potent.<br><br>" +
-    "The Kinetic subteam provides an unparalleled opportunity to immerse yourself in the world of mechanical design and robot construction. Here's what we do:<br><br>" +
-    "<b>Fall Semester</b>:" +
-    "<ul>" +
-    "<li>Brainstorming and sketching detailed robot designs</li>" +
-    "<li>Conducting research, calculations, and selecting components</li>" +
-    "<li>Utilizing Autodesk Fusion 360 to model the robot in CAD</li>" +
-    "</ul>" +
-    "<b>Spring Semester</b>:" +
-    "<ul>" +
-    "<li>Machining and fabricating necessary parts</li>" +
-    "<li>Assembling the robot and soldering the wires</li>" +
-    "<li>Thoroughly testing the robot's capabilities and driving practice</li>" +
-    "<li>Competing in at least the March competition at NHRL</li>" +
-    "</ul>" +
-    "Take a look at our <b>past</b> robots:" +
-    "<ul>" +
-    "<li>Donatello (2019-2020)</li>" +
-    "<li>Richard (2021-2022)</li>" +
-    "<li>Rosie (2022-2023)</li>" +
-    "</ul>" +
-    "Come be a part of Kinetic, where we transform robots into champions, one bearing at a time.<br><br>" +
-    "If you are more interested in..." +
-    "<ul>" +
-    "<li>Creative and unique robots, check out the Sportsman Subteam</li>" +
-    "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
-    "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
-    "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
-    "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
-    "<li>Art and design, check out the Marketing Subteam</li>" +
-    "</ul>" + 
-    "Meet our current Kinetic Subteam!"
+      "Within the Kinetic Subteam, we specialize in the construction of <b>12lb high kinetic energy combat robots</b>, including vertical spinners, horizontal spinners, full-body spinners, and drums.<br><br>" +
+      "Our <b>mission</b> is to design and build highly efficient robots that excel in competitions. We prioritize three key elements: damage-dealing capabilities, durability, and the ability to adapt to the ever-evolving meta of robotic combat. Kinetic is dedicated to maintaining a competitive edge in the world of robotic warfare.<br><br>" +
+      "Our approach to robot design revolves around four critical <b>subsystems</b> that all members are in together:" +
+      "<ul>" +
+      "<li><b>Drivetrain</b>: This encompasses the locomotion system of the robot. Kinetic meticulously selects the drive systems to ensure our robots are agile, responsive, and formidable on the battlefield.</li>" +
+      "<li><b>Weapon</b>: This encompasses the attacking method of the robot. Kinetic's arsenal is optimized for maximum impact and high energy spinning to destroy our opponents.</li>" +
+      "<li><b>Chassis</b>: This encompasses the shell, armor, and internal structure of the robot. Kinetic engineers these elements to withstand the rigors of intense battles and outlast the competition.</li>" +
+      "<li><b>Electronics</b>: This encompasses the motors, ESCs, batteries, power switches, and wires of the robot for RC control. Kinetic ensures that all electronics are built to last through 3-minute matches.</li>" +
+      "</ul>" +
+      "The culmination of these efforts results in a finely tuned, compact robot system that is both reliable and potent.<br><br>" +
+      "The Kinetic subteam provides an unparalleled opportunity to immerse yourself in the world of mechanical design and robot construction. Here's what we do:<br><br>" +
+      "<b>Fall Semester</b>:" +
+      "<ul>" +
+      "<li>Brainstorming and sketching detailed robot designs</li>" +
+      "<li>Conducting research, calculations, and selecting components</li>" +
+      "<li>Utilizing Autodesk Fusion 360 to model the robot in CAD</li>" +
+      "</ul>" +
+      "<b>Spring Semester</b>:" +
+      "<ul>" +
+      "<li>Machining and fabricating necessary parts</li>" +
+      "<li>Assembling the robot and soldering the wires</li>" +
+      "<li>Thoroughly testing the robot's capabilities and driving practice</li>" +
+      "<li>Competing in at least the March competition at NHRL</li>" +
+      "</ul>" +
+      "Take a look at our <b>past</b> robots:" +
+      "<ul>" +
+      "<li>Donatello (2019-2020)</li>" +
+      "<li>Richard (2021-2022)</li>" +
+      "<li>Rosie (2022-2023)</li>" +
+      "</ul>" +
+      "Come be a part of Kinetic, where we transform robots into champions, one bearing at a time.<br><br>" +
+      "If you are more interested in..." +
+      "<ul>" +
+      "<li>Creative and unique robots, check out the Sportsman Subteam</li>" +
+      "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
+      "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
+      "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
+      "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
+      "<li>Art and design, check out the Marketing Subteam</li>" +
+      "</ul>" +
+      "Meet our current Kinetic Subteam!"
 
     // topics:{
     //   "Design": {
@@ -720,47 +968,47 @@ const subteamData = {
     members: sportsman,
     //["caleb-schlissel", "alex-jenkins", "charles-liu","marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description:
-    "Within the Sportsman Subteam, we specialize in the construction of <b>12lb low kinetic energy combat robots</b>, including flippers, hammers, crushers, punchers, and non-spinning innovations.<br><br>" +
-    "Our <b>mission</b> is to design and build robots that epitomize creative originality, design ingenuity, and interdisciplinary collaboration. In the absence of raw power, Sportsman excels through unique strategies and battle control. Sportsman aims to win the crowd rather than the competition through their battle moves.<br><br>" +
-    "Our approach to robot design revolves around four critical <b>subsystems</b> that all members are in together:" +
-    "<ul>" +
-    "<li><b>Drivetrain</b>: This encompasses the locomotion system of the robot. Sportsman selects unconventional drive systems, pushing the boundaries of innovation.</li>" +
-    "<li><b>Weapon</b>: This encompasses the attacking method of the robot. Sportsman's arsenal is optimized for precise control and tactical advantage rather than damage.</li>" +
-    "<li><b>Chassis</b>: This encompasses the shell, armor, and internal structure of the robot. Sportsman engineers these elements to endure the rigors of intense battles and outlast the competition.</li>" +
-    "<li><b>Electronics</b>: This encompasses the motors, ESCs, batteries, power switches, and wires of the robot for RC control. Sportsman ensures that all electronics are built to last through 3-minute matches.</li>" +
-    "</ul>" +
-    "The culmination of these efforts results in unprecedented, unconventional robots that add an element of surprise to competitions.<br><br>" +
-    "The Sportsman subteam provides an unparalleled opportunity to immerse yourself in the world of mechanical design and robot construction. Here's what we do:<br><br>" +
-    "<b>Fall Semester</b>:" +
-    "<ul>" +
-    "<li>Brainstorming and sketching detailed robot designs</li>" +
-    "<li>Conducting research, calculations, and selecting components</li>" +
-    "<li>Utilizing Autodesk Fusion 360 to model the robot in CAD</li>" +
-    "</ul>" +
-    "<b>Spring Semester</b>:" +
-    "<ul>" +
-    "<li>Machining and fabricating necessary parts</li>" +
-    "<li>Assembling the robot and soldering the wires</li>" +
-    "<li>Thoroughly testing the robot's capabilities and driving practice</li>" +
-    "<li>Competing in at least the March competition at NHRL</li>" +
-    "</ul>" +
-    "Take a look at our past robots:<br>" +
-    "<ul>" +
-    "<li>Manny (2019-2020)</li>" +
-    "<li>Lance (2021-2022)</li>" +
-    "<li>Florence (2022-2023)</li>" +
-    "</ul>" +
-    "Come be a part of Sportsman, where we transform unconventional ideas into thrilling robots, one bolt at a time.<br><br>" +
-    "If you are more interested in..." +
-    "<ul>" +
-    "<li>Efficient and destructive robots, check out the Kinetic Subteam</li>" +
-    "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
-    "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
-    "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
-    "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
-    "<li>Art and design, check out the Marketing Subteam</li>" +
-    "</ul>" +
-    "Meet our current Sportsman Subteam!"    
+      "Within the Sportsman Subteam, we specialize in the construction of <b>12lb low kinetic energy combat robots</b>, including flippers, hammers, crushers, punchers, and non-spinning innovations.<br><br>" +
+      "Our <b>mission</b> is to design and build robots that epitomize creative originality, design ingenuity, and interdisciplinary collaboration. In the absence of raw power, Sportsman excels through unique strategies and battle control. Sportsman aims to win the crowd rather than the competition through their battle moves.<br><br>" +
+      "Our approach to robot design revolves around four critical <b>subsystems</b> that all members are in together:" +
+      "<ul>" +
+      "<li><b>Drivetrain</b>: This encompasses the locomotion system of the robot. Sportsman selects unconventional drive systems, pushing the boundaries of innovation.</li>" +
+      "<li><b>Weapon</b>: This encompasses the attacking method of the robot. Sportsman's arsenal is optimized for precise control and tactical advantage rather than damage.</li>" +
+      "<li><b>Chassis</b>: This encompasses the shell, armor, and internal structure of the robot. Sportsman engineers these elements to endure the rigors of intense battles and outlast the competition.</li>" +
+      "<li><b>Electronics</b>: This encompasses the motors, ESCs, batteries, power switches, and wires of the robot for RC control. Sportsman ensures that all electronics are built to last through 3-minute matches.</li>" +
+      "</ul>" +
+      "The culmination of these efforts results in unprecedented, unconventional robots that add an element of surprise to competitions.<br><br>" +
+      "The Sportsman subteam provides an unparalleled opportunity to immerse yourself in the world of mechanical design and robot construction. Here's what we do:<br><br>" +
+      "<b>Fall Semester</b>:" +
+      "<ul>" +
+      "<li>Brainstorming and sketching detailed robot designs</li>" +
+      "<li>Conducting research, calculations, and selecting components</li>" +
+      "<li>Utilizing Autodesk Fusion 360 to model the robot in CAD</li>" +
+      "</ul>" +
+      "<b>Spring Semester</b>:" +
+      "<ul>" +
+      "<li>Machining and fabricating necessary parts</li>" +
+      "<li>Assembling the robot and soldering the wires</li>" +
+      "<li>Thoroughly testing the robot's capabilities and driving practice</li>" +
+      "<li>Competing in at least the March competition at NHRL</li>" +
+      "</ul>" +
+      "Take a look at our past robots:<br>" +
+      "<ul>" +
+      "<li>Manny (2019-2020)</li>" +
+      "<li>Lance (2021-2022)</li>" +
+      "<li>Florence (2022-2023)</li>" +
+      "</ul>" +
+      "Come be a part of Sportsman, where we transform unconventional ideas into thrilling robots, one bolt at a time.<br><br>" +
+      "If you are more interested in..." +
+      "<ul>" +
+      "<li>Efficient and destructive robots, check out the Kinetic Subteam</li>" +
+      "<li>More complex circuitry, check out the Autonomous Subteam</li>" +
+      "<li>Coding autonomous robots, check out the Autonomous Subteam</li>" +
+      "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
+      "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
+      "<li>Art and design, check out the Marketing Subteam</li>" +
+      "</ul>" +
+      "Meet our current Sportsman Subteam!"
   },
   // keys for all marketing members
   marketing: {
@@ -810,50 +1058,95 @@ const subteamData = {
     "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
     "</ul>" +
     "Meet our current Marketing Subteam!"  
+=======
+      "Within the Marketing Subteam, we specialize in various aspects of <b>promoting and enhancing CRC's brand</b>.<br><br>" +
+      "Our <b>mission</b> is to strengthen CRC's presence and reputation, elevating it beyond just a robotics team.<br><br>" +
+      "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
+      "<ul>" +
+      "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
+      "<li><b>Computer Science (CS)</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
+      "<li><b>Media</b>: This encompasses photography, videography, editing, writing, and content management for CRC's social media presence on platforms like Instagram, TikTok, YouTube, Facebook, and LinkedIn. Marketing aims to create engaging posts that reflect the team's personality and encourage member creativity.</li>" +
+      "<li><b>Design</b>: This encompasses art, graphic design, and crafting for CRC's merchandise, including trading cards, stickers, clothing, stuffed animals, posters, and suits. Marketing creates an environment where members can express their passions, transforming CRC's robots into beloved characters.</li>" +
+      "</ul>" +
+      "The culmination of these efforts results in the transformation of CRC's brand into something tangible and relatable, extending beyond the realm of robotics.<br><br>" +
+      "The Marketing subteam provides an unparalleled opportunity to immerse yourself in your area of choice, whether it's business, computer science, media, and/or design. Here's what we do:<br><br>" +
+      "<b>Fall/Spring Semesters</b>:" +
+      "<ul>" +
+      "<li>Each subsystem continually generates content for the team, driven by member interests and goals</li>" +
+      "<li>Business reaches out to potential sponsors, applies for grants, engages with companies on campus, pitches the team to prospective partners, maintains existing relationships, and explores job opportunities for members. Business is also responsible for our two fundraising events: crowdfunding in the Fall and giving day in the Spring</li>" +
+      "<li>CS maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
+      "<li>Media creates an ever-expanding array of posts and videos, expanding the CRC Cinematic Universe. They also handle team recruitment, fundraising, and Cornell publicity. Additionally, they assist in creating videos for fundraising events and grant applications.</li>" +
+      "<li>Design is at the heart of giving our robots personality through an array of merchandise. We create distinctive trading cards, doubling as business cards and quarter cards featuring our robots; our vision extends to producing cards for all our robots, culminating in the development of a captivating CRC trading card game. Alongside trading cards, our repertoire includes robot stickers, quirky team wearables, and providing graphic design support to other subsystems.</li>" +
+      "</ul>" +
+      "Take a look at our past/current projects:<br>" +
+      "<ul>" +
+      "<li>Business: Sponsors page</li>" +
+      "<li>CS: Current CRC Website</li>" +
+      "<li>CS: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
+      "<li>CS: CRC RIZZ, the dating sim (TBD)</li>" +
+      "<li>Media: Instagram</li>" +
+      "<li>Media: TikTok</li>" +
+      "<li>Media: YouTube</li>" +
+      "<li>Media: Facebook</li>" +
+      "<li>Media: LinkedIn</li>" +
+      "<li>Design: Redbubble</li>" +
+      "<li>Design: CRSuit</li>" +
+      "<li>Design: Stuffed Manny</li>" +
+      "<li>Design: Robot Hats</li>" +
+      "<li>Design: Posters on campus, certain media posts, and certain designs on CS projects</li>" +
+      "</ul>" +
+      "Come be a part of Marketing, where we keep the spirit of CRC alive, one idea at a time.<br><br>" +
+      "If you are more interested in..." +
+      "<ul>" +
+      "<li>Physical robot building, check out the Kinetic Subteam or the Sportsman subteam</li>" +
+      "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
+      "</ul>" +
+      "Meet our current Marketing Subteam!"
   },
   // keys for all autonomous members
   autonomous: {
     members: autonomous,
     //["ethan-zhang", "grace-lim", "blaze-ezlakowski", "katie-huntley", "richard-jin", "shao-stassen", "shawn-chen"]
     description:
-    "Within the Autonomous Subteam, we specialize in the construction of <b>3lb autonomous combat robots</b>.<br><br>" +
-    "Our <b>mission</b> is to build, wire, and code robots that can autonomously compete with conventional RC robots. While winning isn't our primary goal, Autonomous aims to push boundaries, challenging ourselves to see how well our algorithms can perform and continuously enhance them over time.<br><br>" +
-    "Our approach to robot design revolves around three critical <b>subsystems</b> that all members are in together:" +
-    "<ul>" +
-    "<li><b>Computer Science (CS)</b>: This encompasses using Raspberry Pi to code machine learning algorithms for tasks such as wall detection and enemy tracking. Autonomous strives to create models that collect data, contributing to ongoing improvement.</li>" +
-    "<li><b>Mechanical</b>: This encompasses utilizing robot kits to design a robot capable of housing all electrical components. Autonomous opts for straightforward mechanical components to minimize errors and variables in our algorithms.</li>" +
-    "</ul>" +
-    "The culmination of these efforts results in consistent and autonomous robots that break the mold of standard RC competitions.<br><br>" +
-    "The Autonomous subteam provides an unparalleled opportunity to immerse yourself in the world of electrical engineering and computer science. Here's what we do:<br><br>" +
-    "<b>Fall Semester</b>:" +
-    "<ul>" +
-    "<li>Conducting research on models, frameworks, libraries, and optimization techniques</li>" +
-    "<li>Specifying electronic components, designing a complex circuit diagram (or PCBs), and designing a chassis to accommodate them</li>" +
-    "<li>Assembling the robot and its hardware components, ensuring to wire them all properly</li>" +
-    "<li>Implementing basic Python movements on the robot to comprehend, account for, and refine its functionality</li>" +
-    "</ul>" +
-    "<b>Spring Semester</b>:" +
-    "<ul>" +
-    "<li>Developing wall detection and enemy tracking capabilities using computer vision and AI</li>" +
-    "<li>Troubleshooting electrical wiring</li>" +
-    "<li>Debugging and fine-tuning computer science algorithms</li>" +
-    "<li>Training machine learning models with convolutional neural networks</li>" +
-    "<li>Rigorous testing to ensure consistent performance</li>" +
-    "</ul>" +
-    "Take a look at our past projects:<br>" +
-    "<ul>" +
-    "<li>Enemy detection and wall detection on Arduino (C++) for Manny (2019-2022)</li>" +
-    "<li>Road tracking and facial recognition on Raspberry Pi (Python) for Lance (2022-2023)</li>" +
-    "</ul>" +
-    "Come be a part of Autonomous, where we challenge conventions through autonomy, one bug at a time.<br><br>" +
-    "If you are more interested in..." +
-    "<ul>" +
-    "<li>More intensive robot building and simpler circuits (with no coding), check out the Kinetic Subteam or the Sportsman subteam</li>" +
-    "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
-    "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
-    "<li>Art and design, check out the Marketing Subteam</li>" +
-    "</ul>" +
-    "Meet our current Autonomous Subteam!"  },
+      "Within the Autonomous Subteam, we specialize in the construction of <b>3lb autonomous combat robots</b>.<br><br>" +
+      "Our <b>mission</b> is to build, wire, and code robots that can autonomously compete with conventional RC robots. While winning isn't our primary goal, Autonomous aims to push boundaries, challenging ourselves to see how well our algorithms can perform and continuously enhance them over time.<br><br>" +
+      "Our approach to robot design revolves around three critical <b>subsystems</b> that all members are in together:" +
+      "<ul>" +
+      "<li><b>Computer Science (CS)</b>: This encompasses using Raspberry Pi to code machine learning algorithms for tasks such as wall detection and enemy tracking. Autonomous strives to create models that collect data, contributing to ongoing improvement.</li>" +
+      "<li><b>Mechanical</b>: This encompasses utilizing robot kits to design a robot capable of housing all electrical components. Autonomous opts for straightforward mechanical components to minimize errors and variables in our algorithms.</li>" +
+      "</ul>" +
+      "The culmination of these efforts results in consistent and autonomous robots that break the mold of standard RC competitions.<br><br>" +
+      "The Autonomous subteam provides an unparalleled opportunity to immerse yourself in the world of electrical engineering and computer science. Here's what we do:<br><br>" +
+      "<b>Fall Semester</b>:" +
+      "<ul>" +
+      "<li>Conducting research on models, frameworks, libraries, and optimization techniques</li>" +
+      "<li>Specifying electronic components, designing a complex circuit diagram (or PCBs), and designing a chassis to accommodate them</li>" +
+      "<li>Assembling the robot and its hardware components, ensuring to wire them all properly</li>" +
+      "<li>Implementing basic Python movements on the robot to comprehend, account for, and refine its functionality</li>" +
+      "</ul>" +
+      "<b>Spring Semester</b>:" +
+      "<ul>" +
+      "<li>Developing wall detection and enemy tracking capabilities using computer vision and AI</li>" +
+      "<li>Troubleshooting electrical wiring</li>" +
+      "<li>Debugging and fine-tuning computer science algorithms</li>" +
+      "<li>Training machine learning models with convolutional neural networks</li>" +
+      "<li>Rigorous testing to ensure consistent performance</li>" +
+      "</ul>" +
+      "Take a look at our past projects:<br>" +
+      "<ul>" +
+      "<li>Enemy detection and wall detection on Arduino (C++) for Manny (2019-2022)</li>" +
+      "<li>Road tracking and facial recognition on Raspberry Pi (Python) for Lance (2022-2023)</li>" +
+      "</ul>" +
+      "Come be a part of Autonomous, where we challenge conventions through autonomy, one bug at a time.<br><br>" +
+      "If you are more interested in..." +
+      "<ul>" +
+      "<li>More intensive robot building and simpler circuits (with no coding), check out the Kinetic Subteam or the Sportsman subteam</li>" +
+      "<li>Coding for websites and video games, check out the Marketing Subteam</li>" +
+      "<li>Business and corporate sponsorships, check out the Marketing Subteam</li>" +
+      "<li>Art and design, check out the Marketing Subteam</li>" +
+      "</ul>" +
+      "Meet our current Autonomous Subteam!"
+  },
   full: {
     members: fullteam,
     description:
