@@ -605,7 +605,7 @@ const teamData = {
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
-      ["Fortnite Festival player", 80],
+      ["Fortnite Festival Player", 80],
     ],
     linkedin: "https://www.linkedin.com/in/rrachelpineda/",
   },
