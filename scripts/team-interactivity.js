@@ -755,7 +755,6 @@ const sportsman = [
   "charles-liu",
   "marcus-esposito",
   "narayan-rueppel",
-  "sana-gaya",
   "zarif-pathan",
   "kai-rodger",
   "manuely-feliz-portes",
@@ -811,7 +810,8 @@ const alum = [
   "shubham-mathur",
   "sofie-halpern",
   "rob-measner",
-  "stefan-bell"
+  "stefan-bell",
+  "sana-gaya"
 ];
 const fullteam = [];
 const leads = [
