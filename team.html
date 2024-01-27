@@ -1,146 +1,147 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/site.css" />
-    <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico"/>
-    <title>CRC | Team</title>
-  </head>
 
-  <script src="scripts/team-interactivity.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/site.css" />
+  <link rel="shortcut icon" type='image/x-icon' href="/favicon.ico" />
+  <title>CRC | Team</title>
+</head>
 
-  <script>
+<script src="scripts/team-interactivity.js"></script>
 
-    const changeSubteam = (subteam) => {
-      if (subteam === "kinetic") setBannerImg(1);
-      else if (subteam == "sportsman") setBannerImg(2);
-      else if (subteam == "autonomous") setBannerImg(3);
-      else if (subteam == "marketing") setBannerImg(4);
-      else if (subteam == "leads") setBannerImg(6);
-      else if (subteam == "alumni") setBannerImg(5);
-      // chop off the full team info
-      if (subteam != 'full') {
-        fullTeamInfo = document.getElementById("full-team-info")
-        if (fullTeamInfo != null) fullTeamInfo.remove()
-      }
-      setCategory(subteam);
+<script>
+
+  const changeSubteam = (subteam) => {
+    if (subteam === "kinetic") setBannerImg(1);
+    else if (subteam == "sportsman") setBannerImg(2);
+    else if (subteam == "autonomous") setBannerImg(3);
+    else if (subteam == "marketing") setBannerImg(4);
+    else if (subteam == "leads") setBannerImg(6);
+    else if (subteam == "alumni") setBannerImg(5);
+    // chop off the full team info
+    if (subteam != 'full') {
+      fullTeamInfo = document.getElementById("full-team-info")
+      if (fullTeamInfo != null) fullTeamInfo.remove()
     }
-    
-    const setBannerImg = (imgIdx) => {
-      const heroImgs = document.getElementsByClassName("hero-image");
-      for (let i = 0; i < heroImgs.length; i++)
-      {
-        const img = heroImgs[i];
-        img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
-      }
-    }
+    setCategory(subteam);
+  }
 
-  </script>
-  
-  <body>
-    <header>
-      <nav>
-        <a href="index.html" class="nav-logo">
-          <img src="images/logoscaled.png" alt="CRC logo" />
+  const setBannerImg = (imgIdx) => {
+    const heroImgs = document.getElementsByClassName("hero-image");
+    for (let i = 0; i < heroImgs.length; i++) {
+      const img = heroImgs[i];
+      img.setAttribute("style", `opacity: ${imgIdx === i ? "1" : "0"};`);
+    }
+  }
+
+</script>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <img src="images/logoscaled.png" alt="CRC logo" />
+      </a>
+      <div class="nav-bar-right">
+        <a href="index.html">
+          <p>About</p>
         </a>
-        <div class="nav-bar-right">
-          <a href="index.html">
-            <p>About</p>
-          </a>
-          <a href="team.html" class="active">
-            <p>Team</p>
-          </a>
-          <a href="robots.html">
-            <p>Robots</p>
-          </a>
-          <a href="sponsor.html">
-            <p>Sponsor</p>
-          </a>
-          <a href="recruitment.html">
-            <p>Recruitment</p>
-          </a>
-          <a href="game.html" class="hide-on-mobile">
-            <p>Game</p>
-          </a>
-          <a href="https://www.redbubble.com/people/combatrobots/shop">
-            <p>Merch</p>
-          </a>
-        </div>
-      </nav>
-    </header>
+        <a href="team.html" class="active">
+          <p>Team</p>
+        </a>
+        <a href="robots.html">
+          <p>Robots</p>
+        </a>
+        <a href="sponsor.html">
+          <p>Sponsor</p>
+        </a>
+        <a href="recruitment.html">
+          <p>Recruitment</p>
+        </a>
+        <a href="game.html" class="hide-on-mobile">
+          <p>Game</p>
+        </a>
+        <a href="https://www.redbubble.com/people/combatrobots/shop">
+          <p>Merch</p>
+        </a>
+      </div>
+    </nav>
+  </header>
 
-    <h1 class="photo-label">Meet Our Team!</h1>
-    <div class="image-position">
-      <section style="position: relative; height: 28rem;">
-        <div class="hero-image first">
-          <img src="images/team/Full-Team_22-23.jpg" alt="">
-        </div>
-        <img src="images/team/Kinetic-Subteam_22-23.jpg" alt="" class="hero-image">
-        <img src="images/team/Sportsman-Subteam_22-23.jpg" alt="" class="hero-image">
-        <img src="images/team/Autonomous-Subteam.jpg" alt="" class="hero-image">
-        <img src="images/team/Marketing-Subteam_22-23.jpg" alt="" class="hero-image">
-        <img src="images/team/senior-sendoff.jpg" alt="" class="hero-image">
-        <img src="images/team/leads.jpg" alt="" class="hero-image">
-      </section>
-    </div>
-    
-    <main>
+  <h1 class="photo-label">Meet Our Team!</h1>
+  <div class="image-position">
+    <section style="position: relative; height: 32rem;">
+      <div class="hero-image first">
+        <img src="images/team/Full-Team_23-24.jpg" alt="">
+      </div>
+      <img src="images/team/Kinetic-Subteam_23-24.jpg" alt="" class="hero-image">
+      <img src="images/team/Sportsman-Subteam_23-24.jpg" alt="" class="hero-image">
+      <img src="images/team/Autonomous-Subteam_22-23.jpg" alt="" class="hero-image">
+      <img src="images/team/Marketing-Subteam_23-24.jpg" alt="" class="hero-image">
+      <img src="images/team/senior-sendoff.jpg" alt="" class="hero-image">
+      <img src="images/team/leads.jpg" alt="" class="hero-image">
+    </section>
+  </div>
 
-      <section id="subteam-buttons" class="team-page-buttons">
-        <div onclick="changeSubteam('kinetic')">
-          <img src="images/icons/electric.png" alt="">
-          <h2 id="kinetic">Kinetic</h2>
-        </div>
-        <div onclick="changeSubteam('sportsman')">
-          <img src="images/icons/tech.png" alt="">
-          <h2 id="sportsman">Sportsman</h2>
-        </div>
-        <div onclick="changeSubteam('autonomous')">
-          <img src="images/icons/circuit.png" alt="">
-          <h2 id="autonomous">Autonomous</h2>
-        </div>
-        <div onclick="changeSubteam('marketing')">
-          <img src="images/icons/camera-setting.png" alt="">
-          <h2 id="marketing">Marketing</h2>
-        </div>
-      </section>
-      <section id='other-buttons' class="team-page-buttons">
-        <div onclick="changeSubteam('leads')" >
-          <img src="images/icons/full-team.png" alt="">
-          <h2 id="fullteam">Team Leads</h2>
-        </div>
-        <div onclick="changeSubteam('alumni')" >
-          <img src="images/icons/graduation-cap-icon.png" alt="">
-          <h2 id="alumni">Alumni</h2>
-        </div>
-      </section>
-      
-      <h2>Our <span id="team-name">Full</span> Team</h2>
-      <p id="team-description">
-        Our entire team consists of four subteams: Kinetic, Sportsman, Autonomous, and Marketing. Click the buttons above to learn more about each of them!
-      </p>
+  <main>
 
-      <section id="full-team-info">
-        <div>
-          <img src="images/icons/full-team.png" alt="" class="row-icon">
-          <h3>50+ Members</h3>
-        </div>
-        <div>
-          <img src="images/icons/graduation-cap-icon.png" alt="" class="row-icon">
-          <h3>30+ Majors</h3>
-        </div>
-        <div>
-          <img src="images/icons/university.png" alt="" class="row-icon">
-          <h3>5+ Colleges</h3>
-        </div>
-      </section>
+    <section id="subteam-buttons" class="team-page-buttons">
+      <div onclick="changeSubteam('kinetic')">
+        <img src="images/icons/electric.png" alt="">
+        <h2 id="kinetic">Kinetic</h2>
+      </div>
+      <div onclick="changeSubteam('sportsman')">
+        <img src="images/icons/tech.png" alt="">
+        <h2 id="sportsman">Sportsman</h2>
+      </div>
+      <div onclick="changeSubteam('autonomous')">
+        <img src="images/icons/circuit.png" alt="">
+        <h2 id="autonomous">Autonomous</h2>
+      </div>
+      <div onclick="changeSubteam('marketing')">
+        <img src="images/icons/camera-setting.png" alt="">
+        <h2 id="marketing">Marketing</h2>
+      </div>
+    </section>
+    <section id='other-buttons' class="team-page-buttons">
+      <div onclick="changeSubteam('leads')">
+        <img src="images/icons/full-team.png" alt="">
+        <h2 id="fullteam">Team Leads</h2>
+      </div>
+      <div onclick="changeSubteam('alumni')">
+        <img src="images/icons/graduation-cap-icon.png" alt="">
+        <h2 id="alumni">Alumni</h2>
+      </div>
+    </section>
 
-      <section id="team-cards">
-        <!-- Team cards are placed in here by the script. -->
-      </section>
+    <h2>Our <span id="team-name">Full</span> Team</h2>
+    <p id="team-description">
+      Our entire team consists of four subteams: Kinetic, Sportsman, Autonomous, and Marketing. Click the buttons above
+      to learn more about each of them!
+    </p>
 
-      <!-- TODO: Team info widget 
+    <section id="full-team-info">
+      <div>
+        <img src="images/icons/full-team.png" alt="" class="row-icon">
+        <h3>50+ Members</h3>
+      </div>
+      <div>
+        <img src="images/icons/graduation-cap-icon.png" alt="" class="row-icon">
+        <h3>30+ Majors</h3>
+      </div>
+      <div>
+        <img src="images/icons/university.png" alt="" class="row-icon">
+        <h3>5+ Colleges</h3>
+      </div>
+    </section>
+
+    <section id="team-cards">
+      <!-- Team cards are placed in here by the script. -->
+    </section>
+
+    <!-- TODO: Team info widget 
       <section id="team-info">
         <div id='team-topics-list' style="display: flex; flex-direction: column; width: 40%;">
           <button onpointerdown="selectTopic('Design')">Design</button>
@@ -161,37 +162,43 @@
         </div>
       </section> -->
 
-    </main>
+  </main>
 
-    <footer>
-      <div class="footer-information">
-        <div class="footer-follow">
-          <h3>Follow Us</h3>
-          <ul>
-            <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="images/icons/instagram.png" alt='' class="footer-icon"/>Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="images/icons/tiktok.png" alt='' class="footer-icon"/>Tiktok</a></li>
-            <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img src="images/icons/linkedin.png" alt='' class="footer-icon"/>LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="images/icons/facebook.png" alt='' class="footer-icon"/>Facebook</a></li>
-            <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="images/icons/youtube.png" alt='' class="footer-icon"/>Youtube</a></li>
-          </ul>
-        </div>
-        <div class="footer-middle-line"></div>
-        <div class="footer-contact">
-          <h3>Contact Us</h3>
-          <ul>
-            <li><a href="mailto:combatrobotics@cornell.edu">combatrobotics@cornell.edu</a></li>
-            <li><a href="./accessibility.html">Accessibility Assistance</a></li>
-            <br>
-            <li class="footer-text">This organization is a registered student organization of Cornell University.</li>
-          </ul>
-          <div class="footer-logo-box-inside">
-            <img src="images/logo.png" alt='' class="footer-logo"/>
-          </div>
+  <footer>
+    <div class="footer-information">
+      <div class="footer-follow">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/combatroboticscornell/?hl=en"><img src="images/icons/instagram.png"
+                alt='' class="footer-icon" />Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@combatroboticsatcornell"><img src="images/icons/tiktok.png" alt=''
+                class="footer-icon" />Tiktok</a></li>
+          <li><a href="https://www.linkedin.com/company/combat-robotics-at-cornell/"><img
+                src="images/icons/linkedin.png" alt='' class="footer-icon" />LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/cucombatrobotics/"><img src="images/icons/facebook.png" alt=''
+                class="footer-icon" />Facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UCRoomTf0RRs6DNDzucEKDMg"><img src="images/icons/youtube.png"
+                alt='' class="footer-icon" />Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footer-middle-line"></div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="mailto:combatrobotics@cornell.edu">combatrobotics@cornell.edu</a></li>
+          <li><a href="./accessibility.html">Accessibility Assistance</a></li>
+          <br>
+          <li class="footer-text">This organization is a registered student organization of Cornell University.</li>
+        </ul>
+        <div class="footer-logo-box-inside">
+          <img src="images/logo.png" alt='' class="footer-logo" />
         </div>
       </div>
-      <div class="footer-logo-box-aside">
-        <img src="images/logo.png" alt='' class="footer-logo"/>
-      </div>
-    </footer>
-  </body>
+    </div>
+    <div class="footer-logo-box-aside">
+      <img src="images/logo.png" alt='' class="footer-logo" />
+    </div>
+  </footer>
+</body>
+
 </html>
