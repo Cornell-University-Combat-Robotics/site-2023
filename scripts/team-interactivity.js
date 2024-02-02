@@ -116,7 +116,7 @@ const teamData = {
   "grace-lim": {
     name: "Grace Lim",
     img_path: "images/team/members/grace-lim.jpg",
-    position: "Autonomous Subteam Co-Lead",
+    position: "Autonomous Member, Former Autonomous Subteam Co-Lead (2023)",
     stats: [
       ["Handwriting", 100],
       ["Being at Upson", 70],
@@ -149,7 +149,7 @@ const teamData = {
   "shao-stassen": {
     name: "Shao Stassen",
     img_path: "images/team/members/shao-stassen.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Subteam Co-Lead",
     stats: [
       ["Github", "90"],
       ["Debugging", "20"],
@@ -182,7 +182,7 @@ const teamData = {
   "anna-boese": {
     name: "Anna Boese",
     img_path: "images/team/members/anna-boese.jpg",
-    position: "Kinetic Subteam Co-Lead // Former Kinetic Vice Subteam Lead (2022)",
+    position: "Kinetic member // Former Kinetic Subteam Co-Lead (2023) // Former Kinetic Vice Subteam Lead (2022)",
     stats: [
       ["Hair Color Consistency", 10],
       ["Short Term Memory", 40],
@@ -233,7 +233,7 @@ const teamData = {
   "zander-knight": {
     name: "Zander Knight",
     img_path: "images/team/members/zander-knight.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Subteam Co-Lead",
     stats: [
       ["Battlebots Knowledge", 90],
       ["Basement Hospitality", 80],
@@ -739,12 +739,12 @@ const teamData = {
 };
 
 const kinetic = [
-  "anna-boese",
   "stella-taglich",
+  "zander-knight",
   "isaac-newcomb",
+  "anna-boese",
   "james-lasalle",
   "mohammed-chowdhury",
-  "zander-knight",
   "ethan-hernandez",
   "kevin-sturm",
   "mattew-anazco"
