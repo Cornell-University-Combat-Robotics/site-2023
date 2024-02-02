@@ -774,17 +774,17 @@ const marketing = [
   "vishnu-nair"
 ];
 const autonomous = [
+  "ethan-zhang",
+  "shao-stassen",
   "aaron-harnish",
   "alyssa-hsu",
   "ananya-jajodia",
   "camille-yap",
   "christopher-adonizio",
-  "ethan-zhang",
   "grace-lim",
   "jenny-wu",
   "katie-huntley",
   "richard-jin",
-  "shao-stassen",
 ];
 const alum = [
   "bruno-tassari",
