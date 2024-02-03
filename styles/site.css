@@ -63,12 +63,60 @@ body {
 
 #lance:hover {
   cursor: url("../images/robot-img/lance/lance-cursor-0.png"), auto;
+  animation: lance-cursor 0.25s linear infinite;
 }
 
 .lance-body a:hover,
 .lance-body .robot-photo:hover,
 .lance-body .robot-video:hover {
   cursor: url("../images/robot-img/lance/lance-cursor-1.png"), pointer;
+  animation: lance-cursor 0.25s linear infinite;
+}
+
+@keyframes lance-cursor {
+  0% {
+    cursor: url("../images/robot-img/lance/lance-cursor-0.png"), auto;
+  }
+  25% {
+    cursor: url("../images/robot-img/lance/lance-cursor-1.png"), auto;
+  }
+  50% {
+    cursor: url("../images/robot-img/lance/lance-cursor-2.png"), auto;
+  }
+  75% {
+    cursor: url("../images/robot-img/lance/lance-cursor-3.png"), auto;
+  }
+}
+
+.rosie-body {
+  cursor: url("../images/robot-img/rosie/rosie-cursor-0.png"), pointer;
+}
+
+#rosie:hover {
+  cursor: url("../images/robot-img/rosie/rosie-cursor-0.png"), auto;
+  animation: rosie-cursor 0.25s linear infinite;
+}
+
+.rosie-body a:hover,
+.rosie-body .robot-photo:hover,
+.rosie-body .robot-video:hover {
+  cursor: url("../images/robot-img/rosie/rosie-cursor-1.png"), pointer;
+  animation: rosie-cursor 0.25s linear infinite;
+}
+
+@keyframes rosie-cursor {
+  0% {
+    cursor: url("../images/robot-img/rosie/rosie-cursor-0.png"), auto;
+  }
+  25% {
+    cursor: url("../images/robot-img/rosie/rosie-cursor-1.png"), auto;
+  }
+  50% {
+    cursor: url("../images/robot-img/rosie/rosie-cursor-2.png"), auto;
+  }
+  75% {
+    cursor: url("../images/robot-img/rosie/rosie-cursor-3.png"), auto;
+  }
 }
 
 .richard-body {
