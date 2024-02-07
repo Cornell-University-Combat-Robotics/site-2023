@@ -119,6 +119,46 @@ body {
   }
 }
 
+.donatello-body {
+  cursor: url("../images/robot-img/donatello/donatello-cursor-3.png"), pointer;
+}
+
+#donatello:hover {
+  cursor: url("../images/robot-img/donatello/donatello-cursor-0.png"), auto;
+  animation: donatello-cursor 0.25s linear infinite;
+}
+
+.donatello-body a:hover,
+.donatello-body .robot-photo:hover,
+.donatello-body .robot-video:hover {
+  cursor: url("../images/robot-img/donatello/donatello-cursor-0.png"), pointer;
+  animation: donatello-cursor 0.25s linear infinite;
+}
+
+@keyframes donatello-cursor {
+  0% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-0.png"), auto;
+  }
+  12.5% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-1.png"), auto;
+  }
+  25% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-2.png"), auto;
+  }
+  37.5% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-3.png"), auto;
+  }
+  50% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-2.png"), auto;
+  }
+  62.5% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-1.png"), auto;
+  }
+  75% {
+    cursor: url("../images/robot-img/donatello/donatello-cursor-0.png"), auto;
+  }
+}
+
 .richard-body {
   cursor: url("../images/robot-img/richard/richard-cursor-0.png"), pointer;
 }
