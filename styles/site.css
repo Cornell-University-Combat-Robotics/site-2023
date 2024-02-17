@@ -159,6 +159,37 @@ body {
   }
 }
 
+.florence-body {
+  cursor: url("../images/robot-img/florence/florence-cursor-0.png"), pointer;
+}
+
+#florence:hover {
+  cursor: url("../images/robot-img/florence/florence-cursor-0.png"), auto;
+  animation: florence-cursor 0.5s linear infinite;
+}
+
+.florence-body a:hover,
+.florence-body .robot-photo:hover,
+.florence-body .robot-video:hover {
+  cursor: url("../images/robot-img/florence/florence-cursor-1.png"), pointer;
+  animation: florence-cursor 0.5s linear infinite;
+}
+
+@keyframes florence-cursor {
+  0% {
+    cursor: url("../images/robot-img/florence/florence-cursor-0.png"), auto;
+  }
+  25% {
+    cursor: url("../images/robot-img/florence/florence-cursor-1.png"), auto;
+  }
+  50% {
+    cursor: url("../images/robot-img/florence/florence-cursor-2.png"), auto;
+  }
+  75% {
+    cursor: url("../images/robot-img/florence/florence-cursor-3.png"), auto;
+  }
+}
+
 .richard-body {
   cursor: url("../images/robot-img/richard/richard-cursor-0.png"), pointer;
 }
