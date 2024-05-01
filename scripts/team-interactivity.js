@@ -880,6 +880,7 @@ const subteamData = {
       "<li>Donatello (2019-2020)</li>" +
       "<li>Richard (2021-2022)</li>" +
       "<li>Rosie (2022-2023)</li>" +
+      "<li>Beater B. Barker (2023-2024)</li>" +
       "</ul>" +
       "Come be a part of Kinetic, where we transform robots into champions, one bearing at a time.<br><br>" +
       "If you are more interested in..." +
@@ -914,7 +915,7 @@ const subteamData = {
     //["caleb-schlissel", "alex-jenkins", "charles-liu","marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description:
       "Within the Sportsman Subteam, we specialize in the construction of <b>12lb low kinetic energy combat robots</b>, including flippers, hammers, crushers, punchers, and non-spinning innovations.<br><br>" +
-      "Our <b>mission</b> is to design and build robots that epitomize creative originality, design ingenuity, and interdisciplinary collaboration. In the absence of raw power, Sportsman excels through unique strategies and battle control. Sportsman aims to win the crowd rather than the competition through their battle moves.<br><br>" +
+      "Our <b>mission</b> is to design and build highly efficient robots with the <b>capacity to dominate competitions</b>. Our designs emphasize <b>strategic control, structural durability</b>, and innovative adaptations to our opponents' tactical advancements. Sportsman is devoted to maintaining a collaboratively inclusive environment where applied engineering can flourish.<br><br>" +
       "Our approach to robot design revolves around four critical <b>subsystems</b> that all members are in together:" +
       "<ul>" +
       "<li><b>Drivetrain</b>: This encompasses the locomotion system of the robot. Sportsman selects unconventional drive systems, pushing the boundaries of innovation.</li>" +
@@ -942,6 +943,7 @@ const subteamData = {
       "<li>Manny (2019-2020)</li>" +
       "<li>Lance (2021-2022)</li>" +
       "<li>Florence (2022-2023)</li>" +
+      "<li>Nardo (2023-2024)</li>" +
       "</ul>" +
       "Come be a part of Sportsman, where we transform unconventional ideas into thrilling robots, one bolt at a time.<br><br>" +
       "If you are more interested in..." +
@@ -1080,6 +1082,7 @@ const subteamData = {
       "<ul>" +
       "<li>Enemy detection and wall detection on Arduino (C++) for Manny (2019-2022)</li>" +
       "<li>Road tracking and facial recognition on Raspberry Pi (Python) for Lance (2022-2023)</li>" +
+      "<li>Louis XVII (2023-2024)</li>" +
       "</ul>" +
       "Come be a part of Autonomous, where we challenge conventions through autonomy, one bug at a time.<br><br>" +
       "If you are more interested in..." +
