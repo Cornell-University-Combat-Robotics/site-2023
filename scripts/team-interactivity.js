@@ -707,6 +707,7 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
+}
 const kinetic = [
   "zander-knight",
   "james-lasalle",
