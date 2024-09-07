@@ -498,7 +498,7 @@ const teamData = {
       ["Driving", 50],
       ["Credibility", 100],
     ],
-    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
+    linkedin: "https://www.linkedin.com/in/manuely-feliz-portes-1b0116326/",
   },
   "kai-rodger": {
     name: "Kai Rodger",
@@ -605,7 +605,7 @@ const teamData = {
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
-      ["Fortnite Festival Player", 80],
+      ["Dress To Impress Player", 80],
     ],
     linkedin: "https://www.linkedin.com/in/rrachelpineda/",
   },
@@ -717,24 +717,6 @@ const teamData = {
       ["Focus", 50]
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
-  },
-  "manuely-feliz-portes": {
-    name: "Manuely Feliz Portes",
-    img_path: "images/team/members/manuely-feliz-portes.jpg",
-    position: "Sportsman Member",
-    stats: [
-      ["Decisive", 10],
-      ["Driving", 50],
-      ["Credibility", 100]
-    ],
-    linkedin: "",
-  },
-  "tyler-sprague": {
-    name: "Tyler Sprague",
-    img_path: "images/team/members/tyler-sprague.jpg",
-    position: "Sportsman Member",
-    stats: [],
-    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
   },
 };
 
