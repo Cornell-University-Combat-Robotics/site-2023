@@ -50,7 +50,7 @@ const teamData = {
   "linda-hu": {
     name: "Linda Hu",
     img_path: "images/team/members/linda-hu.jpg",
-    position: "Marketing Subteam Lead",
+    position: "Marketing Member",
     stats: [
       ["Drawing", "70"],
       ["Punctuality", "90"],
@@ -61,7 +61,7 @@ const teamData = {
   "luke-murphy": {
     name: "Luke Murphy",
     img_path: "images/team/members/luke-murphy.jpg",
-    position: "Marketing Member // Former Vice Team Lead (2022-2023)",
+    position: "Alum 2024 // Former Vice Team Lead (2022-2023), Marketing (2024)",
     stats: [
       ["Website Skills", "100"],
       ["CAD", "10"],
@@ -72,7 +72,7 @@ const teamData = {
   "molly-drumm": {
     name: "Molly Drumm",
     img_path: "images/team/members/molly-drumm.jpg",
-    position: "Marketing Member // Former Sportsman Vice Subteam Lead (2023)",
+    position: "Alum 2024 // Former Sportsman Vice Subteam Lead (2023), Marketing (2024)",
     stats: [
       ["Quirkiness", "90"],
       ["Diet", "10"],
@@ -83,7 +83,7 @@ const teamData = {
   "ruby-wang": {
     name: "Ruby Wang",
     img_path: "images/team/members/Ruby-Wang.jpg",
-    position: "Marketing Member",
+    position: "Alum 2024 // Marketing (2022-2024)",
     stats: [
       ["Zoning Out", 70],
       ["Drawing", 100],
@@ -94,7 +94,7 @@ const teamData = {
   "sardor-rahmatulloev": {
     name: "Sardor Rahmatulloev",
     img_path: "images/team/members/sardor-rahmatulloev.jpg",
-    position: "Team Co-Lead",
+    position: "Marketing Member // Former Team Co-Lead (2023-2024)",
     stats: [
       ["Air Bending", "70"],
       ["GitHub", "10"],
@@ -105,7 +105,7 @@ const teamData = {
   "ethan-zhang": {
     name: "Ethan Zhang",
     img_path: "images/team/members/ethan-zhang.jpg",
-    position: "Autonomous Subteam Co-Lead",
+    position: "Autonomous Member // Former Autonomous Subteam Co-Lead (2023-2024)",
     stats: [
       ["Fire Bending", 70],
       ["Cursed Knowledge", 20],
@@ -116,7 +116,7 @@ const teamData = {
   "grace-lim": {
     name: "Grace Lim",
     img_path: "images/team/members/grace-lim.jpg",
-    position: "Autonomous Member, Former Autonomous Subteam Co-Lead (2023)",
+    position: "Autonomous Member // Former Autonomous Subteam Co-Lead (2023)",
     stats: [
       ["Handwriting", 100],
       ["Being at Upson", 70],
@@ -138,7 +138,7 @@ const teamData = {
   "richard-jin": {
     name: "Richard Jin",
     img_path: "images/team/members/richard-jin.jpg",
-    position: "Former Autonomous Subteam Lead (2022-2023)",
+    position: "Alum 2024 // Former Autonomous Subteam Lead (2022-2023)",
     stats: [
       ["Time Complexity Analysis", 70],
       ["Fanny Pack Wearing", 10],
@@ -149,7 +149,7 @@ const teamData = {
   "shao-stassen": {
     name: "Shao Stassen",
     img_path: "images/team/members/shao-stassen.jpg",
-    position: "Autonomous Subteam Co-Lead",
+    position: "Autonomous Member // Former Autonomous Subteam Co-Lead (2023-2024)",
     stats: [
       ["Github", "90"],
       ["Debugging", "20"],
@@ -160,7 +160,7 @@ const teamData = {
   "sebastian-rivera": {
     name: "Sebastian Rivera",
     img_path: "images/team/members/sebastian-rivera.jpg",
-    position: "Team Co-Lead // Former Autonomous Vice Subteam Lead (2022-2023)",
+    position: "TL Advisor // Former Autonomous Vice Subteam Lead (2022-2023), Former Team Co-Lead (2023-2024)",
     stats: [
       ["Wiffleball", 80],
       ["Updating GCal", 20],
@@ -182,7 +182,7 @@ const teamData = {
   "anna-boese": {
     name: "Anna Boese",
     img_path: "images/team/members/anna-boese.jpg",
-    position: "Kinetic member // Former Kinetic Subteam Co-Lead (2023) // Former Kinetic Vice Subteam Lead (2022)",
+    position: "Kinetic Member, MechE Trainer // Former Kinetic Subteam Co-Lead (2023) // Former Kinetic Vice Subteam Lead (2022)",
     stats: [
       ["Hair Color Consistency", 10],
       ["Short Term Memory", 40],
@@ -193,7 +193,7 @@ const teamData = {
   "isaac-newcomb": {
     name: "Isaac Newcomb",
     img_path: "images/team/members/isaac-newcomb.jpg",
-    position: "Kinetic Member // Former Kinetic Subteam Lead (2022-2023)",
+    position: "Alum 2024 // Former Kinetic Subteam Lead (2022-2023), Kinetic (2024)",
     stats: [
       ["Robot Piloting", 90],
       ["Scooter Skills", 80],
@@ -204,14 +204,14 @@ const teamData = {
   "james-lasalle": {
     name: "James LaSalle",
     img_path: "images/team/members/james-lasalle.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Co-Lead",
     stats: [["In Your Walls", 100], ["Making the Arcade CAD", 100], ['👍', 100]],
     linkedin: "https://www.linkedin.com/in/james-lasalle-589860256/",
   },
   "mohammed-chowdhury": {
     name: "Mohammed Chowdhury",
     img_path: "images/team/members/mohammed-chowdhury.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Member, Safety Training Lead",
     stats: [
       ["Loving Sebastian", 100],
       ["Being an Ally", 50],
@@ -222,7 +222,7 @@ const teamData = {
   "stella-taglich": {
     name: "Stella Taglich",
     img_path: "images/team/members/stella-taglich.jpg",
-    position: "Kinetic Subteam Co-Lead",
+    position: "Team Co-Lead",
     stats: [
       ["Finding Car Keys", 20],
       ["Quality of AUX", 100],
@@ -233,7 +233,7 @@ const teamData = {
   "zander-knight": {
     name: "Zander Knight",
     img_path: "images/team/members/zander-knight.jpg",
-    position: "Kinetic Subteam Co-Lead",
+    position: "Kinetic Co-Lead",
     stats: [
       ["Battlebots Knowledge", 90],
       ["Basement Hospitality", 80],
@@ -244,7 +244,7 @@ const teamData = {
   "alex-jenkins": {
     name: "Alex Jenkins",
     img_path: "images/team/members/alex-jenkins.jpg",
-    position: "Sportsman Subteam Co-Lead",
+    position: "Sportsman Member, Training Lead // Former Sportsman Co-Lead (2023-2024)",
     stats: [
       ["Punctuality", "80"],
       ["Dragon Training", "100"],
@@ -255,7 +255,7 @@ const teamData = {
   "caleb-schlissel": {
     name: "Caleb Schlissel",
     img_path: "images/team/members/caleb-schlissel.jpg",
-    position: "Sportsman Subteam Co-Lead",
+    position: "Team Co-Lead",
     stats: [
       ["Big Brain", 100],
       ["Social Life", 40],
@@ -266,7 +266,7 @@ const teamData = {
   "charles-liu": {
     name: "Charles Liu",
     img_path: "images/team/members/charles-liu.jpg",
-    position: "Sportsman Member",
+    position: "Alum 2024 // Sportsman (2023-2024)",
     stats: [
       ["Being Tall", 50],
       ["Big Brain", 10],
@@ -277,7 +277,7 @@ const teamData = {
   "marcus-esposito": {
     name: "Marcus Esposito",
     img_path: "images/team/members/marcus-esposito.jpg",
-    position: "Sportsman Member // Former Sportsman Subteam Lead (2022-2023)",
+    position: "Alum 2024 // Former Sportsman Subteam Lead (2022-2023), Sportsman (2024)",
     stats: [
       ["Punctuality", "90"],
       ["Explaining Things", "60"],
@@ -288,7 +288,7 @@ const teamData = {
   "narayan-rueppel": {
     name: "Narayan Rueppel",
     img_path: "images/team/members/narayan-rueppel.jpg",
-    position: "Sportsman Member",
+    position: "Sportsman Co-Lead",
     stats: [
       ["Punctuality", 90],
       ["Swahili", 10],
@@ -299,7 +299,7 @@ const teamData = {
   "sana-gaya": {
     name: "Sana Gaya",
     img_path: "images/team/members/sana-gaya.jpg",
-    position: "Sportsman Member",
+    position: "Alum 2024 // Sportsman (2023)",
     stats: [],
     linkedin: "https://www.linkedin.com/in/sana-gaya/",
   },
@@ -317,7 +317,7 @@ const teamData = {
   "william-murphy": {
     name: "William Murphy",
     img_path: "images/team/members/william-murphy.jpg",
-    position: "Alum 2023 // Former Marketing Vice Subteam Lead (2023) // Former Sportsman VSL (2022)",
+    position: "Alum 2023 // Former Marketing Vice Subteam Lead (2023), Former Sportsman VSL (2022)",
     stats: [
       ["Meow", 50],
       ["Cuteness", 100],
@@ -467,17 +467,6 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/blaze-ezlakowski-25b3731b7",
   },
-  "aaron-harnish": {
-    name: "Aaron Harnish",
-    img_path: "images/team/members/aaron-harnish.jpg",
-    position: "Autonomous Member",
-    stats: [
-      ["Caleb Impersonation", 30],
-      ["Milk Enthusiasm", 80],
-      ["Raising Average Height", 90],
-    ],
-    linkedin: "https://www.linkedin.com/in/aaron-harnish/",
-  },
   "tyler-sprague": {
     name: "Tyler Sprague",
     img_path: "images/team/members/tyler-sprague.jpg",
@@ -492,7 +481,7 @@ const teamData = {
   "manuely-feliz-portes": {
     name: "Manuely Feliz Portes",
     img_path: "images/team/members/manuely-feliz-portes.jpg",
-    position: "Sportsman Member",
+    position: "Sportsman Co-Lead",
     stats: [
       ["Decisive", 10],
       ["Driving", 50],
@@ -532,7 +521,7 @@ const teamData = {
   "angela-zhu": {
     name: "Angela Zhu",
     img_path: "images/team/members/angela-zhu.jpg",
-    position: "Marketing Member",
+    position: "Marketing Member, Marketing Trainer",
     stats: [
       ["Gacha addiction", 90],
       ["Pyramid scheme recruitment", 80],
@@ -565,7 +554,7 @@ const teamData = {
   "javohir-abdurazzakov": {
     name: "Javohir Abdurazzakov",
     img_path: "images/team/members/javohir-abdurazzakov.jpg",
-    position: "Marketing Member",
+    position: "Marketing Co-Lead",
     stats: [
       ["Soccer", 20],
       ["Germaphobe", 75],
@@ -601,7 +590,7 @@ const teamData = {
   "rachel-pineda": {
     name: "Rachel Pineda",
     img_path: "images/team/members/rachel-pineda.jpg",
-    position: "Marketing Member",
+    position: "Marketing Co-Lead",
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
@@ -619,14 +608,14 @@ const teamData = {
   "ethan-hernandez": {
     name: "Ethan Hernandez",
     img_path: "images/team/members/ethan-hernandez.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Member, MechE Trainer",
     stats: [],
     linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
   },
   "kevin-sturm": {
     name: "Kevin Sturm",
     img_path: "images/team/members/kevin-sturm.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Member, Social Lead, Test Box Lead",
     stats: [
       ["Being 6 foot", 98],
       ["Ability to eat nuts", 0],
@@ -637,14 +626,14 @@ const teamData = {
   "mattew-anazco": {
     name: "Mattew Anazco",
     img_path: "images/team/members/mattew-anazco.jpg",
-    position: "Kinetic Member",
+    position: "Kinetic Member, MechE Trainer",
     stats: [["Coin Flip Win Percentage", 50], ["Big wedge", 100], ["H in name", 0]],
     linkedin: "https://www.linkedin.com/in/mattew-anazco-77724222a/",
   },
   "aaron-harnish": {
     name: "Aaron Harnish",
     img_path: "images/team/members/aaron-harnish.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Co-Lead",
     stats: [
       ["Caleb impersonation skills", 30],
       ["Milk enthusiasm", 80],
@@ -655,7 +644,7 @@ const teamData = {
   "ananya-jajodia": {
     name: "Ananya Jajodia",
     img_path: "images/team/members/ananya-jajodia.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Member, Autonomous Trainer",
     stats: [
       ["Tetris", 70],
       ["Hydration", 0],
@@ -666,7 +655,7 @@ const teamData = {
   "alyssa-hsu": {
     name: "Alyssa Hsu",
     img_path: "images/team/members/alyssa-hsu.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Member, Autonomous Trainer",
     stats: [
       ["Tummy Sleeper", 100],
       ["Pentakills", 0],
@@ -677,7 +666,7 @@ const teamData = {
   "camille-yap": {
     name: "Camille Yap",
     img_path: "images/team/members/camille-yap.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Member, Autonomous Trainer",
     stats: [
       ["Avocado enthusiasm", 100],
       ["Back sleeper", 100],
@@ -688,7 +677,7 @@ const teamData = {
   "christopher-adonizio": {
     name: "Christopher Adonizio",
     img_path: "images/team/members/christopher-adonizio.jpg",
-    position: "Autonomous Member",
+    position: "Autonomous Co-Lead",
     stats: [
       ["Chess", 60],
       ["Frisbee", 80],
@@ -718,59 +707,55 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
-};
-
 const kinetic = [
-  "stella-taglich",
   "zander-knight",
-  "isaac-newcomb",
-  "anna-boese",
   "james-lasalle",
-  "mohammed-chowdhury",
+  "anna-boese",
   "ethan-hernandez",
   "kevin-sturm",
-  "mattew-anazco"
+  "mattew-anazco",
+  "mohammed-chowdhury",
 ];
 const sportsman = [
-  "caleb-schlissel",
-  "alex-jenkins",
-  "charles-liu",
-  "marcus-esposito",
   "narayan-rueppel",
+  "manuely-feliz-portes",
+  "alex-jenkins",
   "zarif-pathan",
   "kai-rodger",
-  "manuely-feliz-portes",
   "tyler-sprague"
 ];
 const marketing = [
+  "rachel-pineda",
+  "javohir-abdurazzakov",
   "linda-hu",
-  "luke-murphy",
-  "molly-drumm",
-  "ruby-wang",
   "angela-zhu",
   "crystal-li",
   "evan-zhu",
-  "javohir-abdurazzakov",
   "meiling-wood",
-  "rachel-pineda",
-  "vishnu-nair"
+  "sardor-rahmatulloev",
 ];
 const autonomous = [
+  "aaron-harnish",
+  "christopher-adonizio",
   "ethan-zhang",
   "shao-stassen",
-  "aaron-harnish",
   "alyssa-hsu",
   "ananya-jajodia",
   "camille-yap",
-  "christopher-adonizio",
   "grace-lim",
   "jenny-wu",
   "katie-huntley",
-  "richard-jin",
 ];
 const alum = [
   "bruno-tassari",
   "william-murphy",
+  "isaac-newcomb",
+  "richard-jin",
+  "luke-murphy",
+  "molly-drumm",
+  "ruby-wang",
+  "charles-liu",
+  "marcus-esposito",
   "shawn-chen",
   "edith-chen",
   "james-courtenay",
@@ -796,15 +781,17 @@ const alum = [
 ];
 const fullteam = [];
 const leads = [
-  "sebastian-rivera",
-  "sardor-rahmatulloev",
-  "linda-hu",
-  "ethan-zhang",
-  "shao-stassen",
-  "anna-boese",
-  "stella-taglich",
   "caleb-schlissel",
-  "alex-jenkins"
+  "stella-taglich",
+  "zander-knight",
+  "james-lasalle",
+  "narayan-rueppel",
+  "manuely-feliz-portes",
+  "aaron-harnish",
+  "christopher-adonizio",
+  "rachel-pineda",
+  "javohir-abdurazzakov",
+  "sebastian-rivera",
 ]; // set manually
 // for (key in teamData) {
 //   let member = teamData[key];
