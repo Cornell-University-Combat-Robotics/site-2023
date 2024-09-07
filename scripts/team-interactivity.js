@@ -707,15 +707,6 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
-  "tyler-sprague": {
-    name: "Tyler Sprague",
-    img_path: "images/team/members/tyler-sprague.jpg",
-    position: "Sportsman Member",
-    stats: [],
-    linkedin: "https://www.linkedin.com/in/tyler-sprague-209270295/",
-  },
-};
-
 const kinetic = [
   "zander-knight",
   "james-lasalle",
