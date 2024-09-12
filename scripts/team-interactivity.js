@@ -50,7 +50,7 @@ const teamData = {
   "linda-hu": {
     name: "Linda Hu",
     img_path: "images/team/members/linda-hu.jpg",
-    position: "Marketing Member",
+    position: "Marketing Member // Former Marketing Subteam Lead (2023-2024)",
     stats: [
       ["Drawing", "70"],
       ["Punctuality", "90"],
