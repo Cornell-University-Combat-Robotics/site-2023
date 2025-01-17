@@ -211,7 +211,7 @@ const teamData = {
   "mohammed-chowdhury": {
     name: "Mohammed Chowdhury",
     img_path: "images/team/members/mohammed-chowdhury.jpg",
-    position: "Kinetic Member, Safety Training Lead",
+    position: "Alum 2024 // Kinetic Member, Safety Training Lead",
     stats: [
       ["Loving Sebastian", 100],
       ["Being an Ally", 50],
@@ -241,16 +241,49 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/zander-knight-3aab8724a/",
   },
-  "alex-jenkins": {
-    name: "Alex Jenkins",
-    img_path: "images/team/members/alex-jenkins.jpg",
-    position: "Sportsman Member, Training Lead // Former Sportsman Co-Lead (2023-2024)",
+  "gurjot-gill": {
+    name: "Gurjot Gill",
+    img_path: "images/team/members/gurjot-gill.jpg",
+    position: "Kinetic Member",
     stats: [
-      ["Punctuality", "80"],
-      ["Dragon Training", "100"],
-      ["Spelling", "20"],
+      ["Fact 1", 90],
+      ["Fact 2", 80],
+      ["Fact 3", 30],
     ],
-    linkedin: "https://www.linkedin.com/in/alex-jenkins-201214223/",
+    linkedin: "https://www.linkedin.com/in/gurjotgill1/",
+  },
+  "spencer-humes": {
+    name: "Spencer Humes",
+    img_path: "images/team/members/spencer-humes.jpg",
+    position: "Kinetic Member",
+    stats: [
+      ["Dexterity", 40],
+      ["Certainty", 20],
+      ["Alacrity", 60],
+    ],
+    linkedin: "https://www.linkedin.com/in/spencer-humes-5b4070289/",
+  },
+  "kaila-danielson": {
+    name: "Kaila Danielson",
+    img_path: "images/team/members/kaila-danielson.jpg",
+    position: "Kinetic Member",
+    stats: [
+      ["Coffee", 90],
+      ["Long Term Memory", 30],
+      ["Watching Epsiodes of Friends", 100],
+    ],
+    linkedin: "https://www.linkedin.com/in/kaila-danielson-2955032b7/",
+  },
+  "castiel-li": {
+    name: "Castiel Li",
+    img_path: "images/team/members/castiel-li.jpg",
+    position: "Kinetic Member",
+    stats: [
+      ["Solder Inhaled", "90"],
+      ["Glass Microspheres Inhaled", "80"],
+      ["Sleep Deprivation", "100"],
+    ],
+    linkedin: "https://www.linkedin.com/in/castiel-li-527964330/",
   },
   "caleb-schlissel": {
     name: "Caleb Schlissel",
@@ -785,7 +818,10 @@ const kinetic = [
   "ethan-hernandez",
   "kevin-sturm",
   "mattew-anazco",
-  "mohammed-chowdhury",
+  "castiel-li",
+  "gurjot-gill",
+  "kaila-danielson",
+  "spencer-humes",
 ];
 const sportsman = [
   "narayan-rueppel",
@@ -855,6 +891,7 @@ const alum = [
   "rob-measner",
   "stefan-bell",
   "sana-gaya",
+  "mohammed-chowdhury",
   "zarif-pathan"
 ];
 const fullteam = [];
