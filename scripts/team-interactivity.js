@@ -805,8 +805,8 @@ const teamData = {
     position: "Sportsman Member",
     stats: [
       ["FBI agent", 80],
-      ["League", 100],
-      ["Unconscious thoughts", 20]
+      ["League/Reddit", 70],
+      ["Conscious thoughts", 10]
     ],
     linkedin: "https://www.linkedin.com/in/xiayan-z-14aa45272",
   }
