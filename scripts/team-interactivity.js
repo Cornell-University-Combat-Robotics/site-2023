@@ -52,8 +52,8 @@ const teamData = {
     img_path: "images/team/members/linda-hu.jpg",
     position: "Marketing Member // Former Marketing Subteam Lead (2023-2024)",
     stats: [
-      ["Drawing", "70"],
-      ["Punctuality", "90"],
+      ["Drawing", "60"],
+      ["Earrings", "80"],
       ["Not Playing Genshin", "100"],
     ],
     linkedin: "https://www.linkedin.com/in/linda-ly-hu/",
@@ -613,13 +613,6 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/mei-ling-wood-bb669523b/",
   },
-  "nicholas-underwood": {
-    name: "Nicholas Underwood",
-    img_path: "images/team/members/nicholas-underwood.jpg",
-    position: "Marketing Member",
-    stats: [],
-    linkedin: "https://www.linkedin.com/in/nicholas-underwood-0b7733290/",
-  },
   "rachel-pineda": {
     name: "Rachel Pineda",
     img_path: "images/team/members/rachel-pineda.jpg",
@@ -627,7 +620,7 @@ const teamData = {
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
-      ["Dress To Impress Player", 80],
+      ["Hiding the Stats Doc", 80],
     ],
     linkedin: "https://www.linkedin.com/in/rrachelpineda/",
   },
@@ -637,6 +630,39 @@ const teamData = {
     position: "Marketing Member",
     stats: [],
     linkedin: "https://www.linkedin.com/in/vishnu-nair-401528200/",
+  },
+  "nicholas-underwood": {
+    name: "Nicholas Underwood",
+    img_path: "images/team/members/nicholas-underwood.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Sleep", 30],
+      ["Workaholic", 90],
+      ["Dairy Consumption", 0]
+    ],
+    linkedin: "https://www.linkedin.com/in/nicholas-underwood-0b7733290/",
+  },
+  "caedy-lee": {
+    name: "Caedy Lee",
+    img_path: "images/team/members/caedy-lee.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Tea > Coffee", 100],
+      ["Pizza Crust Hater", 80],
+      ["TV Consumption", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/caedy-lee-4022792b7/",
+  },
+  "ruslan-black": {
+    name: "Ruslan Black",
+    img_path: "images/team/members/ruslan-black.jpg",
+    position: "Marketing Member",
+    stats: [
+      ["Reels", 90],
+      ["Ladder", 0],
+      ["Snoring in Seal", 50]
+    ],
+    linkedin: "https://www.linkedin.com/in/ruslansblack/",
   },
   "ethan-hernandez": {
     name: "Ethan Hernandez",
@@ -740,6 +766,50 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
+  "jason-choi": {
+    name: "Jason Choi",
+    img_path: "images/team/members/jason-choi.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Asian mom energy", 80],
+      ["Alleged non straight", 70],
+      ["Amt of hair", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/jason-choi-6336a327b",
+  },
+  "ruihan-chu": {
+    name: "RuiHan Chu",
+    img_path: "images/team/members/ruihan-chu.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Snowboarding", 90],
+      ["Cooking", 0],
+      ["Focus", 50]
+    ],
+    linkedin: "https://www.linkedin.com/in/ruihan-chu-654020234",
+  },
+  "sarah-bulkley": {
+    name: "Sarah Bulkley",
+    img_path: "images/team/members/sarah-bulkley.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Procrastination", 90],
+      ["Decisive", 10],
+      ["H in name", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/sarah-bulkley-589692312",
+  },
+  "xia-yan-zhao": {
+    name: "XiaYan Zhao",
+    img_path: "images/team/members/xia-yan-zhao.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["FBI agent", 80],
+      ["League", 100],
+      ["Unconscious thoughts", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/xiayan-z-14aa45272",
+  }
 }
 const kinetic = [
   "zander-knight",
@@ -757,18 +827,24 @@ const sportsman = [
   "narayan-rueppel",
   "manuely-feliz-portes",
   "alex-jenkins",
-  "zarif-pathan",
   "kai-rodger",
-  "tyler-sprague"
+  "tyler-sprague",
+  "jason-choi",
+  "ruihan-chu",
+  "sarah-bulkley",
+  "xia-yan-zhao"
 ];
 const marketing = [
   "rachel-pineda",
   "javohir-abdurazzakov",
-  "linda-hu",
   "angela-zhu",
+  "caedy-lee",
   "crystal-li",
   "evan-zhu",
+  "linda-hu",
   "meiling-wood",
+  "nicholas-underwood",
+  "ruslan-black",
   "sardor-rahmatulloev",
 ];
 const autonomous = [
@@ -816,6 +892,7 @@ const alum = [
   "stefan-bell",
   "sana-gaya",
   "mohammed-chowdhury",
+  "zarif-pathan"
 ];
 const fullteam = [];
 const leads = [
@@ -919,7 +996,6 @@ const subteamData = {
   // keys for all sportsman members
   sportsman: {
     members: sportsman,
-    //["caleb-schlissel", "alex-jenkins", "charles-liu","marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description:
       "Within the Sportsman Subteam, we specialize in the construction of <b>12lb low kinetic energy combat robots</b>, including flippers, hammers, crushers, punchers, and non-spinning innovations.<br><br>" +
       "Our <b>mission</b> is to design and build highly efficient robots with the <b>capacity to dominate competitions</b>. Our designs emphasize <b>strategic control, structural durability</b>, and innovative adaptations to our opponents' tactical advancements. Sportsman is devoted to maintaining a collaboratively inclusive environment where applied engineering can flourish.<br><br>" +
@@ -969,49 +1045,49 @@ const subteamData = {
     members: marketing,
     //["linda-hu", "bruno-tassari", "colin-rodriguez", "luke-murphy", "molly-drumm", "ruby-wang""]
     description:
-    "Within the Marketing Subteam, we specialize in various aspects of <b>promoting and enhancing CRC's brand</b>.<br><br>" +
-    "Our <b>mission</b> is to strengthen CRC's presence and reputation, elevating it beyond just a robotics team.<br><br>" +
-    "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
-    "<ul>" +
-    "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
-    "<li><b>Software</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
-    "<li><b>Media</b>: This encompasses photography, videography, editing, writing, and content management for CRC's social media presence on platforms like Instagram, TikTok, YouTube, Facebook, and LinkedIn. Marketing aims to create engaging posts that reflect the team's personality and encourage member creativity.</li>" +
-    "<li><b>Design</b>: This encompasses art, graphic design, and crafting for CRC's merchandise, including trading cards, stickers, clothing, stuffed animals, posters, and suits. Marketing creates an environment where members can express their passions, transforming CRC's robots into beloved characters.</li>" +
-    "</ul>" +
-    "The culmination of these efforts results in the transformation of CRC's brand into something tangible and relatable, extending beyond the realm of robotics.<br><br>" +
-    "The Marketing subteam provides an unparalleled opportunity to immerse yourself in your area of choice, whether it's business, software, media, and/or design. Here's what we do:<br><br>" +
-    "<b>Fall/Spring Semesters</b>:" +
-    "<ul>" +
-    "<li>Each subsystem continually generates content for the team, driven by member interests and goals</li>" +
-    "<li>Business reaches out to potential sponsors, applies for grants, engages with companies on campus, pitches the team to prospective partners, maintains existing relationships, and explores job opportunities for members. Business is also responsible for our two fundraising events: crowdfunding in the Fall and giving day in the Spring</li>" +
-    "<li>Software maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
-    "<li>Media creates an ever-expanding array of posts and videos, expanding the CRC Cinematic Universe. They also handle team recruitment, fundraising, and Cornell publicity. Additionally, they assist in creating videos for fundraising events and grant applications.</li>" +
-    "<li>Design is at the heart of giving our robots personality through an array of merchandise. We create distinctive trading cards, doubling as business cards and quarter cards featuring our robots; our vision extends to producing cards for all our robots, culminating in the development of a captivating CRC trading card game. Alongside trading cards, our repertoire includes robot stickers, quirky team wearables, and providing graphic design support to other subsystems.</li>" +
-    "</ul>" +
-    "Take a look at our past/current projects:<br>" +
-    "<ul>" +
-    "<li>Business: Sponsors page</li>" +
-    "<li>Software: Current CRC Website</li>" +
-    "<li>Software: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
-    "<li>Software: CRC RIZZ, the dating sim (TBD)</li>" +
-    "<li>Media: Instagram</li>" +
-    "<li>Media: TikTok</li>" +
-    "<li>Media: YouTube</li>" +
-    "<li>Media: Facebook</li>" +
-    "<li>Media: LinkedIn</li>" +
-    "<li>Design: Redbubble</li>" +
-    "<li>Design: CRSuit</li>" +
-    "<li>Design: Stuffed Manny</li>" +
-    "<li>Design: Robot Hats</li>" +
-    "<li>Design: Posters on campus, certain media posts, and certain designs on software projects</li>" +
-    "</ul>" +
-    "Come be a part of Marketing, where we keep the spirit of CRC alive, one idea at a time.<br><br>" +
-    "If you are more interested in..." +
-    "<ul>" +
-    "<li>Physical robot building, check out the Kinetic Subteam or the Sportsman subteam</li>" +
-    "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
-    "</ul>" +
-    "Meet our current Marketing Subteam!"
+      "Within the Marketing Subteam, we specialize in various aspects of <b>promoting and enhancing CRC's brand</b>.<br><br>" +
+      "Our <b>mission</b> is to strengthen CRC's presence and reputation, elevating it beyond just a robotics team.<br><br>" +
+      "Our approach to marketing revolves around four critical <b>subsystems</b> that members choose which ones they partake in (but still all work during the same meetings):" +
+      "<ul>" +
+      "<li><b>Business</b>: This encompasses activities such as generating revenue, maintaining corporate relationships, delivering business pitches, managing the team budget, reviewing resumes, crafting newsletters, and identifying opportunities for both members and the team. Marketing strives to expand our network and secure the resources necessary for CRC's growth and development.</li>" +
+      "<li><b>Software</b>: This encompasses the development and maintenance of CRC's website and video games. Marketing seeks to incorporate members' personalities into our projects, showcasing the uniqueness and appeal of our team.</li>" +
+      "<li><b>Media</b>: This encompasses photography, videography, editing, writing, and content management for CRC's social media presence on platforms like Instagram, TikTok, YouTube, Facebook, and LinkedIn. Marketing aims to create engaging posts that reflect the team's personality and encourage member creativity.</li>" +
+      "<li><b>Design</b>: This encompasses art, graphic design, and crafting for CRC's merchandise, including trading cards, stickers, clothing, stuffed animals, posters, and suits. Marketing creates an environment where members can express their passions, transforming CRC's robots into beloved characters.</li>" +
+      "</ul>" +
+      "The culmination of these efforts results in the transformation of CRC's brand into something tangible and relatable, extending beyond the realm of robotics.<br><br>" +
+      "The Marketing subteam provides an unparalleled opportunity to immerse yourself in your area of choice, whether it's business, software, media, and/or design. Here's what we do:<br><br>" +
+      "<b>Fall/Spring Semesters</b>:" +
+      "<ul>" +
+      "<li>Each subsystem continually generates content for the team, driven by member interests and goals</li>" +
+      "<li>Business reaches out to potential sponsors, applies for grants, engages with companies on campus, pitches the team to prospective partners, maintains existing relationships, and explores job opportunities for members. Business is also responsible for our two fundraising events: crowdfunding in the Fall and giving day in the Spring</li>" +
+      "<li>Software maintains and expands our website and current video games (CRC VS and CRC RIZZ) or develops a new one</li>" +
+      "<li>Media creates an ever-expanding array of posts and videos, expanding the CRC Cinematic Universe. They also handle team recruitment, fundraising, and Cornell publicity. Additionally, they assist in creating videos for fundraising events and grant applications.</li>" +
+      "<li>Design is at the heart of giving our robots personality through an array of merchandise. We create distinctive trading cards, doubling as business cards and quarter cards featuring our robots; our vision extends to producing cards for all our robots, culminating in the development of a captivating CRC trading card game. Alongside trading cards, our repertoire includes robot stickers, quirky team wearables, and providing graphic design support to other subsystems.</li>" +
+      "</ul>" +
+      "Take a look at our past/current projects:<br>" +
+      "<ul>" +
+      "<li>Business: Sponsors page</li>" +
+      "<li>Software: Current CRC Website</li>" +
+      "<li>Software: CRC VS, the robot fighting game (playable on the website or the arcade in the ELL)</li>" +
+      "<li>Software: CRC RIZZ, the dating sim (TBD)</li>" +
+      "<li>Media: Instagram</li>" +
+      "<li>Media: TikTok</li>" +
+      "<li>Media: YouTube</li>" +
+      "<li>Media: Facebook</li>" +
+      "<li>Media: LinkedIn</li>" +
+      "<li>Design: Redbubble</li>" +
+      "<li>Design: CRSuit</li>" +
+      "<li>Design: Stuffed Manny</li>" +
+      "<li>Design: Robot Hats</li>" +
+      "<li>Design: Posters on campus, certain media posts, and certain designs on software projects</li>" +
+      "</ul>" +
+      "Come be a part of Marketing, where we keep the spirit of CRC alive, one idea at a time.<br><br>" +
+      "If you are more interested in..." +
+      "<ul>" +
+      "<li>Physical robot building, check out the Kinetic Subteam or the Sportsman subteam</li>" +
+      "<li>Coding and wiring for autonomous robots, check out the Autonomous Subteam</li>" +
+      "</ul>" +
+      "Meet our current Marketing Subteam!"
   },
   // keys for all autonomous members
   autonomous: {
