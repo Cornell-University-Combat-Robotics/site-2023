@@ -766,6 +766,17 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
+  "alex-jenkins": {
+    name: "Alex Jenkins",
+    img_path: "images/team/members/alex-jenkins.jpg",
+    position: "Sportsman Member, Training Lead // Former Sportsman Co-Lead (2023-2024)",
+    stats: [
+      ["Punctuality", "80"],
+      ["Dragon Training", "100"],
+      ["Spelling", "20"],
+    ],
+    linkedin: "https://www.linkedin.com/in/alex-jenkins-201214223/"
+  },
   "jason-choi": {
     name: "Jason Choi",
     img_path: "images/team/members/jason-choi.jpg",
