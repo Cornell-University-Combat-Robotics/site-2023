@@ -733,6 +733,50 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/kai-rodger-70998029a/",
   },
+  "jason-choi": {
+    name: "Jason Choi",
+    img_path: "images/team/members/jason-choi.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Asian mom energy", 80],
+      ["Alleged non straight", 70],
+      ["Amt of hair", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/jason-choi-6336a327b",
+  },
+  "ruihan-chu": {
+    name: "RuiHan Chu",
+    img_path: "images/team/members/ruihan-chu.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Snowboarding", 90],
+      ["Cooking", 0],
+      ["Focus", 50]
+    ],
+    linkedin: "https://www.linkedin.com/in/ruihan-chu-654020234",
+  },
+  "sarah-bulkley": {
+    name: "Sarah Bulkley",
+    img_path: "images/team/members/sarah-bulkley.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["Procrastination", 90],
+      ["Decisive", 10],
+      ["H in name", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/sarah-bulkley-589692312",
+  },
+  "xia-yan-zhao": {
+    name: "XiaYan Zhao",
+    img_path: "images/team/members/xia-yan-zhao.jpg",
+    position: "Sportsman Member",
+    stats: [
+      ["FBI agent", 80],
+      ["League", 100],
+      ["Unconscious thoughts", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/xiayan-z-14aa45272",
+  }
 }
 const kinetic = [
   "zander-knight",
@@ -747,9 +791,12 @@ const sportsman = [
   "narayan-rueppel",
   "manuely-feliz-portes",
   "alex-jenkins",
-  "zarif-pathan",
   "kai-rodger",
-  "tyler-sprague"
+  "tyler-sprague",
+  "jason-choi",
+  "ruihan-chu",
+  "sarah-bulkley",
+  "xia-yan-zhao"
 ];
 const marketing = [
   "rachel-pineda",
@@ -807,7 +854,8 @@ const alum = [
   "sofie-halpern",
   "rob-measner",
   "stefan-bell",
-  "sana-gaya"
+  "sana-gaya",
+  "zarif-pathan"
 ];
 const fullteam = [];
 const leads = [
@@ -911,7 +959,6 @@ const subteamData = {
   // keys for all sportsman members
   sportsman: {
     members: sportsman,
-    //["caleb-schlissel", "alex-jenkins", "charles-liu","marcus-esposito", "narayan-rueppel", "sana-gaya", "zarif-pathan"]
     description:
       "Within the Sportsman Subteam, we specialize in the construction of <b>12lb low kinetic energy combat robots</b>, including flippers, hammers, crushers, punchers, and non-spinning innovations.<br><br>" +
       "Our <b>mission</b> is to design and build highly efficient robots with the <b>capacity to dominate competitions</b>. Our designs emphasize <b>strategic control, structural durability</b>, and innovative adaptations to our opponents' tactical advancements. Sportsman is devoted to maintaining a collaboratively inclusive environment where applied engineering can flourish.<br><br>" +
