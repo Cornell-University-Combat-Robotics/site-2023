@@ -880,7 +880,6 @@ const teamData = {
 const kinetic = [
   "zander-knight",
   "james-lasalle",
-  "anna-boese",
   "ethan-hernandez",
   "kevin-sturm",
   "mattew-anazco",
@@ -930,6 +929,10 @@ const autonomous = [
   "tyler-lovejoy",
 ];
 const alum = [
+  "anna-boese",
+  "mohammed-chowdhury",
+  "zarif-pathan",
+  "katie-huntley",
   "bruno-tassari",
   "william-murphy",
   "isaac-newcomb",
@@ -939,17 +942,19 @@ const alum = [
   "ruby-wang",
   "charles-liu",
   "marcus-esposito",
+  "sana-gaya",
   "shawn-chen",
   "edith-chen",
   "james-courtenay",
   "lucien-eckert",
   "maya-zamor",
   "spencer-hurst",
+  "sofie-halpern",
+  "kaitlyn-hoxha",
   "alex-salonga",
   "ash-siddiqui",
   "blaze-ezlakowski",
   "erhunmwunse-eghafona",
-  "kaitlyn-hoxha",
   "kevin-liu",
   "michelle-zhou",
   "mo-moghaddasi",
@@ -957,13 +962,8 @@ const alum = [
   "ricky-wang",
   "rochelle-barsz",
   "shubham-mathur",
-  "sofie-halpern",
   "rob-measner",
-  "stefan-bell",
-  "sana-gaya",
-  "mohammed-chowdhury",
-  "zarif-pathan",
-  "katie-huntley"
+  "stefan-bell"
 ];
 const fullteam = [];
 const leads = [
