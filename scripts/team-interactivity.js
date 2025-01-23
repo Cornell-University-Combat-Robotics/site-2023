@@ -647,9 +647,9 @@ const teamData = {
     img_path: "images/team/members/caedy-lee.jpg",
     position: "Marketing Member",
     stats: [
-      ["Tea > Coffee", 100],
-      ["Pizza Crust Hater", 80],
-      ["TV Consumption", 90]
+      ["Hot Water Addiction", 90],
+      ["Pizza Crust", 5],
+      ["TV Consumption", 70]
     ],
     linkedin: "https://www.linkedin.com/in/caedy-lee-4022792b7/",
   },
