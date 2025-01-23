@@ -755,6 +755,61 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
   },
+  "ethan-decamp": {
+    name: "Ethan DeCamp",
+    img_path: "images/team/members/ethan-decamp.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Name Theft", 100],
+      ["Value per Meal Swipe", 90],
+      ["Sensitivity to Cold", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/ethan-decamp-00a34927a/",
+  },
+  "riddhi-lamba": {
+    name: "Riddhi Lamba",
+    img_path: "images/team/members/riddhi-lamba.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Ducktails", 90],
+      ["Time Management", 100],
+      ["Working Computer", 0]
+    ],
+    linkedin: "https://www.linkedin.com/in/riddhi-lamba/",
+  },
+  "sophie-cheng": {
+    name: "Sophie Cheng",
+    img_path: "images/team/members/sophie-cheng.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Potassium", 90],
+      ["Penmanship", 90],
+      ["\“P\” Alliteration", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/sophie-cheng-394357246/",
+  },
+  "tyler-lovejoy": {
+    name: "Tyler Lovejoy",
+    img_path: "images/team/members/tyler-lovejoy.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Ownership of Eames Lounger and Ottoman", 90],
+      ["Milk", 90],
+      ["Skiing", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-lovejoy-2b7010338/",
+  },
+  "rohin-phukan": {
+    name: "Rohin Phukan",
+    img_path: "images/team/members/rohin-phukan.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Geoguessr", 100],
+      ["Raising Average Height", 90],
+      ["Perceived Geoguessr", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/rohin-phukan/",
+  },
   "kai-rodger": {
     name: "Kai Rodger",
     img_path: "images/team/members/kai-rodger.jpg",
@@ -825,7 +880,6 @@ const teamData = {
 const kinetic = [
   "zander-knight",
   "james-lasalle",
-  "anna-boese",
   "ethan-hernandez",
   "kevin-sturm",
   "mattew-anazco",
@@ -861,16 +915,24 @@ const marketing = [
 const autonomous = [
   "aaron-harnish",
   "christopher-adonizio",
-  "ethan-zhang",
-  "shao-stassen",
   "alyssa-hsu",
   "ananya-jajodia",
   "camille-yap",
+  "ethan-decamp",
+  "ethan-zhang",
   "grace-lim",
   "jenny-wu",
-  "katie-huntley",
+  "riddhi-lamba",
+  "rohin-phukan",
+  "shao-stassen",
+  "sophie-cheng",
+  "tyler-lovejoy",
 ];
 const alum = [
+  "anna-boese",
+  "mohammed-chowdhury",
+  "zarif-pathan",
+  "katie-huntley",
   "bruno-tassari",
   "william-murphy",
   "isaac-newcomb",
@@ -880,17 +942,19 @@ const alum = [
   "ruby-wang",
   "charles-liu",
   "marcus-esposito",
+  "sana-gaya",
   "shawn-chen",
   "edith-chen",
   "james-courtenay",
   "lucien-eckert",
   "maya-zamor",
   "spencer-hurst",
+  "sofie-halpern",
+  "kaitlyn-hoxha",
   "alex-salonga",
   "ash-siddiqui",
   "blaze-ezlakowski",
   "erhunmwunse-eghafona",
-  "kaitlyn-hoxha",
   "kevin-liu",
   "michelle-zhou",
   "mo-moghaddasi",
@@ -898,12 +962,8 @@ const alum = [
   "ricky-wang",
   "rochelle-barsz",
   "shubham-mathur",
-  "sofie-halpern",
   "rob-measner",
-  "stefan-bell",
-  "sana-gaya",
-  "mohammed-chowdhury",
-  "zarif-pathan"
+  "stefan-bell"
 ];
 const fullteam = [];
 const leads = [
