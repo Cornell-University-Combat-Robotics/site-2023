@@ -246,9 +246,9 @@ const teamData = {
     img_path: "images/team/members/gurjot-gill.jpg",
     position: "Kinetic Member",
     stats: [
-      ["Fact 1", 90],
-      ["Fact 2", 80],
-      ["Fact 3", 30],
+      ["Rubik's Cube Skills", 80],
+      ["Locking In", 50],
+      ["Fun Facts", 90],
     ],
     linkedin: "https://www.linkedin.com/in/gurjotgill1/",
   },
@@ -620,7 +620,7 @@ const teamData = {
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
-      ["Hiding the Stats Doc", 80],
+      ["Hiding the Stats Doc", 10],
     ],
     linkedin: "https://www.linkedin.com/in/rrachelpineda/",
   },
@@ -668,7 +668,11 @@ const teamData = {
     name: "Ethan Hernandez",
     img_path: "images/team/members/ethan-hernandez.jpg",
     position: "Kinetic Member, MechE Trainer",
-    stats: [],
+    stats: [
+      ["H", 100],
+      ["E", 100],
+      ["Y", 100]
+    ],
     linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
   },
   "kevin-sturm": {
@@ -793,9 +797,9 @@ const teamData = {
     img_path: "images/team/members/tyler-lovejoy.jpg",
     position: "Autonomous Member",
     stats: [
-      ["Ownership of Eames Lounger and Ottoman", 90],
+      ["Ownership of Eames Lounger and Ottoman", 10],
       ["Milk", 90],
-      ["Skiing", 100]
+      ["Skiing", 90]
     ],
     linkedin: "https://www.linkedin.com/in/tyler-lovejoy-2b7010338/",
   },
@@ -839,7 +843,7 @@ const teamData = {
     stats: [
       ["Asian mom energy", 80],
       ["Alleged non straight", 70],
-      ["Amt of hair", 20]
+      ["Amount of hair", 20]
     ],
     linkedin: "https://www.linkedin.com/in/jason-choi-6336a327b",
   },
