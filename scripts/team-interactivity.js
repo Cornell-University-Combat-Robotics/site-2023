@@ -838,7 +838,7 @@ const teamData = {
   },
   "jason-choi": {
     name: "Jason Choi",
-    img_path: "/images/team/members/jason-choi.jpg",
+    img_path: "images/team/members/jason-choi.jpg",
     position: "Sportsman Member",
     stats: [
       ["Asian mom energy", 80],
@@ -849,7 +849,7 @@ const teamData = {
   },
   "ruihan-chu": {
     name: "RuiHan Chu",
-    img_path: "/images/team/members/ruihan-chu.jpg",
+    img_path: "images/team/members/ruihan-chu.jpg",
     position: "Sportsman Member",
     stats: [
       ["Snowboarding", 90],
