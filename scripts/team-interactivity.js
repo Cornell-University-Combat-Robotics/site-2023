@@ -246,9 +246,9 @@ const teamData = {
     img_path: "images/team/members/gurjot-gill.jpg",
     position: "Kinetic Member",
     stats: [
-      ["Fact 1", 90],
-      ["Fact 2", 80],
-      ["Fact 3", 30],
+      ["Rubik's Cube Skills", 80],
+      ["Locking In", 50],
+      ["Fun Facts", 90],
     ],
     linkedin: "https://www.linkedin.com/in/gurjotgill1/",
   },
@@ -620,7 +620,7 @@ const teamData = {
     stats: [
       ["Crossword Enthusiasm", 90],
       ["LinkedIn", 50],
-      ["Hiding the Stats Doc", 80],
+      ["Hiding the Stats Doc", 10],
     ],
     linkedin: "https://www.linkedin.com/in/rrachelpineda/",
   },
@@ -668,7 +668,11 @@ const teamData = {
     name: "Ethan Hernandez",
     img_path: "images/team/members/ethan-hernandez.jpg",
     position: "Kinetic Member, MechE Trainer",
-    stats: [],
+    stats: [
+      ["H", 100],
+      ["E", 100],
+      ["Y", 100]
+    ],
     linkedin: "https://www.linkedin.com/in/ethan-hernandez-a431a1282/",
   },
   "kevin-sturm": {
@@ -755,6 +759,61 @@ const teamData = {
     ],
     linkedin: "https://www.linkedin.com/in/jenny-wu-5a7318266/",
   },
+  "ethan-decamp": {
+    name: "Ethan DeCamp",
+    img_path: "images/team/members/ethan-decamp.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Name Theft", 100],
+      ["Value per Meal Swipe", 90],
+      ["Sensitivity to Cold", 20]
+    ],
+    linkedin: "https://www.linkedin.com/in/ethan-decamp-00a34927a/",
+  },
+  "riddhi-lamba": {
+    name: "Riddhi Lamba",
+    img_path: "images/team/members/riddhi-lamba.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Ducktails", 90],
+      ["Time Management", 100],
+      ["Working Computer", 0]
+    ],
+    linkedin: "https://www.linkedin.com/in/riddhi-lamba/",
+  },
+  "sophie-cheng": {
+    name: "Sophie Cheng",
+    img_path: "images/team/members/sophie-cheng.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Potassium", 90],
+      ["Penmanship", 90],
+      ["\“P\” Alliteration", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/sophie-cheng-394357246/",
+  },
+  "tyler-lovejoy": {
+    name: "Tyler Lovejoy",
+    img_path: "images/team/members/tyler-lovejoy.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Ownership of Eames Lounger and Ottoman", 10],
+      ["Milk", 90],
+      ["Skiing", 90]
+    ],
+    linkedin: "https://www.linkedin.com/in/tyler-lovejoy-2b7010338/",
+  },
+  "rohin-phukan": {
+    name: "Rohin Phukan",
+    img_path: "images/team/members/rohin-phukan.jpg",
+    position: "Autonomous Member",
+    stats: [
+      ["Geoguessr", 100],
+      ["Raising Average Height", 90],
+      ["Perceived Geoguessr", 100]
+    ],
+    linkedin: "https://www.linkedin.com/in/rohin-phukan/",
+  },
   "kai-rodger": {
     name: "Kai Rodger",
     img_path: "images/team/members/kai-rodger.jpg",
@@ -784,7 +843,7 @@ const teamData = {
     stats: [
       ["Asian mom energy", 80],
       ["Alleged non straight", 70],
-      ["Amt of hair", 20]
+      ["Amount of hair", 20]
     ],
     linkedin: "https://www.linkedin.com/in/jason-choi-6336a327b",
   },
@@ -825,7 +884,6 @@ const teamData = {
 const kinetic = [
   "zander-knight",
   "james-lasalle",
-  "anna-boese",
   "ethan-hernandez",
   "kevin-sturm",
   "mattew-anazco",
@@ -861,16 +919,24 @@ const marketing = [
 const autonomous = [
   "aaron-harnish",
   "christopher-adonizio",
-  "ethan-zhang",
-  "shao-stassen",
   "alyssa-hsu",
   "ananya-jajodia",
   "camille-yap",
+  "ethan-decamp",
+  "ethan-zhang",
   "grace-lim",
   "jenny-wu",
-  "katie-huntley",
+  "riddhi-lamba",
+  "rohin-phukan",
+  "shao-stassen",
+  "sophie-cheng",
+  "tyler-lovejoy",
 ];
 const alum = [
+  "anna-boese",
+  "mohammed-chowdhury",
+  "zarif-pathan",
+  "katie-huntley",
   "bruno-tassari",
   "william-murphy",
   "isaac-newcomb",
@@ -880,17 +946,19 @@ const alum = [
   "ruby-wang",
   "charles-liu",
   "marcus-esposito",
+  "sana-gaya",
   "shawn-chen",
   "edith-chen",
   "james-courtenay",
   "lucien-eckert",
   "maya-zamor",
   "spencer-hurst",
+  "sofie-halpern",
+  "kaitlyn-hoxha",
   "alex-salonga",
   "ash-siddiqui",
   "blaze-ezlakowski",
   "erhunmwunse-eghafona",
-  "kaitlyn-hoxha",
   "kevin-liu",
   "michelle-zhou",
   "mo-moghaddasi",
@@ -898,12 +966,8 @@ const alum = [
   "ricky-wang",
   "rochelle-barsz",
   "shubham-mathur",
-  "sofie-halpern",
   "rob-measner",
-  "stefan-bell",
-  "sana-gaya",
-  "mohammed-chowdhury",
-  "zarif-pathan"
+  "stefan-bell"
 ];
 const fullteam = [];
 const leads = [
