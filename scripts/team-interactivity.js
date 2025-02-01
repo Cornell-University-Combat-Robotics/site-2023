@@ -852,9 +852,9 @@ const teamData = {
     img_path: "images/team/members/ruihan-chu.jpg",
     position: "Sportsman Member",
     stats: [
-      ["Snowboarding", 90],
-      ["Cooking", 0],
-      ["Focus", 50]
+      ["Piano", 100],
+      ["Food lover", 95],
+      ["Cooking skills", 10]
     ],
     linkedin: "https://www.linkedin.com/in/ruihan-chu-654020234",
   },
